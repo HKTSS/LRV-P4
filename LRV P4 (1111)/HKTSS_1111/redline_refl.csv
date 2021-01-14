@@ -1,0 +1,21 @@
+;;3d red line on the top - right;;
+
+CreateMeshBuilder,
+AddVertex,-1.332, 3.07, 1.85,
+AddVertex,-1.332, 3.27, 1.85,
+AddVertex,-1.332, 3.27, 18.46,
+AddVertex,-1.332, 3.07, 18.46,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+LoadTexture,redline_refl.png,
+SetTextureCoordinates,0,0.001,1,
+SetTextureCoordinates,1,0.001,0,
+SetTextureCoordinates,2,0.999,0
+SetTextureCoordinates,3,0.999,1,
+SetEmissiveColor,255,255,255
+translate, -0.002,0,0
+
+
+;;
+RotateAll,0,1,0,180
+TranslateAll,0,0,10

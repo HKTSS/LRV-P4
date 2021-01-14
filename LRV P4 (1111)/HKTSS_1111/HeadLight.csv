@@ -1,0 +1,91 @@
+CreateMeshBuilder,
+AddVertex, 0.695, 1.3, 20.385,
+AddVertex, 0.695, 1.41, 20.385,
+AddVertex, 0.59, 1.41, 20.386,
+AddVertex, 0.59, 1.3, 20.386,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+SetEmissiveColor, 255, 255, 255
+LoadTexture,RL.png,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0
+SetTextureCoordinates,3,1,1,
+SetDecalTransparentColor,0,144,181,
+translate,0,-0.118,-0.007
+
+
+CreateMeshBuilder,
+AddVertex, 0.695, 1.3, 20.386
+AddVertex, 0.695, 1.41, 20.386,
+AddVertex, 0.59, 1.41, 20.386,
+AddVertex, 0.59, 1.3, 20.386,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+SetEmissiveColor, 255, 255, 255
+LoadTexture,RL.png,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0
+SetTextureCoordinates,3,1,1,
+SetDecalTransparentColor,0,144,181,
+translate,-1.25,-0.11,-0.007
+
+CreateMeshBuilder,
+AddVertex, 0.8, 0.5, 0,
+AddVertex, 0.8, 2.2, 0.1,
+AddVertex,-0.8, 2.2, 0.1,
+AddVertex,-0.8, 0.5, 0,
+AddFace2,3,2,1,0,
+GenerateNormals,
+SetEmissiveColor, 255, 255, 255
+LoadTexture,headlight.png,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0.5,
+SetTextureCoordinates,2,-1,0.5,
+SetTextureCoordinates,3,-1,1,
+SetDecalTransparentColor,0,144,181,
+translate,0,0,0.01
+
+RotateAll,0,1,0,180
+TranslateAll,0,0,10
+
+;;Old Headlight System;;
+
+CreateMeshBuilder,
+AddVertex,-0.9, 0, 7.25,
+AddVertex,0.38, 0.95, 1.87,
+AddVertex, 0.38, 0.95, 1.87,
+AddVertex, 1.75, 0, 7.25,
+;AddFace2,0, 1, 2, 3,
+GenerateNormals,
+SetColor,255,255,255,55
+translate,0,0.1,8.1
+
+CreateMeshBuilder,
+AddVertex,-0.9, 0, 7.25,
+AddVertex,0.38, 0.95, 1.87,
+AddVertex, 0.38, 0.95, 1.87,
+AddVertex, 1.75, 0, 7.25,
+;AddFace2,0, 1, 2, 3,
+GenerateNormals,
+SetColor,255,255,255,55
+translate,-0.75,0.1,8.1
+
+;;;;New Headlight System;;
+
+CreateMeshBuilder,
+AddVertex, 1.75,-0.05, 10.75,
+AddVertex, 1.75,-0.05, 1.00,
+AddVertex,-0.9, -0.05, 1.00,
+AddVertex,-0.9, -0.05, 10.75,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+LoadTexture,headlight1.png, headnight.png
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,3,1,1,
+SetDecalTransparentColor,0,144,181,
+SetBlendMode, Additive,0
+translate,-0.45,0.1,10

@@ -1,0 +1,25 @@
+CreateMeshBuilder,
+Cylinder, 10.5,0.02,0.02,2.6
+SetEmissiveColor,255,255,255
+LoadTexture,ph.png
+SetTextureCoordinates, 0, 1.8, 0,
+SetTextureCoordinates, 1, 1.8, 1,
+SetTextureCoordinates, 2, 1.9, 0,
+SetTextureCoordinates, 3, 1.9, 1,
+SetTextureCoordinates, 4, 2, 0,
+SetTextureCoordinates, 5, 2, 1,
+SetTextureCoordinates, 6, 1, 0,
+SetTextureCoordinates, 7, 1, 1,
+SetTextureCoordinates, 8, 1.2, 0,
+SetTextureCoordinates, 9, 1.2, 1,
+SetTextureCoordinates, 10, 1.4, 0,
+SetTextureCoordinates, 11, 1.4, 1,
+SetTextureCoordinates, 12, 1.6, 0,
+SetTextureCoordinates, 13, 1.6, 1,
+SetTextureCoordinates, 14, 1.7, 0,
+SetTextureCoordinates, 15, 1.7, 1,
+SetTextureCoordinates, 16, 1.8, 0,
+SetTextureCoordinates, 17, 1.8, 1,
+SetTextureCoordinates, 18, 1.9, 0,
+SetTextureCoordinates, 19, 1.9, 1,
+translate,-0.025,2.2,0

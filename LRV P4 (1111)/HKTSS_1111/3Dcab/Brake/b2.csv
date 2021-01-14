@@ -1,0 +1,17 @@
+;3D cab braking light 2;
+CreateMeshBuilder,
+AddVertex,-0.615 ,  2.11 , -0.6
+AddVertex, 0.3 ,  2.11 , -0.6
+AddVertex, 0.3 ,  1.8 , -0.9
+AddVertex,-0.615 ,  1.8 , -0.9
+AddFace2,0, 1, 2, 3,
+SetEmissiveColor,255,255,255
+LoadTexture,b2.png,
+SetTextureCoordinates,0,0,-1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0
+SetTextureCoordinates,3,1,-1,
+SetDecalTransparentColor,0,0,0,
+translate,0,0.075,10.4
+
+

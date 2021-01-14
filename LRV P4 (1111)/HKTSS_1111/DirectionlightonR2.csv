@@ -1,0 +1,100 @@
+CreateMeshBuilder,
+AddVertex,-1.42, 2.4, 2.03
+AddVertex,-1.42, 2.65, 2.03
+AddVertex,-1.42, 2.65, 1.98,
+AddVertex,-1.42, 2.4, 1.98,
+AddFace2,0, 1, 2, 3,
+SetEmissiveColor, 255, 255, 255
+
+
+LoadTexture,diron.png,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0
+SetTextureCoordinates,3,1,1,
+SetDecalTransparentColor,0,144,181,
+
+CreateMeshBuilder,
+AddVertex,-1.33, 2.4, 2.03
+AddVertex,-1.33, 2.65, 2.03
+AddVertex,-1.33, 2.65, 1.98,
+AddVertex,-1.33, 2.4, 1.98,
+AddFace2,0, 1, 2, 3,
+SetEmissiveColor, 255, 255, 255
+
+
+LoadTexture,diron.png,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0
+SetTextureCoordinates,3,1,1,
+SetDecalTransparentColor,0,144,181,
+
+CreateMeshBuilder,
+AddVertex,-1.33, 2.4, 2.03
+AddVertex,-1.33, 2.4, 1.98
+AddVertex,-1.42, 2.4, 1.98,
+AddVertex,-1.42, 2.4, 2.03,
+AddFace2,0, 1, 2, 3,
+SetEmissiveColor, 255, 255, 255
+
+
+LoadTexture,diron.png,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0
+SetTextureCoordinates,3,1,1,
+SetDecalTransparentColor,0,144,181,
+
+CreateMeshBuilder,
+AddVertex,-1.33, 2.4, 2.03
+AddVertex,-1.33, 2.65, 2.03
+AddVertex,-1.42, 2.65, 2.03,
+AddVertex,-1.42, 2.4, 2.03,
+AddFace2,0, 1, 2, 3,
+SetEmissiveColor, 255, 255, 255
+
+
+LoadTexture,diron.png,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0
+SetTextureCoordinates,3,1,1,
+SetDecalTransparentColor,0,144,181,
+
+CreateMeshBuilder,
+AddVertex,-1.33, 2.4, 1.98
+AddVertex,-1.33, 2.65, 1.98
+AddVertex,-1.42, 2.65, 1.98,
+AddVertex,-1.42, 2.4, 1.98,
+AddFace2,0, 1, 2, 3,
+SetEmissiveColor, 255, 255, 255
+
+
+LoadTexture,diron.png,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0
+SetTextureCoordinates,3,1,1,
+SetDecalTransparentColor,0,144,181,
+
+CreateMeshBuilder,
+AddVertex,-1.33, 2.65, 2.03
+AddVertex,-1.33, 2.65, 1.98
+AddVertex,-1.42, 2.65, 1.98,
+AddVertex,-1.42, 2.65, 2.03,
+AddFace2,0, 1, 2, 3,
+SetEmissiveColor, 255, 255, 255
+
+
+LoadTexture,diron.png,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0
+SetTextureCoordinates,3,1,1,
+SetDecalTransparentColor,0,144,181,
+Translateall,2.75,0,16.4
+
+RotateAll,0,1,0,180
+TranslateAll,0,0,10
+
