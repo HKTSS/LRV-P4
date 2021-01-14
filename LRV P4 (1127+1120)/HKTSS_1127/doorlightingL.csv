@@ -1,0 +1,43 @@
+CreateMeshBuilder,
+AddVertex,-1.3, 0.955, 4.65,0,1,0
+AddVertex,-1.3, 0.955, 3.75,0,1,0
+AddVertex, 1.33, 0.955, 3.75,0,1,0
+AddVertex, 1.33, 0.955, 4.65,0,1,0
+AddFace2,0, 1, 2, 3,
+LoadTexture,doorlighting.png, empty.png
+SetTextureCoordinates,0,0.51,0,
+SetTextureCoordinates,1,0.99,0,
+SetTextureCoordinates,2,0.99,1,
+SetTextureCoordinates,3,0.51,1,
+SetBlendMode, Additive,0
+
+CreateMeshBuilder,
+AddVertex,-1.3, 0.955, 4.65,0,1,0
+AddVertex,-1.3, 0.955, 3.75,0,1,0
+AddVertex, 1.33, 0.955, 3.75,0,1,0
+AddVertex, 1.33, 0.955, 4.65,0,1,0
+AddFace2,0, 1, 2, 3,
+LoadTexture,doorlighting.png, empty.png
+SetTextureCoordinates,0,0.51,0,
+SetTextureCoordinates,1,0.99,0,
+SetTextureCoordinates,2,0.99,1,
+SetTextureCoordinates,3,0.51,1,
+SetBlendMode, Additive,0
+Translate,0,0,5.45
+
+CreateMeshBuilder,
+AddVertex,-1.3, 0.955, 4.65,0,1,0
+AddVertex,-1.3, 0.955, 3.75,0,1,0
+AddVertex, 1.33, 0.955, 3.75,0,1,0
+AddVertex, 1.33, 0.955, 4.65,0,1,0
+AddFace2,0, 1, 2, 3,
+LoadTexture,doorlighting.png, empty.png
+SetTextureCoordinates,0,0.51,0,
+SetTextureCoordinates,1,0.99,0,
+SetTextureCoordinates,2,0.99,1,
+SetTextureCoordinates,3,0.51,1,
+SetBlendMode, Additive,0
+Translate,0,0,10.86
+
+RotateAll,0,1,0,180
+TranslateAll,0,0,10

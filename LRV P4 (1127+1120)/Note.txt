@@ -1,0 +1,70 @@
+LRV plugin
+
+Pluginstate/CustomIndicator:
+Format: <key on keyboard> = <Pluginstate Number>
+
+2 = 105
+3 = 106
+4 = 107
+5 = 102
+6 = 103
+7 = 104
+8 = 99
+9 = 100
+0 = 101
+Space bar = 250
+Delete = 60
+Home = 61
+End = 62
+PgUp = 63 
+PgDn = 64
+
+--------------------Making compatible route------------------
+Speed Limit:
+All LRV are now equipped with iSPS. iSPS will warn if the train is overspeeding, and will apply brake if the driver haven't opened the door on a station.
+Beacon 12 is used to set the speed limit. If there is no beacon 12 in the route, the default speed limit(60km/h) will be used.
+*The speedlimit can be changed midway by adding another beacon.
+*Speedlimit smaller than 1 km/h will be ignored
+
+Usage (xx = Speed Limit in km/h):
+.beacon 12;-1;0;xx
+
+
+Beacon 13 is used to define the start of a station.
+The iSPS system will apply brake once the train has stopped(when approaching stations). Player must open the door in order to continue driving.
+This is used to prevent when the driver forgot to open the door, then continue to the next station unknowingly.
+
+Usage:
+.beacon 13;-1;0
+
+Beacon 14 is used to define the light rail route.
+This will automatically set the LED destination sign if an vaild LRT route code is entered.
+*Not all display is available due to the complexity and performance
+
+Route Code:
+1 = 505 Siu Hong
+2 = 505 Sam Shing
+3 = 507 Ferry Pier
+4 = 507 Tin King
+5 = 610 Ferry Pier
+6 = 610 Yuen Long
+7 = 614 Ferry Pier
+8 = 614 Yuen Long
+9 = 614P Ferry Pier
+10 = 614P Siu Hong
+11 = 615 Ferry Pier
+12 = 615 Yuen Long
+13 = 615P Ferry Pier
+14 = 615P Siu Hong
+15 = 705 TSW Circular
+16 = 705 End At TSW
+17 = 706 TSW Circular
+18 = 751 Tin Yat
+19 = 751 Yau Oi
+20 = 751P Tin Shui Wai
+21 = 751P Tin Yat
+22 = 761P Tin Yat
+23 = 761P Yuen Long
+
+Usage (rr = route code):
+.beacon 14;-1;0;rr

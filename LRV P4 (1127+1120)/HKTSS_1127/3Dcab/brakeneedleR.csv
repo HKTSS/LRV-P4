@@ -1,0 +1,18 @@
+CreateMeshBuilder
+Cylinder, 15, 0.003, 0.003, 0.012
+Rotate,0,0,1,90
+SetColor,50,50,50,
+
+CreateMeshBuilder
+AddVertex, 0, 0.045 ,-0.006,0,1,0
+AddVertex, 0, 0.045 , 0.006,0,1,0
+AddVertex, 0,-0.045, 0.006,0,1,0
+AddVertex, 0,-0.045,-0.006,0,1,0
+AddFace2,0,1,2,3
+SetEmissiveColor,255,255,255
+LoadTexture,Red.png,
+SetTextureCoordinates,0,0,0
+SetTextureCoordinates,1,-1,0
+SetTextureCoordinates,2,-1,1
+SetTextureCoordinates,3,0,1
+RotateAll,0,0,1,25

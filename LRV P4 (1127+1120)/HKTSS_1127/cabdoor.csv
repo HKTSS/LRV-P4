@@ -1,0 +1,131 @@
+;;Thickness;;
+CreateMeshBuilder,
+AddVertex, -0.65, 0.95, 1.80,
+AddVertex, -0.65, 3.18, 1.80,
+AddVertex, -0.65, 3.18, 1.85,
+AddVertex, -0.65, 0.95, 1.85,
+AddFace2,0,1,2,3
+SetColor,20,20,20
+
+CreateMeshBuilder,
+AddVertex, 0, 0.95, 1.80,
+AddVertex, 0, 3.18, 1.80,
+AddVertex, 0, 3.18, 1.85,
+AddVertex, 0, 0.95, 1.85,
+AddFace2,0,1,2,3
+SetColor,20,20,20
+
+;;Thick door border;;
+;;top;;
+CreateMeshBuilder,
+AddVertex,-0.65,3.103, 1.85,
+AddVertex,-0.65,3.103, 1.80,
+AddVertex, 0, 3.103, 1.80,
+AddVertex, 0, 3.103, 1.85,
+AddFace2,0, 1, 2, 3,
+SetColor,7,7,7
+
+;;bottom;;
+CreateMeshBuilder,
+AddVertex,-0.65,2.24, 1.85,
+AddVertex,-0.65,2.24, 1.80,
+AddVertex, 0.00,2.24, 1.80,
+AddVertex, 0.00,2.24, 1.85,
+AddFace2,0, 1, 2, 3,
+SetColor,7,7,7
+
+;;left;;
+CreateMeshBuilder,
+AddVertex,-0.09, 0.95, 1.80,
+AddVertex,-0.09, 3.18, 1.80,
+AddVertex,-0.09, 3.18, 1.85
+AddVertex,-0.09, 0.95, 1.85
+AddFace,3,2,1,0
+SetColor,7,7,7
+
+;;right;;
+CreateMeshBuilder,
+AddVertex,-0.591, 0.95, 1.80,
+AddVertex,-0.591, 3.18, 1.80,
+AddVertex,-0.591, 3.18, 1.85
+AddVertex,-0.591, 0.95, 1.85
+AddFace2,3,2,1,0
+SetColor,7,7,7
+
+;;door border end;;
+CreateMeshBuilder,
+AddVertex, 0, 0.95, 1.85,
+AddVertex, 0, 3.18, 1.85,
+AddVertex, -0.65, 3.18, 1.85,
+AddVertex, -0.65, 0.95, 1.85,
+AddFace2,0,1,2,3
+GenerateNormals,
+LoadTexture,cabdoor.png,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0
+SetTextureCoordinates,3,1,1,
+SetDecalTransparentColor,255,255,255,
+SetEmissiveColor,255,255,255
+
+CreateMeshBuilder,
+AddVertex, 0, 0.95, 1.80,
+AddVertex, 0, 3.18, 1.80,
+AddVertex, -0.65, 3.18, 1.80,
+AddVertex, -0.65, 0.95, 1.80,
+AddFace2,0,1,2,3
+GenerateNormals,
+LoadTexture,cabdoor-in.png,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0
+SetTextureCoordinates,3,1,1,
+SetDecalTransparentColor,255,255,255,
+SetEmissiveColor,255,255,255
+
+CreateMeshBuilder,
+AddVertex,1.3, 0.95, 1.88,
+AddVertex,1.3, 3.18, 1.88,
+AddVertex,1.3, 3.18, 1.9
+AddVertex,1.3, 0.95, 1.9
+AddFace,3,2,1,0
+GenerateNormals,
+LoadTexture,doorgap.png,doorgap.png,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0
+SetTextureCoordinates,3,1,1,
+SetDecalTransparentColor,255,255,255,
+translate,-1.3,0,-0.03
+
+CreateMeshBuilder,
+AddVertex,-0.65,3.18, 1.87,
+AddVertex,-0.65,3.18, 1.85,
+AddVertex, 0, 3.18, 1.85,
+AddVertex, 0, 3.18, 1.87,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+LoadTexture,doorgap.png,doorgap.png,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0
+SetTextureCoordinates,3,1,1,
+SetEmissiveColor,255,255,255
+
+CreateMeshBuilder,
+AddVertex,1.3, 0.95, 1.88,
+AddVertex,1.3, 3.18, 1.88,
+AddVertex,1.3, 3.18, 1.9
+AddVertex,1.3, 0.95, 1.9
+AddFace2,3,2,1,0
+GenerateNormals,
+LoadTexture,doorgap.png,doorgap.png,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0
+SetTextureCoordinates,3,1,1,
+SetDecalTransparentColor,255,255,255,
+translate,-1.95,0,-0.03
+
+RotateAll,0,1,0,180
+TranslateAll,0,0,10

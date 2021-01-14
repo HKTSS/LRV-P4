@@ -1,0 +1,115 @@
+[Object]
+States = HKTSS_1127\3DCab\cab.csv
+Position = 0,0.1,-0.1
+
+[Object]
+States = HKTSS_1127\3DCab\iSPS\iSPS.csv
+Position = 0,0,0
+
+[Object]
+States = HKTSS_1127\empty.csv, HKTSS_1127\3DCab\iSPS\Overspd.csv
+Position = 0,0,0
+Statefunction = if[pluginstate[201] == 1, 1, 0]
+
+[Object]
+States = HKTSS_1127\empty.csv, HKTSS_1127\3DCab\iSPS\Bypass.csv
+Position = 0,0,0
+Statefunction = if[pluginstate[60] == 1, 1, 0]
+
+[Object]
+States = HKTSS_1127\empty.csv, HKTSS_1127\3DCab\iSPS\fault.csv
+Position = 0,0,0
+Statefunction = if[pluginstate[203] == 1, 1, 0]
+
+[Object]
+States = HKTSS_1127\empty.csv, HKTSS_1127\3DCab\doorlock_blink.csv
+Position = 0,0,0
+StateFunction= if[pluginstate[202] == 1, Mod[value + pluginstate[202], 2] ,0]
+RefreshRate = 0.52
+
+[Object]
+States = HKTSS_1127\empty.csv, HKTSS_1127\3DCab\door_cnopn.csv
+Position = 0,0,0
+Statefunction = if[pluginstate[204] == 1, 1, 0]
+
+[Object]
+States = HKTSS_1127\empty.csv, HKTSS_1127\3DCab\door.csv
+Position = 0,0,0
+StateFunction = if[leftDoors != 0, 1, 0]
+
+[Object]
+States = HKTSS_1127\3DCab\speedo_on.csv, HKTSS_1127\3DCab\speedo_off.csv
+Position = 0.07,0,-0.1
+Statefunction = if[pluginstate[101] == 1, 1, 0]
+
+[Object]
+States = HKTSS_1127\3DCab\pressure.csv
+Position = 0.08,0,-0.1
+
+[Object]
+States = HKTSS_1127\empty.csv, HKTSS_1127\glass_cracked.csv
+Position = 0,0,0
+Statefunction = if[pluginstate[213] == 1, 1, 0]
+
+[Object]
+states = HKTSS_1127\3DCab\brakelever.csv
+Position = -0.75, 1.80, 9.35
+rotatexfunction = if[powerNotch >= 1, -0.11 * powerNotch, 0.08 * brakeNotchLinear]
+rotatexdirection = -1, 0, 0
+rotatexdamping = 20, 0.8
+
+[object]
+states = HKTSS_1127\3DCab\brakeneedleY.csv
+position = -0.225, 2.01, 9.64
+rotatexdirection = -1, 0, 0
+rotatexfunction = -3.3 + abs[mainReservoir] * 0.0000040
+rotateyfunction = -0.8
+rotatezfunction = -0.62
+
+[object]
+states = HKTSS_1127\3DCab\brakeneedleR.csv
+position = -0.225, 2.01, 9.64
+rotatexdirection = -1, 0, 0
+rotatexfunction = -3.75 + abs[brakeCylinder] * 0.0000016
+rotateyfunction = -1.4 + abs[brakeCylinder] * 0.0000001
+rotatezfunction = -1.45
+
+[Object]
+States = HKTSS_1127\3DCab\speedo.csv
+Position = -0.115,2.012,9.635
+rotatexdirection = -1, 0, 0
+rotatexfunction = -3.55 + abs[speedometer] * 0.160
+rotateyfunction = -0.80
+rotatezfunction = -1.43
+
+[Object]
+States = HKTSS_1127\empty.csv, HKTSS_1127\3DCab\door.csv
+Position = 0,-0.001,0.0015
+StateFunction= if[leftDoors!= 0, 1, 0]
+
+[Object]
+States = HKTSS_1127\empty.csv, HKTSS_1127\3Dcab\dir.csv
+Position = 0,0,0
+StateFunction= if[pluginstate[105] == 1, Mod[value + pluginstate[105], 2] ,0]
+RefreshRate = 0.54
+
+[Object]
+States = HKTSS_1127\empty.csv, HKTSS_1127\3Dcab\dir.csv
+Position = 0,0,0
+StateFunction= if[pluginstate[106] == 1, Mod[value + pluginstate[106], 2] ,0]
+RefreshRate = 0.54
+
+[Object]
+States = HKTSS_1127\empty.csv, HKTSS_1127\3DCab\Brake\b1.csv
+Position = 0,-0.003,-0.001
+StateFunction= if[brakeNotch > 0,1,0]
+
+[Object]
+States = HKTSS_1127\empty.csv, HKTSS_1127\3DCab\Brake\b2.csv
+Position = 0,-0.003,-0.001
+StateFunction= if[brakeNotch > 2,1,0]
+
+[Object]
+States = HKTSS_1127\empty.csv, HKTSS_1127\3DCab\Brake\b3.csv
+Position = 0,-0.003,-0.001
+StateFunction= if[brakeNotch > 4,1,0]

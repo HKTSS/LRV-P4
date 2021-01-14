@@ -1,0 +1,2176 @@
+CreateMeshBuilder,
+AddVertex, 0.8, 3, 0.35,
+AddVertex, 0.8, 3.6, 0.65,
+AddVertex,-0.8, 3.6, 0.65,
+AddVertex,-0.8, 3, 0.35,
+AddFace2,3,2,1,0,
+GenerateNormals,
+SetEmissiveColor, 255, 255, 255
+LoadTexture,..\HKTSS_1127\head.png,
+SetTextureCoordinates,0,0,0.25,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,-1,0
+SetTextureCoordinates,3,-1,0.25,
+SetDecalTransparentColor,30,194,194,
+
+CreateMeshBuilder,
+AddVertex, 0.8, 2.2, 0.15,
+AddVertex, 0.8, 3, 0.35,
+AddVertex,-0.8, 3, 0.35,
+AddVertex,-0.8, 2.2, 0.15,
+AddFace2,3,2,1,0,
+GenerateNormals,
+SetEmissiveColor, 255, 255, 255
+LoadTexture,..\HKTSS_1127\head.png,
+SetTextureCoordinates,0,0,0.5,
+SetTextureCoordinates,1,0,0.25,
+SetTextureCoordinates,2,-1,0.25,
+SetTextureCoordinates,3,-1,0.5,
+SetDecalTransparentColor,30,194,194,
+
+CreateMeshBuilder,
+AddVertex, 0.8, 0.5, 0,
+AddVertex, 0.8, 2.2, 0.15,
+AddVertex,-0.8, 2.2, 0.15,
+AddVertex,-0.8, 0.5, 0,
+AddFace2,3,2,1,0,
+GenerateNormals,
+SetEmissiveColor, 255, 255, 255
+LoadTexture,..\HKTSS_1127\head.png,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0.5,
+SetTextureCoordinates,2,-1,0.5,
+SetTextureCoordinates,3,-1,1,
+SetDecalTransparentColor,30,194,194,
+
+;;head glass;;
+
+
+CreateMeshBuilder,
+AddVertex, 0.8, 2.2, 0.15,
+AddVertex, 0.8, 3, 0.35,
+AddVertex,-0.8, 3, 0.35,
+AddVertex,-0.8, 2.2, 0.15,
+AddFace,3,2,1,0,
+GenerateNormals,
+SetEmissiveColor, 255, 255, 255
+LoadTexture,..\HKTSS_1127\headglass.png,
+SetTextureCoordinates,0,0,0.5,
+SetTextureCoordinates,1,0,0.25,
+SetTextureCoordinates,2,-1,0.25,
+SetTextureCoordinates,3,-1,0.5,
+SetDecalTransparentColor,30,194,194,
+SetBlendMode, Normal, 2, DivideExponent4
+
+CreateMeshBuilder,
+AddVertex, 0.8, 0.5, 0,
+AddVertex, 0.8, 2.2, 0.15,
+AddVertex,-0.8, 2.2, 0.15,
+AddVertex,-0.8, 0.5, 0,
+AddFace,3,2,1,0,
+GenerateNormals,
+SetEmissiveColor, 255, 255, 255
+LoadTexture,..\HKTSS_1127\headglass.png,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0.5,
+SetTextureCoordinates,2,-1,0.5,
+SetTextureCoordinates,3,-1,1,
+SetDecalTransparentColor,30,194,194,
+SetBlendMode, Normal, 2, DivideExponent4
+
+;;Head bottom;;
+
+CreateMeshBuilder,
+AddVertex, 1, 0.05, 1,
+AddVertex, 1, 0.65, 1,
+AddVertex,-1, 0.65, 1,
+AddVertex,-1, 0.05, 1,
+AddFace2,3,2,1,0,
+GenerateNormals,
+SetEmissiveColor, 255, 255, 255
+LoadTexture,..\HKTSS_1127\hbottom.png,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,-1,0,
+SetTextureCoordinates,3,-1,1,
+SetDecalTransparentColor,30,194,194,
+
+ 
+
+;;3D Head front(bottom higher);;
+CreateMeshBuilder,
+AddVertex, 0.7, 0.76, 0.02,
+AddVertex, 0.7, 0.73, -0.025,
+AddVertex,-0.7, 0.73, -0.025,
+AddVertex,-0.7, 0.76, 0.02,
+AddFace2,3,2,1,0,
+SetEmissiveColor,255,255,255
+LoadTexture,..\HKTSS_1127\headfront2.png,
+SetTextureCoordinates,0,0,0.11,
+SetTextureCoordinates,1,0,0.1,
+SetTextureCoordinates,2,-1,0.1,
+SetTextureCoordinates,3,-1,0.11,
+
+CreateMeshBuilder,
+AddVertex,-0.7, 0.72, -0.07,
+AddVertex,-0.7, 0.73, -0.025,
+AddVertex,0.7, 0.73, -0.025,
+AddVertex,0.7, 0.72, -0.07,
+AddFace2,3,2,1,0,
+SetEmissiveColor,95,95,95
+LoadTexture,..\HKTSS_1127\headfront2.png,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,-1,0,
+SetTextureCoordinates,3,-1,1,
+SetDecalTransparentColor,0,144,181,
+
+;;3D Head front botton(3D line);;
+
+;top;
+
+CreateMeshBuilder,
+AddVertex, 0.6, 0.69, -0.095,
+AddVertex, 0.6, 0.71, -0.095,
+AddVertex,-0.6, 0.71, -0.095,
+AddVertex,-0.6, 0.69, -0.095,
+AddFace2,3,2,1,0,
+GenerateNormals,
+LoadTexture,..\HKTSS_1127\headfront3D.png
+SetTextureCoordinates,0,0,0.29,
+SetTextureCoordinates,1,0,0.28,
+SetTextureCoordinates,2,-1,0.28,
+SetTextureCoordinates,3,-1,0.29,
+
+CreateMeshBuilder,
+AddVertex, 0.6, 0.71, -0.075,
+AddVertex, 0.6, 0.71, -0.095,
+AddVertex,-0.6, 0.71, -0.095,
+AddVertex,-0.6, 0.71, -0.075,
+AddFace2,3,2,1,0,
+LoadTexture,..\HKTSS_1127\headfront3D.png
+SetTextureCoordinates,0,0,0.39,
+SetTextureCoordinates,1,0,0.38,
+SetTextureCoordinates,2,-1,0.38,
+SetTextureCoordinates,3,-1,0.39,
+
+CreateMeshBuilder,
+AddVertex, 0.6, 0.69, -0.075,
+AddVertex, 0.6, 0.69, -0.095,
+AddVertex,-0.6, 0.69, -0.095,
+AddVertex,-0.6, 0.69, -0.075,
+AddFace2,3,2,1,0,
+LoadTexture,..\HKTSS_1127\headfront3D.png
+SetTextureCoordinates,0,0,0.39,
+SetTextureCoordinates,1,0,0.38,
+SetTextureCoordinates,2,-1,0.38,
+SetTextureCoordinates,3,-1,0.39,
+
+;;side1;;
+CreateMeshBuilder,
+AddVertex, 0.6, 0.69, -0.075,
+AddVertex, 0.6, 0.71, -0.075,
+AddVertex, 0.6, 0.71, -0.095,
+AddVertex, 0.6, 0.69, -0.095,
+AddFace2,3,2,1,0,
+LoadTexture,..\HKTSS_1127\headfront3D.png
+SetTextureCoordinates,0,0,0.39,
+SetTextureCoordinates,1,0,0.389,
+SetTextureCoordinates,2,-1,0.389,
+SetTextureCoordinates,3,-1,0.39,
+
+CreateMeshBuilder,
+AddVertex, -0.6, 0.69, -0.075,
+AddVertex, -0.6, 0.71, -0.075,
+AddVertex, -0.6, 0.71, -0.095,
+AddVertex, -0.6, 0.69, -0.095,
+AddFace2,3,2,1,0,
+LoadTexture,..\HKTSS_1127\headfront3D.png
+SetTextureCoordinates,0,0,0.39,
+SetTextureCoordinates,1,0,0.389,
+SetTextureCoordinates,2,-1,0.389,
+SetTextureCoordinates,3,-1,0.39,
+
+
+;middle;
+CreateMeshBuilder,
+AddVertex, 0.6, 0.69, -0.095,
+AddVertex, 0.6, 0.71, -0.095,
+AddVertex,-0.6, 0.71, -0.095,
+AddVertex,-0.6, 0.69, -0.095,
+AddFace2,3,2,1,0,
+GenerateNormals,
+LoadTexture,..\HKTSS_1127\headfront3D.png
+SetTextureCoordinates,0,0,0.29,
+SetTextureCoordinates,1,0,0.28,
+SetTextureCoordinates,2,-1,0.28,
+SetTextureCoordinates,3,-1,0.29,
+translate,0,-0.06,0
+
+CreateMeshBuilder,
+AddVertex, 0.6, 0.71, -0.075,
+AddVertex, 0.6, 0.71, -0.095,
+AddVertex,-0.6, 0.71, -0.095,
+AddVertex,-0.6, 0.71, -0.075,
+AddFace2,3,2,1,0,
+LoadTexture,..\HKTSS_1127\headfront3D.png
+SetTextureCoordinates,0,0,0.39,
+SetTextureCoordinates,1,0,0.38,
+SetTextureCoordinates,2,-1,0.38,
+SetTextureCoordinates,3,-1,0.39,
+translate,0,-0.06,0
+
+CreateMeshBuilder,
+AddVertex, 0.6, 0.69, -0.075,
+AddVertex, 0.6, 0.69, -0.095,
+AddVertex,-0.6, 0.69, -0.095,
+AddVertex,-0.6, 0.69, -0.075,
+AddFace2,3,2,1,0,
+LoadTexture,..\HKTSS_1127\headfront3D.png
+SetTextureCoordinates,0,0,0.39,
+SetTextureCoordinates,1,0,0.38,
+SetTextureCoordinates,2,-1,0.38,
+SetTextureCoordinates,3,-1,0.39,
+translate,0,-0.06,0
+
+;;side2;;
+CreateMeshBuilder,
+AddVertex, 0.6, 0.69, -0.075,
+AddVertex, 0.6, 0.71, -0.075,
+AddVertex, 0.6, 0.71, -0.095,
+AddVertex, 0.6, 0.69, -0.095,
+AddFace2,3,2,1,0,
+LoadTexture,..\HKTSS_1127\headfront3D.png
+SetTextureCoordinates,0,0,0.39,
+SetTextureCoordinates,1,0,0.389,
+SetTextureCoordinates,2,-1,0.389,
+SetTextureCoordinates,3,-1,0.39,
+translate,0,-0.06,0
+
+CreateMeshBuilder,
+AddVertex, -0.6, 0.69, -0.075,
+AddVertex, -0.6, 0.71, -0.075,
+AddVertex, -0.6, 0.71, -0.095,
+AddVertex, -0.6, 0.69, -0.095,
+AddFace2,3,2,1,0,
+LoadTexture,..\HKTSS_1127\headfront3D.png
+SetTextureCoordinates,0,0,0.39,
+SetTextureCoordinates,1,0,0.389,
+SetTextureCoordinates,2,-1,0.389,
+SetTextureCoordinates,3,-1,0.39,
+translate,0,-0.06,0
+
+;bottom;
+CreateMeshBuilder,
+AddVertex, 0.6, 0.69, -0.095,
+AddVertex, 0.6, 0.71, -0.095,
+AddVertex,-0.6, 0.71, -0.095,
+AddVertex,-0.6, 0.69, -0.095,
+AddFace2,3,2,1,0,
+GenerateNormals,
+LoadTexture,..\HKTSS_1127\headfront3D.png
+SetTextureCoordinates,0,0,0.29,
+SetTextureCoordinates,1,0,0.28,
+SetTextureCoordinates,2,-1,0.28,
+SetTextureCoordinates,3,-1,0.29,
+translate,0,-0.13,0
+
+CreateMeshBuilder,
+AddVertex, 0.6, 0.71, -0.075,
+AddVertex, 0.6, 0.71, -0.095,
+AddVertex,-0.6, 0.71, -0.095,
+AddVertex,-0.6, 0.71, -0.075,
+AddFace2,3,2,1,0,
+LoadTexture,..\HKTSS_1127\headfront3D.png
+SetTextureCoordinates,0,0,0.39,
+SetTextureCoordinates,1,0,0.38,
+SetTextureCoordinates,2,-1,0.38,
+SetTextureCoordinates,3,-1,0.39,
+translate,0,-0.13,0
+
+CreateMeshBuilder,
+AddVertex, 0.6, 0.69, -0.075,
+AddVertex, 0.6, 0.69, -0.095,
+AddVertex,-0.6, 0.69, -0.095,
+AddVertex,-0.6, 0.69, -0.075,
+AddFace2,3,2,1,0,
+LoadTexture,..\HKTSS_1127\headfront3D.png
+SetTextureCoordinates,0,0,0.39,
+SetTextureCoordinates,1,0,0.38,
+SetTextureCoordinates,2,-1,0.38,
+SetTextureCoordinates,3,-1,0.39,
+translate,0,-0.13,0
+
+;;side3;;
+CreateMeshBuilder,
+AddVertex, 0.6, 0.69, -0.075,
+AddVertex, 0.6, 0.71, -0.075,
+AddVertex, 0.6, 0.71, -0.095,
+AddVertex, 0.6, 0.69, -0.095,
+AddFace2,3,2,1,0,
+LoadTexture,..\HKTSS_1127\headfront3D.png
+SetTextureCoordinates,0,0,0.39,
+SetTextureCoordinates,1,0,0.389,
+SetTextureCoordinates,2,-1,0.389,
+SetTextureCoordinates,3,-1,0.39,
+translate,0,-0.13,0
+
+CreateMeshBuilder,
+AddVertex, -0.6, 0.69, -0.075,
+AddVertex, -0.6, 0.71, -0.075,
+AddVertex, -0.6, 0.71, -0.095,
+AddVertex, -0.6, 0.69, -0.095,
+AddFace2,3,2,1,0,
+LoadTexture,..\HKTSS_1127\headfront3D.png
+SetTextureCoordinates,0,0,0.39,
+SetTextureCoordinates,1,0,0.389,
+SetTextureCoordinates,2,-1,0.389,
+SetTextureCoordinates,3,-1,0.39,
+translate,0,-0.13,0
+
+;;3D Head front(bottom);;
+
+CreateMeshBuilder,
+AddVertex, 0.75, 0.5, -0.08,
+AddVertex, 0.75, 0.72, -0.08,
+AddVertex,-0.75, 0.72, -0.08,
+AddVertex,-0.75, 0.5, -0.08,
+AddFace2,3,2,1,0,
+GenerateNormals,
+SetEmissiveColor, 255, 255, 255
+LoadTexture,..\HKTSS_1127\headfront.png,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0.1,
+SetTextureCoordinates,2,-1,0.1,
+SetTextureCoordinates,3,-1,1,
+SetDecalTransparentColor,30,194,194,
+
+CreateMeshBuilder,
+AddVertex, 0.75, 0.72, -0.08,
+AddVertex, 0.75, 0.72, 0.02,
+AddVertex,-0.75, 0.72, 0.02,
+AddVertex,-0.75, 0.72, -0.08,
+AddFace2,3,2,1,0,
+GenerateNormals,
+SetEmissiveColor, 255, 255, 255
+LoadTexture,..\HKTSS_1127\headcurve.png
+SetTextureCoordinates,0,0.999,0.99,
+SetTextureCoordinates,1,0.999,0.01,
+SetTextureCoordinates,2,0.001,0.01,
+SetTextureCoordinates,3,0.001,0.99,
+SetDecalTransparentColor,30,194,194,
+
+CreateMeshBuilder,
+AddVertex, 0.77, 0.72, -0.07,
+AddVertex, 0.8, 0.72, 0.02,
+AddVertex,0.75, 0.72, 0.02,
+AddVertex,0.75, 0.72, -0.08,
+AddFace2,3,2,1,0,
+LoadTexture,..\HKTSS_1127\headcurve.png
+SetTextureCoordinates,0,0.999,0.99,
+SetTextureCoordinates,1,0.999,0.01,
+SetTextureCoordinates,2,0.001,0.01,
+SetTextureCoordinates,3,0.001,0.99,
+SetDecalTransparentColor,30,194,194,
+
+CreateMeshBuilder,
+AddVertex, 0.75, 0.7199, -0.07,
+AddVertex, 0.8, 0.7199, 0.02,
+AddVertex,0.805, 0.7199, 0.02,
+AddVertex,0.775, 0.7199, -0.07,
+AddFace2,3,2,1,0,
+LoadTexture,..\HKTSS_1127\headcurve.png
+SetTextureCoordinates,0,0.999,0.99,
+SetTextureCoordinates,1,0.999,0.01,
+SetTextureCoordinates,2,0.001,0.01,
+SetTextureCoordinates,3,0.001,0.99,
+SetDecalTransparentColor,30,194,194,
+
+;;3D headfront - side;;
+;;left;;
+CreateMeshBuilder,
+AddVertex,0.7, 0.72, -0.025,
+AddVertex,0.7, 0.73, -0.025,
+AddVertex,0.7, 0.72, -0.07,
+AddVertex,0.7, 0.72, -0.07,
+AddFace2,3,2,1,0,
+SetColor,150,150,150
+
+CreateMeshBuilder,
+AddVertex,0.7, 0.72, -0.025,
+AddVertex,0.7, 0.73, -0.025,
+AddVertex,0.7, 0.76, 0.02,
+AddVertex,0.7, 0.72, 0.02,
+AddFace2,3,2,1,0,
+LoadTexture,..\HKTSS_1127\headfront2.png,
+SetTextureCoordinates,0,0.299,0.99,
+SetTextureCoordinates,1,0.299,0.01,
+SetTextureCoordinates,2,0.101,0.01,
+SetTextureCoordinates,3,0.101,0.99,
+
+;;right;;
+CreateMeshBuilder,
+AddVertex,-0.7, 0.72, -0.025,
+AddVertex,-0.7, 0.73, -0.025,
+AddVertex,-0.7, 0.72, -0.07,
+AddVertex,-0.7, 0.72, -0.07,
+AddFace2,3,2,1,0,
+SetColor,150,150,150
+
+CreateMeshBuilder,
+AddVertex,-0.7, 0.72, -0.025,
+AddVertex,-0.7, 0.73, -0.025,
+AddVertex,-0.7, 0.76, 0.02,
+AddVertex,-0.7, 0.72, 0.02,
+AddFace2,3,2,1,0,
+LoadTexture,..\HKTSS_1127\headfront2.png,
+SetTextureCoordinates,0,0.299,0.99,
+SetTextureCoordinates,1,0.299,0.01,
+SetTextureCoordinates,2,0.101,0.01,
+SetTextureCoordinates,3,0.101,0.99,
+
+;;left 3D curve;;
+
+CreateMeshBuilder,
+AddVertex, 0.798, 0.5, -0.02,
+AddVertex, 0.798, 0.73, -0.02,
+AddVertex,0.802, 0.735, 0.01,
+AddVertex,0.82, 0.5055, 0.00,
+AddFace2,3,2,1,0,
+LoadTexture,..\HKTSS_1127\headcurve.png
+SetTextureCoordinates,0,0.999,0.99,
+SetTextureCoordinates,1,0.999,0.01,
+SetTextureCoordinates,2,0.001,0.01,
+SetTextureCoordinates,3,0.001,0.99,
+SetDecalTransparentColor,30,194,194,
+
+CreateMeshBuilder,
+AddVertex, 0.785, 0.5, -0.04,
+AddVertex, 0.785, 0.725, -0.04,
+AddVertex,0.798, 0.73, -0.02,
+AddVertex,0.798, 0.5, -0.02,
+AddFace2,3,2,1,0,
+LoadTexture,..\HKTSS_1127\headcurve.png
+SetTextureCoordinates,0,-0.999,0.99,
+SetTextureCoordinates,1,-0.999,0.01,
+SetTextureCoordinates,2,-0.001,0.01,
+SetTextureCoordinates,3,-0.001,0.99,
+SetDecalTransparentColor,30,194,194,
+
+CreateMeshBuilder,
+AddVertex, 0.775, 0.5, -0.065,
+AddVertex, 0.775, 0.72, -0.065,
+AddVertex,0.785, 0.725, -0.04,
+AddVertex,0.785, 0.5, -0.04,
+AddFace2,3,2,1,0,
+LoadTexture,..\HKTSS_1127\headcurve.png
+SetTextureCoordinates,0,0.999,0.99,
+SetTextureCoordinates,1,0.999,0.01,
+SetTextureCoordinates,2,0.001,0.01,
+SetTextureCoordinates,3,0.001,0.99,
+SetDecalTransparentColor,30,194,194,
+
+CreateMeshBuilder,
+AddVertex, 0.75, 0.5, -0.08,
+AddVertex, 0.75, 0.72, -0.08,
+AddVertex,0.775, 0.72, -0.065,
+AddVertex,0.775, 0.5, -0.065,
+AddFace2,3,2,1,0,
+LoadTexture,..\HKTSS_1127\headcurve.png
+SetTextureCoordinates,0,-0.999,0.99,
+SetTextureCoordinates,1,-0.999,0.01,
+SetTextureCoordinates,2,-0.001,0.01,
+SetTextureCoordinates,3,-0.001,0.99,
+SetDecalTransparentColor,30,194,194,
+
+CreateMeshBuilder,
+AddVertex,0.8, 0.2, -0.1,
+AddVertex,0.6, 3.4, 0.1,
+AddVertex,1.33, 3.5, 1.87,
+AddVertex,1.33, 0.2, 1.87,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+SetEmissiveColor, 255, 255, 255
+LoadTexture,head-left.png,
+SetTextureCoordinates,0,0.001,1,
+SetTextureCoordinates,1,0.001,0.05,
+SetTextureCoordinates,2,0.999,0.05
+SetTextureCoordinates,3,0.999,1
+SetDecalTransparentColor,0,144,181,
+
+CreateMeshBuilder,
+AddVertex,0.8, 0.2, -0.1,
+AddVertex,0.6, 3.4, 0.1,
+AddVertex,1.33, 3.5, 1.87,
+AddVertex,1.33, 0.2, 1.87,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+SetEmissiveColor, 255, 255, 255
+LoadTexture,..\HKTSS_1127\head-left_glass.png,
+SetTextureCoordinates,0,0.001,1,
+SetTextureCoordinates,1,0.001,0.05,
+SetTextureCoordinates,2,0.999,0.05
+SetTextureCoordinates,3,0.999,1
+SetDecalTransparentColor,0,144,181,
+SetBlendMode, Normal, 2, DivideExponent4
+
+CreateMeshBuilder,
+AddVertex,0.79,2.8,0.5,
+AddVertex,0.79,3.4,0.5,
+AddVertex,1.37, 3.3,1.52,
+AddVertex,1.37, 2.9,1.52,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+SetEmissiveColor, 255, 255, 255
+LoadTexture,..\HKTSS_1127\backmirror.png,
+SetTextureCoordinates,0,0.001,1,
+SetTextureCoordinates,1,0.001,0.05,
+SetTextureCoordinates,2,0.999,0.05
+SetTextureCoordinates,3,0.999,1
+SetDecalTransparentColor,0,144,181,
+
+CreateMeshBuilder,
+AddVertex,1.27, 2.60, 1.13,
+AddVertex,1.27, 3.03, 1.13,
+AddVertex,1.24, 3.03, 1.51,
+AddVertex,1.24, 2.60, 1.51,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+SetEmissiveColor, 255, 255, 255
+LoadTexture,..\HKTSS_1127\backmirror2.png,
+SetTextureCoordinates,0,0.001,1,
+SetTextureCoordinates,1,0.001,0.05,
+SetTextureCoordinates,2,-0.999,0.05
+SetTextureCoordinates,3,-0.999,1
+SetDecalTransparentColor,0,144,181,
+
+CreateMeshBuilder,
+AddVertex,-0.84,2.8,0.6,
+AddVertex,-0.84,3.4,0.6,
+AddVertex,-1.25, 3.3,1.58,
+AddVertex,-1.25, 2.9,1.58,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+SetEmissiveColor, 255, 255, 255
+LoadTexture,..\HKTSS_1127\backmirror.png,
+SetTextureCoordinates,0,0.001,1,
+SetTextureCoordinates,1,0.001,0.05,
+SetTextureCoordinates,2,0.999,0.05
+SetTextureCoordinates,3,0.999,1
+SetDecalTransparentColor,0,144,181,
+
+CreateMeshBuilder,
+AddVertex,-1.17,2.5,1.1,
+AddVertex,-1.17,3,1.1,
+AddVertex,-1.19,3,1.57,
+AddVertex,-1.19,2.5,1.57,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+SetEmissiveColor, 255, 255, 255
+LoadTexture,..\HKTSS_1127\backmirror2.png,
+SetTextureCoordinates,0,0.001,1,
+SetTextureCoordinates,1,0.001,0.05,
+SetTextureCoordinates,2,0.999,0.05
+SetTextureCoordinates,3,0.999,1
+SetDecalTransparentColor,0,144,181,
+
+
+;;3d bottom;;
+
+CreateMeshBuilder,
+AddVertex,0.5, 0.53, 0.145,
+AddVertex,0.5, 0.741, 0.145,
+AddVertex,0.857, 0.741, 0.15,
+AddVertex,0.868, 0.53, 0.145,
+AddFace2,0, 1, 2, 3,
+SetColor,25,25,25
+
+CreateMeshBuilder,
+AddVertex,0.5, 0.52, 0.145,
+AddVertex,0.5, 0.741, 0.145,
+AddVertex,0.83, 0.741, 0.145,
+AddVertex,0.851, 0.52, 0.14,
+AddFace2,0, 1, 2, 3,
+SetColor,25,25,25
+translate,0,0,-0.05
+
+CreateMeshBuilder,
+AddVertex,0.5, 0.537, 0.145,
+AddVertex,0.5, 0.745, 0.145,
+AddVertex,0.857, 0.745, 0.15,
+AddVertex,0.868, 0.535, 0.145,
+AddFace2,0, 1, 2, 3,
+SetColor,25,25,25
+translate,-1.35,-0.03,0.05
+
+CreateMeshBuilder,
+AddVertex,0.514, 0.537, 0.145,
+AddVertex,0.52, 0.741, 0.145,
+AddVertex,0.83, 0.741, 0.145,
+AddVertex,0.851, 0.537, 0.14,
+AddFace2,0, 1, 2, 3,
+SetColor,25,25,25
+translate,-1.35,-0.03,-0.02
+
+CreateMeshBuilder,
+AddVertex,-0.785, 0.2, -0.09,
+AddVertex,-0.77, 1.75, 0.02,
+AddVertex,-1.33, 1.75, 1.87,
+AddVertex,-1.33, 0.2, 1.87,
+AddFace2,3,2,1,0
+SetEmissiveColor, 255, 255, 255
+GenerateNormals,
+LoadTexture,Head-right.png,
+SetTextureCoordinates,0,0.001,1,
+SetTextureCoordinates,1,0.001,0.55,
+SetTextureCoordinates,2,0.999,0.55,
+SetTextureCoordinates,3,0.999,1,
+SetDecalTransparentColor,0,144,181,
+
+CreateMeshBuilder,
+AddVertex,-0.77,1.75, 0.02,
+AddVertex,-0.62, 3.5, 0.1,
+AddVertex,-1.33, 3.5, 1.87,
+AddVertex,-1.33, 1.75, 1.87,
+AddFace2,3,2,1,0
+SetEmissiveColor, 255, 255, 255
+GenerateNormals,
+LoadTexture,Head-right.png,
+SetTextureCoordinates,0,0.001,0.55,
+SetTextureCoordinates,1,0.001,0.05,
+SetTextureCoordinates,2,0.999,0.05,
+SetTextureCoordinates,3,0.999,0.55,
+SetDecalTransparentColor,0,144,181,
+
+;;glass;;
+CreateMeshBuilder,
+AddVertex,-0.785, 0.2, -0.09,
+AddVertex,-0.77, 1.75, 0.02,
+AddVertex,-1.33, 1.75, 1.87,
+AddVertex,-1.33, 0.2, 1.87,
+AddFace,3,2,1,0
+SetEmissiveColor, 255, 255, 255
+GenerateNormals,
+LoadTexture,..\HKTSS_1127\Head-right_glass.png,
+SetTextureCoordinates,0,0.001,1,
+SetTextureCoordinates,1,0.001,0.55,
+SetTextureCoordinates,2,0.999,0.55,
+SetTextureCoordinates,3,0.999,1,
+SetDecalTransparentColor,0,144,181,
+SetBlendMode, Normal, 2, DivideExponent4
+
+CreateMeshBuilder,
+AddVertex,-0.77,1.75, 0.02,
+AddVertex,-0.62, 3.5, 0.1,
+AddVertex,-1.33, 3.5, 1.87,
+AddVertex,-1.33, 1.75, 1.87,
+AddFace,3,2,1,0
+SetEmissiveColor, 255, 255, 255
+GenerateNormals,
+LoadTexture,..\HKTSS_1127\Head-right_glass.png,
+SetTextureCoordinates,0,0.001,0.55,
+SetTextureCoordinates,1,0.001,0.05,
+SetTextureCoordinates,2,0.999,0.05,
+SetTextureCoordinates,3,0.999,0.55,
+SetDecalTransparentColor,0,144,181,
+SetBlendMode, Normal, 2, DivideExponent4
+
+;;right 3D curve;;
+CreateMeshBuilder,
+AddVertex,-0.8, 0.5, 0.02,
+AddVertex,-0.8, 0.72, 0.02,
+AddVertex,-0.79, 0.72, -0.02,
+AddVertex,-0.79, 0.5, -0.02,
+AddFace2,3,2,1,0,
+LoadTexture,..\HKTSS_1127\headcurve.png
+SetTextureCoordinates,0,0.999,0.99,
+SetTextureCoordinates,1,0.999,0.01,
+SetTextureCoordinates,2,0.001,0.01,
+SetTextureCoordinates,3,0.001,0.99,
+SetDecalTransparentColor,30,194,194,
+
+CreateMeshBuilder,
+AddVertex,-0.79, 0.5, -0.02,
+AddVertex,-0.79, 0.72, -0.02,
+AddVertex,-0.775, 0.72, -0.05,
+AddVertex,-0.775, 0.5, -0.05,
+AddFace2,3,2,1,0,
+LoadTexture,..\HKTSS_1127\headcurve.png
+SetTextureCoordinates,0,0.999,0.99,
+SetTextureCoordinates,1,0.999,0.01,
+SetTextureCoordinates,2,0.001,0.01,
+SetTextureCoordinates,3,0.001,0.99,
+SetDecalTransparentColor,30,194,194,
+
+CreateMeshBuilder,
+AddVertex,-0.775, 0.5, -0.05,
+AddVertex,-0.775, 0.72, -0.05,
+AddVertex,-0.75, 0.72, -0.08,
+AddVertex,-0.75, 0.5, -0.08,
+AddFace2,3,2,1,0,
+LoadTexture,..\HKTSS_1127\headcurve.png
+SetTextureCoordinates,0,0.999,0.99,
+SetTextureCoordinates,1,0.999,0.01,
+SetTextureCoordinates,2,0.001,0.01,
+SetTextureCoordinates,3,0.001,0.99,
+SetDecalTransparentColor,30,194,194,
+
+CreateMeshBuilder,
+AddVertex,-0.77, 0.72, -0.07,
+AddVertex,-0.81, 0.72, 0.02,
+AddVertex,-0.75, 0.72, 0.02,
+AddVertex,-0.75, 0.72, -0.08,
+AddFace2,3,2,1,0,
+GenerateNormals,
+LoadTexture,..\HKTSS_1127\headcurve.png
+SetTextureCoordinates,0,0.999,0.99,
+SetTextureCoordinates,1,0.999,0.01,
+SetTextureCoordinates,2,0.001,0.01,
+SetTextureCoordinates,3,0.001,0.99,
+SetDecalTransparentColor,30,194,194,
+
+;;3D route display;;
+
+CreateMeshBuilder,
+AddVertex,-0.65, 3.14, 0.424,
+AddVertex,-0.65, 3.14, 0.649,
+AddVertex, 0.65, 3.14, 0.649,
+AddVertex, 0.65, 3.14, 0.424,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+SetColor,25,25,25
+
+CreateMeshBuilder,
+AddVertex,-0.65, 3.65, 1.175
+AddVertex,-0.65, 3.65, 1.225,
+AddVertex, 0.65, 3.65, 1.225,
+AddVertex, 0.65, 3.65, 1.175,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+SetColor,25,25,25
+translate,0,-0.14,-0.576
+
+CreateMeshBuilder,
+AddVertex,-0.65, 3.1, 0.405,
+AddVertex,-0.65, 3.5, 0.6,
+AddVertex,-0.64, 3.5, 0.645,
+AddVertex,-0.64, 3.1, 0.645,
+AddFace2,3,2,1,0
+SetColor,40,40,40
+
+CreateMeshBuilder,
+AddVertex,-1.34, 3.0, 0.78,
+AddVertex,-1.34, 3.4, 0.975,
+AddVertex,-1.35, 3.4, 1.02,
+AddVertex,-1.35, 3.0, 1.02,
+AddFace2,3,2,1,0
+SetColor,40,40,40
+translate,1.98,0.1,-0.375
+
+
+;;yellow thingy(bottom);;
+CreateMeshBuilder,
+AddVertex,1.33, 0.605, 4.07,
+AddVertex,1.3, 0.605, 4.07,
+AddVertex,1.3, 0.605, 4.37
+AddVertex,1.33, 0.605, 4.37
+AddFace2,0, 1, 2, 3,
+SetColor,108, 91, 0
+
+CreateMeshBuilder,
+AddVertex,1.33, 0.574, 4.07,
+AddVertex,1.3, 0.574, 4.07,
+AddVertex,1.3, 0.574, 4.37
+AddVertex,1.33, 0.574, 4.37
+AddFace2,0, 1, 2, 3,
+SetColor,108, 91, 0
+
+CreateMeshBuilder,
+AddVertex,1.33, 0.27, 4.07,
+AddVertex,1.3, 0.27, 4.07,
+AddVertex,1.3, 0.27, 4.37
+AddVertex,1.33, 0.27, 4.37
+AddFace,0, 1, 2, 3,
+SetColor,108, 91, 0
+
+CreateMeshBuilder,
+AddVertex,1.33, 0.24, 4.07,
+AddVertex,1.3, 0.24, 4.07,
+AddVertex,1.3, 0.24, 4.37
+AddVertex,1.33, 0.24, 4.37
+AddFace2,0, 1, 2, 3,
+SetColor,108, 91, 0
+
+CreateMeshBuilder,
+AddVertex,1.33, 0.73,4.382,
+AddVertex,1.3, 0.73, 4.382,
+AddVertex,1.3, 0.24, 4.382,
+AddVertex,1.33, 0.24,4.382,
+AddFace2,0, 1, 2, 3,
+SetColor,108, 91, 0
+
+CreateMeshBuilder,
+AddVertex,1.33, 0.73,4.37,
+AddVertex,1.3, 0.73, 4.37,
+AddVertex,1.3, 0.24, 4.37,
+AddVertex,1.33, 0.24,4.37,
+AddFace2,0, 1, 2, 3,
+SetColor,108, 91, 0
+
+CreateMeshBuilder,
+AddVertex,1.33, 0.73,4.055,
+AddVertex,1.3, 0.73, 4.055,
+AddVertex,1.3, 0.24, 4.055,
+AddVertex,1.33, 0.24,4.055,
+AddFace2,0, 1, 2, 3,
+SetColor,108, 91, 0
+
+CreateMeshBuilder,
+AddVertex,1.33, 0.73,4.07,
+AddVertex,1.3, 0.73, 4.07,
+AddVertex,1.3, 0.24, 4.07,
+AddVertex,1.33, 0.24,4.07,
+AddFace2,0, 1, 2, 3,
+SetColor,108, 91, 0
+
+
+CreateMeshBuilder,
+AddVertex,1.33, 0.0, 1.87,
+AddVertex,1.33, 3.5, 1.87,
+AddVertex,1.33, 3.5, 18.45
+AddVertex,1.33, 0.0, 18.45
+AddFace,0, 1, 2, 3,
+SetEmissiveColor, 255, 255, 255
+GenerateNormals,
+LoadTexture,..\HKTSS_1127\middle-left.png,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0.05,
+SetTextureCoordinates,2,1,0.05
+SetTextureCoordinates,3,1,1,
+SetDecalTransparentColor,0,74,255,
+
+CreateMeshBuilder,
+AddVertex,1.33, 3.5, 1.85,
+AddVertex,1.2, 3.6, 1.85,
+AddVertex,1.2, 3.6, 18.45
+AddVertex,1.33, 3.5, 18.45
+AddFace,0, 1, 2, 3,
+SetEmissiveColor, 255, 255, 255
+GenerateNormals,
+LoadTexture,..\HKTSS_1127\middle-left.png,
+SetTextureCoordinates,0,0,0.05,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0
+SetTextureCoordinates,3,1,0.05,
+SetDecalTransparentColor,0,144,181,
+
+CreateMeshBuilder,
+AddVertex,-1.33, 0.0, 18.45
+AddVertex,-1.33, 3.5, 18.45
+AddVertex,-1.33, 3.5, 1.87,
+AddVertex,-1.33, 0.0, 1.87,
+AddFace,0, 1, 2, 3,
+SetEmissiveColor, 255, 255, 255
+GenerateNormals,
+LoadTexture,..\HKTSS_1127\middle-right.png,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0.05,
+SetTextureCoordinates,2,1,0.05
+SetTextureCoordinates,3,1,1,
+SetDecalTransparentColor,0,74,255,
+
+CreateMeshBuilder,
+AddVertex,-1.33, 3.5, 18.45
+AddVertex,-1.2, 3.6, 18.45
+AddVertex,-1.2, 3.6, 1.85,
+AddVertex,-1.33, 3.5, 1.85,
+AddFace,0, 1, 2, 3,
+SetEmissiveColor, 255, 255, 255
+GenerateNormals,
+LoadTexture,..\HKTSS_1127\middle-right.png,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,0,0.05,
+SetTextureCoordinates,2,1,0.05
+SetTextureCoordinates,3,1,0,
+SetDecalTransparentColor,0,144,181,
+
+;;back;;
+
+CreateMeshBuilder,
+AddVertex,-0.84, 3.5, 20.35
+AddVertex,-0.84, 3.5, 20.35
+AddVertex,-1.2, 3.6, 18.45,
+AddVertex,-1.33, 3.5, 18.45,
+AddFace,0, 1, 2, 3,
+SetColor,173,173,180
+
+CreateMeshBuilder,
+AddVertex,0.84, 3.5, 20.35
+AddVertex,0.84, 3.5, 20.35
+AddVertex,1.33, 3.5, 18.45,
+AddVertex,1.21, 3.6, 18.45,
+AddFace,0, 1, 2, 3,
+SetColor,173,173,180
+
+CreateMeshBuilder,
+AddVertex, 0.8, 0.65, 20.4,
+AddVertex, 0.85, 3.5, 20.32,
+AddVertex,-0.85, 3.5, 20.32,
+AddVertex,-0.8, 0.65, 20.4,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+SetEmissiveColor, 255, 255, 255
+LoadTexture,Back.png,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0
+SetTextureCoordinates,3,1,1,
+SetDecalTransparentColor,0,144,181,
+
+;;3D back light;;
+
+CreateMeshBuilder,
+AddVertex, 0.72, 1.065, 20.388,
+AddVertex, 0.72, 1.415, 20.378,
+AddVertex, 0.72, 1.415, 20.37,
+AddVertex, 0.72, 1.065, 20.37,
+AddFace2,0, 1, 2, 3,
+SetColor,20,20,20
+
+CreateMeshBuilder,
+AddVertex, 0.72, 1.065, 20.388,
+AddVertex, 0.72, 1.415, 20.378,
+AddVertex, 0.72, 1.415, 20.37,
+AddVertex, 0.72, 1.065, 20.37,
+AddFace2,0, 1, 2, 3,
+SetColor,20,20,20
+translate,-0.153,0,0
+
+CreateMeshBuilder,
+AddVertex, 0.72, 1.065, 20.388,
+AddVertex, 0.565, 1.065, 20.388,
+AddVertex, 0.565, 1.065, 20.37,
+AddVertex, 0.72, 1.065, 20.37,
+AddFace2,0, 1, 2, 3,
+SetColor,20,20,20
+
+CreateMeshBuilder,
+AddVertex, 0.72, 1.415, 20.388,
+AddVertex, 0.565, 1.415, 20.388,
+AddVertex, 0.565, 1.415, 20.38,
+AddVertex, 0.72, 1.415, 20.38,
+AddFace2,0, 1, 2, 3,
+SetColor,20,20,20
+translate,0,0,-0.01
+
+CreateMeshBuilder,
+AddVertex, 0.72, 1.065, 20.38,
+AddVertex, 0.72, 1.415,20.374,
+AddVertex, 0.565, 1.415,20.374
+AddVertex, 0.565, 1.065, 20.38,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+SetEmissiveColor, 255, 255, 255
+LoadTexture,..\HKTSS_1127\Backlight.png
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0
+SetTextureCoordinates,3,1,1,
+SetDecalTransparentColor,0,144,181,
+
+;;3D back light - 2;;
+
+CreateMeshBuilder,
+AddVertex, 0.72, 1.065, 20.388,
+AddVertex, 0.72, 1.415, 20.378,
+AddVertex, 0.72, 1.415, 20.37,
+AddVertex, 0.72, 1.065, 20.37,
+AddFace2,0, 1, 2, 3,
+SetColor,20,20,20
+translate,-1.25,0,0
+
+CreateMeshBuilder,
+AddVertex, 0.72, 1.065, 20.388,
+AddVertex, 0.72, 1.415, 20.378,
+AddVertex, 0.72, 1.415, 20.37,
+AddVertex, 0.72, 1.065, 20.37,
+AddFace2,0, 1, 2, 3,
+SetColor,20,20,20
+translate,-0.153,0,0
+translate,-1.25,0,0
+
+CreateMeshBuilder,
+AddVertex, 0.72, 1.065, 20.388,
+AddVertex, 0.565, 1.065, 20.388,
+AddVertex, 0.565, 1.065, 20.37,
+AddVertex, 0.72, 1.065, 20.37,
+AddFace2,0, 1, 2, 3,
+SetColor,20,20,20
+translate,-1.25,0,0
+
+CreateMeshBuilder,
+AddVertex, 0.72, 1.415, 20.388,
+AddVertex, 0.565, 1.415, 20.388,
+AddVertex, 0.565, 1.415, 20.38,
+AddVertex, 0.72, 1.415, 20.38,
+AddFace2,0, 1, 2, 3,
+SetColor,20,20,20
+translate,-1.25,0,-0.01
+
+CreateMeshBuilder,
+AddVertex, 0.72, 1.065, 20.38,
+AddVertex, 0.72, 1.415,20.374,
+AddVertex, 0.565, 1.415,20.374
+AddVertex, 0.565, 1.065, 20.38,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+SetEmissiveColor, 255, 255, 255
+LoadTexture,..\HKTSS_1127\Backlight.png
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0
+SetTextureCoordinates,3,1,1,
+translate,-1.25,0,0
+
+
+;;3D back;;
+
+;;back;;
+CreateMeshBuilder,
+AddVertex, 0.73, 0.65, 20.50,
+AddVertex, 0.8, 3.5, 20.47,
+AddVertex,-0.8, 3.5, 20.47,
+AddVertex,-0.73, 0.65, 20.50,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+SetEmissiveColor, 255, 255, 255
+LoadTexture,..\HKTSS_1127\Backlow.png
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0
+SetTextureCoordinates,3,1,1,
+SetDecalTransparentColor,0,144,181,
+
+;;back top;;
+CreateMeshBuilder,
+AddVertex, 0.73, 0.89, 20.50,
+AddVertex, 0.73, 0.89, 20.38,
+AddVertex,-0.73, 0.89, 20.38,
+AddVertex,-0.73, 0.89, 20.50,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+SetEmissiveColor, 255, 255, 255
+LoadTexture,..\HKTSS_1127\headcurve.png
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,15,0
+SetTextureCoordinates,3,15,1,
+SetDecalTransparentColor,0,144,181,
+
+CreateMeshBuilder,
+AddVertex, 0.76, 0.89, 20.49,
+AddVertex, 0.76, 0.89, 20.38,
+AddVertex,0.73, 0.89, 20.38,
+AddVertex,0.73, 0.89, 20.50,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+SetEmissiveColor, 255, 255, 255
+LoadTexture,..\HKTSS_1127\headcurve.png
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0
+SetTextureCoordinates,3,1,1,
+SetDecalTransparentColor,0,144,181,
+
+CreateMeshBuilder,
+AddVertex, 0.81, 0.87, 20.44,
+AddVertex, 0.827, 0.867, 20.35,
+AddVertex,0.76, 0.89, 20.38,
+AddVertex,0.76, 0.89, 20.49,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+SetEmissiveColor, 255, 255, 255
+LoadTexture,..\HKTSS_1127\headcurve.png
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0
+SetTextureCoordinates,3,1,1,
+SetDecalTransparentColor,0,144,181,
+
+
+CreateMeshBuilder,
+AddVertex,-0.73, 0.89, 20.50,
+AddVertex,-0.73, 0.89, 20.38,
+AddVertex,0.73, 0.89, 20.38,
+AddVertex,0.73, 0.89, 20.50,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+SetEmissiveColor, 255, 255, 255
+LoadTexture,..\HKTSS_1127\headcurve.png
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,15,0
+SetTextureCoordinates,3,15,1,
+SetDecalTransparentColor,0,144,181,
+
+CreateMeshBuilder,
+AddVertex,-0.76, 0.89, 20.49,
+AddVertex,-0.76, 0.89, 20.38,
+AddVertex,-0.73, 0.89, 20.38,
+AddVertex,-0.73, 0.89, 20.50,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+SetEmissiveColor, 255, 255, 255
+LoadTexture,..\HKTSS_1127\headcurve.png
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0
+SetTextureCoordinates,3,1,1,
+SetDecalTransparentColor,0,144,181,
+
+CreateMeshBuilder,
+AddVertex,-0.81, 0.87, 20.44,
+AddVertex,-0.827, 0.867, 20.35,
+AddVertex,-0.76, 0.89, 20.38,
+AddVertex,-0.76, 0.89, 20.49,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+SetEmissiveColor, 255, 255, 255
+LoadTexture,..\HKTSS_1127\headcurve.png
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0
+SetTextureCoordinates,3,1,1,
+SetDecalTransparentColor,0,144,181,
+
+;;right back curve;;
+CreateMeshBuilder,
+AddVertex, -0.76, 0.65, 20.49,
+AddVertex, -0.76, 0.89, 20.49,
+AddVertex, -0.73, 0.89, 20.5,
+AddVertex, -0.73, 0.65, 20.5,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+SetEmissiveColor, 255, 255, 255
+LoadTexture,..\HKTSS_1127\backcurve.png,
+SetTextureCoordinates,0,0.001,0.999,
+SetTextureCoordinates,1,0.001,0.001,
+SetTextureCoordinates,2,0.999,0.001
+SetTextureCoordinates,3,0.999,0.999,
+SetDecalTransparentColor,0,144,181,
+
+CreateMeshBuilder,
+AddVertex, -0.81, 0.65, 20.44,
+AddVertex, -0.81, 0.87, 20.44,
+AddVertex, -0.76, 0.89, 20.49,
+AddVertex, -0.76, 0.65, 20.49,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+SetEmissiveColor, 255, 255, 255
+LoadTexture,..\HKTSS_1127\backcurve.png,
+SetTextureCoordinates,0,0.001,0.999,
+SetTextureCoordinates,1,0.001,0.001,
+SetTextureCoordinates,2,0.999,0.001
+SetTextureCoordinates,3,0.999,0.999,
+SetDecalTransparentColor,0,144,181,
+
+CreateMeshBuilder,
+AddVertex, -0.85, 0.643, 20.2,
+AddVertex, -0.85, 0.86, 20.2,
+AddVertex, -0.81, 0.87, 20.44,
+AddVertex, -0.81, 0.65, 20.44,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+SetEmissiveColor, 255, 255, 255
+LoadTexture,..\HKTSS_1127\backcurve.png,
+SetTextureCoordinates,0,0.001,0.999,
+SetTextureCoordinates,1,0.001,0.001,
+SetTextureCoordinates,2,0.999,0.001
+SetTextureCoordinates,3,0.999,0.999,
+SetDecalTransparentColor,0,144,181,
+
+
+
+;;left back curve;;
+CreateMeshBuilder,
+AddVertex, 0.76, 0.65, 20.49,
+AddVertex, 0.76, 0.89, 20.49,
+AddVertex, 0.73, 0.89, 20.5,
+AddVertex, 0.73, 0.65, 20.5,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+SetEmissiveColor, 255, 255, 255
+LoadTexture,..\HKTSS_1127\backcurve.png,
+SetTextureCoordinates,0,0.001,0.999,
+SetTextureCoordinates,1,0.001,0.001,
+SetTextureCoordinates,2,0.999,0.001
+SetTextureCoordinates,3,0.999,0.999,
+SetDecalTransparentColor,0,144,181,
+
+CreateMeshBuilder,
+AddVertex, 0.81, 0.65, 20.44,
+AddVertex, 0.81, 0.87, 20.44,
+AddVertex, 0.76, 0.89, 20.49,
+AddVertex, 0.76, 0.65, 20.49,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+SetEmissiveColor, 255, 255, 255
+LoadTexture,..\HKTSS_1127\backcurve.png,
+SetTextureCoordinates,0,0.001,0.999,
+SetTextureCoordinates,1,0.001,0.001,
+SetTextureCoordinates,2,0.999,0.001
+SetTextureCoordinates,3,0.999,0.999,
+SetDecalTransparentColor,0,144,181,
+
+CreateMeshBuilder,
+AddVertex, 0.85, 0.643, 20.2,
+AddVertex, 0.85, 0.86, 20.2,
+AddVertex, 0.81, 0.87, 20.44,
+AddVertex, 0.81, 0.65, 20.44,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+SetEmissiveColor, 255, 255, 255
+LoadTexture,..\HKTSS_1127\backcurve.png,
+SetTextureCoordinates,0,0.001,0.999,
+SetTextureCoordinates,1,0.001,0.001,
+SetTextureCoordinates,2,0.999,0.001
+SetTextureCoordinates,3,0.999,0.999,
+SetDecalTransparentColor,0,144,181,
+
+CreateMeshBuilder,
+AddVertex,1.33, 0.3, 18.45
+AddVertex,1.33, 3.5, 18.45
+AddVertex,0.8, 3.5, 20.47,
+AddVertex,0.8, 0.3, 20.35,
+AddFace,0, 1, 2, 3,
+SetEmissiveColor, 255, 255, 255
+GenerateNormals,
+LoadTexture,back-left.png,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0.03,
+SetTextureCoordinates,2,1,0.03
+SetTextureCoordinates,3,1,1,
+SetDecalTransparentColor,0,144,181,
+
+CreateMeshBuilder,
+AddVertex,-1.33, 0.25, 18.43
+AddVertex,-1.33, 3.5, 18.43
+AddVertex,-0.8, 3.5, 20.5,
+AddVertex,-0.8, 0.25, 20.35,
+AddFace,3,2,1,0,
+SetEmissiveColor, 255, 255, 255
+GenerateNormals,
+LoadTexture,back-right.png,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0.05,
+SetTextureCoordinates,2,-1,0.05
+SetTextureCoordinates,3,-1,1,
+SetDecalTransparentColor,0,144,181,
+
+;;HeadTop;;
+
+CreateMeshBuilder,
+AddVertex,-0.25, 3.6, 0.647,
+AddVertex,-0.25, 3.6, 1.85,
+AddVertex, 0.45, 3.6, 1.85,
+AddVertex, 0.45, 3.6, 0.647,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+LoadTexture,..\HKTSS_1127\E2.png
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0
+SetTextureCoordinates,3,1,1,
+SetDecalTransparentColor,0,144,181,
+
+CreateMeshBuilder,
+AddVertex,-0.35, 3.59, 0.645
+AddVertex,-0.35, 3.6, 1.85
+AddVertex,-0.25, 3.6, 1.85
+AddVertex,-0.25, 3.6, 0.647,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+LoadTexture,..\HKTSS_1127\E2.png
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0
+SetTextureCoordinates,3,1,1,
+SetDecalTransparentColor,0,144,181,
+
+CreateMeshBuilder,
+AddVertex,-1.2, 3.6, 2.75
+AddVertex,-1.2, 3.6, 19.35,
+AddVertex, 1.2, 3.6, 19.35,
+AddVertex, 1.2, 3.6, 2.75,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+SetEmissiveColor, 255,255,255
+LoadTexture,..\HKTSS_1127\LRTTOP.png,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0
+SetTextureCoordinates,3,1,1,
+SetDecalTransparentColor,0,0,255,
+translate,0,0,-0.9
+
+CreateMeshBuilder,
+AddVertex,-1.2, 3.65, 19.35
+AddVertex,-0.85, 3.55, 21.22
+AddVertex, 0.85, 3.55, 21.22,
+AddVertex, 1.23, 3.65, 19.35,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+SetColor,176,176,183
+translate,0,-0.05,-0.9
+
+CreateMeshBuilder,
+AddVertex,-0.45, 3.625, 1.538,
+AddVertex,-0.45, 3.651, 2.75
+AddVertex,-0.35, 3.651, 2.75
+AddVertex,-0.35, 3.64, 1.545,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+LoadTexture,..\HKTSS_1127\E2.png
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0
+SetTextureCoordinates,3,1,1,
+SetDecalTransparentColor,0,144,181,
+translate,0,-0.05,-0.9
+
+CreateMeshBuilder,
+AddVertex, 0.8, 2, 5.65,
+AddVertex, 0.8, 2.6, 5.65,
+AddVertex,-0.8, 2.6, 5.65,
+AddVertex,-0.8, 2, 5.65,
+AddFace2,3,2,1,0,
+GenerateNormals,
+SetEmissiveColor, 255, 255, 255
+LoadTexture,../thumbs.db,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0
+SetTextureCoordinates,3,1,1,
+SetDecalTransparentColor,0,0,0,
+translate,0,-200,0
+
+CreateMeshBuilder,
+AddVertex,-0.55, 3.605, 1.528
+AddVertex,-0.55, 3.65, 2.75,
+AddVertex,-0.45, 3.651, 2.75,
+AddVertex,-0.45, 3.625, 1.538,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+LoadTexture,..\HKTSS_1127\E2.png
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0
+SetTextureCoordinates,3,1,1,
+SetDecalTransparentColor,0,144,181,
+translate,0,-0.05,-0.9
+
+CreateMeshBuilder,
+AddVertex,-0.63, 3.59, 1.52,
+AddVertex,-0.63, 3.65, 2.75,
+AddVertex,-0.55, 3.65, 2.75,
+AddVertex,-0.55, 3.605, 1.528,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+LoadTexture,..\HKTSS_1127\E2.png
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0
+SetTextureCoordinates,3,1,1,
+SetDecalTransparentColor,0,144,181,
+translate,0,-0.05,-0.9
+
+CreateMeshBuilder,
+AddVertex,-0.73, 3.5, 1.475
+AddVertex,-0.73, 3.65, 2.75,
+AddVertex,-0.63, 3.65, 2.75,
+AddVertex,-0.63, 3.59, 1.52,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+LoadTexture,..\HKTSS_1127\E2.png
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0
+SetTextureCoordinates,3,1,1,
+SetDecalTransparentColor,0,144,181,
+translate,0,-0.05,-0.9
+
+CreateMeshBuilder,
+AddVertex,-0.79, 3.45, 1.45
+AddVertex,-1.1, 3.65, 2.75,
+AddVertex,-0.73, 3.65, 2.75,
+AddVertex,-0.73, 3.5, 1.474,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+LoadTexture,..\HKTSS_1127\E2.png
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0
+SetTextureCoordinates,3,1,1,
+SetDecalTransparentColor,0,144,181,
+translate,0,-0.05,-0.9
+
+CreateMeshBuilder,
+AddVertex,-0.8, 3.45, 1.47
+AddVertex,-1.195, 3.647, 2.75,
+AddVertex,-1, 3.653, 2.75,
+AddVertex,-0.8, 3.5, 1.52,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+LoadTexture,..\HKTSS_1127\E2.png
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0
+SetTextureCoordinates,3,1,1,
+SetDecalTransparentColor,0,144,181,
+translate,0,-0.05,-0.9
+
+CreateMeshBuilder,
+AddVertex,-0.7935, 3.451, 1.45
+AddVertex,-1.33, 3.548, 2.75,
+AddVertex,-1.195, 3.647, 2.75,
+AddVertex,-0.7935, 3.451, 1.45,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+SetEmissiveColor,255,255,255
+LoadTexture,..\HKTSS_1127\E2.png
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0
+SetTextureCoordinates,3,1,1,
+SetDecalTransparentColor,0,144,181,
+translate,0,-0.05,-0.9
+
+
+;;left;; ;;left;; ;;left;;
+
+CreateMeshBuilder,
+AddVertex,0.45, 3.65, 1.547,
+AddVertex,0.45, 3.65, 2.75
+AddVertex, 0.55, 3.647, 2.75
+AddVertex, 0.55, 3.61, 1.53,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+LoadTexture,..\HKTSS_1127\E2.png
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0
+SetTextureCoordinates,3,1,1,
+SetDecalTransparentColor,0,144,181,
+translate,0,-0.05,-0.9
+
+CreateMeshBuilder,
+AddVertex,0.55, 3.61, 1.53,
+AddVertex,0.55, 3.65, 2.85
+AddVertex, 0.65, 3.65, 2.85
+AddVertex, 0.65, 3.58, 1.51,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+LoadTexture,..\HKTSS_1127\E2.png
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0
+SetTextureCoordinates,3,1,1,
+SetDecalTransparentColor,0,144,181,
+translate,0,-0.05,-0.9
+
+CreateMeshBuilder,
+AddVertex,0.65, 3.58, 1.51,
+AddVertex,0.65, 3.65, 2.85
+AddVertex, 0.755, 3.65, 2.85
+AddVertex, 0.755, 3.52, 1.48,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+LoadTexture,..\HKTSS_1127\E2.png
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0
+SetTextureCoordinates,3,1,1,
+SetDecalTransparentColor,0,144,181,
+translate,0,-0.05,-0.9
+
+CreateMeshBuilder,
+AddVertex,0.755, 3.52, 1.48,
+AddVertex,0.755, 3.65, 2.85
+AddVertex, 0.8, 3.65, 2.85
+AddVertex, 0.8, 3.43, 1.44,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+LoadTexture,..\HKTSS_1127\E2.png
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0
+SetTextureCoordinates,3,1,1,
+SetDecalTransparentColor,0,144,181,
+translate,0,-0.05,-0.9
+
+CreateMeshBuilder,
+AddVertex,0.8, 3.437, 1.48,
+AddVertex,0.8, 3.65, 2.85
+AddVertex, 1.21, 3.65, 2.85
+AddVertex, 0.8, 3.437, 1.44,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+SetEmissiveColor,255,255,255
+LoadTexture,..\HKTSS_1127\E2.png
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0
+SetTextureCoordinates,3,1,1,
+SetDecalTransparentColor,0,144,181,
+translate,0,-0.05,-0.9
+
+CreateMeshBuilder,
+AddVertex,0.79, 3.437, 1.445,
+AddVertex,1.2, 3.65, 2.8,
+AddVertex, 1.34, 3.54, 2.8,
+AddVertex, 0.79, 3.351, 1.405,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+SetEmissiveColor,255,255,255
+LoadTexture,..\HKTSS_1127\E2.png
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0
+SetTextureCoordinates,3,1,1,
+SetDecalTransparentColor,0,144,181,
+translate,0,-0.05,-0.9
+
+;;end;;
+
+CreateMeshBuilder,
+AddVertex,-0.8, 3.6, 6.5,
+AddVertex,-0.8, 4, 6.5,
+AddVertex,-0.8, 4, 14,
+AddVertex,-0.8, 3.6, 14,
+AddFace2,0, 1, 2, 3,
+SetEmissiveColor,255,255,255
+GenerateNormals,
+LoadTexture,..\HKTSS_1127\Air-Con.png,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,-1,0
+SetTextureCoordinates,3,-1,1,
+SetDecalTransparentColor,0,144,181,
+
+CreateMeshBuilder,
+AddVertex,0.8, 3.6, 6.5,
+AddVertex,0.8, 4, 6.5,
+AddVertex,0.8, 4, 14,
+AddVertex,0.8, 3.6, 14,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+SetEmissiveColor,255,255,255
+LoadTexture,..\HKTSS_1127\Air-Con.png,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0
+SetTextureCoordinates,3,1,1,
+SetDecalTransparentColor,0,144,181,
+
+CreateMeshBuilder,
+AddVertex,-0.8, 4, 7.5,
+AddVertex,-0.8, 4, 13,
+AddVertex, 0.8, 4, 13,
+AddVertex, 0.8, 4, 7.5,
+AddFace2,0, 1, 2, 3,
+LoadTexture,..\HKTSS_1127\Air-Con-Top.png,
+SetTextureCoordinates,0,0,-1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0
+SetTextureCoordinates,3,1,-1,
+SetEmissiveColor,255,255,255
+
+CreateMeshBuilder,
+AddVertex,-0.8, 3.9, 6.9,
+AddVertex,-0.8, 4, 7.5,
+AddVertex, 0.8, 4, 7.5,
+AddVertex, 0.8, 3.9, 6.9,
+AddFace2,0, 1, 2, 3,
+LoadTexture,..\HKTSS_1127\Air-Con-Top.png,
+SetTextureCoordinates,0,0,-1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0
+SetTextureCoordinates,3,1,-1,
+SetEmissiveColor,255,255,255
+
+CreateMeshBuilder,
+AddVertex,-0.8, 3.5, 6.4,
+AddVertex,-0.8, 3.9, 6.9,
+AddVertex, 0.8, 3.9, 6.9,
+AddVertex, 0.8, 3.5, 6.4,
+AddFace2,0, 1, 2, 3,
+LoadTexture,..\HKTSS_1127\Air-Con-Top.png,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0
+SetTextureCoordinates,3,1,1,
+SetEmissiveColor,255,255,255
+
+CreateMeshBuilder,
+AddVertex,-0.8, 3.9, 13.5,
+AddVertex,-0.8, 4, 13,
+AddVertex, 0.8, 4, 13,
+AddVertex, 0.8, 3.9, 13.5,
+AddFace2,0, 1, 2, 3,
+LoadTexture,..\HKTSS_1127\Air-Con-Top.png,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0
+SetTextureCoordinates,3,1,1,
+SetEmissiveColor,255,255,255
+
+CreateMeshBuilder,
+AddVertex,-0.8, 3.5, 14.1,
+AddVertex,-0.8, 3.9, 13.5,
+AddVertex, 0.8, 3.9, 13.5,
+AddVertex, 0.8, 3.5, 14.1,
+AddFace2,0, 1, 2, 3,
+LoadTexture,..\HKTSS_1127\Air-Con-Top.png,
+SetTextureCoordinates,0,0,-1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0
+SetTextureCoordinates,3,1,-1,
+SetEmissiveColor,255,255,255
+
+CreateMeshBuilder
+Cylinder, 20, 0.04, 0.04, 0.25,
+Translate, -0.45, 3.626, 3.05,
+SetColor,140,63,65,
+
+CreateMeshBuilder
+Cylinder, 20, 0.04, 0.04, 0.25,
+Translate, 0.45, 3.626, 3.05,
+SetColor,140,63,65,
+
+CreateMeshBuilder
+Cylinder, 20, 0.04, 0.04, 0.25,
+Translate, -0.45, 3.626, 4.65,
+SetColor,140,63,65,
+
+CreateMeshBuilder
+Cylinder, 20, 0.04, 0.04, 0.25,
+Translate, 0.45, 3.626, 4.65,
+SetColor,140,63,65,
+
+CreateMeshBuilder,
+AddVertex, -0.45, 3.75, 4.65,
+AddVertex, -0.45, 3.75, 3.05,
+AddVertex,  0.45, 3.75, 3.05,
+AddVertex,  0.45, 3.75, 4.65,
+AddVertex, -0.45, 3.85, 4.65,
+AddVertex, -0.45, 3.85, 3.05,
+AddVertex,  0.45, 3.85, 3.05,
+AddVertex,  0.45, 3.85, 4.65,
+AddFace2,0, 1, 5, 4,
+AddFace2,1, 2, 6, 5,
+AddFace2,2, 3, 7, 6,
+SetColor,140,63,65,
+
+CreateMeshBuilder,
+AddVertex, -0.03, 3.60, 4.5,
+AddVertex, -0.03, 3.60, 4.35,
+AddVertex,  0.03, 3.60, 4.35,
+AddVertex,  0.03, 3.60, 4.5,
+AddVertex, -0.03, 4.35, 3.35,
+AddVertex, -0.03, 4.35, 3.2,
+AddVertex,  0.03, 4.35, 3.2,
+AddVertex,  0.03, 4.35, 3.35,
+AddFace2,0, 1, 5, 4,
+AddFace2,1, 2, 6, 5,
+AddFace2,2, 3, 7, 6,
+SetColor,140,63,65,
+
+
+CreateMeshBuilder,
+AddVertex, -0.02, 3.60, 3.55,
+AddVertex, -0.02, 3.60, 3.50,
+AddVertex,  0.02, 3.60, 3.50,
+AddVertex,  0.02, 3.60, 3.55,
+AddVertex, -0.02, 4.22, 3.20,
+AddVertex, -0.02, 4.22, 3.15,
+AddVertex,  0.02, 4.22, 3.15,
+AddVertex,  0.02, 4.22, 3.20,
+AddFace2,0, 1, 5, 4,
+AddFace2,1, 2, 6, 5,
+AddFace2,2, 3, 7, 6,
+SetColor,140,63,65,
+CreateMeshBuilder,
+AddVertex, -0.1, 4.30, 3.30,
+AddVertex, -0.1, 4.30, 3.2,
+AddVertex,  0.1, 4.30, 3.2,
+AddVertex,  0.1, 4.30, 3.30,
+AddVertex, -0.1, 4.40, 3.30,
+AddVertex, -0.1, 4.40, 3.25,
+AddVertex,  0.1, 4.40, 3.25,
+AddVertex,  0.1, 4.40, 3.30,
+AddFace2,0, 1, 5, 4,
+AddFace2,1, 2, 6, 5,
+AddFace2,2, 3, 7, 6,
+SetColor,177,83,85,
+
+CreateMeshBuilder,
+AddVertex, -0.03, 4.30, 3.30,
+AddVertex, -0.03, 4.30, 3.20,
+AddVertex,  0.03, 4.30, 3.20,
+AddVertex,  0.03, 4.30, 3.30,
+AddVertex, -0.03, 4.22, 3.20,
+AddVertex, -0.03, 4.22, 3.15,
+AddVertex,  0.03, 4.22, 3.15,
+AddVertex,  0.03, 4.22, 3.20,
+AddFace2,0, 1, 5, 4,
+AddFace2,1, 2, 6, 5,
+AddFace2,2, 3, 7, 6,
+SetColor,177,83,85,
+
+CreateMeshBuilder,
+AddVertex, 0.05, 5.10, 4.5,
+AddVertex, 0.05, 5.10, 4.45,
+AddVertex, 0.10, 5.10, 4.45,
+AddVertex, 0.10, 5.10, 4.5,
+AddVertex, 0.05, 4.35, 3.35,
+AddVertex, 0.05, 4.35, 3.30,
+AddVertex, 0.10, 4.35, 3.30,
+AddVertex, 0.10, 4.35, 3.35,
+AddFace2,0, 1, 5, 4,
+AddFace2,1, 2, 6, 5,
+AddFace2,2, 3, 7, 6,
+SetColor,140,63,65,
+
+CreateMeshBuilder,
+AddVertex, -0.05, 5.10, 4.5,
+AddVertex, -0.05, 5.10, 4.45,
+AddVertex, -0.10, 5.10, 4.45,
+AddVertex, -0.10, 5.10, 4.5,
+AddVertex, -0.05, 4.35, 3.35,
+AddVertex, -0.05, 4.35, 3.30,
+AddVertex, -0.10, 4.35, 3.30,
+AddVertex, -0.10, 4.35, 3.35,
+AddFace2,0, 1, 5, 4,
+AddFace2,1, 2, 6, 5,
+AddFace2,2, 3, 7, 6,
+SetColor,187,103,105,
+
+; 集電弓接觸面 ,
+
+CreateMeshBuilder,
+AddVertex,-0.55, 5.07, 4.44,
+AddVertex,-0.55, 5.10, 4.44,
+AddVertex, 0.55, 5.10, 4.44,
+AddVertex, 0.55, 5.07, 4.44,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+SetColor,150,145,140,
+
+
+
+CreateMeshBuilder,
+AddVertex,-0.55, 5.07, 4.52,
+AddVertex,-0.55, 5.10, 4.52,
+AddVertex, 0.55, 5.10, 4.52,
+AddVertex, 0.55, 5.07, 4.52,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+SetColor,150,145,140,
+
+;right side;
+CreateMeshBuilder,
+AddVertex,-0.85, 4.8, 4.44,
+AddVertex,-0.85, 4.84, 4.44,
+AddVertex, -0.55, 5.10, 4.44,
+AddVertex, -0.55, 5.07, 4.44,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+SetColor,150,145,140,
+
+CreateMeshBuilder,
+AddVertex,-0.85, 4.8, 4.52,
+AddVertex,-0.85, 4.84, 4.52,
+AddVertex, -0.55, 5.10, 4.52,
+AddVertex, -0.55, 5.07, 4.52,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+SetColor,150,145,140,
+
+CreateMeshBuilder,
+AddVertex,-0.95, 4.7, 4.48,
+AddVertex,-0.95, 4.74, 4.48,
+AddVertex, -0.85, 4.84, 4.52,
+AddVertex, -0.85, 4.8, 4.52,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+SetColor,150,145,140,
+
+CreateMeshBuilder,
+AddVertex,-0.95, 4.7, 4.48,
+AddVertex,-0.95, 4.74, 4.48,
+AddVertex, -0.85, 4.84, 4.44,
+AddVertex, -0.85, 4.8, 4.44,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+SetColor,150,145,140,
+
+
+;left side;,
+CreateMeshBuilder,
+AddVertex,0.55, 5.07, 4.44,
+AddVertex,0.55, 5.1, 4.44,
+AddVertex, 0.85, 4.84, 4.44,
+AddVertex, 0.85, 4.8, 4.44,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+SetColor,150,145,140,
+
+CreateMeshBuilder,
+AddVertex,0.85, 4.8, 4.44,
+AddVertex,0.85, 4.84, 4.44,
+AddVertex, 0.95, 4.76, 4.48,
+AddVertex, 0.95, 4.72, 4.48,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+SetColor,150,145,140,
+
+CreateMeshBuilder,
+AddVertex,0.85, 4.8, 4.52,
+AddVertex,0.85, 4.84, 4.52,
+AddVertex, 0.95, 4.76, 4.48,
+AddVertex, 0.95, 4.72, 4.48,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+SetColor,150,145,140,
+
+CreateMeshBuilder,
+AddVertex,0.55, 5.07, 4.44,
+AddVertex,0.55, 5.1, 4.44,
+AddVertex, 0.85, 4.84, 4.44,
+AddVertex, 0.85, 4.8, 4.44,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+SetColor,150,145,140,
+
+CreateMeshBuilder,
+AddVertex,0.55, 5.07, 4.52,
+AddVertex,0.55, 5.1, 4.52,
+AddVertex, 0.85, 4.84, 4.52,
+AddVertex, 0.85, 4.8, 4.52,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+SetColor,150,145,140,
+
+;BROWN GLASS - left side;
+CreateMeshBuilder,
+AddVertex,1.302, 0.9, 3.5,
+AddVertex,1.302, 3.1, 3.5,
+AddVertex,1.302, 3.1, 1.98
+AddVertex,1.302, 0.9, 1.98
+AddFace,3,2,1,0
+SetColor,80,55,30,150
+translate,0.025,0,0
+
+CreateMeshBuilder,
+AddVertex,1.302, 0.9, 5,
+AddVertex,1.302, 3.1, 5,
+AddVertex,1.302, 3.1, 1.75
+AddVertex,1.302, 0.9, 1.75
+AddFace,3,2,1,0
+SetColor,80,55,30,150
+translate,0.025,0,3.9
+
+CreateMeshBuilder,
+AddVertex,1.302, 0.9, 5,
+AddVertex,1.302, 3.1, 5,
+AddVertex,1.302, 3.1, 1.75
+AddVertex,1.302, 0.9, 1.75
+AddFace,3,2,1,0
+SetColor,80,55,30,150
+translate,0.025,0,9.45
+
+CreateMeshBuilder,
+AddVertex,1.302, 0.9, 5,
+AddVertex,1.302, 3.1, 5,
+AddVertex,1.302, 3.1, 3.2
+AddVertex,1.302, 0.9, 3.2
+AddFace,3,2,1,0
+SetColor,80,55,30,150
+translate,0.025,0,13.35
+
+;;BROWN GLASS - back;;
+CreateMeshBuilder,
+AddVertex, 0.35, 2.05, 20.41,
+AddVertex, 0.35, 2.9, 20.385,
+AddVertex,-0.35, 2.9, 20.385,
+AddVertex,-0.35, 2.05, 20.41,
+AddFace,0, 1, 2, 3,
+SetColor,80,55,30,150
+translate,0,0,-0.06
+
+;BROWN GLASS - right side;
+CreateMeshBuilder,
+AddVertex,-1.32, 1.85, 18.3
+AddVertex,-1.32, 3.1, 18.3
+AddVertex,-1.32, 3.1, 1.87,
+AddVertex,-1.32, 1.85, 1.87,
+AddFace,0, 1, 2, 3,
+SetColor,80,55,30,150
+
+;back right;
+
+CreateMeshBuilder,
+AddVertex,-1.25, 1.9, 18.7
+AddVertex,-1.25, 3.1, 18.7
+AddVertex,-0.9, 3.1, 20,
+AddVertex,-0.9, 1.9, 20,
+AddFace,3,2,1,0,
+SetColor,80,55,30,150
+
+;back left;
+CreateMeshBuilder,
+AddVertex,1.24, 1.85, 18.8
+AddVertex,1.24, 3, 18.8
+AddVertex,0.9, 3, 20,
+AddVertex,0.9, 1.85, 20,
+AddFace,0, 1, 2, 3,
+SetColor,80,55,30,150
+translate,-0.01,0,0
+
+;;3d red line on the top - left;;
+
+CreateMeshBuilder,
+AddVertex,1.38, 3.01, 1.85,
+AddVertex,1.38, 3.2, 1.85,
+AddVertex,1.38, 3.2, 18.46,
+AddVertex,1.38, 3.01, 18.46,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+LoadTexture,..\HKTSS_1127\redline.png,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0
+SetTextureCoordinates,3,1,1,
+SetEmissiveColor,255,255,255
+
+CreateMeshBuilder,
+AddVertex,1.33, 3.01, 1.85,
+AddVertex,1.38, 3.01, 1.85,
+AddVertex,1.38, 3.01, 18.46,
+AddVertex,1.33, 3.01, 18.46,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+LoadTexture,..\HKTSS_1127\redline.png,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0
+SetTextureCoordinates,3,1,1,
+SetEmissiveColor,10,10,10
+
+CreateMeshBuilder,
+AddVertex,1.33, 3.2, 1.85,
+AddVertex,1.38, 3.2, 1.85,
+AddVertex,1.38, 3.2, 18.46,
+AddVertex,1.33, 3.2, 18.46,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+LoadTexture,..\HKTSS_1127\redline.png,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0
+SetTextureCoordinates,3,1,1,
+SetEmissiveColor, 50,50,50
+
+CreateMeshBuilder,
+AddVertex,1.3815, 3.01, 1.85,
+AddVertex,1.3815, 3.2, 1.85,
+AddVertex,1.325, 3.2, 1.85,
+AddVertex,1.325, 3.01, 1.85,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+LoadTexture,..\HKTSS_1127\back_redline.png,
+SetTextureCoordinates,0,0.1,1,
+SetTextureCoordinates,1,0.1,0,
+SetTextureCoordinates,2,0.11,0
+SetTextureCoordinates,3,0.11,1,
+
+CreateMeshBuilder,
+AddVertex,1.3815, 3.01, 18.46,
+AddVertex,1.3815, 3.2, 18.46,
+AddVertex,1.32, 3.2, 18.46,
+AddVertex,1.32, 3.01, 18.46,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+LoadTexture,..\HKTSS_1127\back_redline.png,
+SetTextureCoordinates,0,0.1,0.99,
+SetTextureCoordinates,1,0.1,0.01,
+SetTextureCoordinates,2,0.11,0.01
+SetTextureCoordinates,3,0.11,0.99,
+
+;;front redline - left;;
+CreateMeshBuilder,
+AddVertex,0.9, 3.01, 0.8,
+AddVertex,0.9, 3.2, 0.8,
+AddVertex,1.38, 3.2, 1.83,
+AddVertex,1.38, 3.01, 1.83,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+LoadTexture,..\HKTSS_1127\back_redline.png,
+SetTextureCoordinates,0,0.001,-1,
+SetTextureCoordinates,1,0.001,0,
+SetTextureCoordinates,2,-0.999,0
+SetTextureCoordinates,3,-0.999,-1,
+SetEmissiveColor,255,255,255
+
+CreateMeshBuilder,
+AddVertex,1.32, 3.01, 1.83,
+AddVertex,1.32, 3.2, 1.83,
+AddVertex,1.381, 3.2, 1.83,
+AddVertex,1.381, 3.01, 1.83,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+LoadTexture,..\HKTSS_1127\back_redline.png,
+SetTextureCoordinates,0,0.1,-1,
+SetTextureCoordinates,1,0.1,0,
+SetTextureCoordinates,2,0.11,0,
+SetTextureCoordinates,3,0.11,-1,
+SetEmissiveColor,45,45,45
+
+CreateMeshBuilder,
+AddVertex,1.2, 3.2, 1.46,
+AddVertex,1.215, 3.2, 1.46,
+AddVertex,1.38, 3.2, 1.83,
+AddVertex,1.32, 3.2, 1.83,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+LoadTexture,..\HKTSS_1127\back_redline.png,
+SetTextureCoordinates,0,0.1,-1,
+SetTextureCoordinates,1,0.1,0,
+SetTextureCoordinates,2,0.11,0
+SetTextureCoordinates,3,0.11,-1,
+
+CreateMeshBuilder,
+AddVertex,1.2,  3.01, 1.46,
+AddVertex,1.215,3.01, 1.46,
+AddVertex,1.38, 3.01, 1.83,
+AddVertex,1.32, 3.01, 1.83,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+LoadTexture,..\HKTSS_1127\back_redline.png
+SetTextureCoordinates,0,0.1,-1,
+SetTextureCoordinates,1,0.1,0,
+SetTextureCoordinates,2,0.11,0
+SetTextureCoordinates,3,0.11,-1,
+
+;;back redline - left;;
+CreateMeshBuilder,
+AddVertex,1.38, 3.01, 18.48,
+AddVertex,1.38, 3.2, 18.48,
+AddVertex,0.95, 3.2, 19.9,
+AddVertex,0.95, 3.01, 19.9,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+LoadTexture,..\HKTSS_1127\back_redline.png,
+SetTextureCoordinates,0,0.003,1,
+SetTextureCoordinates,1,0.003,0,
+SetTextureCoordinates,2,0.997,0
+SetTextureCoordinates,3,0.997,1,
+SetEmissiveColor,255,255,255
+
+CreateMeshBuilder,
+AddVertex,1.381, 3.01, 18.48,
+AddVertex,1.381, 3.2, 18.48,
+AddVertex,1.32, 3.2, 18.48,
+AddVertex,1.32, 3.01, 18.48,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+LoadTexture,..\HKTSS_1127\back_redline.png,
+SetTextureCoordinates,0,0.1,1,
+SetTextureCoordinates,1,0.1,0,
+SetTextureCoordinates,2,0.11,0
+SetTextureCoordinates,3,0.11,1,
+
+CreateMeshBuilder,
+AddVertex,1.325, 3.2, 18.48,
+AddVertex,1.38, 3.2, 18.48,
+AddVertex,0.95, 3.2, 19.9,
+AddVertex,0.95, 3.2, 19.9,
+AddFace2,0, 1, 2, 3,
+SetEmissiveColor,255,255,255
+
+CreateMeshBuilder,
+AddVertex,1.325, 3.01, 18.48,
+AddVertex,1.38, 3.01, 18.48,
+AddVertex,0.95, 3.01, 19.9,
+AddVertex,0.95, 3.01, 19.9,
+AddFace2,0, 1, 2, 3,
+SetEmissiveColor,35,35,35
+
+;;3d red line on the top - right;;
+
+CreateMeshBuilder,
+AddVertex,-1.332, 3.07, 1.85,
+AddVertex,-1.332, 3.27, 1.85,
+AddVertex,-1.332, 3.27, 18.46,
+AddVertex,-1.332, 3.07, 18.46,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+LoadTexture,..\HKTSS_1127\redline.png,
+SetTextureCoordinates,0,0.001,1,
+SetTextureCoordinates,1,0.001,0,
+SetTextureCoordinates,2,0.999,0
+SetTextureCoordinates,3,0.999,1,
+SetEmissiveColor,255,255,255
+
+
+;;front redline - right;;
+
+CreateMeshBuilder,
+AddVertex,-0.9, 3.07, 0.8,
+AddVertex,-0.9, 3.27, 0.8,
+AddVertex,-1.332, 3.27, 1.85,
+AddVertex,-1.332, 3.07, 1.85,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+LoadTexture,..\HKTSS_1127\back_redline.png,
+SetTextureCoordinates,0,-0.01,-1,
+SetTextureCoordinates,1,-0.01,0,
+SetTextureCoordinates,2,-0.99,0
+SetTextureCoordinates,3,-0.99,-1,
+SetEmissiveColor,255,255,255
+
+;;back redline - right;;
+CreateMeshBuilder,
+AddVertex,-1.332, 3.07, 18.45,
+AddVertex,-1.332, 3.27, 18.45,
+AddVertex,-0.95, 3.27, 19.9,
+AddVertex,-0.95, 3.07, 19.9,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+LoadTexture,..\HKTSS_1127\back_redline.png,
+SetTextureCoordinates,0,0.001,1,
+SetTextureCoordinates,1,0.001,0,
+SetTextureCoordinates,2,0.999,0
+SetTextureCoordinates,3,0.999,1,
+SetEmissiveColor,255,255,255
+
+
+;;shadows;;
+CreateMeshBuilder,
+AddVertex,-1.5, 0, 1.25
+AddVertex,-1.5, 0, 21.25,
+AddVertex, 1.5, 0, 21.25,
+AddVertex, 1.5, 0, 1.25,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+LoadTexture,..\HKTSS_1127\shadows.png,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0
+SetTextureCoordinates,3,1,1,
+SetEmissiveColor,255,255,255
+translate,0,0,-1
+
+;;
+RotateAll,0,1,0,180
+TranslateAll,0,0,10

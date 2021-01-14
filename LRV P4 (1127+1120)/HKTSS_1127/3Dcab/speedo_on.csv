@@ -1,0 +1,17 @@
+CreateMeshBuilder,
+AddVertex,-0.10 ,  1.98 , -0.760 ,0,1,0
+AddVertex,-0.27 ,  1.98 , -0.760 ,0,1,0
+AddVertex,-0.27 ,  1.85 , -0.890 ,0,1,0
+AddVertex,-0.10 ,  1.85 , -0.890 ,0,1,0
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+LoadTexture,Speedometer.png,
+SetTextureCoordinates,0,0,-1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0
+SetTextureCoordinates,3,1,-1,
+SetEmissiveColor,255,255,255
+SetDecalTransparentColor, 255,255,255
+Rotate,0,1,0,180
+translate,0,0.09,-10.57
+RotateAll,0,1,0,180
