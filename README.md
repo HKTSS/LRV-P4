@@ -9,6 +9,7 @@
 ![5bb6db2c-37ae-4911-abf9-c807840e370d](https://user-images.githubusercontent.com/40461728/122639003-1371f880-d12a-11eb-82cd-0f3b97095710.png)
 Enter: 鳴笛  
 Shift+Enter 或 Numpad + 鍵: 廣播 (請緊握扶手)  
+F6: 開啟第一對門  
 
 ## 注意事項:  
 **1.** 如任何人士打算修改/轉換作品中任何內容並公開，必須注明原作者為HKTSS。  
