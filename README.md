@@ -1,20 +1,12 @@
 # 輕鐵第四期列車 Light Rail Phase IV for OpenBVE  
 ## 作品詳情:  
 **作品性質**: OpenBVE 列車  
-**目前版本**: 正式版  
-**列車編碼**: Big5  
+**目前版本**: v2  
+**列車編碼**: UTF-8  
 **建議OpenBVE版本**: v1.7.1.4 以上  
 
 ## 作品功能:  
-2/3鍵: 左/右指揮燈  
-4鍵: 轉電牌  
-5/6/7鍵: 車序(第一/二/三個數字)  
-8鍵: 開關車內燈  
-9鍵: 開頭燈  
-0鍵: 關/開車速計背燈  
-Delete: 關閉安全系統  
-Insert: 重置安全系統  
-空格鍵: 開啟駕駛室車門  
+![5bb6db2c-37ae-4911-abf9-c807840e370d](https://user-images.githubusercontent.com/40461728/122639003-1371f880-d12a-11eb-82cd-0f3b97095710.png)
 Enter: 鳴笛  
 Shift+Enter 或 Numpad + 鍵: 廣播 (請緊握扶手)  
 
