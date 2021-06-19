@@ -1,0 +1,13 @@
+G:\OpenBVE\Train Plugin\TSS_LRV\Plugin\bin\Release\LRVSystem.dll
+G:\OpenBVE\Train Plugin\TSS_LRV\Plugin\obj\Release\Plugin.csprojAssemblyReference.cache
+G:\OpenBVE\Train Plugin\TSS_LRV\Plugin\obj\Release\Plugin.csproj.CoreCompileInputs.cache
+G:\OpenBVE\Train Plugin\TSS_LRV\Plugin\obj\Release\LRVSystem.dll
+G:\OpenBVE\Train Plugin\TSS_LRV\Plugin\obj\Release\Plugin.ConfigForm.resources
+G:\OpenBVE\Train Plugin\TSS_LRV\Plugin\obj\Release\Plugin.csproj.GenerateResource.cache
+G:\OpenBVE\Train Plugin\TSS_LRV\Plugin\obj\Release\Plugin.Updater.resources
+E:\OpenBVE\Train Plugin\TSS_LRV\Plugin\bin\Release\LRVSystem.dll
+E:\OpenBVE\Train Plugin\TSS_LRV\Plugin\obj\Release\Plugin.ConfigForm.resources
+E:\OpenBVE\Train Plugin\TSS_LRV\Plugin\obj\Release\Plugin.csproj.GenerateResource.cache
+E:\OpenBVE\Train Plugin\TSS_LRV\Plugin\obj\Release\Plugin.csproj.CoreCompileInputs.cache
+E:\OpenBVE\Train Plugin\TSS_LRV\Plugin\obj\Release\LRVSystem.dll
+E:\OpenBVE\Train Plugin\TSS_LRV\Plugin\obj\Release\Plugin.csprojAssemblyReference.cache

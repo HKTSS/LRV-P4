@@ -1,0 +1,8 @@
+CreateMeshBuilder,
+AddVertex, 0.64, 2.9, 9.70,0,1,0
+AddVertex, 0.64, 3.30, 9.58,0,1,0
+AddVertex,-0.64, 3.30, 9.58,0,1,0
+AddVertex,-0.64, 2.9, 9.70,0,1,0
+AddFace2,3,2,1,0,
+SetColor,193,238,255,35
+SetBlendMode, Additive

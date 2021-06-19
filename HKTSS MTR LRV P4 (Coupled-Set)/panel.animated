@@ -1,0 +1,123 @@
+[Object]
+States = 3DCab\cab.csv
+Position = 0,0.1,-0.1
+
+[Object]
+States = P4_1\empty.csv, 3DCab\SpeedModeSwitch\fast.csv, 3DCab\SpeedModeSwitch\slow.csv
+Position = 0,0.1,-0.1
+Statefunction = pluginstate[112]
+
+[Object]
+States = P4_1\empty.csv, 3DCab\HazardWarningSwitch.csv
+Position = 0,0.1,-0.1
+Statefunction = pluginstate[108]
+
+[Object]
+States = 3DCab\iSPS\iSPS.csv
+Position = 0,0,0
+
+;;iSPS overspeed light;;
+[Object]
+States = P4_1\empty.csv, 3DCab\iSPS\indicationLight.csv
+Position = 0,0,0
+Statefunction = if[pluginstate[201] == 1, 1, 0]
+
+;;iSPS Reserved light;;
+[Object]
+States = 3DCab\iSPS\indicationLight.csv
+Position = 0.03,0,0
+
+[Object]
+States = P4_1\empty.csv, 3DCab\iSPS\fault.csv
+Position = 0,0,0
+Statefunction = if[pluginstate[203] == 1, 1, 0]
+
+[Object]
+States = P4_1\empty.csv, 3DCab\panelLight\doorlock_blink.csv
+Position = 0.0577,-0.011,-0.07
+StateFunction= if[pluginstate[202] == 1, Mod[value + pluginstate[202], 2] ,0]
+RefreshRate = 0.52
+
+[Object]
+States = P4_1\empty.csv, 3DCab\panelLight\door_cnopn.csv
+Position = 0,0.104,-0.096
+Statefunction = if[abs[speedometer] < 0.0555, 1, 0]
+
+[Object]
+States = P4_1\empty.csv, 3DCab\panelLight\dooropened.csv
+Position = 0,0.104,-0.096
+StateFunction = if[leftDoors != 0, 1, 0]
+
+[Object]
+States = 3DCab\speedo_on.csv, 3DCab\speedo_off.csv
+Position = 0.07,0,-0.1
+Statefunction = if[pluginstate[110] == 1, 1, 0]
+
+[Object]
+States = 3DCab\pressure.csv
+Position = 0.08,0,-0.1
+
+[Object]
+States = P4_1\empty.csv, P4_1\glass_cracked.csv
+Position = 0,0,0
+Statefunction = if[pluginstate[213] == 1, 1, 0]
+
+[Object]
+States = 3DCab\brakelever.csv
+Position = -0.7, 1.80, 9.35
+RotateXFunction = if[powerNotch >= 1, -0.11 * powerNotch, 0.08 * brakeNotchLinear]
+RotateXDirection = -1, 0, 0
+RotateXDamping = 20, 0.8
+
+[Object]
+States = 3DCab\brakeneedleY.csv
+Position = -0.17, 1.993, 9.567
+RotateXDirection = -1, 0, 0
+RotateXFunction = -3.3 + abs[mainReservoir] * 0.0000040
+RotateYFunction = -0.8
+RotateZFunction = -0.62
+
+[Object]
+States = 3DCab\brakeneedleR.csv
+Position = -0.17, 1.993, 9.567
+RotateXDirection = -1, 0, 0
+RotateXFunction = -3.75 + abs[brakeCylinder] * 0.0000017
+RotateYFunction = -1.1 + abs[brakeCylinder] * 0.0000006
+RotateZFunction = -1.3
+
+[Object]
+States = 3DCab\speedo.csv
+Position = -0.057,1.995,9.566
+RotateXDirection = -1, 0, 0
+RotateXFunction = -3.75 + abs[speedometer] * 0.156
+RotateYFunction = -0.8
+RotateZFunction = -1.7
+
+[Object]
+States = P4_1\empty.csv, 3Dcab\panelLight\dir.csv
+Position = 0,0.1,-0.1
+StateFunction= if[pluginstate[102] == 1, Mod[value + pluginstate[102], 2] ,0]
+RefreshRate = 0.54
+
+[Object]
+States = P4_1\empty.csv, 3Dcab\panelLight\dir.csv
+Position = 0,0.1,-0.1
+StateFunction= if[pluginstate[103] == 1, Mod[value + pluginstate[103], 2] ,0]
+RefreshRate = 0.54
+
+[Object]
+States = P4_1\empty.csv, 3DCab\panelLight\brake\b.csv
+Position = 0,-0.003,-0.001
+StateFunction= if[straightAirPipe > 0, 1, 0]
+
+[Object]
+States = P4_1\empty.csv, 3DCab\panelLight\brake\b1.csv
+Position = 0,-0.003,-0.001
+StateFunction= if[straightAirPipe[0] > 0, 1, max[value + 0.5*delta/0.2, 0]]
+
+[Object]
+States = P4_1\empty.csv, 3DCab\panelLight\brake\b2.csv
+Position = 0,-0.003,-0.001
+StateFunction= if[straightAirPipe[1] > 0, min[value + 0.5*delta/0.1, 1], max[value -0.5*delta/0.2, 0]]
+
+; if[straightAirPipe[car] > 0, min[value + 0.5*delta/DelayTimeInSecond, 1], max[value -0.5*delta/DelayTimeInSecond, 0]]
