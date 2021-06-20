@@ -1,15 +1,15 @@
-# 輕鐵第四期列車 Light Rail Phase IV for OpenBVE  
+# 輕鐵第四期列車 Light Rail Phase IV for OpenBVE & Hmmsim 
 ## 作品詳情:  
-**作品性質**: OpenBVE 列車  
-**目前版本**: v2  
+**作品性質**: OpenBVE / Hmmsim 列車  
+**目前版本**: v2 (Hmmsim只提供v1)  
 **列車編碼**: UTF-8  
 **建議OpenBVE版本**: v1.7.1.4 以上  
 
-## 作品功能:  
+## 作品功能 (v2):  
 ![5bb6db2c-37ae-4911-abf9-c807840e370d](https://user-images.githubusercontent.com/40461728/122639003-1371f880-d12a-11eb-82cd-0f3b97095710.png)
 Enter: 鳴笛  
 Shift+Enter 或 Numpad + 鍵: 廣播 (請緊握扶手)  
-F6: 開啟第一對門  
+F6: 只開啟列車之第一對門  
 
 ## 注意事項:  
 **1.** 如任何人士打算修改/轉換作品中任何內容並公開，必須注明原作者為HKTSS。  
