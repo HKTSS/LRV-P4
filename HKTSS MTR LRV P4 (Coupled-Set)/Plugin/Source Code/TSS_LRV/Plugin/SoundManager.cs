@@ -18,7 +18,7 @@ namespace Plugin {
                     SoundHandles[i].IsLooped = new bool[numIndices];
                     SoundHandles[i].LastVolume = new double[numIndices];
                     SoundHandles[i].LastPitch = new double[numIndices];
-                    ++i;
+                    i++;
                 }
                 PlaySound = playSound;
                 PlayCarSound = playCarSound;
@@ -58,7 +58,7 @@ namespace Plugin {
 	            SoundHandles[0].LastPitch[soundIndex] = pitch;
             }
 
-            internal static void PlayCarriage(int soundIndex, double volume, double pitch, bool loop, int carIndex) {
+            internal static void PlayCar(int soundIndex, double volume, double pitch, bool loop, int carIndex) {
                 if (carIndex > Plugin.totalCar - 1) return;
                 volume = volume < 0.0 ? 0.0 : volume;
                 pitch = pitch < 0.0 ? 0.0 : pitch;

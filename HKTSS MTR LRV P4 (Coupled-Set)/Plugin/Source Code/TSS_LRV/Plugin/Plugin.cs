@@ -234,8 +234,8 @@ namespace Plugin {
                         if (SoundManager.IsPlaying(SoundIndices.MTRBeep)) {
                             SoundManager.Stop(SoundIndices.MTRBeep);
                         } else {
-                            SoundManager.PlayCarriage(SoundIndices.MTRBeep, 2.0, 1.0, false, 0);
-                            if (totalCar == 2) SoundManager.PlayCarriage(SoundIndices.MTRBeep, 2.0, 1.0, false, 1);
+                            SoundManager.PlayCar(SoundIndices.MTRBeep, 2.0, 1.0, false, 0);
+                            if (totalCar == 2) SoundManager.PlayCar(SoundIndices.MTRBeep, 2.0, 1.0, false, 1);
                         }
                     }
                     break;
