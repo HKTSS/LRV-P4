@@ -22,8 +22,8 @@ AddFace2,0,1,2,3,
 SetEmissiveColor,255,255,255
 LoadTexture,Routemap.png,
 SetTextureCoordinates,0,0,0.65,
-SetTextureCoordinates,1,0,0.40,
-SetTextureCoordinates,2,1,0.40,
+SetTextureCoordinates,1,0,0.42,
+SetTextureCoordinates,2,1,0.42,
 SetTextureCoordinates,3,1,0.65,
 SetDecalTransparentColor,0,0,255,
 translate,-0.05,0.05,0.2
@@ -36,10 +36,10 @@ AddVertex,1.129, 3.085, 6.17
 AddFace2,0,1,2,3,
 SetEmissiveColor,255,255,255
 LoadTexture,Routemap.png,
-SetTextureCoordinates,0,0,0.40,
-SetTextureCoordinates,1,0,0.17,
-SetTextureCoordinates,2,1,0.17,
-SetTextureCoordinates,3,1,0.40,
+SetTextureCoordinates,0,0,0.42,
+SetTextureCoordinates,1,0,0.22,
+SetTextureCoordinates,2,1,0.22,
+SetTextureCoordinates,3,1,0.42,
 SetDecalTransparentColor,0,0,255,
 translate,-0.06,0.05,0.2
 
@@ -51,10 +51,10 @@ AddVertex,1.095, 3.145, 6.17
 AddFace2,0,1,2,3,
 SetEmissiveColor,255,255,255
 LoadTexture,Routemap.png,
-SetTextureCoordinates,0,0,0.17,
+SetTextureCoordinates,0,0,0.22,
 SetTextureCoordinates,1,0,0,
 SetTextureCoordinates,2,1,0,
-SetTextureCoordinates,3,1,0.17,
+SetTextureCoordinates,3,1,0.22,
 SetDecalTransparentColor,0,0,255,
 translate,-0.063,0.05,0.2
 
