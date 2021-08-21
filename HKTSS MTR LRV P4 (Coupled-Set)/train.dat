@@ -10,7 +10,7 @@
 5,5.3,62,62,14.209861
 5.8,6.2,80,80,17.809861
 #PERFORMANCE
-5.40           ; Deceleration
+6.20           ; Deceleration
 0.35           ; CoefficientOfStaticFriction
 0              ; Reserved (not used)
 0.0025         ; CoefficientOfRollingResistance
@@ -30,7 +30,7 @@
 #BRAKE
 1              ; BrakeType
 1              ; BrakeControlSystem
-2              ; BrakeControlSpeed
+1              ; BrakeControlSpeed
 #PRESSURE
 1800           ; BrakeCylinderServiceMaximumPressure
 2200           ; BrakeCylinderEmergencyMaximumPressure
