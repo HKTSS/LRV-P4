@@ -32,8 +32,8 @@
 1              ; BrakeControlSystem
 1              ; BrakeControlSpeed
 #PRESSURE
-1800           ; BrakeCylinderServiceMaximumPressure
-2200           ; BrakeCylinderEmergencyMaximumPressure
+2000           ; BrakeCylinderServiceMaximumPressure
+2400           ; BrakeCylinderEmergencyMaximumPressure
 3000           ; MainReservoirMinimumPressure
 3300           ; MainReservoirMaximumPressure
 3200           ; BrakePipeNormalPressure

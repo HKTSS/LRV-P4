@@ -1,0 +1,164 @@
+;;Actual Reporter;;
+CreateMeshBuilder,
+AddVertex, 0.35, 3.14, 1.889,
+AddVertex, 0.35, 3.25, 1.889,
+AddVertex, -0.4, 3.25, 1.889,
+AddVertex, -0.4, 3.14, 1.889,
+AddFace,0,1,2,3
+SetEmissiveColor,255,255,255
+LoadTexture,reporter.png,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0
+SetTextureCoordinates,3,1,1,
+SetDecalTransparentColor,0,0,255
+
+
+;;3D;;
+CreateMeshBuilder,
+AddVertex, 0.33, 3.14, 1.87, 0,1,0
+AddVertex, 0.33, 3.14, 1.889, 0,1,0
+AddVertex, -0.38, 3.14, 1.889, 0,1,0
+AddVertex, -0.38, 3.14, 1.87, 0,1,0
+AddFace,0,1,2,3
+SetEmissiveColor,255,255,255
+SetColor,150,150,150
+LoadTexture,reporter.png,
+SetTextureCoordinates,0,0.1,0.1,
+SetTextureCoordinates,1,0.1,0,
+SetTextureCoordinates,2,0.2,0
+SetTextureCoordinates,3,0.2,0.1,
+SetDecalTransparentColor,0,0,255
+
+;;Right 3D;;
+CreateMeshBuilder,
+AddVertex, -0.38, 3.14, 1.87, 0,1,0
+AddVertex, -0.38, 3.14, 1.889, 0,1,0
+AddVertex, -0.395, 3.15, 1.889, 0,1,0
+AddVertex, -0.395, 3.15, 1.87, 0,1,0
+AddVertex, -0.395, 3.15, 1.87, 0,1,0
+AddVertex, -0.395, 3.15, 1.889, 0,1,0
+AddVertex, -0.40, 3.16, 1.889, 0,1,0
+AddVertex, -0.40, 3.16, 1.87, 0,1,0
+AddFace,0,1,2,3
+AddFace,4,5,6,7
+SetEmissiveColor,255,255,255
+SetColor,150,150,150
+LoadTexture,reporter.png,
+SetTextureCoordinates,0,0.1,0.1,
+SetTextureCoordinates,1,0.1,0,
+SetTextureCoordinates,2,0.2,0
+SetTextureCoordinates,3,0.2,0.1,
+SetTextureCoordinates,4,0.1,0.1,
+SetTextureCoordinates,5,0.1,0,
+SetTextureCoordinates,6,0.2,0
+SetTextureCoordinates,7,0.2,0.1,
+SetDecalTransparentColor,0,0,255
+
+
+CreateMeshBuilder,
+AddVertex, -0.40, 3.23, 1.87, 0,1,0
+AddVertex, -0.40, 3.23, 1.889, 0,1,0
+AddVertex, -0.395, 3.24, 1.889, 0,1,0
+AddVertex, -0.395, 3.24, 1.87, 0,1,0
+AddVertex, -0.395, 3.24, 1.87, 0,1,0
+AddVertex, -0.395, 3.24, 1.889, 0,1,0
+AddVertex, -0.38, 3.25, 1.889, 0,1,0
+AddVertex, -0.38, 3.25, 1.87, 0,1,0
+AddFace,0,1,2,3
+AddFace,4,5,6,7
+SetEmissiveColor,255,255,255
+SetColor,150,150,150
+LoadTexture,reporter.png,
+SetTextureCoordinates,0,0.1,0.1,
+SetTextureCoordinates,1,0.1,0,
+SetTextureCoordinates,2,0.2,0
+SetTextureCoordinates,3,0.2,0.1,
+SetTextureCoordinates,4,0.1,0.1,
+SetTextureCoordinates,5,0.1,0,
+SetTextureCoordinates,6,0.2,0
+SetTextureCoordinates,7,0.2,0.1,
+SetDecalTransparentColor,0,0,255
+
+;;Middle vertical;;
+CreateMeshBuilder,
+AddVertex, -0.40, 3.16, 1.87, 0,1,0
+AddVertex, -0.40, 3.16, 1.889, 0,1,0
+AddVertex, -0.40, 3.23, 1.889, 0,1,0
+AddVertex, -0.40, 3.23, 1.87, 0,1,0
+AddVertex, 0.35, 3.16, 1.87, 0,1,0
+AddVertex, 0.35, 3.16, 1.889, 0,1,0
+AddVertex, 0.35, 3.23, 1.889, 0,1,0
+AddVertex, 0.35, 3.23, 1.87, 0,1,0
+AddFace,0,1,2,3
+AddFace,7,6,5,4
+SetEmissiveColor,255,255,255
+SetColor,150,150,150
+LoadTexture,reporter.png,
+SetTextureCoordinates,0,0.1,0.1,
+SetTextureCoordinates,1,0.1,0,
+SetTextureCoordinates,2,0.2,0
+SetTextureCoordinates,3,0.2,0.1,
+SetTextureCoordinates,4,0.1,0.1,
+SetTextureCoordinates,5,0.1,0,
+SetTextureCoordinates,6,0.2,0
+SetTextureCoordinates,7,0.2,0.1,
+SetDecalTransparentColor,0,0,255
+
+;;Left 3D;;
+CreateMeshBuilder,
+AddVertex, 0.345, 3.15, 1.87, 0,1,0
+AddVertex, 0.345, 3.15, 1.889, 0,1,0
+AddVertex, 0.33, 3.14, 1.889, 0,1,0
+AddVertex, 0.33, 3.14, 1.87, 0,1,0
+AddVertex, 0.35, 3.16, 1.87, 0,1,0
+AddVertex, 0.35, 3.16, 1.889, 0,1,0
+AddVertex, 0.345, 3.15, 1.889, 0,1,0
+AddVertex, 0.345, 3.15, 1.87, 0,1,0
+AddFace,0,1,2,3
+AddFace,4,5,6,7
+SetEmissiveColor,255,255,255
+SetColor,150,150,150
+LoadTexture,reporter.png,
+SetTextureCoordinates,0,0.1,0.1,
+SetTextureCoordinates,1,0.1,0,
+SetTextureCoordinates,2,0.2,0
+SetTextureCoordinates,3,0.2,0.1,
+SetTextureCoordinates,4,0.1,0.1,
+SetTextureCoordinates,5,0.1,0,
+SetTextureCoordinates,6,0.2,0
+SetTextureCoordinates,7,0.2,0.1,
+SetDecalTransparentColor,0,0,255
+
+CreateMeshBuilder,
+AddVertex, 0.35, 3.23, 1.87, 0,1,0
+AddVertex, 0.35, 3.23, 1.889, 0,1,0
+AddVertex, 0.34, 3.245, 1.889, 0,1,0
+AddVertex, 0.34, 3.245, 1.87, 0,1,0
+AddFace,3,2,1,0
+SetEmissiveColor,255,255,255
+SetColor,150,150,150
+LoadTexture,reporter.png,
+SetTextureCoordinates,0,0.1,0.1,
+SetTextureCoordinates,1,0.1,0,
+SetTextureCoordinates,2,0.2,0
+SetTextureCoordinates,3,0.2,0.1,
+SetDecalTransparentColor,0,0,255
+
+CreateMeshBuilder,
+AddVertex, 0.34, 3.245, 1.87, 0,1,0
+AddVertex, 0.34, 3.245, 1.889, 0,1,0
+AddVertex, 0.33, 3.25, 1.889, 0,1,0
+AddVertex, 0.33, 3.25, 1.87, 0,1,0
+AddFace,3,2,1,0
+SetEmissiveColor,255,255,255
+SetColor,150,150,150
+LoadTexture,reporter.png,
+SetTextureCoordinates,0,0.1,0.1,
+SetTextureCoordinates,1,0.1,0,
+SetTextureCoordinates,2,0.2,0
+SetTextureCoordinates,3,0.2,0.1,
+SetDecalTransparentColor,0,0,255
+
+RotateAll,0,1,0,180
+TranslateAll,0,0,10

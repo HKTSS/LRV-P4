@@ -1,0 +1,74 @@
+;;NOTE: SetBlendMode is used here to give the illusion of a glass, where it would be harder to see through the glass if you're far, and easier to see through if you're close.
+;;The glass just kinda fades out when you get close
+
+CreateMeshBuilder
+AddVertex,-1.327,0.900,6.500
+AddVertex,-1.327,3.100,6.500
+AddVertex,-1.327,3.100,8.020
+AddVertex,-1.327,0.900,8.020
+AddFace,3,2,1,0
+SetColor,60,35,10,160
+SetBlendMode, Normal, 2, DivideExponent4
+
+CreateMeshBuilder
+AddVertex,-1.327,0.900,1.100
+AddVertex,-1.327,3.100,1.100
+AddVertex,-1.327,3.100,4.350
+AddVertex,-1.327,0.900,4.350
+AddFace,3,2,1,0
+SetColor,60,35,10,160
+SetBlendMode, Normal, 2, DivideExponent4
+
+CreateMeshBuilder
+AddVertex,-1.327,0.900,-4.450
+AddVertex,-1.327,3.100,-4.450
+AddVertex,-1.327,3.100,-1.200
+AddVertex,-1.327,0.900,-1.200
+AddFace,3,2,1,0
+SetColor,60,35,10,160
+SetBlendMode, Normal, 2, DivideExponent4
+
+CreateMeshBuilder
+AddVertex,-1.327,0.900,-8.350
+AddVertex,-1.327,3.100,-8.350
+AddVertex,-1.327,3.100,-6.550
+AddVertex,-1.327,0.900,-6.550
+AddFace,3,2,1,0
+SetColor,60,35,10,160
+SetBlendMode, Normal, 2, DivideExponent4
+
+CreateMeshBuilder
+AddVertex,-0.350,2.000,-10.350
+AddVertex,-0.350,2.800,-10.325
+AddVertex,0.350,2.800,-10.325
+AddVertex,0.350,2.000,-10.350
+AddFace,0,1,2,3
+SetColor,60,35,10,160
+SetBlendMode, Normal, 2, DivideExponent4
+
+CreateMeshBuilder
+AddVertex,1.320,1.700,-8.300
+AddVertex,1.320,2.850,-8.300
+AddVertex,1.320,2.850,8.130
+AddVertex,1.320,1.700,8.130
+AddFace,0,1,2,3
+SetColor,60,35,10,160
+SetBlendMode, Normal, 2, DivideExponent4
+
+CreateMeshBuilder
+AddVertex,1.250,1.800,-8.700
+AddVertex,1.250,2.900,-8.700
+AddVertex,0.880,2.900,-10.000
+AddVertex,0.880,1.800,-10.000
+AddFace,3,2,1,0
+SetColor,60,35,10,160
+SetBlendMode, Normal, 2, DivideExponent4
+
+CreateMeshBuilder
+AddVertex,-1.230,1.750,-8.800
+AddVertex,-1.230,2.900,-8.800
+AddVertex,-0.890,2.900,-10.000
+AddVertex,-0.890,1.750,-10.000
+AddFace,0,1,2,3
+SetColor,60,35,10,160
+SetBlendMode, Normal, 2, DivideExponent4

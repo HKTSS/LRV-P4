@@ -80,14 +80,13 @@ namespace Plugin {
 
         /// <summary>This is called every frame. If you have 60fps, then this method is called 60 times in 1 second</summary>
         public void Elapse(ElapseData data) {
-
             /* Update data for StationManager. */
             StationManager.Update(data);
             /* Get system language, used for displaying train settings dialog later. */
+            /* NOTE: I am not sure why this is in the Elapse method in the first place, as you can't really change language without rebooting. */
             language = data.CurrentLanguageCode;
             cameraMode = data.CameraViewMode;
 
-            /* Lock the door above 2 km/h */
             if (data.Vehicle.Speed.KilometersPerHour > 2 && doorlockEnabled) {
                 data.DoorInterlockState = DoorInterlockStates.Locked;
             } else {
@@ -100,7 +99,12 @@ namespace Plugin {
                 Panel[PanelIndices.iSPSOverSpeed] = 0;
             }
 
-            if ((doorBrake && doorApplyBrake) || (iSPSDoorLock && iSPSEnabled)) {
+            if (doorBrake && doorApplyBrake) {
+                data.Handles.PowerNotch = 0;
+                data.Handles.BrakeNotch = B67Notch;
+            }
+
+            if (iSPSDoorLock && iSPSEnabled) {
                 data.Handles.PowerNotch = 0;
                 data.Handles.BrakeNotch = B67Notch;
             }
@@ -119,11 +123,10 @@ namespace Plugin {
                 Panel[PanelIndices.DirLeft] = 0;
             }
 
-            /* Clamp the power notch to P1 on slow mode. */
             if (currentSpeedMode == SpeedMode.Slow && data.Handles.PowerNotch > 1) {
                 data.Handles.PowerNotch = 1;
             } else if (currentSpeedMode != SpeedMode.Fast && data.Handles.PowerNotch == powerNotches) {
-                /* We reserve the last notch for the fast (aka "Elephant") mode. If the current speed mode is not fast and current power notch is the last notch: Clamp it to last notch - 1 */
+                /* We reserve the last notch for the fast (aka "Elephant") mode. If the current speedmode is not fast and current power notch is the last notch: Clamp it to last notch - 1 */
                 data.Handles.PowerNotch = powerNotches - 1;
             }
 
@@ -234,8 +237,8 @@ namespace Plugin {
                         if (SoundManager.IsPlaying(SoundIndices.MTRBeep)) {
                             SoundManager.Stop(SoundIndices.MTRBeep);
                         } else {
-                            SoundManager.PlayCar(SoundIndices.MTRBeep, 2.0, 1.0, false, 0);
-                            if (totalCar == 2) SoundManager.PlayCar(SoundIndices.MTRBeep, 2.0, 1.0, false, 1);
+                            SoundManager.PlayCarriage(SoundIndices.MTRBeep, 2.0, 1.0, false, 0);
+                            if (totalCar == 2) SoundManager.PlayCarriage(SoundIndices.MTRBeep, 2.0, 1.0, false, 1);
                         }
                     }
                     break;
@@ -287,14 +290,13 @@ namespace Plugin {
                         }
                     break;
                 case 106:
-	                if (StationManager.AIEnabled) {
-		                if (beacon.Optional == 1 && directionLight != DirLight.Right) {
-			                KeyDown(VirtualKeys.E);
-		                } else if (directionLight != DirLight.None) {
-			                KeyDown(VirtualKeys.E);
-		                }
-	                }
-	                break;
+                    if (StationManager.AIEnabled)
+                        if (beacon.Optional == 1) {
+                            if (directionLight != DirLight.Right) KeyDown(VirtualKeys.E);
+                        } else {
+                            if (directionLight != DirLight.None) KeyDown(VirtualKeys.E);
+                        }
+                    break;
             }
         }
 
@@ -321,7 +323,6 @@ namespace Plugin {
                     Panel[PanelIndices.DirBoth] = 0;
                 } else {
                     if (directionLight == DirLight.Left || directionLight == DirLight.Right) {
-                        /* Hardcoded translation, I am too lazy. */
                         if (language.StartsWith("zh")) {
                             MessageManager.PrintMessage("開啟死火燈前, 請先關閉指揮燈", MessageColor.Orange, 6.0);
                         } else {

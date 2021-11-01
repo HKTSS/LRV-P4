@@ -254,7 +254,7 @@ AddVertex, 0.43, 0.95, 0.3, 0,1,0
 AddVertex, 0.43, 0.95, 1.87, 0,1,0
 AddFace,3, 2, 1, 0
 SetColor,120,120,120
-LoadTexture,..\P4_1\ground2.png,
+LoadTexture,..\P4_1\Interior\ground2.png,
 SetTextureCoordinates,0,0.1,7,
 SetTextureCoordinates,1,0.5,0,
 SetTextureCoordinates,2,1,0
