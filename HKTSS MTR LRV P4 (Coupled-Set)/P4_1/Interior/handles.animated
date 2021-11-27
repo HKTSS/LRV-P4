@@ -1,0 +1,330 @@
+[Object]
+States = Handles.csv, NoLight\handles.csv
+Position = -0.235,2.95,7.9
+RotateXFunction=acceleration[0]/10
+RotateXDamping = 5, 0.3
+
+[Object]
+States = Handles.csv, NoLight\handles.csv
+Position = -0.27,2.95,7.2
+Statefunction = pluginState[99]
+RotateXFunction=acceleration[0]/10
+RotateXDamping = 5, 0.3
+
+[Object]
+States = Handles.csv, NoLight\handles.csv
+Position = -0.275,2.95,6.75
+Statefunction = pluginState[99]
+RotateXFunction=acceleration[0]/10
+RotateXDamping = 5, 0.3
+
+[Object]
+States = Handles.csv, NoLight\handles.csv
+Statefunction = pluginState[99]
+Position = -0.275,2.95,6.3
+RotateXDamping = 5, 0.3
+RotateXFunction=acceleration[0]/10
+
+[Object]
+States = Handles.csv, NoLight\handles.csv
+Position = -0.19,2.95,5.55
+Statefunction = pluginState[99]
+RotateXDamping = 5, 0.3
+RotateXFunction=acceleration[0]/10
+
+[Object]
+States = Handles.csv, NoLight\handles.csv
+Position = -0.235,2.95,5.2
+Statefunction = pluginState[99]
+RotateXDamping = 5, 0.3
+RotateXFunction=acceleration[0]/10
+
+[Object]
+States = Handles.csv, NoLight\handles.csv
+Position = -0.21,2.95,4.9
+Statefunction = pluginState[99]
+RotateXFunction=acceleration[0]/10
+RotateXDamping = 5, 0.3
+RotateXFunction=acceleration[0]/10
+
+[Object]
+States = Handles.csv, NoLight\handles.csv
+Position = -0.18,2.95,4.6
+Statefunction = pluginState[99]
+RotateXFunction=acceleration[0]/10
+RotateXDamping = 5, 0.3
+RotateXFunction=acceleration[0]/10
+
+[Object]
+States = Handles.csv, NoLight\handles.csv
+Position = -0.11,2.95,4.1
+Statefunction = pluginState[99]
+RotateXFunction=acceleration[0]/10
+RotateXDamping = 5, 0.3
+RotateXFunction=acceleration[0]/10
+
+[Object]
+States = Handles.csv, NoLight\handles.csv
+Position = -0.1,2.95,3.7
+Statefunction = pluginState[99]
+RotateXFunction=acceleration[0]/10
+RotateXDamping = 5, 0.3
+
+[Object]
+States = Handles.csv, NoLight\handles.csv
+Position = -0.085,2.95,3.35
+Statefunction = pluginState[99]
+RotateXFunction=acceleration[0]/10
+RotateXDamping = 5, 0.3
+
+[Object]
+States = Handles.csv, NoLight\handles.csv
+Position = -0.085,2.95,2.9
+Statefunction = pluginState[99]
+RotateXFunction=acceleration[0]/10
+RotateXDamping = 5, 0.3
+
+[Object]
+States = Handles.csv, NoLight\handles.csv
+Position = -0.09,2.95,2.2
+Statefunction = pluginState[99]
+RotateXFunction=acceleration[0]/10
+RotateXDamping = 5, 0.3
+
+[Object]
+States = Handles.csv, NoLight\handles.csv
+Position = -0.09,2.95,1.8
+Statefunction = pluginState[99]
+RotateXFunction=acceleration[0]/10
+RotateXDamping = 5, 0.3
+
+[Object]
+States = Handles.csv, NoLight\handles.csv
+Position = -0.12,2.95,1.5
+Statefunction = pluginState[99]
+RotateXFunction=acceleration[0]/10
+RotateXDamping = 5, 0.3
+
+[Object]
+States = Handles.csv, NoLight\handles.csv
+Position = -0.165,2.95,1.2
+Statefunction = pluginState[99]
+RotateXFunction=acceleration[0]/10
+RotateXDamping = 5, 0.3
+
+[Object]
+States = Handles.csv, NoLight\handles.csv
+Position = -0.215,2.95,0.9
+Statefunction = pluginState[99]
+RotateXFunction=acceleration[0]/10
+RotateXDamping = 5, 0.3
+
+[Object]
+States = Handles.csv, NoLight\handles.csv
+Position = -0.26,2.95,0.6
+Statefunction = pluginState[99]
+RotateXFunction=acceleration[0]/10
+RotateXDamping = 5, 0.3
+
+[Object]
+States = Handles.csv, NoLight\handles.csv
+Position = -0.275,2.95,0.3
+Statefunction = pluginState[99]
+RotateXFunction=acceleration[0]/10
+RotateXDamping = 5, 0.3
+
+[Object]
+States = Handles.csv, NoLight\handles.csv
+Position = -0.275,2.95,-0
+Statefunction = pluginState[99]
+RotateXFunction=acceleration[0]/10
+RotateXDamping = 5, 0.3
+
+[Object]
+States = Handles.csv, NoLight\handles.csv
+Position = -0.275,2.95,-0.3
+Statefunction = pluginState[99]
+RotateXFunction=acceleration[0]/10
+RotateXDamping = 5, 0.3
+
+[Object]
+States = Handles.csv, NoLight\handles.csv
+Position = -0.264,2.95,-0.55
+Statefunction = pluginState[99]
+RotateXFunction=acceleration[0]/10
+RotateXDamping = 5, 0.3
+
+[Object]
+States = Handles.csv, NoLight\handles.csv
+Position = -0.245,2.95,-0.75
+Statefunction = pluginState[99]
+RotateXFunction=acceleration[0]/10
+RotateXDamping = 5, 0.3
+
+[Object]
+States = Handles.csv, NoLight\handles.csv
+Position = -0.21,2.95,-0.95
+Statefunction = pluginState[99]
+RotateXFunction=acceleration[0]/10
+RotateXDamping = 5, 0.3
+
+[Object]
+States = Handles.csv, NoLight\handles.csv
+Position = -0.13,2.95,-1.3
+Statefunction = pluginState[99]
+RotateXFunction=acceleration[0]/10
+RotateXDamping = 5, 0.3
+
+[Object]
+States = Handles.csv, NoLight\handles.csv
+Position = -0.105,2.95,-1.7
+Statefunction = pluginState[99]
+RotateXFunction=acceleration[0]/10
+RotateXDamping = 5, 0.3
+
+[Object]
+States = Handles.csv, NoLight\handles.csv
+Position = -0.093,2.95,-2.1
+Statefunction = pluginState[99]
+RotateXFunction=acceleration[0]/10
+RotateXDamping = 5, 0.3
+
+[Object]
+States = Handles.csv, NoLight\handles.csv
+Position = -0.088,2.95,-2.4
+Statefunction = pluginState[99]
+RotateXFunction=acceleration[0]/10
+RotateXDamping = 5, 0.3
+
+[Object]
+States = Handles.csv, NoLight\handles.csv
+Position = -0.088,2.95,-3
+Statefunction = pluginState[99]
+RotateXFunction=acceleration[0]/10
+RotateXDamping = 5, 0.3
+
+[Object]
+States = Handles.csv, NoLight\handles.csv
+Position = -0.092,2.95,-3.45
+Statefunction = pluginState[99]
+RotateXFunction=acceleration[0]/10
+RotateXDamping = 5, 0.3
+
+[Object]
+States = Handles.csv, NoLight\handles.csv
+Position = -0.11,2.95,-3.85
+Statefunction = pluginState[99]
+RotateXFunction=acceleration[0]/10
+RotateXDamping = 5, 0.3
+
+[Object]
+States = Handles.csv, NoLight\handles.csv
+Position = -0.14,2.95,-4.2
+Statefunction = pluginState[99]
+RotateXFunction=acceleration[0]/10
+RotateXDamping = 5, 0.3
+
+[Object]
+States = Handles.csv, NoLight\handles.csv
+Position = -0.24,2.95,-4.6
+Statefunction = pluginState[99]
+RotateXFunction=acceleration[0]/10
+RotateXDamping = 5, 0.3
+
+[Object]
+States = Handles.csv, NoLight\handles.csv
+Position = -0.263,2.95,-4.9
+Statefunction = pluginState[99]
+RotateXFunction=acceleration[0]/10
+RotateXDamping = 5, 0.3
+
+[Object]
+States = Handles.csv, NoLight\handles.csv
+Position = -0.275,2.95,-5.2
+Statefunction = pluginState[99]
+RotateXFunction=acceleration[0]/10
+RotateXDamping = 5, 0.3
+
+[Object]
+States = Handles.csv, NoLight\handles.csv
+Position = -0.277,2.95,-5.45
+Statefunction = pluginState[99]
+RotateXFunction=acceleration[0]/10
+RotateXDamping = 5, 0.3
+
+[Object]
+States = Handles.csv, NoLight\handles.csv
+Position = -0.275,2.95,-5.7
+Statefunction = pluginState[99]
+RotateXFunction=acceleration[0]/10
+RotateXDamping = 5, 0.3
+
+[Object]
+States = Handles.csv, NoLight\handles.csv
+Position = -0.265,2.95,-5.95
+Statefunction = pluginState[99]
+RotateXFunction=acceleration[0]/10
+RotateXDamping = 5, 0.3
+
+[Object]
+States = Handles.csv, NoLight\handles.csv
+Position = -0.23,2.95,-6.25
+Statefunction = pluginState[99]
+RotateXFunction=acceleration[0]/10
+RotateXDamping = 5, 0.3
+
+[Object]
+States = Handles.csv, NoLight\handles.csv
+Position = -0.12,2.95,-6.8
+Statefunction = pluginState[99]
+RotateXFunction=acceleration[0]/10
+RotateXDamping = 5, 0.3
+
+[Object]
+States = Handles.csv, NoLight\handles.csv
+Position = -0.095,2.95,-7.2
+Statefunction = pluginState[99]
+RotateXFunction=acceleration[0]/10
+RotateXDamping = 5, 0.3
+
+[Object]
+States = Handles.csv, NoLight\handles.csv
+Position = -0.085,2.95,-7.55
+Statefunction = pluginState[99]
+RotateXFunction=acceleration[0]/10
+RotateXDamping = 5, 0.3
+
+[Object]
+States = Handles.csv, NoLight\handles.csv
+Position = -0.085,2.95,-7.8
+Statefunction = pluginState[99]
+RotateXFunction=acceleration[0]/10
+RotateXDamping = 5, 0.3
+
+[Object]
+States = Handles.csv, NoLight\handles.csv
+Position = -0.087,2.95,-8.2
+Statefunction = pluginState[99]
+RotateXFunction=acceleration[0]/10
+RotateXDamping = 5, 0.3
+
+[Object]
+States = Handles.csv, NoLight\handles.csv
+Position = -0.1,2.95,-8.5
+Statefunction = pluginState[99]
+RotateXFunction=acceleration[0]/10
+RotateXDamping = 5, 0.3
+
+[Object]
+States = Handles.csv, NoLight\handles.csv
+Position = -0.115,2.95,-8.75
+Statefunction = pluginState[99]
+RotateXFunction=acceleration[0]/10
+RotateXDamping = 5, 0.3
+
+[Object]
+States = Handles.csv, NoLight\handles.csv
+Position = -0.15,2.95,-9
+Statefunction = pluginState[99]
+RotateXFunction=acceleration[0]/10
+RotateXDamping = 5, 0.3

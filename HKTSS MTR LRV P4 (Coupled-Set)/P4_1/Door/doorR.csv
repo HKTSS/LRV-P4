@@ -17,10 +17,10 @@ SetColor,155,155,155
 translate,0,-0.03,0
 
 CreateMeshBuilder,
-AddVertex,-1.35, 1.707, -0.045, 0,1,0
+AddVertex,-1.35, 1.707, -0.025, 0,1,0
 AddVertex,-1.35, 1.71, -0.17, 0,1,0
 AddVertex, -1.33, 1.71, -0.17, 0,1,0
-AddVertex, -1.33, 1.707, -0.045, 0,1,0
+AddVertex, -1.33, 1.707, -0.025, 0,1,0
 AddFace2,0, 1, 2, 3,
 SetColor,155,155,155
 translate,0,-0.03,0
@@ -34,10 +34,10 @@ AddFace2,0, 1, 2, 3,
 SetColor,155,155,155
 
 CreateMeshBuilder,
-AddVertex,-1.35, 1.677, -0.045, 0,1,0
-AddVertex,-1.35, 2.9, -0.045, 0,1,0
-AddVertex, -1.33, 2.9, -0.045, 0,1,0
-AddVertex, -1.33, 1.677, -0.045, 0,1,0
+AddVertex,-1.35, 1.677, -0.025, 0,1,0
+AddVertex,-1.35, 2.9, -0.025, 0,1,0
+AddVertex, -1.33, 2.9, -0.025, 0,1,0
+AddVertex, -1.33, 1.677, -0.025, 0,1,0
 AddFace2,0, 1, 2, 3,
 SetColor,155,155,155
 
@@ -126,7 +126,7 @@ AddVertex,1.302, 2.9, 2.3,
 AddVertex,1.302, 2.9, 3
 AddVertex,1.302, 0.9, 3
 AddFace,3,2,1,0
-SetColor,60,35,10,180
+SetColor,50,25,0,170
 translate,-2.65,0,-3
 
 ;;Interior Glass;;

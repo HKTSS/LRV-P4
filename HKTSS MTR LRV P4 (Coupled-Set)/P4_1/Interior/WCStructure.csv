@@ -303,7 +303,7 @@ SetTextureCoordinates,9,1,0.4
 SetTextureCoordinates,10,0,0.28
 SetTextureCoordinates,11,1,0.28
 Rotate,0,0,1,19
-Translate,0.58,0.95,0.738
+Translate,0.58,0.95,0.98
 
 CreateMeshBuilder,
 Cylinder,6,0.02,0.02,0.15
@@ -322,7 +322,7 @@ SetTextureCoordinates,9,1,0.4
 SetTextureCoordinates,10,0,0.28
 SetTextureCoordinates,11,1,0.28
 Rotate,0,0,1,17
-Translate,0.54,1.075,0.738
+Translate,0.54,1.075,0.98
 
 CreateMeshBuilder,
 Cylinder,6,0.02,0.02,0.2
@@ -341,7 +341,7 @@ SetTextureCoordinates,9,1,0.4
 SetTextureCoordinates,10,0,0.28
 SetTextureCoordinates,11,1,0.28
 Rotate,0,0,1,14
-Translate,0.495,1.24,0.738
+Translate,0.495,1.24,0.98
 
 CreateMeshBuilder,
 Cylinder,6,0.02,0.02,0.2
@@ -360,7 +360,7 @@ SetTextureCoordinates,9,1,0.4
 SetTextureCoordinates,10,0,0.28
 SetTextureCoordinates,11,1,0.28
 Rotate,0,0,1,11
-Translate,0.453,1.43,0.738
+Translate,0.453,1.43,0.98
 
 CreateMeshBuilder,
 Cylinder,6,0.02,0.02,0.2
@@ -379,7 +379,7 @@ SetTextureCoordinates,9,1,0.4
 SetTextureCoordinates,10,0,0.28
 SetTextureCoordinates,11,1,0.28
 Rotate,0,0,1,11
-Translate,0.453,1.43,0.738
+Translate,0.453,1.43,0.98
 
 CreateMeshBuilder,
 Cylinder,6,0.02,0.02,0.2
@@ -398,7 +398,7 @@ SetTextureCoordinates,9,1,0.4
 SetTextureCoordinates,10,0,0.28
 SetTextureCoordinates,11,1,0.28
 Rotate,0,0,1,8
-Translate,0.421,1.62,0.738
+Translate,0.421,1.62,0.98
 
 CreateMeshBuilder,
 Cylinder,6,0.02,0.02,0.19
@@ -417,7 +417,7 @@ SetTextureCoordinates,9,1,0.4
 SetTextureCoordinates,10,0,0.28
 SetTextureCoordinates,11,1,0.28
 Rotate,0,0,1,5
-Translate,0.400,1.805,0.738
+Translate,0.400,1.805,0.98
 
 CreateMeshBuilder,
 Cylinder,6,0.02,0.02,0.19
@@ -436,7 +436,7 @@ SetTextureCoordinates,9,0.5,0.4
 SetTextureCoordinates,10,0.5,0.28
 SetTextureCoordinates,11,0.6,0.28
 Rotate,0,0,1,3
-Translate,0.388,1.995,0.738
+Translate,0.388,1.995,0.98
 
 CreateMeshBuilder,
 Cylinder,6,0.02,0.02,0.19
@@ -455,7 +455,7 @@ SetTextureCoordinates,9,0.5,0.4
 SetTextureCoordinates,10,0.5,0.28
 SetTextureCoordinates,11,0.6,0.28
 Rotate,0,0,1,1
-Translate,0.382,2.185,0.738
+Translate,0.382,2.185,0.98
 
 CreateMeshBuilder,
 Cylinder,6,0.02,0.02,0.19
@@ -474,7 +474,7 @@ SetTextureCoordinates,9,0.5,0.4
 SetTextureCoordinates,10,0.5,0.28
 SetTextureCoordinates,11,0.6,0.28
 Rotate,0,0,1,0
-Translate,0.380,2.374,0.738
+Translate,0.380,2.374,0.98
 
 CreateMeshBuilder,
 Cylinder,6,0.02,0.02,0.21
@@ -493,7 +493,7 @@ SetTextureCoordinates,9,0.5,0.4
 SetTextureCoordinates,10,0.5,0.28
 SetTextureCoordinates,11,0.6,0.28
 Rotate,0,0,1,-1
-Translate,0.382,2.574,0.738
+Translate,0.382,2.574,0.98
 
 CreateMeshBuilder,
 Cylinder,6,0.02,0.02,0.21
@@ -512,7 +512,7 @@ SetTextureCoordinates,9,0.5,0.4
 SetTextureCoordinates,10,0.5,0.28
 SetTextureCoordinates,11,0.6,0.28
 Rotate,0,0,1,-2
-Translate,0.388,2.782,0.738
+Translate,0.388,2.782,0.98
 
 CreateMeshBuilder,
 Cylinder,6,0.02,0.02,0.23
@@ -531,7 +531,7 @@ SetTextureCoordinates,9,0.5,0.4
 SetTextureCoordinates,10,0.5,0.28
 SetTextureCoordinates,11,0.6,0.28
 Rotate,0,0,1,-6
-Translate,0.404,3.0,0.738
+Translate,0.404,3.0,0.98
 
 CreateMeshBuilder,
 Cylinder,6,0.02,0.02,0.29
@@ -550,7 +550,7 @@ SetTextureCoordinates,9,0.5,0.4
 SetTextureCoordinates,10,0.5,0.28
 SetTextureCoordinates,11,0.6,0.28
 Rotate,0,0,1,-10
-Translate,0.44,3.25,0.738
+Translate,0.44,3.25,0.98
 
 ;;Horizontal Handrail;;
 CreateMeshBuilder,
@@ -693,7 +693,7 @@ Rotate,0,1,0,80
 Translate,1.271,1.7,2.762
 
 CreateMeshBuilder,
-Cylinder,6,0.02,0.02,1.945
+Cylinder,6,0.02,0.02,1.70
 SetEmissiveColor,255,255,255
 LoadTexture,MT2.png
 SetTextureCoordinates,0,0,0.55
@@ -710,7 +710,7 @@ SetTextureCoordinates,10,0,0.28
 SetTextureCoordinates,11,1,0.28
 Rotate,0,0,1,90
 Rotate,0,1,0,90
-Translate,1.273,1.7,1.78
+Translate,1.273,1.7,1.90
 
 CreateMeshBuilder,
 Cylinder,6,0.02,0.02,0.035
@@ -730,7 +730,7 @@ SetTextureCoordinates,10,0,0.28
 SetTextureCoordinates,11,1,0.28
 Rotate,0,0,1,90
 Rotate,0,1,0,100
-Translate,1.270,1.7,0.794
+Translate,1.270,1.7,1.04
 
 CreateMeshBuilder,
 Cylinder,6,0.02,0.02,0.041
@@ -750,7 +750,7 @@ SetTextureCoordinates,10,0,0.28
 SetTextureCoordinates,11,1,0.28
 Rotate,0,0,1,90
 Rotate,0,1,0,125
-Translate,1.258,1.7,0.7673
+Translate,1.258,1.7,1.012
 
 CreateMeshBuilder,
 Cylinder,6,0.02,0.02,0.037
@@ -770,7 +770,7 @@ SetTextureCoordinates,10,0,0.28
 SetTextureCoordinates,11,1,0.28
 Rotate,0,0,1,90
 Rotate,0,1,0,151.5
-Translate,1.236,1.7,0.747
+Translate,1.236,1.7,0.99
 
 CreateMeshBuilder,
 Cylinder,6,0.02,0.02,0.04
@@ -790,7 +790,7 @@ SetTextureCoordinates,10,0,0.28
 SetTextureCoordinates,11,1,0.28
 Rotate,0,0,1,90
 Rotate,0,1,0,175
-Translate,1.206,1.7,0.7383
+Translate,1.206,1.7,0.981
 
 CreateMeshBuilder,
 Cylinder,6,0.02,0.02,0.77
@@ -810,10 +810,11 @@ SetTextureCoordinates,10,0,0.28
 SetTextureCoordinates,11,1,0.28
 Rotate,0,0,1,90
 Rotate,0,1,0,180
-Translate,0.803,1.7,0.7369
+Translate,0.803,1.7,0.9795
 
+;;
 CreateMeshBuilder,
-Cylinder,6,0.02,0.02,2.05
+Cylinder,6,0.02,0.02,1.8
 SetEmissiveColor,255,255,255
 LoadTexture,MT2.png
 SetTextureCoordinates,0,0,0.55
@@ -830,4 +831,4 @@ SetTextureCoordinates,10,0,0.28
 SetTextureCoordinates,11,1,0.28
 Rotate,0,0,1,90
 Rotate,0,1,0,90
-Translate,0.405,3,1.77
+Translate,0.405,3,1.89

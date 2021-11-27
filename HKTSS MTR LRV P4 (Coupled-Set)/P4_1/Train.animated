@@ -1,3 +1,6 @@
+[Include]
+Interior\Handles.animated
+
 [Object]
 States = Exterior\outside.csv
 Position = 0,0,0
@@ -190,7 +193,7 @@ Statefunction = pluginState[99]
 
 [Object]
 States = Interior\WC.csv
-Position = 0.2,0.30,6.25
+Position = 0.2,0.30,6.055
 RotateXFunction = 0.05
 
 [Object]
@@ -200,7 +203,7 @@ RotateXFunction = 0.05
 
 [Object]
 States = Interior\WC.csv
-Position = 0.2,0.30,-4.6
+Position = 0.2,0.30,-5.0
 RotateXFunction = 0.05
 
 [Object]
@@ -210,12 +213,12 @@ Statefunction = pluginState[99]
 
 [Object]
 States = Interior\WCStructure.csv, Interior\NoLight\WCStructure.csv
-Position = 0,0,-7.25
+Position = 0,0,-7.65
 Statefunction = pluginState[99]
 
 [Object]
 States = Interior\WCStructure.csv, Interior\NoLight\WCStructure.csv
-Position = 0,0,3.6
+Position = 0,0,3.4
 Statefunction = pluginState[99]
 
 [Object]
@@ -379,24 +382,6 @@ States = Interior\Seats\2_R.csv, Interior\NoLight\Seats\2_R.csv
 Position = 0.58,1.1,0.5
 Statefunction = pluginState[99]
 
-[Object]
-States = Interior\Handles.csv, Interior\NoLight\handles.csv
-Position = -0.235,0.1,7.9
-RotateYFunction=0.5
-Statefunction = pluginState[99]
-
-[Object]
-States = Interior\Handles.csv, Interior\NoLight\handles.csv
-Position = -0.18,0.1,4.6
-Statefunction = pluginState[99]
-RotateYFunction=0.1
-
-[Object]
-States = Interior\Handles.csv, Interior\NoLight\handles.csv
-Position = -0.21,0.1,4.9
-Statefunction = pluginState[99]
-RotateYFunction=0.8
-
 ;;Direction Indicator;;
 ;;Front Left;;
 [Object]
@@ -440,235 +425,6 @@ Position = 0,0,0
 Statefunction = if[pluginstate[103] == 1, Mod[value + pluginstate[103], 2] ,0]
 RefreshRate = 0.55
 
-
-[Object]
-States = Interior\Handles.csv, Interior\NoLight\handles.csv
-Position = -0.235,0.1,5.2
-RotateYFunction=-0.8
-Statefunction = pluginState[99]
-
-
-[Object]
-States = Interior\Handles.csv, Interior\NoLight\handles.csv
-Position = -0.19,0.1,5.55
-Statefunction = pluginState[99]
-RotateYFunction=1.5
-
-[Object]
-States = Interior\Handles.csv, Interior\NoLight\handles.csv
-Statefunction = pluginState[99]
-Position = -0.275,0.1,6.3
-
-[Object]
-States = Interior\Handles.csv, Interior\NoLight\handles.csv
-Position = -0.275,0.1,6.75
-Statefunction = pluginState[99]
-RotateYFunction=0.2
-
-[Object]
-States = Interior\Handles.csv, Interior\NoLight\handles.csv
-Position = -0.27,0.1,7.2
-Statefunction = pluginState[99]
-
-[Object]
-States = Interior\Handles.csv, Interior\NoLight\handles.csv
-Position = -0.11,0.1,4.1
-RotateYFunction=-0.6
-Statefunction = pluginState[99]
-
-[Object]
-States = Interior\Handles.csv, Interior\NoLight\handles.csv
-Position = -0.1,0.1,3.7
-Statefunction = pluginState[99]
-
-[Object]
-States = Interior\Handles.csv, Interior\NoLight\handles.csv
-Position = -0.085,0.1,3.35
-Statefunction = pluginState[99]
-RotateYFunction=0.4
-
-[Object]
-States = Interior\Handles.csv, Interior\NoLight\handles.csv
-Position = -0.085,0.1,2.9
-Statefunction = pluginState[99]
-
-[Object]
-States = Interior\Handles.csv, Interior\NoLight\handles.csv
-Position = -0.09,0.1,2.2
-Statefunction = pluginState[99]
-
-[Object]
-States = Interior\Handles.csv, Interior\NoLight\handles.csv
-Position = -0.09,0.1,1.8
-Statefunction = pluginState[99]
-RotateYFunction=0.5
-
-[Object]
-States = Interior\Handles.csv, Interior\NoLight\handles.csv
-Position = -0.12,0.1,1.5
-Statefunction = pluginState[99]
-
-[Object]
-States = Interior\Handles.csv, Interior\NoLight\handles.csv
-Position = -0.165,0.1,1.2
-Statefunction = pluginState[99]
-
-[Object]
-States = Interior\Handles.csv, Interior\NoLight\handles.csv
-Position = -0.215,0.1,0.9
-Statefunction = pluginState[99]
-RotateYFunction=0.7
-
-[Object]
-States = Interior\Handles.csv, Interior\NoLight\handles.csv
-Position = -0.26,0.1,0.6
-Statefunction = pluginState[99]
-
-[Object]
-States = Interior\Handles.csv, Interior\NoLight\handles.csv
-Position = -0.275,0.1,0.3
-Statefunction = pluginState[99]
-
-[Object]
-States = Interior\Handles.csv, Interior\NoLight\handles.csv
-Position = -0.275,0.1,-0
-Statefunction = pluginState[99]
-
-[Object]
-States = Interior\Handles.csv, Interior\NoLight\handles.csv
-Position = -0.275,0.1,-0.3
-Statefunction = pluginState[99]
-
-[Object]
-States = Interior\Handles.csv, Interior\NoLight\handles.csv
-Position = -0.264,0.1,-0.55
-Statefunction = pluginState[99]
-
-[Object]
-States = Interior\Handles.csv, Interior\NoLight\handles.csv
-Position = -0.245,0.1,-0.75
-Statefunction = pluginState[99]
-
-[Object]
-States = Interior\Handles.csv, Interior\NoLight\handles.csv
-Position = -0.21,0.1,-0.95
-Statefunction = pluginState[99]
-
-[Object]
-States = Interior\Handles.csv, Interior\NoLight\handles.csv
-Position = -0.13,0.1,-1.3
-Statefunction = pluginState[99]
-
-[Object]
-States = Interior\Handles.csv, Interior\NoLight\handles.csv
-Position = -0.105,0.1,-1.7
-Statefunction = pluginState[99]
-
-[Object]
-States = Interior\Handles.csv, Interior\NoLight\handles.csv
-Position = -0.093,0.1,-2.1
-Statefunction = pluginState[99]
-
-[Object]
-States = Interior\Handles.csv, Interior\NoLight\handles.csv
-Position = -0.088,0.1,-2.4
-Statefunction = pluginState[99]
-
-[Object]
-States = Interior\Handles.csv, Interior\NoLight\handles.csv
-Position = -0.088,0.1,-3
-Statefunction = pluginState[99]
-
-[Object]
-States = Interior\Handles.csv, Interior\NoLight\handles.csv
-Position = -0.092,0.1,-3.45
-Statefunction = pluginState[99]
-
-[Object]
-States = Interior\Handles.csv, Interior\NoLight\handles.csv
-Position = -0.11,0.1,-3.85
-Statefunction = pluginState[99]
-
-[Object]
-States = Interior\Handles.csv, Interior\NoLight\handles.csv
-Position = -0.14,0.1,-4.2
-Statefunction = pluginState[99]
-
-[Object]
-States = Interior\Handles.csv, Interior\NoLight\handles.csv
-Position = -0.24,0.1,-4.6
-Statefunction = pluginState[99]
-
-[Object]
-States = Interior\Handles.csv, Interior\NoLight\handles.csv
-Position = -0.263,0.1,-4.9
-Statefunction = pluginState[99]
-
-[Object]
-States = Interior\Handles.csv, Interior\NoLight\handles.csv
-Position = -0.275,0.1,-5.2
-Statefunction = pluginState[99]
-
-[Object]
-States = Interior\Handles.csv, Interior\NoLight\handles.csv
-Position = -0.277,0.1,-5.45
-Statefunction = pluginState[99]
-
-[Object]
-States = Interior\Handles.csv, Interior\NoLight\handles.csv
-Position = -0.275,0.1,-5.7
-Statefunction = pluginState[99]
-
-[Object]
-States = Interior\Handles.csv, Interior\NoLight\handles.csv
-Position = -0.265,0.1,-5.95
-Statefunction = pluginState[99]
-
-[Object]
-States = Interior\Handles.csv, Interior\NoLight\handles.csv
-Position = -0.23,0.1,-6.25
-Statefunction = pluginState[99]
-
-[Object]
-States = Interior\Handles.csv, Interior\NoLight\handles.csv
-Position = -0.12,0.1,-6.8
-Statefunction = pluginState[99]
-
-[Object]
-States = Interior\Handles.csv, Interior\NoLight\handles.csv
-Position = -0.095,0.1,-7.2
-Statefunction = pluginState[99]
-
-[Object]
-States = Interior\Handles.csv, Interior\NoLight\handles.csv
-Position = -0.085,0.1,-7.55
-Statefunction = pluginState[99]
-
-[Object]
-States = Interior\Handles.csv, Interior\NoLight\handles.csv
-Position = -0.085,0.1,-7.8
-Statefunction = pluginState[99]
-
-[Object]
-States = Interior\Handles.csv, Interior\NoLight\handles.csv
-Position = -0.087,0.1,-8.2
-Statefunction = pluginState[99]
-
-[Object]
-States = Interior\Handles.csv, Interior\NoLight\handles.csv
-Position = -0.1,0.1,-8.5
-Statefunction = pluginState[99]
-
-[Object]
-States = Interior\Handles.csv, Interior\NoLight\handles.csv
-Position = -0.115,0.1,-8.75
-Statefunction = pluginState[99]
-
-[Object]
-States = Interior\Handles.csv, Interior\NoLight\handles.csv
-Position = -0.15,0.1,-9
-Statefunction = pluginState[99]
-
 [Object]
 States = Interior\Seats\1_Green_L.csv, Interior\NoLight\Seats\1_Green_L.csv
 Position = -1.18,1.1,2
@@ -679,10 +435,6 @@ States = Interior\Seats\1_Purple_R.csv, Interior\NoLight\Seats\1_Purple_R.csv
 Position = -1.18,1.1,-2.5
 Statefunction = pluginState[99]
 
-[Object]
-States = Interior\Seats\2_Priority_L.csv, Interior\NoLight\Seats\2_Priority_L.csv
-Position = 0.58,1.1,-2.5
-Statefunction = pluginState[99]
 
 [Object]
 States = Interior\Seats\1_Green_L.csv, Interior\NoLight\Seats\1_Green_L.csv
@@ -710,8 +462,28 @@ Position = -1.18,1.1,-8.4
 Statefunction = pluginState[99]
 
 [Object]
+States = Interior\Seats\2_Priority_L.csv, Interior\NoLight\Seats\2_Priority_L.csv
+Position = 0.58,1.1,-2.2
+Statefunction = pluginState[99]
+
+[Object]
 States = Interior\Seats\2_R.csv, Interior\NoLight\Seats\2_R.csv
-Position = 0.58,1.1,-3.5
+Position = 0.58,1.1,-2.84
+Statefunction = pluginState[99]
+
+[Object]
+States = Interior\Seats\2_R.csv, Interior\NoLight\Seats\2_R.csv
+Position = 0.58,1.1,-3.53
+Statefunction = pluginState[99]
+
+[Object]
+States = Interior\Seats\2_R.csv, Interior\NoLight\Seats\2_R.csv
+Position = 0.58,1.1,-4.23
+Statefunction = pluginState[99]
+
+[Object]
+States = Interior\Seats\2_R.csv, Interior\NoLight\Seats\2_R.csv
+Position = 0.58,1.1,-4.9
 Statefunction = pluginState[99]
 
 ;;;-----3D Cab-----;;;
