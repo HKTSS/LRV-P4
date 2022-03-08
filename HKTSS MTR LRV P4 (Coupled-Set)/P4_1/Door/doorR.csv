@@ -127,6 +127,7 @@ AddVertex,1.302, 2.9, 3
 AddVertex,1.302, 0.9, 3
 AddFace,3,2,1,0
 SetColor,50,25,0,170
+SetBlendMode, Normal, 2, DivideExponent4
 translate,-2.65,0,-3
 
 ;;Interior Glass;;
