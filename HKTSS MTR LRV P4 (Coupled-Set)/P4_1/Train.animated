@@ -1,9 +1,14 @@
 [Include]
 Interior\Handles.animated
+LED\LR705706\led.animated
 
 [Object]
 States = Exterior\outside.csv
 Position = 0,0,0
+
+[Object]
+States = Exterior\panto.csv
+Position = 0,-0.15,0
 
 [Object]
 States = Exterior\glass.csv
@@ -18,10 +23,9 @@ States = Interior\inside.csv, Interior\NoLight\inside.csv
 Position = 0,0,0
 Statefunction = pluginState[99]
 
-;;[Object]
-;;States = Exterior\window.csv, .\night\inside.csv
-;;Position = 0,0,0
-;;Statefunction = pluginState[99]
+[Object]
+States = LED\overlay.csv
+Position = 0,0,0
 
 [Object]
 States = Interior\ceiling.csv, Interior\NoLight\ceiling.csv
@@ -98,7 +102,11 @@ States = Exterior\mirror.csv
 Position = 0,-0.1,0
 
 [Object]
-Position = -0.05, 0.09, -1.6
+Position = -0.05, 0, -3.9
+States = Exterior\wheel\wheel2.csv
+
+[Object]
+Position = -0.05, 0, 7
 States = Exterior\wheel\wheel2.csv
 
 [Object]
@@ -182,27 +190,30 @@ Statefunction = Mod[value + pluginstate[107], 10]
 RefreshRate = 1
 
 [Object]
-States = Interior\fire_ex.csv, Interior\NoLight\fire_ex.csv
+States = Interior\fire_ex\fire_ex.csv, Interior\NoLight\fire_ex\fire_ex.csv
 Position = 0,0,0
 Statefunction = pluginState[99]
 
 [Object]
-States = Interior\fire_ex.csv, Interior\NoLight\fire_ex.csv
+States = Interior\fire_ex\fire_ex.csv, Interior\NoLight\fire_ex\fire_ex.csv
 Position = 0,0,5.5
 Statefunction = pluginState[99]
 
 [Object]
-States = Interior\WC.csv
+States = Interior\WC.csv, Interior\NoLight\WC.csv
 Position = 0.2,0.30,6.055
+Statefunction = pluginState[99]
 RotateXFunction = 0.05
 
 [Object]
-States = Interior\WC.csv
+States = Interior\WC.csv, Interior\NoLight\WC.csv
 Position = 0.2,0.30,0.25
+Statefunction = pluginState[99]
 RotateXFunction = 0.05
 
 [Object]
-States = Interior\WC.csv
+States = Interior\WC.csv, Interior\NoLight\WC.csv
+Statefunction = pluginState[99]
 Position = 0.2,0.30,-5.0
 RotateXFunction = 0.05
 
@@ -547,6 +558,7 @@ Position = -0.75, 1.66, 9.4
 rotatexfunction = if[powerNotch >= 1, -0.11 * powerNotch, 0.08 * brakeNotchLinear]
 rotatexdirection = -1, 0, 0
 rotatexdamping = 20, 0.8
+RefreshRate = 0.05
 
 [Object]
 States = ..\3Dcab\brakeneedleY.csv
@@ -555,6 +567,7 @@ rotatexdirection = -1, 0, 0
 rotatexfunction = -3.3 + abs[mainReservoir] * 0.0000040
 rotateyfunction = -0.8
 rotatezfunction = -0.62
+RefreshRate = 0.2
 
 [Object]
 States = ..\3Dcab\brakeneedleR.csv
@@ -563,14 +576,16 @@ rotatexdirection = -1, 0, 0
 rotatexfunction = -3.75 + abs[brakeCylinder] * 0.0000016
 rotateyfunction = -1.4 + abs[brakeCylinder] * 0.0000001
 rotatezfunction = -1.45
+RefreshRate = 0.2
 
 [Object]
 States = ..\3DCab\speedo.csv
 Position = -0.050,1.838,9.636
 RotateXDirection = -1, 0, 0
 RotateXFunction = -3.75 + abs[speedometer] * 0.156
-RotateYFunction = -0.7
-RotateZFunction = -1.5
+RotateYFunction = -0.8
+RotateZFunction = -1.7
+RefreshRate = 0.2
 
 [Object]
 States = null.csv, ..\3Dcab\panelLight\dooropened.csv

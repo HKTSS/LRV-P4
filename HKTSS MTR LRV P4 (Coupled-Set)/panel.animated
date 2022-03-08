@@ -3,6 +3,12 @@ States = 3DCab\cab.csv
 Position = 0,0.1,-0.1
 
 [Object]
+States = P4_1\empty.csv, 3DCab\Tooltips\en\tooltips.csv
+Position = 0,0.1,-0.1
+StateFunction = pluginstate[121]
+RefreshRate = 1
+
+[Object]
 States = P4_1\empty.csv, 3DCab\SpeedModeSwitch\fast.csv, 3DCab\SpeedModeSwitch\slow.csv
 Position = 0,0.1,-0.1
 Statefunction = pluginstate[112]

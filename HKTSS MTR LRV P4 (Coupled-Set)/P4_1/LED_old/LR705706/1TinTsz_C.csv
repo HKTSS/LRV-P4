@@ -1,0 +1,30 @@
+CreateMeshBuilder,
+AddVertex, 0.10, 3.153, 1.891,
+AddVertex, 0.10, 3.236, 1.891,
+AddVertex, -0.03, 3.236, 1.891,
+AddVertex, -0.03, 3.153, 1.891,
+AddFace,0,1,2,3
+SetEmissiveColor,255,255,255
+LoadTexture,Tex\TinTsz.png
+SetTextureCoordinates,0,0.32,0.25,
+SetTextureCoordinates,1,0.32,0,
+SetTextureCoordinates,2,0.45,0,
+SetTextureCoordinates,3,0.45,0.25,
+SetDecalTransparentColor,0,0,0
+
+CreateMeshBuilder,
+AddVertex, -0.14, 3.153, 1.891,
+AddVertex, -0.14, 3.236, 1.891,
+AddVertex, -0.025, 3.236, 1.891,
+AddVertex, -0.025, 3.153, 1.891,
+AddFace,3, 2, 1, 0
+SetEmissiveColor,255,255,255
+LoadTexture,Tex\TinTsz.png
+SetTextureCoordinates,0,0.595,0.25,
+SetTextureCoordinates,1,0.595,0,
+SetTextureCoordinates,2,0.71,0,
+SetTextureCoordinates,3,0.71,0.25,
+SetDecalTransparentColor,0,0,0
+
+RotateAll,0,1,0,180
+TranslateAll,0,0,10

@@ -1,0 +1,29 @@
+CreateMeshBuilder,
+AddVertex,-0.46, 1.90, -0.88
+AddVertex,-0.315, 1.90, -0.88
+AddVertex,-0.315, 1.87, -0.90
+AddVertex,-0.46, 1.87, -0.90
+AddFace,0, 1, 2, 3,
+LoadTexture,hazard_warning_light.png
+SetEmissiveColor,255,255,255
+SetTextureCoordinates,0,0,0
+SetTextureCoordinates,1,1,0
+SetTextureCoordinates,2,1,1
+SetTextureCoordinates,3,0,1
+SetDecalTransparentColor,0,0,255
+translate,0,-0.03,10.5
+
+CreateMeshBuilder,
+AddVertex,-0.54, 1.89, -0.93
+AddVertex,-0.397, 1.89, -0.93
+AddVertex,-0.397, 1.862, -0.949
+AddVertex,-0.54, 1.862, -0.949
+AddFace,0, 1, 2, 3,
+LoadTexture,turn_signal.png
+SetEmissiveColor,255,255,255
+SetTextureCoordinates,0,0,0
+SetTextureCoordinates,1,1,0
+SetTextureCoordinates,2,1,1
+SetTextureCoordinates,3,0,1
+SetDecalTransparentColor,0,0,255
+translate,0.73,-0.081,10.49
