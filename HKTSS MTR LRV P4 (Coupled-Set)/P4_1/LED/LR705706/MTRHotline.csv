@@ -1,0 +1,16 @@
+CreateMeshBuilder,
+AddVertex, 0.305, 3.160, 1.891,
+AddVertex, 0.305, 3.230, 1.891,
+AddVertex, -0.355, 3.230, 1.891,
+AddVertex, -0.355, 3.160, 1.891,
+AddFace,0,1,2,3
+SetEmissiveColor,255,255,255
+LoadTexture,Tex\MTRHotline.png
+SetTextureCoordinates,0,0.01,0.11,
+SetTextureCoordinates,1,0.01,0.01,
+SetTextureCoordinates,2,0.49,0.01,
+SetTextureCoordinates,3,0.49,0.11,
+SetDecalTransparentColor,0,0,0
+
+RotateAll,0,1,0,180
+TranslateAll,0,0,10

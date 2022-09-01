@@ -1,6 +1,6 @@
 CreateMeshBuilder,
-AddVertex,-1.35, 2.91, -0.045, 0,1,0
-AddVertex,-1.35, 2.91, -0.625, 0,1,0
+AddVertex,-1.36, 2.91, -0.045, 0,1,0
+AddVertex,-1.36, 2.91, -0.625, 0,1,0
 AddVertex, -1.33, 2.91, -0.625, 0,1,0
 AddVertex, -1.33, 2.91, -0.045, 0,1,0
 AddFace2,0, 1, 2, 3,
@@ -8,44 +8,44 @@ SetColor,155,155,155
 translate,0,-0.03,0
 
 CreateMeshBuilder,
-AddVertex,-1.35, 1.71, -0.17, 0,1,0
-AddVertex,-1.35, 1.893, -0.60, 0,1,0
-AddVertex, -1.33, 1.893, -0.60, 0,1,0
-AddVertex, -1.33, 1.71, -0.17, 0,1,0
-AddFace2,0, 1, 2, 3,
-SetColor,155,155,155
-translate,0,-0.03,0
-
-CreateMeshBuilder,
-AddVertex,-1.35, 1.707, -0.025, 0,1,0
-AddVertex,-1.35, 1.71, -0.17, 0,1,0
-AddVertex, -1.33, 1.71, -0.17, 0,1,0
-AddVertex, -1.33, 1.707, -0.025, 0,1,0
-AddFace2,0, 1, 2, 3,
-SetColor,155,155,155
-translate,0,-0.03,0
-
-CreateMeshBuilder,
-AddVertex,-1.35, 1.8, -0.60, 0,1,0
-AddVertex,-1.35, 2.91, -0.61, 0,1,0
+AddVertex,-1.36, 1.8, -0.60, 0,1,0
+AddVertex,-1.36, 2.91, -0.61, 0,1,0
 AddVertex, -1.33, 2.91, -0.61, 0,1,0
 AddVertex, -1.33, 1.8, -0.60, 0,1,0
 AddFace2,0, 1, 2, 3,
 SetColor,155,155,155
 
 CreateMeshBuilder,
-AddVertex,-1.35, 1.677, -0.025, 0,1,0
-AddVertex,-1.35, 2.9, -0.025, 0,1,0
-AddVertex, -1.33, 2.9, -0.025, 0,1,0
-AddVertex, -1.33, 1.677, -0.025, 0,1,0
+AddVertex,-1.36, 1.66, -0.025, 0,1,0
+AddVertex,-1.36, 1.66, -0.14, 0,1,0
+AddVertex, -1.33, 1.66, -0.14, 0,1,0
+AddVertex, -1.33, 1.66, -0.025, 0,1,0
+AddFace2,0, 1, 2, 3,
+SetColor,155,155,155
+translate,0,-0.03,0
+
+CreateMeshBuilder,
+AddVertex,-1.36, 1.66, -0.14, 0,1,0
+AddVertex,-1.36, 1.835, -0.60, 0,1,0
+AddVertex, -1.33, 1.835, -0.60, 0,1,0
+AddVertex, -1.33, 1.66, -0.14, 0,1,0
+AddFace2,0, 1, 2, 3,
+SetColor,155,155,155
+translate,0,-0.03,0
+
+CreateMeshBuilder,
+AddVertex,-1.36, 1.62, -0.037, 0,1,0
+AddVertex,-1.36, 2.9, -0.037, 0,1,0
+AddVertex, -1.33, 2.9, -0.037, 0,1,0
+AddVertex, -1.33, 1.62, -0.037, 0,1,0
 AddFace2,0, 1, 2, 3,
 SetColor,155,155,155
 
 CreateMeshBuilder,
-AddVertex,-1.355, 0.75, 0.15,0,1,0
-AddVertex,-1.355, 2.91, 0.15,0,1,0
-AddVertex,-1.355, 2.91, -0.75,0,1,0
-AddVertex,-1.355, 0.75, -0.75,0,1,0
+AddVertex,-1.36, 0.75, 0.15,0,1,0
+AddVertex,-1.36, 2.91, 0.15,0,1,0
+AddVertex,-1.36, 2.91, -0.75,0,1,0
+AddVertex,-1.36, 0.75, -0.75,0,1,0
 AddFace,0,1,2,3
 LoadTexture,doorR_out.png,
 SetTextureCoordinates,0,0,1,
@@ -93,6 +93,19 @@ SetTextureCoordinates,1,1,0,
 SetTextureCoordinates,2,0.8,0,
 SetTextureCoordinates,3,0.8,1,
 
+CreateMeshBuilder,
+AddVertex,-1.332, 2.78, -0.55,0,1,0
+AddVertex,-1.332, 2.86, -0.55,0,1,0
+AddVertex,-1.332, 2.86, -0.10,0,1,0
+AddVertex,-1.332, 2.78, -0.10,0,1,0
+AddFace,0, 1, 2, 3
+LoadTexture,sticker.png,
+SetTextureCoordinates,0,0,0.545
+SetTextureCoordinates,1,0,0.0
+SetTextureCoordinates,2,0.8,0.0
+SetTextureCoordinates,3,0.8,0.545
+SetDecalTransparentColor,0,0,255
+
 ;;Door sticker end;;
 
 CreateMeshBuilder,
@@ -106,36 +119,37 @@ SetColor,0,0,0
 CreateMeshBuilder,
 AddVertex,-1.33, 0.75, -0.75,
 AddVertex,-1.33, 2.91, -0.75,
-AddVertex,-1.355, 2.91, -0.75
-AddVertex,-1.355, 0.75, -0.75
+AddVertex,-1.36, 2.91, -0.75
+AddVertex,-1.36, 0.75, -0.75
 AddFace2,0,1,2,3
 SetColor,0,0,0
 
 CreateMeshBuilder,
 AddVertex,-1.33, 0.75, 0.15,
 AddVertex,-1.33, 2.915, 0.15,
-AddVertex,-1.355, 2.915, 0.15
-AddVertex,-1.355, 0.75, 0.15
+AddVertex,-1.36, 2.915, 0.15
+AddVertex,-1.36, 0.75, 0.15
 AddFace2,0,1,2,3
 SetColor,0,0,0
 
 ;;Exterior Glass;;
+
 CreateMeshBuilder,
-AddVertex,1.302, 0.9, 2.3,
-AddVertex,1.302, 2.9, 2.3,
-AddVertex,1.302, 2.9, 3
-AddVertex,1.302, 0.9, 3
+AddVertex,1.321, 0.80, 2.3
+AddVertex,1.321, 2.913, 2.3
+AddVertex,1.321, 2.913, 3
+AddVertex,1.321, 0.80, 3
 AddFace,3,2,1,0
-SetColor,50,25,0,170
+SetColor, 50,25,0,120
 SetBlendMode, Normal, 2, DivideExponent4
-translate,-2.65,0,-3
+translate,-2.68,0,-3
 
 ;;Interior Glass;;
 CreateMeshBuilder,
-AddVertex,1.324, 1.67, 3,
-AddVertex,1.324, 2.9, 3,
-AddVertex,1.324, 2.9, 2.3
-AddVertex,1.324, 1.67, 2.3
+AddVertex,1.349, 1.64, 3
+AddVertex,1.349, 2.913, 3
+AddVertex,1.349, 2.913, 2.3
+AddVertex,1.349, 1.64, 2.3
 AddFace,3,2,1,0
-SetColor,75,48,40,50
-translate,-2.655,0,-3
+SetColor, 75,48,40,50
+translate,-2.68,0,-3

@@ -1,0 +1,12 @@
+﻿CreateMeshBuilder
+AddVertex, 0.00,0,-0.0, 0,1,0
+AddVertex, 0.00, 1.0,-0.01, 0,1,0
+AddVertex, 0.3, 1.0,-0.01, 0,1,0
+AddVertex, 0.3,0,-0.0, 0,1,0
+AddFace2,3,2,1,0
+LoadTexture,wiper.png
+SetTextureCoordinates,0,1,1
+SetTextureCoordinates,1,0,1
+SetTextureCoordinates,2,0,0
+SetTextureCoordinates,3,1,0
+SetDecalTransparentColor,0,0,255

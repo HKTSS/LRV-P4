@@ -1,52 +1,52 @@
 CreateMeshBuilder,
-AddVertex,-1.35, 2.89, 0.3, 0,1,0
-AddVertex,-1.35, 2.89, 0.95, 0,1,0
-AddVertex, -1.33, 2.89, 0.95, 0,1,0
-AddVertex, -1.33, 2.89, 0.3, 0,1,0
+AddVertex,-1.36, 2.89, 0.335, 0,1,0
+AddVertex,-1.36, 2.89, 0.90, 0,1,0
+AddVertex, -1.33, 2.89, 0.90, 0,1,0
+AddVertex, -1.33, 2.89, 0.335, 0,1,0
 AddFace2,0, 1, 2, 3,
 SetColor,155,155,155
 
 CreateMeshBuilder,
-AddVertex,-1.35, 1.745, -0.595, 0,1,0
-AddVertex,-1.35, 2.95, -0.595, 0,1,0
-AddVertex, -1.33, 2.95, -0.595, 0,1,0
-AddVertex, -1.33, 1.745, -0.595, 0,1,0
+AddVertex,-1.36, 1.70, -0.583, 0,1,0
+AddVertex,-1.36, 2.95, -0.583, 0,1,0
+AddVertex, -1.33, 2.95, -0.583, 0,1,0
+AddVertex, -1.33, 1.70, -0.583, 0,1,0
 AddFace2,0, 1, 2, 3,
 SetColor,155,155,155
 translate,0,-0.07,0.92
 
 CreateMeshBuilder,
-AddVertex,-1.35, 1.715, 0.335, 0,1,0
-AddVertex,-1.35, 1.715, 0.45, 0,1,0
-AddVertex, -1.33,1.715, 0.45, 0,1,0
-AddVertex, -1.33,1.715, 0.335, 0,1,0
+AddVertex,-1.36, 1.67, 0.335, 0,1,0
+AddVertex,-1.36, 1.67, 0.45, 0,1,0
+AddVertex, -1.33,1.67, 0.45, 0,1,0
+AddVertex, -1.33,1.67, 0.335, 0,1,0
 AddFace2,0, 1, 2, 3,
 SetColor,155,155,155
 translate,0,-0.04,0
 
 CreateMeshBuilder,
-AddVertex,-1.35, 1.715, 0.45, 0,1,0
-AddVertex,-1.35, 1.90, 0.90, 0,1,0
-AddVertex, -1.33,1.90, 0.90, 0,1,0
-AddVertex, -1.33,1.715, 0.45, 0,1,0
+AddVertex,-1.36, 1.67, 0.45, 0,1,0
+AddVertex,-1.36, 1.85, 0.90, 0,1,0
+AddVertex, -1.33,1.85, 0.90, 0,1,0
+AddVertex, -1.33,1.67, 0.45, 0,1,0
 AddFace2,0, 1, 2, 3,
 SetColor,155,155,155
 translate,0,-0.04,0
 
 CreateMeshBuilder,
-AddVertex,-1.35, 1.86, -0.05, 0,1,0
-AddVertex,-1.35, 2.89, -0.05, 0,1,0
+AddVertex,-1.36, 1.81, -0.05, 0,1,0
+AddVertex,-1.36, 2.89, -0.05, 0,1,0
 AddVertex, -1.33, 2.89, -0.05, 0,1,0
-AddVertex, -1.33, 1.86, -0.05, 0,1,0
+AddVertex, -1.33, 1.81, -0.05, 0,1,0
 AddFace2,0, 1, 2, 3,
 SetColor,160,160,160
 translate,0,0,0.95
 
 CreateMeshBuilder,
-AddVertex,-1.355, 0.75, 1.05,0,1,0
-AddVertex,-1.355, 2.91, 1.05,0,1,0
-AddVertex,-1.355, 2.91, 0.15,0,1,0
-AddVertex,-1.355, 0.75, 0.15,0,1,0
+AddVertex,-1.36, 0.75, 1.05,0,1,0
+AddVertex,-1.36, 2.91, 1.05,0,1,0
+AddVertex,-1.36, 2.91, 0.15,0,1,0
+AddVertex,-1.36, 0.75, 0.15,0,1,0
 AddFace,0, 1, 2, 3,
 LoadTexture,doorL_out_WC.png,
 SetTextureCoordinates,0,0,1,
@@ -108,36 +108,36 @@ SetColor,0,0,0
 CreateMeshBuilder,
 AddVertex,-1.33, 0.75, 1.05,
 AddVertex,-1.33, 2.913, 1.05,
-AddVertex,-1.355, 2.913, 1.05
-AddVertex,-1.355, 0.75, 1.05
+AddVertex,-1.36, 2.913, 1.05
+AddVertex,-1.36, 0.75, 1.05
 AddFace2,0,1,2,3
 SetColor,0,0,0
 
 CreateMeshBuilder,
 AddVertex,-1.33, 0.8, 0.15,
 AddVertex,-1.33, 2.913, 0.15,
-AddVertex,-1.355, 2.913, 0.15
-AddVertex,-1.355, 0.8, 0.15
+AddVertex,-1.36, 2.913, 0.15
+AddVertex,-1.36, 0.8, 0.15
 AddFace2,0,1,2,3
 SetColor,0,0,0
 
 ;;Exterior Glass;;
 CreateMeshBuilder,
-AddVertex,1.302, 0.8, 2.3,
-AddVertex,1.302, 2.913, 2.3,
-AddVertex,1.302, 2.913, 3
-AddVertex,1.302, 0.8, 3
+AddVertex,1.321, 0.80, 2.3
+AddVertex,1.321, 2.913, 2.3
+AddVertex,1.321, 2.913, 3
+AddVertex,1.321, 0.80, 3
 AddFace,3,2,1,0
-SetColor,50,25,0,170
+SetColor, 50,25,0,120
 SetBlendMode, Normal, 2, DivideExponent4
-translate,-2.65,0,-2
+translate,-2.68,0,-2
 
 ;;Interior Glass;;
 CreateMeshBuilder,
-AddVertex,1.349, 1.68, 3,
-AddVertex,1.349, 2.913, 3,
+AddVertex,1.349, 1.64, 3
+AddVertex,1.349, 2.913, 3
 AddVertex,1.349, 2.913, 2.3
-AddVertex,1.349, 1.68, 2.3
+AddVertex,1.349, 1.64, 2.3
 AddFace,3,2,1,0
-SetColor,75,48,40,50
+SetColor, 75,48,40,50
 translate,-2.68,0,-2

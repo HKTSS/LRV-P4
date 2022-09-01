@@ -26,18 +26,10 @@ Position = 0,0,0
 StateFunction = if[destination == 2500, pluginState[126], 3]
 TextureShiftXFunction = pluginState[127]/1000
 
-;; Tin Wing ;;
+;; Special Message ;;
 [Object]
-States = null.csv, null.csv, Octopus.csv
+States = null.csv, Octopus.csv, MTRHotline.csv, LastTrain.csv
 Position = 0,0,0
-StateFunction = pluginState[126]
-
+StateFunction = pluginState[125]
 TextureShiftXFunction = pluginState[127]/1000
 TextureShiftYFunction = pluginState[128]/1000
-
-;; Tin Fu ;;
-[Object]
-States = TINFU_C_S.csv, TINFU_E_S.csv, null.csv
-Position = 0,0,0
-StateFunction = if[destination == 2480, pluginState[126], 3]
-TextureShiftXFunction = pluginState[127]/1000
