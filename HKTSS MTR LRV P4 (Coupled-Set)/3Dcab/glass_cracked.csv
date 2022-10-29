@@ -1,0 +1,3 @@
+CreateMeshBuilder,
+Cube, 5, 5, 5
+SetColor,255,255,255

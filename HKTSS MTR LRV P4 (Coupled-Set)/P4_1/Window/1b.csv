@@ -1,11 +1,10 @@
 ﻿;;Exterior;;
 CreateMeshBuilder,
-AddVertex,-1.33, 0.775, 0,
-AddVertex,-1.33, 2.91, 0,
-AddVertex,-1.33, 2.91, 1.88,
-AddVertex,-1.33, 0.775, 1.88,
+AddVertex,-1.33, 0.775, 0, 0,1,0
+AddVertex,-1.33, 2.91, 0, 0,1,0
+AddVertex,-1.33, 2.91, 1.88, 0,1,0
+AddVertex,-1.33, 0.775, 1.88, 0,1,0
 AddFace,3, 2, 1, 0
-SetEmissiveColor,255,255,255
 LoadTexture,1B_E.png
 SetTextureCoordinates,0,1,1,
 SetTextureCoordinates,1,1,0,

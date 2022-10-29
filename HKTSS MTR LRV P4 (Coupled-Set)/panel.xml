@@ -2,7 +2,7 @@
 <openBVE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 	<PanelAnimated>
 		<Include>
-			<FileName>panel.animated</FileName>
+			<FileName>3DCab\panel.animated</FileName>
 		</Include>
 		<Group>
 			<Number>0</Number>

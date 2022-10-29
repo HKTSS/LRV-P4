@@ -55,6 +55,12 @@ States = Window\7b.csv
 Position = 0.5,0,-10.07
 RotateYFunction=-0.27
 
+;; Window 10A;;
+[Object]
+States = Window\10a.csv
+Position = -0.04,0,-8.28
+RotateYFunction=0.27
+
 [Object]
 States = Exterior\pan\panto.csv
 Position = 0,-0.15,0
@@ -114,13 +120,54 @@ Statefunction = pluginState[99]
 
 [Object]
 States = Interior\top_doors.csv
-Position = 0,0,-14.6
+Position = -0.001,0,-14.6
 Statefunction = pluginState[99]
 
 [Object]
 States = Interior\top_window.csv
 Position = 0,0,-16.4
 Statefunction = pluginState[99]
+
+[Object]
+States = Interior\top_window.csv
+Position = 0.001,0,-16.6
+Statefunction = pluginState[99]
+
+[Object]
+States = Interior\top_window_right.csv
+Position = 0.02,0,-3.65
+
+[Object]
+States = Interior\top_window_right.csv
+Position = 0.02,0,-5.5
+
+[Object]
+States = Interior\top_window_right.csv
+Position = 0.02,0,-7.35
+
+[Object]
+States = Interior\top_window_right.csv
+Position = 0.02,0,-9.2
+
+[Object]
+States = Interior\top_window_right.csv
+Position = 0.02,0,-11.05
+
+[Object]
+States = Interior\top_window_right.csv
+Position = 0.02,0,-12.9
+
+[Object]
+States = Interior\top_window_right.csv
+Position = 0.02,0,-14.75
+
+[Object]
+States = Interior\top_window_right.csv
+Position = 0.02,0,-16.6
+
+[Object]
+States = Interior\top_window_right.csv
+Position = 0.02,0,-18.45
 
 [Object]
 States = Interior\reporter.csv, Interior\NoLight\reporter.csv

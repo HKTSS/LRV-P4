@@ -1,19 +1,19 @@
 CreateMeshBuilder,
-AddVertex,-0.70 ,  1.96 , -0.6 ,0,1,0
-AddVertex,-0.54 ,  1.96 , -0.6 ,0,1,0
-AddVertex,-0.54 ,  1.89 , -0.6 ,0,1,0
-AddVertex,-0.70 ,  1.89 , -0.6 ,0,1,0
+AddVertex,-0.70 ,  1.96 , -0.60 ,0,1,0
+AddVertex,-0.54 ,  1.96 , -0.60 ,0,1,0
+AddVertex,-0.54 ,  1.89 , -0.60 ,0,1,0
+AddVertex,-0.70 ,  1.89 , -0.60 ,0,1,0
 AddVertex,-0.70 ,  2.06 , -0.56 ,0,1,0
 AddVertex,-0.54 ,  2.06 , -0.56 ,0,1,0
-AddVertex,-0.54 ,  1.96 , -0.6 ,0,1,0
-AddVertex,-0.70 ,  1.96 , -0.6 ,0,1,0
+AddVertex,-0.54 ,  1.96 , -0.60 ,0,1,0
+AddVertex,-0.70 ,  1.96 , -0.60 ,0,1,0
 AddVertex,-0.70 ,  2.06 , -0.49 ,0,1,0
 AddVertex,-0.54 ,  2.06 , -0.49 ,0,1,0
 AddVertex,-0.54 ,  2.06 , -0.56 ,0,1,0
 AddVertex,-0.70 ,  2.06 , -0.56 ,0,1,0
-AddFace2,0, 1, 2, 3,
-AddFace2,4, 5, 6, 7,
-AddFace2,8, 9, 10, 11,
+AddFace,0, 1, 2, 3,
+AddFace,4, 5, 6, 7,
+AddFace,8, 9, 10, 11,
 LoadTexture,iSPS.png,
 SetTextureCoordinates,0,0,0.67,
 SetTextureCoordinates,1,1,0.67,
@@ -31,34 +31,34 @@ SetDecalTransparentColor,255,255,255,
 translate,0,-0.06,10.20
 
 CreateMeshBuilder,
-AddVertex,-0.70 ,  1.96 , -0.6 ,0,1,0
-AddVertex,-0.70 ,  1.96 , -0.49 ,0,1,0
-AddVertex,-0.70 ,  1.89 , -0.49 ,0,1,0
-AddVertex,-0.70 ,  1.89 , -0.6 ,0,1,0
-AddVertex,-0.70 ,  2.06 , -0.56 ,0,1,0
-AddVertex,-0.70 ,  2.06 , -0.49 ,0,1,0
-AddVertex,-0.70 ,  1.96 , -0.49 ,0,1,0
-AddVertex,-0.70 ,  1.96 , -0.6 ,0,1,0
-AddVertex,-0.54 ,  1.96 , -0.6 ,0,1,0
-AddVertex,-0.54 ,  1.96 , -0.49 ,0,1,0
-AddVertex,-0.54 ,  1.89 , -0.49 ,0,1,0
-AddVertex,-0.54 ,  1.89 , -0.6 ,0,1,0
-AddVertex,-0.54 ,  2.06 , -0.56 ,0,1,0
-AddVertex,-0.54 ,  2.06 , -0.49 ,0,1,0
-AddVertex,-0.54 ,  1.96 , -0.49 ,0,1,0
-AddVertex,-0.54 ,  1.96 , -0.6 ,0,1,0
+AddVertex,-0.70,  1.96, -0.60 ,0,1,0
+AddVertex,-0.70,  1.96, -0.49 ,0,1,0
+AddVertex,-0.70,  1.89, -0.49 ,0,1,0
+AddVertex,-0.70,  1.89, -0.60 ,0,1,0
+AddVertex,-0.70,  2.06, -0.56 ,0,1,0
+AddVertex,-0.70,  2.06, -0.49 ,0,1,0
+AddVertex,-0.70,  1.96, -0.49 ,0,1,0
+AddVertex,-0.70,  1.96, -0.60 ,0,1,0
+AddVertex,-0.54,  1.96, -0.60 ,0,1,0
+AddVertex,-0.54,  1.96, -0.49 ,0,1,0
+AddVertex,-0.54,  1.89, -0.49 ,0,1,0
+AddVertex,-0.54,  1.89, -0.60 ,0,1,0
+AddVertex,-0.54,  2.06, -0.56 ,0,1,0
+AddVertex,-0.54,  2.06, -0.49 ,0,1,0
+AddVertex,-0.54,  1.96, -0.49 ,0,1,0
+AddVertex,-0.54,  1.96, -0.60 ,0,1,0
 
-AddVertex,-0.70 ,  2.06 , -0.49 ,0,1,0
-AddVertex,-0.54 ,  2.06 , -0.49 ,0,1,0
-AddVertex,-0.54 ,  1.89 , -0.49 ,0,1,0
-AddVertex,-0.70 ,  1.89 , -0.49 ,0,1,0
+AddVertex,-0.70,  2.06, -0.49 ,0,1,0
+AddVertex,-0.54,  2.06, -0.49 ,0,1,0
+AddVertex,-0.54,  1.89, -0.49 ,0,1,0
+AddVertex,-0.70,  1.89, -0.49 ,0,1,0
 
 
-AddFace2,0, 1, 2, 3,
-AddFace2,4, 5, 6, 7,
-AddFace2,8, 9, 10, 11,
-AddFace2,12, 13, 14, 15,
-AddFace2,16, 17, 18, 19,
+AddFace,3, 2, 1, 0,
+AddFace,7, 6, 5, 4,
+AddFace,8, 9, 10, 11,
+AddFace,12, 13, 14, 15,
+AddFace,19, 18, 17, 16,
 LoadTexture,side.png,
 SetTextureCoordinates,0,0,0.6,
 SetTextureCoordinates,1,1,0.6,
@@ -84,14 +84,14 @@ SetDecalTransparentColor,255,255,255,
 translate,0,-0.06,10.20
 
 CreateMeshBuilder,
-AddVertex,-0.51 ,  1.894 , -0.6 ,0,1,0
-AddVertex,-0.51 ,  1.894 , -0.8 ,0,1,0
-AddVertex,-0.715 ,  1.894 , -0.8 ,0,1,0
-AddVertex,-0.715 ,  1.894 , -0.6 ,0,1,0
+AddVertex,-0.52, 1.895, -0.6 ,0,1,0
+AddVertex,-0.51, 1.895, -0.8 ,0,1,0
+AddVertex,-0.715, 1.895, -0.8 ,0,1,0
+AddVertex,-0.705, 1.895, -0.6 ,0,1,0
 AddFace2,0, 1, 2, 3,
-LoadTexture,..\shadow2.png,
-SetTextureCoordinates,0,0,0,
-SetTextureCoordinates,1,0,1,
+LoadTexture,shadow.png,
+SetTextureCoordinates,0,0,0
+SetTextureCoordinates,1,0,1
 SetTextureCoordinates,2,1,1
-SetTextureCoordinates,3,1,0,
+SetTextureCoordinates,3,1,0
 translate,0,-0.06,10.20

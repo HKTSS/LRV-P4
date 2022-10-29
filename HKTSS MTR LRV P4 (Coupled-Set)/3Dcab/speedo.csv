@@ -1,12 +1,12 @@
 CreateMeshBuilder
-AddVertex, 0.00, 0.037 ,-0.005,0,1,0
-AddVertex, 0.00, 0.037 , 0.005,0,1,0
-AddVertex, 0.007, 0.011, 0.005,0,1,0
-AddVertex, 0.007, 0.011,-0.005,0,1,0
+AddVertex, 0.005, 0.00,0.00,0,1,0
+AddVertex, 0.005, 0.027,0.00,0,1,0
+AddVertex, -0.005, 0.027,0.00,0,1,0
+AddVertex, -0.005, 0.00,0.00,0,1,0
 AddFace,3, 2, 1, 0
 LoadTexture,speedo.png,
-SetTextureCoordinates,0,1,0
+SetTextureCoordinates,0,0,1
 SetTextureCoordinates,1,0,0
-SetTextureCoordinates,2,0,1
+SetTextureCoordinates,2,1,0
 SetTextureCoordinates,3,1,1
-SetDecalTransparentColor,0,0,0,
+SetDecalTransparentColor,0,0,0

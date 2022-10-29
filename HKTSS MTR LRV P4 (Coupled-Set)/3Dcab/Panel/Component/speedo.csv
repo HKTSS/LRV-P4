@@ -1,0 +1,11 @@
+CreateMeshBuilder,
+AddVertex,-0.02,  0.07, 0, 0,1,0
+AddVertex,-0,  0.07, 0, 0,1,0
+AddVertex,-0,  0.00, 0, 0,1,0
+AddVertex,-0.02,  0.00, 0, 0,1,0
+AddFace, 0, 1, 2, 3
+LoadTexture,speedo.png
+SetTextureCoordinates,0, 0, 0
+SetTextureCoordinates,1, 1, 0
+SetTextureCoordinates,2, 1, 1
+SetTextureCoordinates,3, 0, 1

@@ -1,0 +1,4 @@
+CreateMeshBuilder,
+Cube, 0.003,0.018,0.003
+SetColor, 40, 40, 40
+Rotate, 0,0,1,30

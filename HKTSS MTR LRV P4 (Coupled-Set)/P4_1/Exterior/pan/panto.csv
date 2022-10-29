@@ -103,19 +103,47 @@ Rotate,1,0,0,35
 Translate,0,4.04,6.65
 
 CreateMeshBuilder,
-Cylinder,5,0.015,0.015,0.06
+Cylinder,12,0.015,0.015,0.06
 SetColor,180,90,90
 Rotate,0,0,1,90
 Translate,0,4.37,6.88
 
 CreateMeshBuilder,
-Cylinder,5,0.017,0.017,0.2
+Cylinder,12,0.015,0.015,0.005
+SetColor,200,100,100
+Rotate,0,0,1,90
+Translate,-0.0325,4.37,6.88
+
+CreateMeshBuilder,
+Cube, 0.071, 0.003, 0.0145
+SetColor,200,100,100
+Rotate,0,0,1,90
+Rotate,1,0,0,-34
+Translate,-0.0325,4.428,6.8409
+
+;;
+
+CreateMeshBuilder,
+Cylinder,12,0.015,0.015,0.005
+SetColor,200,100,100
+Rotate,0,0,1,90
+Translate,0.0325,4.37,6.88
+
+CreateMeshBuilder,
+Cube, 0.071, 0.003, 0.0145
+SetColor,200,100,100
+Rotate,0,0,1,90
+Rotate,1,0,0,-34
+Translate,0.0325,4.428,6.8409
+
+CreateMeshBuilder,
+Cylinder,10,0.017,0.017,0.2
 SetColor,180,90,90
 Rotate,0,0,1,90
 Translate,0,4.49,6.80
 
 CreateMeshBuilder,
-Cylinder,5,0.03,0.03,0.11
+Cylinder,8,0.03,0.03,0.11
 SetColor,180,90,90
 Rotate,0,0,1,90
 Translate,0,4.495,6.77
@@ -133,6 +161,21 @@ SetColor,180,90,90
 Rotate,1,0,0,-60
 Rotate,0,0,1,14
 Translate,-0.15,4.857,6.15
+
+
+CreateMeshBuilder,
+Cylinder,6, 0.015,0.015,0.1
+SetColor,70,70,70
+Rotate,1,0,0,-60
+Rotate,0,0,1,14
+Translate,-0.228,5.17,5.59
+
+CreateMeshBuilder,
+Cylinder,6, 0.015,0.015,0.1
+SetColor,70,70,70
+Rotate,1,0,0,-60
+Rotate,0,0,1,-14
+Translate,0.228,5.17,5.59
 
 ;;Middle;;
 CreateMeshBuilder,

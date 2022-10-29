@@ -24,27 +24,27 @@ translate, 0,-0.03,0.3
 
 ;;3D left;;
 CreateMeshBuilder,
-AddVertex, -0.70, 1.94, 19.849,
-AddVertex, -0.70, 2.60, 19.849,
+AddVertex, -0.71, 1.94, 19.849,
+AddVertex, -0.71, 2.60, 19.849,
 AddVertex, -0.43, 2.60, 19.849,
 AddVertex, -0.43, 1.94, 19.849,
-AddVertex, -0.3, 2.81, 19.96,
+AddVertex, -0.3, 2.815, 19.96,
 AddVertex, -0.3, 2.92, 19.949,
 AddVertex, 0.3, 2.92, 19.949,
-AddVertex, 0.3, 2.81, 19.96,
+AddVertex, 0.3, 2.815, 19.96,
 AddFace,0, 1, 2, 3,
 AddFace,4, 5, 6, 7,
 SetEmissiveColor,255,255,255
 LoadTexture,../sticker.png
-SetTextureCoordinates,0,0.478,0.72,
+SetTextureCoordinates,0,0.478,0.712,
 SetTextureCoordinates,1,0.478,0.3125,
-SetTextureCoordinates,2,0.646,0.3125,
-SetTextureCoordinates,3,0.646,0.72,
+SetTextureCoordinates,2,0.6434,0.3125,
+SetTextureCoordinates,3,0.6434,0.712,
 
-SetTextureCoordinates,4,0,0.72,
+SetTextureCoordinates,4,0,0.712,
 SetTextureCoordinates,5,0,0.628,
 SetTextureCoordinates,6,0.477,0.628,
-SetTextureCoordinates,7,0.477,0.72,
+SetTextureCoordinates,7,0.477,0.712,
 SetDecalTransparentColor,0,0,255
 translate, 0,-0.03,0.3
 
@@ -320,6 +320,20 @@ SetTextureCoordinates,3,1,1,
 SetDecalTransparentColor,255,255,255
 
 CreateMeshBuilder,
+AddVertex, -0.08, 3.0, 1.873,
+AddVertex, -0.08, 3.1, 1.873,
+AddVertex, -0.575, 3.1, 1.873,
+AddVertex, -0.575, 3.0, 1.873,
+AddFace,0,1,2,3
+SetEmissiveColor,255,255,255
+LoadTexture,../sticker.png,
+SetTextureCoordinates,0,0.666,0.067,
+SetTextureCoordinates,1,0.666,0,
+SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,3,1,0.067,
+SetDecalTransparentColor,0,0,255
+
+CreateMeshBuilder,
 AddVertex, 1.3, 0.8, 1.799,
 AddVertex, 1.3, 3.28, 1.799,
 AddVertex, -1.3, 3.28, 1.799,
@@ -483,102 +497,9 @@ SetTextureCoordinates,2,1,0
 SetTextureCoordinates,3,1,1,
 SetDecalTransparentColor,255,255,255,
 SetEmissiveColor,255,255,255
-
 ;;
-;;passengers info;;
-
-CreateMeshBuilder,
-AddVertex,1.178, 2.95, 4.2,
-AddVertex,1.156, 3.05, 4.2,
-AddVertex,1.156, 3.05, 5,
-AddVertex,1.178, 2.95, 5,
-AddFace,3,2,1,0
-SetEmissiveColor,255,255,255
-LoadTexture,passen_rules.png,
-SetTextureCoordinates,0,1,1,
-SetTextureCoordinates,1,1,0.676,
-SetTextureCoordinates,2,0,0.676,
-SetTextureCoordinates,3,0,1,
-SetDecalTransparentColor,0,0,255
-translate,-0.05,0,13.45
-
-CreateMeshBuilder,
-AddVertex,1.156, 3.05, 4.2,
-AddVertex,1.112, 3.15, 4.2,
-AddVertex,1.112, 3.15, 5,
-AddVertex,1.156, 3.05, 5,
-AddFace,3,2,1,0
-SetEmissiveColor,255,255,255
-LoadTexture,passen_rules.png,
-SetTextureCoordinates,0,1,0.676,
-SetTextureCoordinates,1,1,0.350,
-SetTextureCoordinates,2,0,0.350,
-SetTextureCoordinates,3,0,0.676,
-SetDecalTransparentColor,0,0,255
-translate,-0.05,0,13.45
-
-CreateMeshBuilder,
-AddVertex,1.112, 3.15, 4.2,
-AddVertex,1.04, 3.25, 4.2,
-AddVertex,1.04, 3.25, 5,
-AddVertex,1.112, 3.15, 5,
-AddFace,3,2,1,0
-SetEmissiveColor,255,255,255
-LoadTexture,passen_rules.png,
-SetTextureCoordinates,0,1,0.350,
-SetTextureCoordinates,1,1,0,
-SetTextureCoordinates,2,0,0,
-SetTextureCoordinates,3,0,0.350,
-SetDecalTransparentColor,0,0,255
-translate,-0.05,0,13.45
 
 ;;Ticket Info (Front left);;
-
-
-;;passen rules right;;
-CreateMeshBuilder,
-AddVertex,-1.15, 3.06, 2.82,
-AddVertex,-1.19, 2.93, 2.82,
-AddVertex,-1.19, 2.93, 2.00,
-AddVertex,-1.15, 3.06, 2.00,
-AddFace,0, 1, 2, 3,
-SetEmissiveColor,255,255,255
-LoadTexture,passen_rules.png,
-SetTextureCoordinates,0,1,0.646,
-SetTextureCoordinates,1,1,1,
-SetTextureCoordinates,2,0,1,
-SetTextureCoordinates,3,0,0.646,
-SetDecalTransparentColor,0,0,255,
-
-CreateMeshBuilder,
-AddVertex,-1.15, 3.06, 2.82,
-AddVertex,-1.095, 3.17, 2.82,
-AddVertex,-1.095, 3.17, 2,
-AddVertex,-1.15, 3.06, 2,
-AddFace,3, 2, 1, 0
-SetEmissiveColor,255,255,255
-LoadTexture,passen_rules.png,
-SetTextureCoordinates,0,1,0.646,
-SetTextureCoordinates,1,1,0.300,
-SetTextureCoordinates,2,0,0.300
-SetTextureCoordinates,3,0,0.646,
-SetDecalTransparentColor,0,0,255,
-
-
-CreateMeshBuilder,
-AddVertex,-1.095, 3.17, 2.82,
-AddVertex,-1.035, 3.25, 2.82,
-AddVertex,-1.035 , 3.25, 2,
-AddVertex,-1.095, 3.17, 2,
-AddFace,3, 2, 1, 0
-SetEmissiveColor,255,255,255
-LoadTexture,passen_rules.png,
-SetTextureCoordinates,0,1,0.300,
-SetTextureCoordinates,1,1,0,
-SetTextureCoordinates,2,0,0
-SetTextureCoordinates,3,0,0.300,
-SetDecalTransparentColor,0,0,255,
-;;
 
 ;;fire ex sticker;;
 CreateMeshBuilder,
@@ -1079,41 +1000,13 @@ SetTextureCoordinates,2,1,0
 SetTextureCoordinates,3,1,1,
 
 CreateMeshBuilder,
-AddVertex,-1.3, 0.9, 18.4
-AddVertex,-1.3, 3.385, 18.4
-AddVertex,-0.75, 3.385, 20.32,
-AddVertex,-0.8, 0.9, 20.32,
-AddFace,0,1,2,3
-SetEmissiveColor,255,255,255
-LoadTexture,backinside.png,
-SetTextureCoordinates,0,0,1,
-SetTextureCoordinates,1,0,0,
-SetTextureCoordinates,2,1,0
-SetTextureCoordinates,3,1,1,
-SetDecalTransparentColor,255,255,255,
-
-CreateMeshBuilder,
-AddVertex,1.3, 0.9, 18.4
-AddVertex,1.3, 3.385, 18.4
-AddVertex,0.78, 3.385, 20.32,
-AddVertex,0.78, 0.9, 20.32,
-AddFace,3,2,1,0
-SetEmissiveColor,255,255,255
-LoadTexture,backinside.png
-SetTextureCoordinates,0,1,1,
-SetTextureCoordinates,1,1,0,
-SetTextureCoordinates,2,0,0
-SetTextureCoordinates,3,0,1,
-SetDecalTransparentColor,255,255,255,
-
-CreateMeshBuilder,
 AddVertex,1.33, 0.9, 3.75,
 AddVertex,1.2, 0.9, 3.75,
 AddVertex,1.2, 0.9, 5.5
 AddVertex,1.33, 0.9, 5.5
 AddFace2,3,2,1,0
 SetEmissiveColor,255,255,255
-LoadTexture,doorg.png,doorg.png,
+LoadTexture,doorg.png
 SetTextureCoordinates,0,0,1,
 SetTextureCoordinates,1,0,0,
 SetTextureCoordinates,2,1,0
@@ -1127,7 +1020,7 @@ AddVertex,1.2, 0.9, 11
 AddVertex,1.33, 0.9, 11
 AddFace2,3,2,1,0
 SetEmissiveColor,255,255,255
-LoadTexture,doorg.png,doorg.png,
+LoadTexture,doorg.png
 SetTextureCoordinates,0,0,1,
 SetTextureCoordinates,1,0,0,
 SetTextureCoordinates,2,1,0
@@ -1141,7 +1034,7 @@ AddVertex,1.2, 0.9, 16.6
 AddVertex,1.33, 0.9, 16.6
 AddFace2,3,2,1,0
 SetEmissiveColor,255,255,255
-LoadTexture,doorg.png,doorg.png,
+LoadTexture,doorg.png
 SetTextureCoordinates,0,0,1,
 SetTextureCoordinates,1,0,0,
 SetTextureCoordinates,2,1,0

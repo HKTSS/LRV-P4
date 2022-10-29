@@ -398,7 +398,7 @@ Statefunction = pluginState[99]
 [Object]
 States = ..\P4_1\Exterior\DirectionLightoff.csv, ..\P4_1\Exterior\DirectionLighton.csv
 Position = -2.75,-0.15,0.05
-Statefunction = if[pluginstate[102] == 1, Mod[value + pluginstate[102], 2] ,0]
+Statefunction = if[pluginstate[102] == 1 | pluginstate[102] == 3, value == 0, 0]
 RefreshRate = 0.55
 
 [object]
@@ -407,21 +407,21 @@ RefreshRate = 0.55
 [Object]
 States = ..\P4_1\Exterior\DirectionLightoff.csv, ..\P4_1\Exterior\DirectionLighton.csv
 Position = -0.02,-0.15,0
-Statefunction = if[pluginstate[103] == 1, Mod[value + pluginstate[103], 2] ,0]
+Statefunction = if[pluginstate[102] == 2 | pluginstate[102] == 3, value == 0, 0]
 RefreshRate = 0.55
 
 ;;Back Left;;
 [Object]
 States = ..\P4_1\Exterior\DirectionLightoff.csv, ..\P4_1\Exterior\DirectionLighton.csv
 Position = -2.75,-0.15,-16.37
-Statefunction = if[pluginstate[102] == 1, Mod[value + pluginstate[102], 2] ,0]
+Statefunction = if[pluginstate[102] == 1 | pluginstate[102] == 3, value == 0, 0]
 RefreshRate = 0.55
 
 ;;Back Right;;
 [Object]
 States = ..\P4_1\Exterior\DirectionLightoff.csv, ..\P4_1\Exterior\DirectionLighton.csv
 Position = -0.02,-0.15,-16.35
-Statefunction = if[pluginstate[103] == 1, Mod[value + pluginstate[103], 2] ,0]
+Statefunction = if[pluginstate[102] == 2 | pluginstate[102] == 3, value == 0, 0]
 RefreshRate = 0.55
 
 [Object]
