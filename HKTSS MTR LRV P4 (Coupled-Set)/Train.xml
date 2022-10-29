@@ -3,7 +3,7 @@
 	<Train>
 		<NotchDescriptions>
 			<Power>0°;10°;15°;20°;25°;30°;35°;40°;40°</Power>
-			<Brake>0°;0°;10°;15°;20°;25°;30°;35°;40°;45°</Brake>
+			<Brake>45°;0°;10°;15°;20°;25°;30°;35°;40°</Brake>
 		</NotchDescriptions>
 		<Car>
 			<Length>20.2</Length>
