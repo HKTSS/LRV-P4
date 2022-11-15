@@ -136,6 +136,12 @@
 				<Position>0,0,0</Position>
 				<Radius>10.0</Radius>
 			</Sound>
+			<Sound>
+				<Index>226</Index>
+				<FileName>Sound\System\relay_on.wav</FileName>
+				<Position>0,0,0</Position>
+				<Radius>10.0</Radius>
+			</Sound>
 		</ATS>
 		<Door>
 			<OpenLeft>
