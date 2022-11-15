@@ -4,6 +4,7 @@
 **目前版本**: v2 (Hmmsim只提供v1)  
 **列車編碼**: UTF-8  
 **建議OpenBVE版本**: v1.8.4.2 以上  
+**列車插件源碼**: [請按此](https://github.com/HKTSS/TSS_LRV)
 
 ## 作品功能 (v2):  
 ![5bb6db2c-37ae-4911-abf9-c807840e370d](https://user-images.githubusercontent.com/40461728/122639003-1371f880-d12a-11eb-82cd-0f3b97095710.png)
