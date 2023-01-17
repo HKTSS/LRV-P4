@@ -1,4 +1,32 @@
-﻿CreateMeshBuilder
+;; Side ;;
+CreateMeshBuilder
+AddVertex,0.800,3.415,3.500, 0,1,0
+AddVertex,0.800,3.915,3.500, 0,1,0
+AddVertex,0.800,3.915,-4.000, 0,1,0
+AddVertex,0.800,3.415,-4.000, 0,1,0
+AddFace,3,2,1,0
+LoadTexture,aircon.png
+SetTextureCoordinates,0,1,1
+SetTextureCoordinates,1,1,0
+SetTextureCoordinates,2,0,0
+SetTextureCoordinates,3,0,1
+SetDecalTransparentColor,0,0,255
+
+CreateMeshBuilder
+AddVertex,-0.800,3.415,3.500, 0,1,0
+AddVertex,-0.800,3.915,3.500, 0,1,0
+AddVertex,-0.800,3.915,-4.000, 0,1,0
+AddVertex,-0.800,3.415,-4.000, 0,1,0
+AddFace,0,1,2,3
+LoadTexture,aircon.png
+SetTextureCoordinates,0,0,1
+SetTextureCoordinates,1,0,0
+SetTextureCoordinates,2,1,0
+SetTextureCoordinates,3,1,1
+SetDecalTransparentColor,0,0,255
+
+;; Top ;;
+CreateMeshBuilder
 AddVertex,0.800,3.750,3.1, 0,1,0
 AddVertex,0.800,3.915,2.5, 0,1,0
 AddVertex,-0.800,3.915,2.5, 0,1,0

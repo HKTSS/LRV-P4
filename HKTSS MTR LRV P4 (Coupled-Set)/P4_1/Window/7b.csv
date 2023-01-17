@@ -1,8 +1,8 @@
-﻿;;Exterior;;
+;;Exterior;;
 CreateMeshBuilder,
 AddVertex,-1.33, 3.3, 0.0, 0,1,0
-AddVertex,-1.30, 3.4, 0.0, 0,1,0
-AddVertex,-1.245, 3.4, 2.05, 0,1,0
+AddVertex,-1.29, 3.393, 0.0, 0,1,0
+AddVertex,-1.245, 3.375, 2.05, 0,1,0
 AddVertex,-1.33, 3.3, 2.05, 0,1,0
 AddFace,3, 2, 1, 0
 LoadTexture,7B_E.png

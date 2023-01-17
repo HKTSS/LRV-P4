@@ -653,6 +653,8 @@ SetTextureCoordinates,2,0.001,0.010
 SetTextureCoordinates,3,0.001,0.990
 SetDecalTransparentColor,0,0,255
 
+;; Headsign LED frame ;;
+
 CreateMeshBuilder
 AddVertex,0.650,2.893,9.721, 0,1,0
 AddVertex,0.650,2.893,9.496, 0,1,0
@@ -697,13 +699,18 @@ SetTextureCoordinates,1,1.000,0.000
 SetTextureCoordinates,2,0.000,0.000
 SetTextureCoordinates,3,0.000,1.250
 
+;; Car Num LED ;;
 CreateMeshBuilder
 AddVertex,0.348,2.690,9.739, 0,1,0
 AddVertex,0.348,2.815,9.739, 0,1,0
 AddVertex,0.647,2.815,9.739, 0,1,0
 AddVertex,0.647,2.690,9.739, 0,1,0
 AddFace,3,2,1,0
-SetColor,38,38,38,255
+LoadTexture,..\display\empty\FE.png
+SetTextureCoordinates,0,0.35,0.55
+SetTextureCoordinates,1,0.35,0
+SetTextureCoordinates,2,0,0
+SetTextureCoordinates,3,0,0.55
 
 CreateMeshBuilder
 AddVertex,0.348,2.690,9.739, 0,1,0
@@ -836,26 +843,23 @@ AddVertex,-1.330,3.10,8.130, 0,1,0
 AddVertex,-1.330,3.300,8.130, 0,1,0
 AddVertex,-1.330,3.300,-8.450, 0,1,0
 AddVertex,-1.330,3.10,-8.450, 0,1,0
-AddFace,0,1,2,3
-LoadTexture,top.png
-SetTextureCoordinates,0,0.000,0.800
-SetTextureCoordinates,1,0.000,0.400
-SetTextureCoordinates,2,1.000,0.400
-SetTextureCoordinates,3,1.000,0.800
-SetDecalTransparentColor,0,0,255
-SetWrapMode,ClampClamp
 
-CreateMeshBuilder
-AddVertex,-1.330,3.300,8.150, 0,1,0
-AddVertex,-1.200,3.415,8.150, 0,1,0
+AddVertex,-1.330,3.300,8.130, 0,1,0
+AddVertex,-1.200,3.415,8.130, 0,1,0
 AddVertex,-1.200,3.415,-8.450, 0,1,0
 AddVertex,-1.330,3.300,-8.450, 0,1,0
+
 AddFace,0,1,2,3
+AddFace,4,5,6,7
 LoadTexture,top.png
-SetTextureCoordinates,0,0.000,0.400
-SetTextureCoordinates,1,0.000,0.000
-SetTextureCoordinates,2,1.000,0.000
-SetTextureCoordinates,3,1.000,0.400
+SetTextureCoordinates,0, 0, 0.8
+SetTextureCoordinates,1, 0, 0.4
+SetTextureCoordinates,2, 1, 0.4
+SetTextureCoordinates,3, 1, 0.8
+SetTextureCoordinates,4, 0, 0.4
+SetTextureCoordinates,5, 0, 0.0
+SetTextureCoordinates,6, 1, 0.0
+SetTextureCoordinates,7, 1, 0.4
 SetDecalTransparentColor,0,0,255
 SetWrapMode,ClampClamp
 
@@ -1159,35 +1163,13 @@ SetTextureCoordinates,2,0.999,0.001
 SetTextureCoordinates,3,0.999,0.999
 SetDecalTransparentColor,0,0,255
 
-CreateMeshBuilder
-AddVertex,0.250,3.415,9.550, 0,1,0
-AddVertex,0.250,3.415,8.150, 0,1,0
-AddVertex,-0.450,3.415,8.150, 0,1,0
-AddVertex,-0.450,3.410,9.550, 0,1,0
-AddFace,0,1,2,3
-LoadTexture,E2.png
-SetTextureCoordinates,0,0.000,1.000
-SetTextureCoordinates,1,0.000,0.000
-SetTextureCoordinates,2,1.000,0.000
-SetTextureCoordinates,3,1.000,1.000
+;; LRV Top ;;
 
 CreateMeshBuilder
-AddVertex,0.350,3.405,9.555, 0,1,0
-AddVertex,0.350,3.415,8.150, 0,1,0
-AddVertex,0.250,3.415,8.150, 0,1,0
-AddVertex,0.250,3.415,9.553, 0,1,0
-AddFace,0,1,2,3
-LoadTexture,E2.png
-SetTextureCoordinates,0,0.000,1.000
-SetTextureCoordinates,1,0.000,0.000
-SetTextureCoordinates,2,1.000,0.000
-SetTextureCoordinates,3,1.000,1.000
-
-CreateMeshBuilder
-AddVertex,1.200,3.455,8.150, 0,1,0
+AddVertex,1.200,3.455,8.130, 0,1,0
 AddVertex,1.200,3.455,-8.450, 0,1,0
 AddVertex,-1.200,3.455,-8.450, 0,1,0
-AddVertex,-1.200,3.455,8.150, 0,1,0
+AddVertex,-1.200,3.455,8.130, 0,1,0
 AddFace,0,1,2,3
 LoadTexture,LRTTOP.png
 SetTextureCoordinates,0,0.000,1.000
@@ -1196,35 +1178,41 @@ SetTextureCoordinates,2,1.000,0.000
 SetTextureCoordinates,3,1.000,1.000
 SetDecalTransparentColor,0,0,255
 
+;; Fill gap ;;
+
 CreateMeshBuilder
-AddVertex,-1.200,3.455,8.150, 0,1,0
+AddVertex,-1.200,3.455,8.130, 0,1,0
 AddVertex,-1.200,3.455,-8.450, 0,1,0
 AddVertex,-1.200,3.415,-8.450, 0,1,0
-AddVertex,-1.200,3.415,8.150, 0,1,0
-AddVertex,1.200,3.415,8.150, 0,1,0
+AddVertex,-1.200,3.415,8.130, 0,1,0
+
+AddVertex,1.200,3.415,8.130, 0,1,0
 AddVertex,1.200,3.415,-8.450, 0,1,0
 AddVertex,1.200,3.455,-8.450, 0,1,0
-AddVertex,1.200,3.455,8.150, 0,1,0
+AddVertex,1.200,3.455,8.130, 0,1,0
 
-AddVertex,-1.200,3.41,8.150, 0,1,0
-AddVertex,1.200,3.41,8.150, 0,1,0
-AddVertex,1.200,3.455,8.150, 0,1,0
-AddVertex,-1.200,3.455,8.150, 0,1,0
+AddVertex,-1.200,3.41,8.130, 0,1,0
+AddVertex,1.200,3.41,8.130, 0,1,0
+AddVertex,1.200,3.455,8.130, 0,1,0
+AddVertex,-1.200,3.455,8.130, 0,1,0
+
+AddVertex,-1.200,3.41,-8.450, 0,1,0
+AddVertex,1.200,3.41,-8.450, 0,1,0
+AddVertex,1.200,3.455,-8.450, 0,1,0
+AddVertex,-1.200,3.455,-8.450, 0,1,0
 AddFace,0,1,2,3
 AddFace,4,5,6,7
 AddFace,8,9,10,11
+AddFace,15,14,13,12
 LoadTexture,E2.png
 SetColor,185,185,180
-SetTextureCoordinates,0,0.000,1.000
-SetTextureCoordinates,1,0.000,0.000
-SetTextureCoordinates,2,1.000,0.000
-SetTextureCoordinates,3,1.000,1.000
 
+;; Back top ;;
 CreateMeshBuilder
 AddVertex,-1.200,3.415,-8.450, 0,1,0
 AddVertex,-0.690,3.415,-10.320, 0,1,0
-AddVertex,-0.815,3.370,-10.320, 0,1,0
-AddVertex,-1.280,3.350,-8.450, 0,1,0
+AddVertex,-0.790,3.360,-10.320, 0,1,0
+AddVertex,-1.280,3.344,-8.450, 0,1,0
 AddFace,0,1,2,3
 LoadTexture,E3.png
 SetTextureCoordinates,0,0.000,1.000
@@ -1235,7 +1223,7 @@ SetTextureCoordinates,3,1.000,1.000
 CreateMeshBuilder
 AddVertex,1.200,3.415,-8.450
 AddVertex,0.720,3.415,-10.320
-AddVertex,-0.700,3.415,-10.320
+AddVertex,-0.690,3.415,-10.320
 AddVertex,-1.200,3.415,-8.450
 AddFace,0,1,2,3
 LoadTexture,E3.png
@@ -1244,11 +1232,14 @@ SetTextureCoordinates,1,0.000,0.000
 SetTextureCoordinates,2,1.000,0.000
 SetTextureCoordinates,3,1.000,1.000
 
+;; Back top end ;;
+
+;; Head top ;;
 CreateMeshBuilder
-AddVertex,0.450,3.385,9.562, 0,1,0
-AddVertex,0.450,3.416,8.150, 0,1,0
-AddVertex,0.350,3.416,8.150, 0,1,0
-AddVertex,0.350,3.405,9.555, 0,1,0
+AddVertex,0.350,3.405,9.553, 0,1,0
+AddVertex,0.350,3.415,8.130, 0,1,0
+AddVertex,0.250,3.415,8.130, 0,1,0
+AddVertex,0.250,3.415,9.550, 0,1,0
 AddFace,0,1,2,3
 LoadTexture,E2.png
 SetTextureCoordinates,0,0.000,1.000
@@ -1257,23 +1248,21 @@ SetTextureCoordinates,2,1.000,0.000
 SetTextureCoordinates,3,1.000,1.000
 
 CreateMeshBuilder
-AddVertex,-0.800,-198.000,4.350
-AddVertex,-0.800,-197.400,4.350
-AddVertex,0.800,-197.400,4.350
-AddVertex,0.800,-198.000,4.350
-AddFace2,3,2,1,0
-SetEmissiveColor,255,255,255
-LoadTexture,../../OS_ATS1.dll
+AddVertex,0.450,3.385,9.560, 0,1,0
+AddVertex,0.450,3.415,8.130, 0,1,0
+AddVertex,0.350,3.415,8.130, 0,1,0
+AddVertex,0.350,3.405,9.553, 0,1,0
+AddFace,0,1,2,3
+LoadTexture,E2.png
 SetTextureCoordinates,0,0.000,1.000
 SetTextureCoordinates,1,0.000,0.000
 SetTextureCoordinates,2,1.000,0.000
 SetTextureCoordinates,3,1.000,1.000
-SetDecalTransparentColor,0,0,0
 
 CreateMeshBuilder
 AddVertex,0.550,3.365,9.566, 0,1,0
-AddVertex,0.550,3.415,8.150, 0,1,0
-AddVertex,0.450,3.416,8.150, 0,1,0
+AddVertex,0.550,3.415,8.130, 0,1,0
+AddVertex,0.450,3.415,8.130, 0,1,0
 AddVertex,0.450,3.385,9.560, 0,1,0
 AddFace,0,1,2,3
 LoadTexture,E2.png
@@ -1284,8 +1273,8 @@ SetTextureCoordinates,3,1.000,1.000
 
 CreateMeshBuilder
 AddVertex,0.630,3.340,9.573, 0,1,0
-AddVertex,0.630,3.415,8.150, 0,1,0
-AddVertex,0.550,3.415,8.150, 0,1,0
+AddVertex,0.650,3.415,8.130, 0,1,0
+AddVertex,0.550,3.415,8.130, 0,1,0
 AddVertex,0.550,3.365,9.566, 0,1,0
 AddFace,0,1,2,3
 LoadTexture,E2.png
@@ -1296,8 +1285,8 @@ SetTextureCoordinates,3,1.000,1.000
 
 CreateMeshBuilder
 AddVertex,0.730,3.259,9.600, 0,1,0
-AddVertex,0.730,3.415,8.150, 0,1,0
-AddVertex,0.630,3.415,8.150, 0,1,0
+AddVertex,0.800,3.415,8.130, 0,1,0
+AddVertex,0.650,3.415,8.130, 0,1,0
 AddVertex,0.630,3.340,9.573, 0,1,0
 AddFace,0,1,2,3
 LoadTexture,E2.png
@@ -1308,8 +1297,8 @@ SetTextureCoordinates,3,1.000,1.000
 
 CreateMeshBuilder
 AddVertex,0.780,3.200,9.615, 0,1,0
-AddVertex,1.100,3.415,8.150, 0,1,0
-AddVertex,0.730,3.415,8.150, 0,1,0
+AddVertex,1.100,3.415,8.130, 0,1,0
+AddVertex,0.800,3.415,8.130, 0,1,0
 AddVertex,0.730,3.260,9.600, 0,1,0
 AddFace,0,1,2,3
 LoadTexture,E2.png
@@ -1319,9 +1308,9 @@ SetTextureCoordinates,2,1.000,0.000
 SetTextureCoordinates,3,1.000,1.000
 
 CreateMeshBuilder
-AddVertex,0.780,3.150,9.615, 0,1,0
-AddVertex,1.195,3.415,8.150, 0,1,0
-AddVertex,1.000,3.415,8.150, 0,1,0
+AddVertex,0.780,3.180,9.615, 0,1,0
+AddVertex,1.195,3.415,8.130, 0,1,0
+AddVertex,1.100,3.415,8.130, 0,1,0
 AddVertex,0.780,3.200,9.615, 0,1,0
 AddFace,0,1,2,3
 LoadTexture,E2.png
@@ -1331,10 +1320,23 @@ SetTextureCoordinates,2,1.000,0.000
 SetTextureCoordinates,3,1.000,1.000
 
 CreateMeshBuilder
-AddVertex,0.780,3.150,9.615, 0,1,0
-AddVertex,1.330,3.313,8.150, 0,1,0
-AddVertex,1.195,3.415,8.150, 0,1,0
-AddVertex,0.780,3.150,9.615, 0,1,0
+AddVertex,0.802,3.180,9.615, 0,1,0
+AddVertex,1.330,3.313,8.130, 0,1,0
+AddVertex,1.195,3.415,8.130, 0,1,0
+AddVertex,0.780,3.180,9.615, 0,1,0
+AddFace,0,1,2,3
+LoadTexture,E2.png
+SetTextureCoordinates,0,0.000,1.000
+SetTextureCoordinates,1,0.000,0.000
+SetTextureCoordinates,2,1.000,0.000
+SetTextureCoordinates,3,1.000,1.000
+
+;; CENTER ;;
+CreateMeshBuilder
+AddVertex,0.250,3.415,9.550, 0,1,0
+AddVertex,0.250,3.415,8.130, 0,1,0
+AddVertex,-0.450,3.415,8.130, 0,1,0
+AddVertex,-0.450,3.410,9.550, 0,1,0
 AddFace,0,1,2,3
 LoadTexture,E2.png
 SetTextureCoordinates,0,0.000,1.000
@@ -1343,9 +1345,9 @@ SetTextureCoordinates,2,1.000,0.000
 SetTextureCoordinates,3,1.000,1.000
 
 CreateMeshBuilder
-AddVertex,-0.450,3.411,9.550, 0,1,0
-AddVertex,-0.450,3.415,8.050, 0,1,0
-AddVertex,-0.550,3.415,8.050, 0,1,0
+AddVertex,-0.450,3.410,9.550, 0,1,0
+AddVertex,-0.450,3.415,8.130, 0,1,0
+AddVertex,-0.550,3.415,8.130, 0,1,0
 AddVertex,-0.550,3.375,9.564, 0,1,0
 AddFace,0,1,2,3
 LoadTexture,E2.png
@@ -1356,8 +1358,8 @@ SetTextureCoordinates,3,1.000,1.000
 
 CreateMeshBuilder
 AddVertex,-0.550,3.375,9.564, 0,1,0
-AddVertex,-0.550,3.415,8.050, 0,1,0
-AddVertex,-0.650,3.415,8.050, 0,1,0
+AddVertex,-0.550,3.415,8.130, 0,1,0
+AddVertex,-0.650,3.415,8.130, 0,1,0
 AddVertex,-0.650,3.325,9.577, 0,1,0
 AddFace,0,1,2,3
 LoadTexture,E2.png
@@ -1368,8 +1370,8 @@ SetTextureCoordinates,3,1.000,1.000
 
 CreateMeshBuilder
 AddVertex,-0.650,3.325,9.577, 0,1,0
-AddVertex,-0.650,3.415,8.050, 0,1,0
-AddVertex,-0.755,3.415,8.050, 0,1,0
+AddVertex,-0.650,3.415,8.130, 0,1,0
+AddVertex,-0.755,3.415,8.130, 0,1,0
 AddVertex,-0.755,3.260,9.6, 0,1,0
 AddFace,0,1,2,3
 LoadTexture,E2.png
@@ -1380,9 +1382,9 @@ SetTextureCoordinates,3,1.000,1.000
 
 CreateMeshBuilder
 AddVertex,-0.755,3.260,9.6, 0,1,0
-AddVertex,-0.755,3.415,8.050, 0,1,0
-AddVertex,-0.800,3.415,8.050, 0,1,0
-AddVertex,-0.780,3.17,9.63, 0,1,0
+AddVertex,-0.755,3.415,8.130, 0,1,0
+AddVertex,-0.800,3.415,8.130, 0,1,0
+AddVertex,-0.780,3.195,9.62, 0,1,0
 AddFace,0,1,2,3
 LoadTexture,E2.png
 SetTextureCoordinates,0,0.000,1.000
@@ -1391,10 +1393,10 @@ SetTextureCoordinates,2,1.000,0.000
 SetTextureCoordinates,3,1.000,1.000
 
 CreateMeshBuilder
-AddVertex,-0.780,3.175,9.600, 0,1,0
-AddVertex,-0.780,3.415,8.050, 0,1,0
-AddVertex,-1.210,3.415,8.050, 0,1,0
-AddVertex,-0.780,3.175,9.600, 0,1,0
+AddVertex,-0.780,3.202,9.600, 0,1,0
+AddVertex,-0.780,3.415,8.130, 0,1,0
+AddVertex,-1.200,3.415,8.130, 0,1,0
+AddVertex,-0.780,3.202,9.600, 0,1,0
 AddFace,0,1,2,3
 LoadTexture,E2.png
 SetTextureCoordinates,0,0.000,1.000
@@ -1403,10 +1405,10 @@ SetTextureCoordinates,2,1.000,0.000
 SetTextureCoordinates,3,1.000,1.000
 
 CreateMeshBuilder
-AddVertex,-0.790,3.202,9.455, 0,1,0
-AddVertex,-1.200,3.415,8.100, 0,1,0
-AddVertex,-1.340,3.305,8.100, 0,1,0
-AddVertex,-0.790,3.116,9.495, 0,1,0
+AddVertex,-0.770,3.202,9.600, 0,1,0
+AddVertex,-1.200,3.415,8.130, 0,1,0
+AddVertex,-1.330,3.300,8.130, 0,1,0
+AddVertex,-0.780,3.202,9.600, 0,1,0
 AddFace,0,1,2,3
 LoadTexture,E2.png
 SetTextureCoordinates,0,0.000,1.000
@@ -1414,31 +1416,7 @@ SetTextureCoordinates,1,0.000,0.000
 SetTextureCoordinates,2,1.000,0.000
 SetTextureCoordinates,3,1.000,1.000
 
-CreateMeshBuilder
-AddVertex,0.800,3.415,3.500, 0,1,0
-AddVertex,0.800,3.915,3.500, 0,1,0
-AddVertex,0.800,3.915,-4.000, 0,1,0
-AddVertex,0.800,3.415,-4.000, 0,1,0
-AddFace,3,2,1,0
-LoadTexture,aircon.png
-SetTextureCoordinates,0,1.000,1.000
-SetTextureCoordinates,1,1.000,0.000
-SetTextureCoordinates,2,0.000,0.000
-SetTextureCoordinates,3,0.000,1.000
-SetDecalTransparentColor,0,0,255
-
-CreateMeshBuilder
-AddVertex,-0.800,3.415,3.500, 0,1,0
-AddVertex,-0.800,3.915,3.500, 0,1,0
-AddVertex,-0.800,3.915,-4.000, 0,1,0
-AddVertex,-0.800,3.415,-4.000, 0,1,0
-AddFace,0,1,2,3
-LoadTexture,aircon.png
-SetTextureCoordinates,0,0.000,1.000
-SetTextureCoordinates,1,0.000,0.000
-SetTextureCoordinates,2,1.000,0.000
-SetTextureCoordinates,3,1.000,1.000
-SetDecalTransparentColor,0,0,255
+;; Head end;;
 
 CreateMeshBuilder
 AddVertex,-1.380,2.910,8.150, 0,1,0
