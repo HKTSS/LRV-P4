@@ -9,8 +9,15 @@
 			<Length>20.2</Length>
 			<Width>2.65</Width>
 			<Height>3.415</Height>
+			<Cargo>Passengers</Cargo>
+			<FrontAxle>8</FrontAxle>
+			<RearAxle>-8</RearAxle>
+			<Object>P4_1\Train.animated</Object>
+			<Reversed>False</Reversed>
+			<LoadingSway>False</LoadingSway>
+			<DriverPosition>0,2.15,-1.55</DriverPosition>
 			<MotorCar>True</MotorCar>
-			<Mass>27000</Mass>
+			<Mass>37000</Mass>
 			<ReadhesionDevice>TypeA</ReadhesionDevice>
 			<Power>
 				<Notches>8</Notches>
@@ -74,48 +81,38 @@
 					</OpenBVE>
 				</AccelerationCurves>
 			</Power>
-			<Cargo>Passengers</Cargo>
-			<FrontAxle>8</FrontAxle>
-			<RearAxle>-8</RearAxle>
-			<Object>P4_1\Train.animated</Object>
-			<Reversed>False</Reversed>
-			<LoadingSway>False</LoadingSway>
-			<DriverPosition>0,2.15,-1.55</DriverPosition>
 			<Brake>
 				<Handle>
 					<Notches>7</Notches>
 				</Handle>
-				<Compressor>
-					<Rate>5000.0</Rate>
-				</Compressor>
 				<MainReservoir>
-					<MinimumPressure>3000000</MinimumPressure>
-					<MaximumPressure>3300000</MaximumPressure>
+					<MinimumPressure>686000</MinimumPressure>
+					<MaximumPressure>834000</MaximumPressure>
 				</MainReservoir>
 				<AuxiliaryReservoir>
 					<ChargeRate>200000.0</ChargeRate>
 				</AuxiliaryReservoir>
 				<EqualizingReservoir>
 					<ServiceRate>50000.0</ServiceRate>
-					<EmergencyRate>9200000</EmergencyRate>
+					<EmergencyRate>250000.0</EmergencyRate>
 					<ChargeRate>200000.0</ChargeRate>
 				</EqualizingReservoir>
 				<BrakePipe>
-					<NormalPressure>3200000</NormalPressure>
+					<NormalPressure>630750</NormalPressure>
 					<ServiceRate>1500000.0</ServiceRate>
-					<EmergencyRate>9200000</EmergencyRate>
+					<EmergencyRate>5000000.0</EmergencyRate>
 					<ChargeRate>10000000.0</ChargeRate>
 				</BrakePipe>
 				<StraightAirPipe>
 					<ServiceRate>300000.0</ServiceRate>
-					<EmergencyRate>9200000</EmergencyRate>
+					<EmergencyRate>400000.0</EmergencyRate>
 					<ReleaseRate>200000.0</ReleaseRate>
 				</StraightAirPipe>
 				<BrakeCylinder>
-					<ServiceMaximumPressure>1800000</ServiceMaximumPressure>
-					<EmergencyMaximumPressure>9200000</EmergencyMaximumPressure>
-					<EmergencyRate>9200000</EmergencyRate>
-					<ReleaseRate>1200000</ReleaseRate>
+					<ServiceMaximumPressure>400000</ServiceMaximumPressure>
+					<EmergencyMaximumPressure>465000</EmergencyMaximumPressure>
+					<EmergencyRate>203000</EmergencyRate>
+					<ReleaseRate>209000</ReleaseRate>
 				</BrakeCylinder>
 			</Brake>
 			<Doors>
@@ -138,7 +135,7 @@
 			<Width>2.65</Width>
 			<Height>3.415</Height>
 			<MotorCar>True</MotorCar>
-			<Mass>27000</Mass>
+			<Mass>37000</Mass>
 			<ReadhesionDevice>TypeA</ReadhesionDevice>
 			<Power>
 				<Notches>8</Notches>
@@ -208,37 +205,37 @@
 			<Reversed>False</Reversed>
 			<LoadingSway>True</LoadingSway>
 			<Brake>
-				<Compressor>
-					<Rate>5000.0</Rate>
-				</Compressor>
+				<Handle>
+					<Notches>7</Notches>
+				</Handle>
 				<MainReservoir>
-					<MinimumPressure>3000000</MinimumPressure>
-					<MaximumPressure>3300000</MaximumPressure>
+					<MinimumPressure>686000</MinimumPressure>
+					<MaximumPressure>834000</MaximumPressure>
 				</MainReservoir>
 				<AuxiliaryReservoir>
 					<ChargeRate>200000.0</ChargeRate>
 				</AuxiliaryReservoir>
 				<EqualizingReservoir>
 					<ServiceRate>50000.0</ServiceRate>
-					<EmergencyRate>9200000</EmergencyRate>
+					<EmergencyRate>250000.0</EmergencyRate>
 					<ChargeRate>200000.0</ChargeRate>
 				</EqualizingReservoir>
 				<BrakePipe>
-					<NormalPressure>3200000</NormalPressure>
+					<NormalPressure>630750</NormalPressure>
 					<ServiceRate>1500000.0</ServiceRate>
-					<EmergencyRate>9200000</EmergencyRate>
+					<EmergencyRate>5000000.0</EmergencyRate>
 					<ChargeRate>10000000.0</ChargeRate>
 				</BrakePipe>
 				<StraightAirPipe>
 					<ServiceRate>300000.0</ServiceRate>
-					<EmergencyRate>9200000</EmergencyRate>
+					<EmergencyRate>400000.0</EmergencyRate>
 					<ReleaseRate>200000.0</ReleaseRate>
 				</StraightAirPipe>
 				<BrakeCylinder>
-					<ServiceMaximumPressure>1800000</ServiceMaximumPressure>
-					<EmergencyMaximumPressure>9200000</EmergencyMaximumPressure>
-					<EmergencyRate>9200000</EmergencyRate>
-					<ReleaseRate>1200000</ReleaseRate>
+					<ServiceMaximumPressure>400000</ServiceMaximumPressure>
+					<EmergencyMaximumPressure>465000</EmergencyMaximumPressure>
+					<EmergencyRate>203000</EmergencyRate>
+					<ReleaseRate>209000</ReleaseRate>
 				</BrakeCylinder>
 			</Brake>
 			<Doors>
@@ -282,10 +279,8 @@ Shift+Enter 或 Numpad + 鍵: 廣播(請緊握扶手)
 開始游戲前，請確保你已經閱讀以上事項。
 如被發現違反以上事項，本工作室保留追究權利。
 
-2021-2026 香港交通模擬工作室
-版權所有，侵權必究。
+2022 香港交通模擬工作室
 
-2021-2026 Hong Kong Transport Simulation Studio
-All right reserved.</Description>
+2022 Hong Kong Transport Simulation Studio</Description>
 	</Train>
 </openBVE>
