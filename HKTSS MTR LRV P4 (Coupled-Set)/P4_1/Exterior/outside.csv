@@ -1,4 +1,4 @@
-﻿CreateMeshBuilder
+CreateMeshBuilder
 AddVertex,-0.800,2.700,9.780, 0,1,0
 AddVertex,-0.800,3.415,9.550, 0,1,0
 AddVertex,0.800,3.415,9.550, 0,1,0
@@ -128,12 +128,11 @@ AddVertex,-0.700,0.730,10.025, 0,1,0
 AddVertex,-0.700,0.720,10.070, 0,1,0
 AddFace,0,1,2,3
 LoadTexture,headfront2.png
-SetTextureCoordinates,0,0.000,1.000
-SetTextureCoordinates,1,0.000,0.000
-SetTextureCoordinates,2,-1.000,0.000
-SetTextureCoordinates,3,-1.000,1.000
+SetTextureCoordinates,0,1.000,1.000
+SetTextureCoordinates,1,1.000,0.000
+SetTextureCoordinates,2,0.000,0.000
+SetTextureCoordinates,3,0.000,1.000
 SetDecalTransparentColor,0,0,255
-SetWrapMode,RepeatClamp
 
 CreateMeshBuilder
 AddVertex,-0.600,0.690,10.095, 0,1,0

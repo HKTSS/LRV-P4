@@ -286,9 +286,10 @@ Position = 0,0,0.01
 Statefunction = if[reverserNotch == -1,0,1]
 
 [Object]
-States = Exterior\HeadLight.csv, null.csv
-Position = 0,0,0.0
-Statefunction = if[pluginstate[109] == 1, 1, 0]
+States = null.csv, Exterior\Headlight\1.csv, Exterior\Headlight\2.csv, Exterior\Headlight\3.csv, Exterior\Headlight\4.csv, Exterior\Headlight\5.csv
+Position = 0,0,0
+Statefunction = if[pluginstate[109] == 0, min[value+1 , 5], max[value-1 , 0]]
+RefreshRate = 0.01
 
 [Object]
 States = display\610\610_YL.csv, display\610\610_FP.csv, display\705\705.csv, display\705\705_TSW.csv, display\706\706.csv, display\507\507_FP.csv, display\507\507_TK.csv, display\507P\507P_FP.csv,  display\614\614_FP.csv, display\614\614_YL.csv, display\614P\614P_FP.csv, display\614P\614P_SH.csv, display\615\615_FP.csv, display\615\615_YL.csv, display\615P\615P_FP.csv, display\615P\615P_SH.csv, display\751\751_TY.csv, display\751\751_YO.csv, display\NIS\NIS.csv, display\Empty\E.csv, display\761P\761P_TY.csv, display\761P\761P_YL.csv, display\751P\751P_TSW.csv, display\751P\751P_TY.csv, display\505\505_SH.csv, display\505\505_SS.csv
@@ -506,42 +507,40 @@ Statefunction = pluginState[99]
 ;;Direction Indicator;;
 ;;Front Left;;
 [Object]
-States = Exterior\DirectionLightoff.csv, Exterior\DirectionLighton.csv
+States = Exterior\TurnSignal\off.csv, Exterior\TurnSignal\on.csv
 Position = -2.75,-0.15,0.05
 Statefunction = if[pluginstate[102] == 1 | pluginstate[102] == 3, value == 0, 0]
 RefreshRate = 0.55
 
-[object]
-
 ;;Front Right;;
 [Object]
-States = Exterior\DirectionLightoff.csv, Exterior\DirectionLighton.csv
+States = Exterior\TurnSignal\off.csv, Exterior\TurnSignal\on.csv
 Position = -0.02,-0.15,0
 Statefunction = if[pluginstate[102] == 2 | pluginstate[102] == 3, value == 0, 0]
 RefreshRate = 0.55
 
 ;;Back Left;;
 [Object]
-States = Exterior\DirectionLightoff.csv, Exterior\DirectionLighton.csv
+States = Exterior\TurnSignal\off.csv, Exterior\TurnSignal\on.csv
 Position = -2.75,-0.15,-16.37
 Statefunction = if[pluginstate[102] == 1 | pluginstate[102] == 3, value == 0, 0]
 RefreshRate = 0.55
 
 ;;Back Right;;
 [Object]
-States = Exterior\DirectionLightoff.csv, Exterior\DirectionLighton.csv
+States = Exterior\TurnSignal\off.csv, Exterior\TurnSignal\on.csv
 Position = -0.02,-0.15,-16.35
 Statefunction = if[pluginstate[102] == 2 | pluginstate[102] == 3, value == 0, 0]
 RefreshRate = 0.55
 
 [Object]
-States = null.csv, Exterior\dirlhl.csv
+States = null.csv, Exterior\TurnSignal\front_left.csv
 Position = 0,0,0
 Statefunction = if[pluginstate[102] == 1, Mod[value + pluginstate[102], 2] ,0]
 RefreshRate = 0.55
 
 [Object]
-States = null.csv, Exterior\dirhr.csv
+States = null.csv, Exterior\TurnSignal\front_right.csv
 Position = 0,0,0
 Statefunction = if[pluginstate[103] == 1, Mod[value + pluginstate[103], 2] ,0]
 RefreshRate = 0.55
