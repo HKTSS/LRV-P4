@@ -12,8 +12,8 @@ Translate,-0.02,0.06,-10.01
 CreateMeshBuilder,
 AddVertex,0.8, 0.2, -0.1,0,1,0
 AddVertex,0.66, 3.3, 0.1,0,1,0
-AddVertex,1.33, 3.3, 1.87,0,1,0
-AddVertex,1.33, 0.2, 1.87,0,1,0
+AddVertex,1.33, 3.3, 1.84,0,1,0
+AddVertex,1.33, 0.2, 1.84,0,1,0
 AddFace2, 0, 1, 2, 3
 LoadTexture,head-left.png
 SetTextureCoordinates,0,0,1
@@ -42,8 +42,8 @@ Translate,-0.027,-0.1,-10.1
 CreateMeshBuilder,
 AddVertex,-0.785, 0.2, -0.09,0,1,0
 AddVertex,-0.77, 1.63, 0.02,0,1,0
-AddVertex,-1.33, 1.63, 1.87,0,1,0
-AddVertex,-1.33, 0.2, 1.87,0,1,0
+AddVertex,-1.33, 1.63, 1.84,0,1,0
+AddVertex,-1.33, 0.2, 1.84,0,1,0
 AddFace2,3,2,1,0
 LoadTexture,Head-right.png,
 SetTextureCoordinates,0,0,1,
@@ -56,8 +56,8 @@ Translate,0.03,0.06,-10.02
 CreateMeshBuilder,
 AddVertex,-0.77,1.63, 0.02,0,1,0
 AddVertex,-0.70, 3.31, 0.1,0,1,0
-AddVertex,-1.33, 3.31, 1.87,0,1,0
-AddVertex,-1.33, 1.63, 1.87,0,1,0
+AddVertex,-1.33, 3.31, 1.84,0,1,0
+AddVertex,-1.33, 1.63, 1.84,0,1,0
 AddFace2,3,2,1,0
 LoadTexture,Head-right.png,
 SetTextureCoordinates,0,0,0.55,
