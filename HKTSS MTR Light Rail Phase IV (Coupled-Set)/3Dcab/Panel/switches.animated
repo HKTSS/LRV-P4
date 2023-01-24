@@ -14,7 +14,7 @@ RotateXFunction = 0.85
 
 ;; Left/Right Indicator ;;
 [Object]
-States = Component\switch.csv, Component\switchL.csv, Component\switchR.csv
+States = Component\switch.csv, Component\switchL.csv, Component\switchR.csv, Component\switch.csv
 Position = 0.248,1.753,9.527
 StateFunction = pluginstate[102]
 RotateXFunction = 0.85

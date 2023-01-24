@@ -49,7 +49,7 @@ Position = 0,-0.152,0
 ;;iSPS overspeed light;;
 [Object]
 States = ..\P4_1\null.csv, iSPS\indicationLight.csv
-Position = 0,0,0
+Position = 0,-0.152,0
 Statefunction = if[pluginstate[201] == 1, 1, 0]
 
 ;;iSPS Reserved light;;
@@ -59,7 +59,7 @@ Position = 0.03,-0.152,0
 
 [Object]
 States = ..\P4_1\null.csv, iSPS\fault.csv
-Position = 0,0,0
+Position = 0,-0.152,0
 Statefunction = if[pluginstate[203] == 1, 1, 0]
 
 [Object]
@@ -104,7 +104,7 @@ RotateXDamping = 20, 0.8
 
 [Object]
 States = brakeneedleY.csv
-Position = -0.17, 1.993, 9.567
+Position = -0.177, 1.817, 9.60
 RotateXDirection = -1, 0, 0
 RotateXFunction = -3.3 + abs[mainReservoir] * 0.0000040
 RotateYFunction = -0.8
@@ -112,7 +112,7 @@ RotateZFunction = -0.62
 
 [Object]
 States = brakeneedleR.csv
-Position = -0.17, 1.993, 9.567
+Position = -0.177, 1.817, 9.60
 RotateXDirection = -1, 0, 0
 RotateXFunction = -3.75 + abs[brakeCylinder] * 0.0000017
 RotateYFunction = -1.1 + abs[brakeCylinder] * 0.0000006
