@@ -1,0 +1,15 @@
+CreateMeshBuilder,
+AddVertex,1.23, 2.60, 1.13,0,1,0
+AddVertex,1.23, 3.03, 1.13,0,1,0
+AddVertex,1.23, 3.03, 1.48,0,1,0
+AddVertex,1.23, 2.60, 1.48,0,1,0
+AddFace2,0, 1, 2, 3,
+LoadTexture,backmirror2.png,
+SetTextureCoordinates,0,0.001,1,
+SetTextureCoordinates,1,0.001,0.05,
+SetTextureCoordinates,2,-0.999,0.05
+SetTextureCoordinates,3,-0.999,1
+SetDecalTransparentColor,0,0,255,
+
+RotateAll,0,1,0,180
+TranslateAll,0,0,10

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openBVE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<PanelAnimated>
+		<Include>
+			<FileName>panel.animated</FileName>
+		</Include>
+		<Group>
+			<Number>0</Number>
+			<Touch>
+				<Position>0.180, 1.925, 9.51</Position>
+				<Size>0.015, 0.020, 0.015</Size>
+				<Command>HORN_PRIMARY</Command>
+			</Touch>
+			<Touch>
+				<Position>0.280, 1.925, 9.51</Position>
+				<Size>0.005, 0.020, 0.005</Size>
+				<Command>SECURITY_D</Command>
+			</Touch>
+			<Touch>
+				<Position>0.299, 1.925, 9.51</Position>
+				<Size>0.005, 0.020, 0.005</Size>
+				<Command>SECURITY_E</Command>
+			</Touch>
+			<Touch>
+				<Position>-0.290, 1.925, 9.51</Position>
+				<Size>0.020, 0.020, 0.015</Size>
+				<Command>SECURITY_A2</Command>
+			</Touch>
+			<Touch>
+				<Position>-0.344, 1.925, 9.51</Position>
+				<Size>0.019, 0.020, 0.015</Size>
+				<Command>MAIN_BREAKER</Command>
+			</Touch>
+		</Group>
+	</PanelAnimated>
+</openBVE>

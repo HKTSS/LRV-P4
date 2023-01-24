@@ -1,0 +1,15 @@
+; 3D cab "1" light ;
+CreateMeshBuilder,
+AddVertex,-0.55 ,  2.08 , -0.67 ,0,1,0
+AddVertex, 0.35 ,  2.08 , -0.67 ,0,1,0
+AddVertex, 0.35 ,  1.8 , -0.97 ,0,1,0
+AddVertex,-0.55 ,  1.8 , -0.97 ,0,1,0
+AddFace2,0, 1, 2, 3,
+SetEmissiveColor,255,255,255
+LoadTexture,b1.png,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,1,1
+SetTextureCoordinates,3,0,1,
+SetDecalTransparentColor,0,0,0,
+translate,0,0.074,10.402

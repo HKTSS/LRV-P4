@@ -1,0 +1,14 @@
+CreateMeshBuilder,
+AddVertex, 0.05, 0.9, 0,
+AddVertex, 0.05, 3.4, 0,
+AddVertex, 1.0, 3.4, 0.05,
+AddVertex, 1.0, 0.9, 0.05,
+AddFace2,0, 1, 2, 3,
+SetEmissiveColor,255,255,255
+LoadTexture,CHandle2.png
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0
+SetTextureCoordinates,3,1,1
+SetDecalTransparentColor,0,144,181,
+translateall,0.26,0,2.8

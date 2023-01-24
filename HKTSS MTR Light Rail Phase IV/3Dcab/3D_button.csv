@@ -1,0 +1,35 @@
+;;White yellow red "BLACK;;
+CreateMeshBuilder,
+AddVertex,-0.162 ,  1.902 , -0.608 ,0,1,0
+AddVertex, -0.17 ,  1.902 , -0.608 ,0,1,0
+AddVertex, -0.17 ,  1.86 , -0.65 ,0,1,0
+AddVertex,-0.162 ,  1.86 , -0.65 ,0,1,0
+AddFace2,0, 1, 2, 3,
+SetColor,15,15,15
+Rotate,0,1,0,180
+translate,0,0.04,-10.273
+
+CreateMeshBuilder,
+AddVertex,-0.17 ,  1.902 , -0.608 ,0,1,0
+AddVertex, -0.17 ,  1.895 , -0.608 ,0,1,0
+AddVertex, -0.17 ,  1.85 , -0.65 ,0,1,0
+AddVertex,-0.17 ,  1.86 , -0.65 ,0,1,0
+AddFace2,0, 1, 2, 3,
+SetColor,30,30,30
+Rotate,0,1,0,180
+translate,0,0.04,-10.273
+
+CreateMeshBuilder,
+AddVertex,-0.162 ,  1.902 , -0.608 ,0,1,0
+AddVertex, -0.162 ,  1.895 , -0.608 ,0,1,0
+AddVertex, -0.162 ,  1.85 , -0.65 ,0,1,0
+AddVertex,-0.162 ,  1.86 , -0.65 ,0,1,0
+AddFace2,0, 1, 2, 3,
+SetColor,30,30,30
+Rotate,0,1,0,180
+translate,0,0.04,-10.273
+
+
+RotateAll,0,1,0,180
+
+
