@@ -47,8 +47,8 @@ SetBlendMode, Normal, 1, DivideExponent4
 CreateMeshBuilder,
 AddVertex,-1.3, 0.9, 0.275,
 AddVertex,-1.3, 3.26, 0.275,
-AddVertex,-1.3, 3.26, 1.58,
-AddVertex,-1.3, 0.9, 1.58,
+AddVertex,-1.3, 3.26, 1.70,
+AddVertex,-1.3, 0.9, 1.70,
 AddFace,0, 1, 2, 3
 SetEmissiveColor,255,255,255
 LoadTexture,7B_I.png
@@ -61,8 +61,8 @@ SetDecalTransparentColor,255,255,255
 CreateMeshBuilder,
 AddVertex,-1.2, 1.822, 0.25,
 AddVertex,-1.3, 1.822, 0.25,
-AddVertex,-1.3, 1.822, 1.60,
-AddVertex,-1.2, 1.822, 1.60,
+AddVertex,-1.3, 1.822, 1.70,
+AddVertex,-1.2, 1.822, 1.70,
 AddFace,0, 1, 2, 3
 SetEmissiveColor,255,255,255
 LoadTexture,7B_I.png
@@ -75,8 +75,8 @@ SetDecalTransparentColor,255,255,255
 CreateMeshBuilder,
 AddVertex,-1.2, 1.12, 0.25,
 AddVertex,-1.2, 1.822, 0.25,
-AddVertex,-1.2, 1.822, 1.60,
-AddVertex,-1.2, 1.12, 1.60,
+AddVertex,-1.2, 1.822, 1.70,
+AddVertex,-1.2, 1.12, 1.70,
 AddFace,0, 1, 2, 3
 SetEmissiveColor,255,255,255
 LoadTexture,7B_I.png
