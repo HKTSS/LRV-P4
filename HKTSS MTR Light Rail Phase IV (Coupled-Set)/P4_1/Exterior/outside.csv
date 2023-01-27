@@ -693,10 +693,10 @@ AddVertex,0.640,3.305,9.525, 0,1,0
 AddVertex,0.640,2.890,9.525, 0,1,0
 AddFace,3,2,1,0
 LoadTexture,..\DestSign\empty\FE.png
-SetTextureCoordinates,0,1.000,1.250
-SetTextureCoordinates,1,1.000,0.000
-SetTextureCoordinates,2,0.000,0.000
-SetTextureCoordinates,3,0.000,1.250
+SetTextureCoordinates,0,1,1
+SetTextureCoordinates,1,1,0
+SetTextureCoordinates,2,0,0
+SetTextureCoordinates,3,0,1
 
 CreateMeshBuilder,
 AddVertex, 0.64, 2.895, 9.72,0,1,0
