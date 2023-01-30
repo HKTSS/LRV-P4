@@ -194,7 +194,37 @@ TranslateAll,0,-0.11,0
 
 CreateMeshBuilder,
 Cylinder, 15, 0.03, 0.03, 0.3
-SetColor,50,50,50
+LoadTexture, pole_color.png
+SetTextureCoordinates,0, 1, 0
+SetTextureCoordinates,1, 0.9, 1
+SetTextureCoordinates,2, 0.8, 0
+SetTextureCoordinates,3, 0.7, 1
+SetTextureCoordinates,4, 0.6, 0
+SetTextureCoordinates,5, 0.5, 1
+SetTextureCoordinates,6, 0.4, 0
+SetTextureCoordinates,7, 0.3, 1
+SetTextureCoordinates,8, 0.2, 0
+SetTextureCoordinates,9, 0.3, 1
+SetTextureCoordinates,10, 0.4, 0
+SetTextureCoordinates,11, 0.5, 1
+SetTextureCoordinates,12, 0.5, 0
+SetTextureCoordinates,13, 0.5, 1
+SetTextureCoordinates,14, 0.5, 0
+SetTextureCoordinates,15, 0.5, 1
+SetTextureCoordinates,16, 0.4, 0
+SetTextureCoordinates,17, 0.3, 1
+SetTextureCoordinates,18, 0.2, 0
+SetTextureCoordinates,19, 0.1, 1
+SetTextureCoordinates,20, 0, 0
+SetTextureCoordinates,21, 0.1, 1
+SetTextureCoordinates,22, 0.2, 0
+SetTextureCoordinates,23, 0.3, 1
+SetTextureCoordinates,24, 0.4, 0
+SetTextureCoordinates,25, 0.5, 1
+SetTextureCoordinates,26, 0.6, 0
+SetTextureCoordinates,27, 0.7, 1
+SetTextureCoordinates,28, 0.8, 0
+SetTextureCoordinates,29, 0.9, 1
 translate, 0.1,0.00,0.35
 TranslateAll, 0,-0.03,0
 ScaleAll, 1.4, 1.5, 1.2

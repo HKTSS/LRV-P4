@@ -3,7 +3,8 @@ AddVertex,-1.42, 2.4, 2.03, 0,1,0
 AddVertex,-1.42, 2.6, 2.03, 0,1,0
 AddVertex,-1.42, 2.6, 1.98, 0,1,0
 AddVertex,-1.42, 2.4, 1.98, 0,1,0
-AddFace2,0, 1, 2, 3,
+AddFace,0, 1, 2, 3
+SetEmissiveColor,255,255,255
 LoadTexture,dirlight.png,
 SetTextureCoordinates,0,0.5,1,
 SetTextureCoordinates,1,0.5,0,
@@ -15,19 +16,8 @@ AddVertex,-1.35, 2.4, 2.03, 0,1,0
 AddVertex,-1.35, 2.6, 2.03, 0,1,0
 AddVertex,-1.35, 2.6, 1.98, 0,1,0
 AddVertex,-1.35, 2.4, 1.98, 0,1,0
-AddFace2,0, 1, 2, 3,
-LoadTexture,dirlight.png,
-SetTextureCoordinates,0,0.5,1,
-SetTextureCoordinates,1,0.5,0,
-SetTextureCoordinates,2,1,0
-SetTextureCoordinates,3,1,1,
-
-CreateMeshBuilder,
-AddVertex,-1.35, 2.4, 2.03, 0,1,0
-AddVertex,-1.35, 2.4, 1.98, 0,1,0
-AddVertex,-1.42, 2.4, 1.98, 0,1,0
-AddVertex,-1.42, 2.4, 2.03, 0,1,0
-AddFace2,0, 1, 2, 3,
+AddFace,3, 2, 1, 0
+SetEmissiveColor,255,255,255
 LoadTexture,dirlight.png,
 SetTextureCoordinates,0,0.5,1,
 SetTextureCoordinates,1,0.5,0,
@@ -39,7 +29,8 @@ AddVertex,-1.35, 2.4, 2.03,0,1,0
 AddVertex,-1.35, 2.6, 2.03,0,1,0
 AddVertex,-1.42, 2.6, 2.03,0,1,0
 AddVertex,-1.42, 2.4, 2.03,0,1,0
-AddFace2,0, 1, 2, 3,
+AddFace,0, 1, 2, 3,
+SetEmissiveColor,255,255,255
 LoadTexture,dirlight.png,
 SetTextureCoordinates,0,0.5,1,
 SetTextureCoordinates,1,0.5,0,
@@ -51,7 +42,8 @@ AddVertex,-1.35, 2.4, 1.98,0,1,0
 AddVertex,-1.35, 2.6, 1.98,0,1,0
 AddVertex,-1.42, 2.6, 1.98,0,1,0
 AddVertex,-1.42, 2.4, 1.98,0,1,0
-AddFace2,0, 1, 2, 3,
+AddFace,3, 2, 1, 0
+SetEmissiveColor,255,255,255
 LoadTexture,dirlight.png,
 SetTextureCoordinates,0,0.5,1,
 SetTextureCoordinates,1,0.5,0,
@@ -59,16 +51,30 @@ SetTextureCoordinates,2,1,0,
 SetTextureCoordinates,3,1,1,
 
 CreateMeshBuilder,
+AddVertex,-1.35, 2.4, 2.03, 0,1,0
+AddVertex,-1.35, 2.4, 1.98, 0,1,0
+AddVertex,-1.42, 2.4, 1.98, 0,1,0
+AddVertex,-1.42, 2.4, 2.03, 0,1,0
+AddFace,3, 2, 1, 0
+SetEmissiveColor,255,255,255
+LoadTexture,dirlight.png,
+SetTextureCoordinates,0,0.5,0.7,
+SetTextureCoordinates,1,0.5,0.4,
+SetTextureCoordinates,2,1,0.4,
+SetTextureCoordinates,3,1,0.7,
+
+CreateMeshBuilder,
 AddVertex,-1.35, 2.6, 2.03,0,1,0
 AddVertex,-1.35, 2.6, 1.98,0,1,0
 AddVertex,-1.42, 2.6, 1.98,0,1,0
 AddVertex,-1.42, 2.6, 2.03,0,1,0
-AddFace2,0, 1, 2, 3,
+AddFace,0, 1, 2, 3,
+SetEmissiveColor,255,255,255
 LoadTexture,dirlight.png,
-SetTextureCoordinates,0,0.5,1,
-SetTextureCoordinates,1,0.5,0,
-SetTextureCoordinates,2,1,0,
-SetTextureCoordinates,3,1,1,
+SetTextureCoordinates,0,0.5,0.7,
+SetTextureCoordinates,1,0.5,0.4,
+SetTextureCoordinates,2,1,0.4,
+SetTextureCoordinates,3,1,0.7,
 
 RotateAll,0,1,0,180
 TranslateAll,0,0,10

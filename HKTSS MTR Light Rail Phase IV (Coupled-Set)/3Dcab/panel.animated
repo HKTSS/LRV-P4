@@ -12,7 +12,7 @@ Position = 0,-0.05,-0.05
 [Object]
 States = ..\P4_1\null.csv, Panel\Component\dirflash.csv
 Position = 0,0,-0
-StateFunction = if[Pluginstate[108] > 0 | Pluginstate[102] > 0, value == 0, 0]
+StateFunction = if[Pluginstate[102] > 0, value == 0, 0]
 RefreshRate = 0.65
 
 
@@ -124,12 +124,6 @@ Position = -0.078,1.815,9.604
 RotateXFunction = -0.3 + sin[abs[speedometer] * 0.14]
 RotateYFunction = -0.6 + sin[abs[speedometer] * 0.10]
 RotateZFunction = 2.1 - (abs[speedometer] * 0.17)
-
-[Object]
-States = ..\P4_1\null.csv, panelLight\dir.csv
-Position = 0,0.1,-0.1
-StateFunction= if[pluginstate[102] == 1, Mod[value + pluginstate[102], 2] ,0]
-RefreshRate = 0.54
 
 [Object]
 States = ..\P4_1\null.csv, panelLight\dir.csv

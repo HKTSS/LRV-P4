@@ -5,6 +5,7 @@ AddVertex, 0.251,  1.7805, 9.566, 0,1,0
 AddVertex,0.240,  1.7805, 9.566, 0,1,0
 AddFace, 0, 1, 2, 3
 SetColor,150,150,150
+SetEmissiveColor,255,255,255
 LoadTexture,dirflash.png,
 SetTextureCoordinates,0, 0.0, 0
 SetTextureCoordinates,1, 1, 0
