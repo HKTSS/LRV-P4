@@ -556,15 +556,15 @@ Statefunction = if[pluginstate[102] == 2 | pluginstate[102] == 3, value == 0, 0]
 RefreshRate = 0.55
 
 [Object]
-States = null.csv, Exterior\TurnSignal\front_left.csv
+States = null.csv, Exterior\TurnSignal\head_left.csv
 Position = 0,0,0
-Statefunction = if[pluginstate[102] == 1, Mod[value + pluginstate[102], 2] ,0]
+Statefunction = if[pluginstate[102] == 1 | pluginstate[102] == 3, Mod[value + 1, 2] ,0]
 RefreshRate = 0.55
 
 [Object]
-States = null.csv, Exterior\TurnSignal\front_right.csv
+States = null.csv, Exterior\TurnSignal\head_right.csv
 Position = 0,0,0
-Statefunction = if[pluginstate[103] == 1, Mod[value + pluginstate[103], 2] ,0]
+Statefunction = if[pluginstate[102] == 2  | pluginstate[102] == 3, Mod[value + pluginstate[103], 2] ,0]
 RefreshRate = 0.55
 
 [Object]
