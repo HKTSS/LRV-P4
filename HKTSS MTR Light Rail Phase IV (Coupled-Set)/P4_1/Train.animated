@@ -290,33 +290,33 @@ RefreshRate = 0.01
 ;; Front Destination Sign ;;
 
 [Object]
-States = DestSign\610\610_YL.csv, DestSign\610\610_FP.csv, DestSign\705\705.csv, DestSign\705\705_TSW.csv, DestSign\706\706.csv, DestSign\706\706_TSW.csv, DestSign\701\701.csv, DestSign\507\507_FP.csv, DestSign\507\507_TK.csv, DestSign\507P\507P_FP.csv,  DestSign\614\614_FP.csv, DestSign\614\614_YL.csv, DestSign\614P\614P_FP.csv, DestSign\614P\614P_SH.csv, DestSign\615\615_FP.csv, DestSign\615\615_YL.csv, DestSign\615P\615P_FP.csv, DestSign\615P\615P_SH.csv, DestSign\751\751_TY.csv, DestSign\751\751_YO.csv, DestSign\NIS\NIS.csv, DestSign\Empty\E.csv, DestSign\761P\761P_TY.csv, DestSign\761P\761P_YL.csv, DestSign\751P\751P_TSW.csv, DestSign\751P\751P_TY.csv, DestSign\505\505_SH.csv, DestSign\505\505_SS.csv
+States = DestSign\610\610_YL.csv, DestSign\610\610_FP.csv, DestSign\705\705.csv, DestSign\705\705_TSW.csv, DestSign\706\706.csv, DestSign\706\706_TSW.csv, DestSign\701\701.csv, DestSign\507\507_FP.csv, DestSign\507\507_TK.csv, DestSign\507P\507P_FP.csv,  DestSign\614\614_FP.csv, DestSign\614\614_YL.csv, DestSign\614P\614P_FP.csv, DestSign\614P\614P_SH.csv, DestSign\615\615_FP.csv, DestSign\615\615_YL.csv, DestSign\615P\615P_FP.csv, DestSign\615P\615P_SH.csv, DestSign\751\751_TY.csv, DestSign\751\751_YO.csv, DestSign\751\751_SP.csv, DestSign\NIS\NIS.csv, DestSign\Empty\E.csv, DestSign\761P\761P_TY.csv, DestSign\761P\761P_YL.csv, DestSign\751P\751P_TSW.csv, DestSign\751P\751P_TY.csv, DestSign\505\505_SH.csv, DestSign\505\505_SS.csv
 Position = 0,0,0
-Statefunction = Mod[pluginstate[104], 20]
+Statefunction = Mod[pluginstate[104], 22]
 RefreshRate = 0.1
 
 ;; Back Destination Sign ;;
 [Object]
-States = DestSign\610\Back.csv, DestSign\610\Back.csv, DestSign\705\Back.csv, DestSign\705\Back.csv, DestSign\706\Back.csv, DestSign\706\Back.csv, DestSign\701\Back.csv, DestSign\507\Back.csv, DestSign\507\Back.csv, DestSign\507P\Back.csv,  DestSign\614\Back.csv, DestSign\614\Back.csv, DestSign\614P\Back.csv, DestSign\614P\Back.csv, DestSign\615\Back.csv, DestSign\615\Back.csv, DestSign\615P\Back.csv, DestSign\615P\Back.csv, DestSign\751\Back.csv, DestSign\751\Back.csv, null.csv, null.csv, DestSign\761P\Back.csv, DestSign\761P\Back.csv, DestSign\751P\Back.csv, DestSign\751P\Back.csv, DestSign\505\Back.csv, DestSign\505\Back.csv
+States = DestSign\610\Back.csv, DestSign\610\Back.csv, DestSign\705\Back.csv, DestSign\705\Back.csv, DestSign\706\Back.csv, DestSign\706\Back.csv, DestSign\701\Back.csv, DestSign\507\Back.csv, DestSign\507\Back.csv, DestSign\507P\Back.csv,  DestSign\614\Back.csv, DestSign\614\Back.csv, DestSign\614P\Back.csv, DestSign\614P\Back.csv, DestSign\615\Back.csv, DestSign\615\Back.csv, DestSign\615P\Back.csv, DestSign\615P\Back.csv, DestSign\751\Back.csv, DestSign\751\Back.csv, DestSign\751\Back.csv, null.csv, null.csv, DestSign\761P\Back.csv, DestSign\761P\Back.csv, DestSign\751P\Back.csv, DestSign\751P\Back.csv, DestSign\505\Back.csv, DestSign\505\Back.csv
 Position = -0.265,3.085,-10.329
 ;; Tilt the plate slightly
 RotateXFunction = 0.03
-Statefunction = Mod[pluginstate[104], 21]
+Statefunction = Mod[pluginstate[104], 22]
 RefreshRate = 0.1
 
 ;; Side Destination Sign ;;
 [Object]
-States = DestSign\610\Side_YL.csv, DestSign\610\Side_FP.csv, DestSign\705\Side.csv, DestSign\705\Side_TSW.csv, DestSign\706\Side.csv, DestSign\706\Side_TSW.csv, DestSign\701\Side.csv, DestSign\507\Side_FP.csv, DestSign\507\Side_TK.csv, DestSign\507P\Side_FP.csv,  DestSign\614\Side_FP.csv, DestSign\614\Side_YL.csv, DestSign\614P\Side_FP.csv, DestSign\614P\Side_SH.csv, DestSign\615\Side_FP.csv, DestSign\615\Side_YL.csv, DestSign\615P\Side_FP.csv, DestSign\615P\Side_SH.csv, DestSign\751\Side_TY.csv, DestSign\751\Side_YO.csv, DestSign\NIS\Side.csv, DestSign\Empty\Side.csv, DestSign\761P\Side_TY.csv, DestSign\761P\Side_YL.csv, DestSign\751P\Side_TSW.csv, DestSign\751P\Side_TY.csv, DestSign\505\Side_SH.csv, DestSign\505\Side_SS.csv
+States = DestSign\610\Side_YL.csv, DestSign\610\Side_FP.csv, DestSign\705\Side.csv, DestSign\705\Side_TSW.csv, DestSign\706\Side.csv, DestSign\706\Side_TSW.csv, DestSign\701\Side.csv, DestSign\507\Side_FP.csv, DestSign\507\Side_TK.csv, DestSign\507P\Side_FP.csv,  DestSign\614\Side_FP.csv, DestSign\614\Side_YL.csv, DestSign\614P\Side_FP.csv, DestSign\614P\Side_SH.csv, DestSign\615\Side_FP.csv, DestSign\615\Side_YL.csv, DestSign\615P\Side_FP.csv, DestSign\615P\Side_SH.csv, DestSign\751\Side_TY.csv, DestSign\751\Side_YO.csv, DestSign\751\Side_SP.csv, DestSign\NIS\Side.csv, DestSign\Empty\Side.csv, DestSign\761P\Side_TY.csv, DestSign\761P\Side_YL.csv, DestSign\751P\Side_TSW.csv, DestSign\751P\Side_TY.csv, DestSign\505\Side_SH.csv, DestSign\505\Side_SS.csv
 Position = -1.335,2.51,-8.3
-Statefunction = Mod[pluginstate[104], 21]
+Statefunction = Mod[pluginstate[104], 22]
 RefreshRate = 0.1
 
 ;; Interior Destination Sign ;;
 
 [Object]
-States = DestSign\610\Interior_YL.csv, DestSign\610\Interior_FP.csv, DestSign\705\Interior.csv, DestSign\705\Interior_TSW.csv, DestSign\706\Interior.csv, DestSign\706\Interior_TSW.csv, DestSign\701\Interior.csv, DestSign\507\Interior_FP.csv, DestSign\507\Interior_TK.csv, DestSign\507P\Interior_FP.csv,  DestSign\614\Interior_FP.csv, DestSign\614\Interior_YL.csv, DestSign\614P\Interior_FP.csv, DestSign\614P\Interior_SH.csv, DestSign\615\Interior_FP.csv, DestSign\615\Interior_YL.csv, DestSign\615P\Interior_FP.csv, DestSign\615P\Interior_SH.csv, DestSign\751\Interior_TY.csv, DestSign\751\Interior_YO.csv, DestSign\NIS\Interior.csv, DestSign\Empty\Interior.csv, DestSign\761P\Interior_TY.csv, DestSign\761P\Interior_YL.csv, DestSign\751P\Interior_TSW.csv, DestSign\751P\Interior_TY.csv, DestSign\505\Interior_SH.csv, DestSign\505\Interior_SS.csv
+States = DestSign\610\Interior_YL.csv, DestSign\610\Interior_FP.csv, DestSign\705\Interior.csv, DestSign\705\Interior_TSW.csv, DestSign\706\Interior.csv, DestSign\706\Interior_TSW.csv, DestSign\701\Interior.csv, DestSign\507\Interior_FP.csv, DestSign\507\Interior_TK.csv, DestSign\507P\Interior_FP.csv,  DestSign\614\Interior_FP.csv, DestSign\614\Interior_YL.csv, DestSign\614P\Interior_FP.csv, DestSign\614P\Interior_SH.csv, DestSign\615\Interior_FP.csv, DestSign\615\Interior_YL.csv, DestSign\615P\Interior_FP.csv, DestSign\615P\Interior_SH.csv, DestSign\751\Interior_TY.csv, DestSign\751\Interior_YO.csv, DestSign\751\Interior_SP.csv, DestSign\NIS\Interior.csv, DestSign\Empty\Interior.csv, DestSign\761P\Interior_TY.csv, DestSign\761P\Interior_YL.csv, DestSign\751P\Interior_TSW.csv, DestSign\751P\Interior_TY.csv, DestSign\505\Interior_SH.csv, DestSign\505\Interior_SS.csv
 Position = -1.232,2.73,-8.1
-Statefunction = Mod[pluginstate[104], 21]
+Statefunction = Mod[pluginstate[104], 22]
 RefreshRate = 0.1
 
 [Object]
