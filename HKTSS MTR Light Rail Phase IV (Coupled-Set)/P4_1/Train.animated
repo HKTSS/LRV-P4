@@ -61,6 +61,10 @@ States = Window\10a.csv
 Position = -0.04,0,-8.28
 RotateYFunction=0.27
 
+;; BACK ;;
+[Include]
+Window\back.animated
+
 [Object]
 States = Exterior\pan\panto.csv
 Position = 0,-0.15,0
@@ -292,15 +296,6 @@ RefreshRate = 0.01
 [Object]
 States = DestSign\610\610_YL.csv, DestSign\610\610_FP.csv, DestSign\705\705.csv, DestSign\705\705_TSW.csv, DestSign\706\706.csv, DestSign\706\706_TSW.csv, DestSign\701\701.csv, DestSign\507\507_FP.csv, DestSign\507\507_TK.csv, DestSign\507P\507P_FP.csv,  DestSign\614\614_FP.csv, DestSign\614\614_YL.csv, DestSign\614P\614P_FP.csv, DestSign\614P\614P_SH.csv, DestSign\615\615_FP.csv, DestSign\615\615_YL.csv, DestSign\615P\615P_FP.csv, DestSign\615P\615P_SH.csv, DestSign\751\751_TY.csv, DestSign\751\751_YO.csv, DestSign\751\751_SP.csv, DestSign\NIS\NIS.csv, DestSign\Empty\E.csv, DestSign\761P\761P_TY.csv, DestSign\761P\761P_YL.csv, DestSign\751P\751P_TSW.csv, DestSign\751P\751P_TY.csv, DestSign\505\505_SH.csv, DestSign\505\505_SS.csv
 Position = 0,0,0
-Statefunction = Mod[pluginstate[104], 22]
-RefreshRate = 0.1
-
-;; Back Destination Sign ;;
-[Object]
-States = DestSign\610\Back.csv, DestSign\610\Back.csv, DestSign\705\Back.csv, DestSign\705\Back.csv, DestSign\706\Back.csv, DestSign\706\Back.csv, DestSign\701\Back.csv, DestSign\507\Back.csv, DestSign\507\Back.csv, DestSign\507P\Back.csv,  DestSign\614\Back.csv, DestSign\614\Back.csv, DestSign\614P\Back.csv, DestSign\614P\Back.csv, DestSign\615\Back.csv, DestSign\615\Back.csv, DestSign\615P\Back.csv, DestSign\615P\Back.csv, DestSign\751\Back.csv, DestSign\751\Back.csv, DestSign\751\Back.csv, null.csv, null.csv, DestSign\761P\Back.csv, DestSign\761P\Back.csv, DestSign\751P\Back.csv, DestSign\751P\Back.csv, DestSign\505\Back.csv, DestSign\505\Back.csv
-Position = -0.265,3.085,-10.329
-;; Tilt the plate slightly
-RotateXFunction = 0.03
 Statefunction = Mod[pluginstate[104], 22]
 RefreshRate = 0.1
 
