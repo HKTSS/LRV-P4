@@ -58,30 +58,60 @@ SetTextureCoordinates,1,0.000,0.355
 SetTextureCoordinates,2,0.500,0.355
 SetTextureCoordinates,3,0.500,0.396
 
+;; Car Num ;;
+
 CreateMeshBuilder
-AddVertex,0.022,3.160,-10.162
-AddVertex,0.022,3.246,-10.149
-AddVertex,-0.110,3.246,-10.149
-AddVertex,-0.110,3.160,-10.162
-AddFace,0,1,2,3
-SetColor,100,100,100
-LoadTexture,frontdoor.png
-SetTextureCoordinates,0,0.010,0.390
-SetTextureCoordinates,1,0.010,0.358
-SetTextureCoordinates,2,1.000,0.358
-SetTextureCoordinates,3,1.000,0.390
+AddVertex,0.50, 3.130, 8.128
+AddVertex,0.50, 3.187, 8.128
+AddVertex,0.53, 3.187, 8.128
+AddVertex,0.53, 3.130, 8.128
+AddFace, 0, 1, 2, 3
+LoadTexture, frontdoor_num.png
+SetEmissiveColor,255,255,255
+SetTextureCoordinates,0,0,0.2
+SetTextureCoordinates,1,0,0.0
+SetTextureCoordinates,2,0.5,0.0
+SetTextureCoordinates,3,0.5,0.2
 SetDecalTransparentColor,255,255,255
 
 CreateMeshBuilder
-AddVertex,0.558,3.125,8.128
-AddVertex,0.558,3.193,8.128
-AddVertex,0.675,3.193,8.128
-AddVertex,0.675,3.125,8.128
-AddFace,0,1,2,3
-SetColor,100,100,100
-LoadTexture,frontdoor.png
-SetTextureCoordinates,0,0.010,0.390
-SetTextureCoordinates,1,0.010,0.358
-SetTextureCoordinates,2,1.000,0.358
-SetTextureCoordinates,3,1.000,0.390
+AddVertex,0.53, 3.130, 8.128
+AddVertex,0.53, 3.187, 8.128
+AddVertex,0.56, 3.187, 8.128
+AddVertex,0.56, 3.130, 8.128
+AddFace, 0, 1, 2, 3
+LoadTexture, frontdoor_num.png
+SetEmissiveColor,255,255,255
+SetTextureCoordinates,0,0,0.2
+SetTextureCoordinates,1,0,0.0
+SetTextureCoordinates,2,0.5,0.0
+SetTextureCoordinates,3,0.5,0.2
+SetDecalTransparentColor,255,255,255
+
+CreateMeshBuilder
+AddVertex,0.56, 3.130, 8.128
+AddVertex,0.56, 3.187, 8.128
+AddVertex,0.59, 3.187, 8.128
+AddVertex,0.59, 3.130, 8.128
+AddFace, 0, 1, 2, 3
+LoadTexture, frontdoor_num.png
+SetEmissiveColor,255,255,255
+SetTextureCoordinates,0,0,0.2
+SetTextureCoordinates,1,0,0.0
+SetTextureCoordinates,2,0.5,0.0
+SetTextureCoordinates,3,0.5,0.2
+SetDecalTransparentColor,255,255,255
+
+CreateMeshBuilder
+AddVertex,0.59, 3.130, 8.128
+AddVertex,0.59, 3.187, 8.128
+AddVertex,0.62, 3.187, 8.128
+AddVertex,0.62, 3.130, 8.128
+AddFace, 0, 1, 2, 3
+LoadTexture, frontdoor_num.png
+SetEmissiveColor,255,255,255
+SetTextureCoordinates,0,0,1
+SetTextureCoordinates,1,0,0.8
+SetTextureCoordinates,2,0.5,0.8
+SetTextureCoordinates,3,0.5,1
 SetDecalTransparentColor,255,255,255
