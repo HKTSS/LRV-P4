@@ -1,62 +1,151 @@
 CreateMeshBuilder,
-AddVertex,1.182, 2.88, 3.6,
-AddVertex,1.156, 3.0, 3.6,
-AddVertex,1.156, 3.0, 6.17
-AddVertex,1.182, 2.88, 6.17
-AddFace2,0,1,2,3,
-SetEmissiveColor,255,255,255
-LoadTexture,Routemap.png,
-SetTextureCoordinates,0,0,1,
-SetTextureCoordinates,1,0,0.65,
-SetTextureCoordinates,2,1,0.65,
-SetTextureCoordinates,3,1,1,
-SetDecalTransparentColor,0,0,255,
+AddVertex,1.182, 2.88, 3.88, 0,1,0
+AddVertex,1.156, 2.98, 3.88, 0,1,0
+AddVertex,1.156, 2.98, 4.96, 0,1,0
+AddVertex,1.182, 2.88, 4.96, 0,1,0
+AddFace,3, 2, 1, 0
+SetColor,90,90,90
+LoadTexture,../../sticker.png,
+SetTextureCoordinates,0,0.625,0.187,
+SetTextureCoordinates,1,0.625,0.13,
+SetTextureCoordinates,2,0,0.13,
+SetTextureCoordinates,3,0,0.187,
+SetDecalTransparentColor,0,0,255
 translate,-0.05,0.05,0.2
 
 CreateMeshBuilder,
-AddVertex,1.156, 3.0, 3.6,
-AddVertex,1.119, 3.085, 3.6,
-AddVertex,1.119, 3.085, 6.17
-AddVertex,1.156, 3.0, 6.17
-AddFace2,0,1,2,3,
-SetEmissiveColor,255,255,255
-LoadTexture,Routemap.png,
-SetTextureCoordinates,0,0,0.65,
-SetTextureCoordinates,1,0,0.40,
-SetTextureCoordinates,2,1,0.40,
-SetTextureCoordinates,3,1,0.65,
-SetDecalTransparentColor,0,0,255,
+AddVertex,1.156, 2.98, 3.88, 0,1,0
+AddVertex,1.119, 3.06, 3.88, 0,1,0
+AddVertex,1.119, 3.06, 4.96, 0,1,0
+AddVertex,1.156, 2.98, 4.96, 0,1,0
+AddFace,3, 2, 1, 0
+SetColor,90,90,90
+LoadTexture,../../sticker.png,
+SetTextureCoordinates,0,0.625,0.13,
+SetTextureCoordinates,1,0.625,0.08,
+SetTextureCoordinates,2,0.000,0.08,
+SetTextureCoordinates,3,0.000,0.13,
+;SetDecalTransparentColor,0,0,255,
 translate,-0.05,0.05,0.2
 
 CreateMeshBuilder,
-AddVertex,1.129, 3.085, 3.6,
-AddVertex,1.092, 3.145, 3.6,
-AddVertex,1.092, 3.145, 6.17
-AddVertex,1.129, 3.085, 6.17
-AddFace2,0,1,2,3,
-SetEmissiveColor,255,255,255
-LoadTexture,Routemap.png,
-SetTextureCoordinates,0,0,0.40,
-SetTextureCoordinates,1,0,0.17,
-SetTextureCoordinates,2,1,0.17,
-SetTextureCoordinates,3,1,0.40,
+AddVertex,1.129, 3.06, 3.88, 0,1,0
+AddVertex,1.092, 3.12, 3.88, 0,1,0
+AddVertex,1.092, 3.12, 4.96, 0,1,0
+AddVertex,1.129, 3.06, 4.96, 0,1,0
+AddFace,3, 2, 1, 0
+SetColor,90,90,90
+LoadTexture,../../sticker.png,
+SetTextureCoordinates,0,0.625,0.08,
+SetTextureCoordinates,1,0.625,0.04,
+SetTextureCoordinates,2,0.000,0.04,
+SetTextureCoordinates,3,0.000,0.08,
 SetDecalTransparentColor,0,0,255,
 translate,-0.06,0.05,0.2
 
 CreateMeshBuilder,
-AddVertex,1.095, 3.145, 3.6,
-AddVertex,1.04, 3.215, 3.6,
-AddVertex,1.04, 3.215, 6.17
-AddVertex,1.095, 3.145, 6.17
-AddFace2,0,1,2,3,
-SetEmissiveColor,255,255,255
-LoadTexture,Routemap.png,
-SetTextureCoordinates,0,0,0.17,
-SetTextureCoordinates,1,0,0,
-SetTextureCoordinates,2,1,0,
-SetTextureCoordinates,3,1,0.17,
+AddVertex,1.095, 3.12, 3.88, 0,1,0
+AddVertex,1.05, 3.175, 3.88, 0,1,0
+AddVertex,1.05, 3.175, 4.96, 0,1,0
+AddVertex,1.095, 3.12, 4.96, 0,1,0
+AddFace, 3, 2, 1, 0
+SetColor,90,90,90
+LoadTexture,../../sticker.png,
+SetTextureCoordinates,0,0.625,0.04,
+SetTextureCoordinates,1,0.625,0,
+SetTextureCoordinates,2,0,0,
+SetTextureCoordinates,3,0,0.04,
 SetDecalTransparentColor,0,0,255,
 translate,-0.063,0.05,0.2
+
+;;Bus Route;;
+CreateMeshBuilder,
+AddVertex,1.182, 2.88, 3.64, 0,1,0
+AddVertex,1.156, 2.98, 3.64, 0,1,0
+AddVertex,1.156, 2.98, 3.82, 0,1,0
+AddVertex,1.182, 2.88, 3.82, 0,1,0
+AddFace,3, 2, 1, 0
+SetColor,90,90,90
+LoadTexture,../../sticker.png,
+SetTextureCoordinates,0,1.000,0.644,
+SetTextureCoordinates,1,1.000,0.555,
+SetTextureCoordinates,2,0.856,0.555,
+SetTextureCoordinates,3,0.856,0.644,
+SetDecalTransparentColor,0,0,255
+translate,-0.05,0.05,0.2
+
+CreateMeshBuilder,
+AddVertex,1.156, 2.98, 3.64, 0,1,0
+AddVertex,1.119, 3.06, 3.64, 0,1,0
+AddVertex,1.119, 3.06, 3.82, 0,1,0
+AddVertex,1.156, 2.98, 3.82, 0,1,0
+AddFace,3, 2, 1, 0
+SetColor,90,90,90
+LoadTexture,../../sticker.png,
+SetTextureCoordinates,0,1.000,0.555,
+SetTextureCoordinates,1,1.000,0.48,
+SetTextureCoordinates,2,0.856,0.48,
+SetTextureCoordinates,3,0.856,0.555,
+SetDecalTransparentColor,0,0,255
+translate,-0.05,0.05,0.2
+
+CreateMeshBuilder,
+AddVertex,1.129, 3.06, 3.64, 0,1,0
+AddVertex,1.092, 3.12, 3.64, 0,1,0
+AddVertex,1.092, 3.12, 3.82, 0,1,0
+AddVertex,1.129, 3.06, 3.82, 0,1,0
+AddFace,3, 2, 1, 0
+SetColor,90,90,90
+LoadTexture,../../sticker.png,
+SetTextureCoordinates,0,1.000,0.48,
+SetTextureCoordinates,1,1.000,0.42,
+SetTextureCoordinates,2,0.856,0.42,
+SetTextureCoordinates,3,0.856,0.48,
+SetDecalTransparentColor,0,0,255
+translate,-0.06,0.05,0.2
+
+CreateMeshBuilder,
+AddVertex,1.095, 3.12, 3.64, 0,1,0
+AddVertex,1.05, 3.175, 3.64, 0,1,0
+AddVertex,1.05, 3.175, 3.82, 0,1,0
+AddVertex,1.095, 3.12, 3.82, 0,1,0
+AddFace, 3, 2, 1, 0
+SetColor,90,90,90
+LoadTexture,../../sticker.png,
+SetTextureCoordinates,0,1.000,0.42,
+SetTextureCoordinates,1,1.000,0.36,
+SetTextureCoordinates,2,0.856,0.36,
+SetTextureCoordinates,3,0.856,0.42,
+SetDecalTransparentColor,0,0,255
+translate,-0.063,0.05,0.2
+
+CreateMeshBuilder,
+AddVertex,1.20, 2.97, 5.22, 0,1,0
+AddVertex,1.18, 3.05, 5.22, 0,1,0
+AddVertex,1.18, 3.05, 5.40, 0,1,0
+AddVertex,1.20, 2.97, 5.40, 0,1,0
+AddFace, 3, 2, 1, 0
+SetColor,90,90,90
+LoadTexture,./fw.png,
+SetTextureCoordinates,0,1,1
+SetTextureCoordinates,1,1,0.6
+SetTextureCoordinates,2,0,0.6
+SetTextureCoordinates,3,0,1
+translate,-0.063,0,0
+
+CreateMeshBuilder,
+AddVertex,1.18, 3.05, 5.22, 0,1,0
+AddVertex,1.14, 3.16, 5.22, 0,1,0
+AddVertex,1.14, 3.16, 5.40, 0,1,0
+AddVertex,1.18, 3.05, 5.40, 0,1,0
+AddFace, 3, 2, 1, 0
+SetColor,90,90,90
+LoadTexture,./fw.png,
+SetTextureCoordinates,0,1,0.6
+SetTextureCoordinates,1,1,0
+SetTextureCoordinates,2,0,0
+SetTextureCoordinates,3,0,0.6
+translate,-0.063,0,0
 
 RotateAll,0,1,0,180
 TranslateAll,0,0,10

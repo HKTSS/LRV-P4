@@ -350,13 +350,13 @@ Statefunction = Mod[pluginstate[107], 10]
 RefreshRate = 0.1
 
 [Object]
-States = Interior\fire_ex\fire_ex.csv, Interior\NoLight\fire_ex\fire_ex.csv
-Position = 0,0,0
+States = Interior\fire_ex\fire_ex.csv, Interior\fire_ex\fire_ex_dark.csv
+Position = 0,0,5.5
 Statefunction = pluginState[99]
 
 [Object]
-States = Interior\fire_ex\fire_ex.csv, Interior\NoLight\fire_ex\fire_ex.csv
-Position = 0,0,5.5
+States = Interior\fire_ex\fire_ex.csv, Interior\fire_ex\fire_ex_dark.csv
+Position = 0,0,0
 Statefunction = pluginState[99]
 
 [Object]
