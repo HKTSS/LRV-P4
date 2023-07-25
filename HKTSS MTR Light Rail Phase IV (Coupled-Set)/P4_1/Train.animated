@@ -288,7 +288,7 @@ Statefunction = if[reverserNotch == -1,0,1]
 [Object]
 States = null.csv, Exterior\Headlight\1.csv, Exterior\Headlight\2.csv, Exterior\Headlight\3.csv, Exterior\Headlight\4.csv, Exterior\Headlight\5.csv
 Position = 0,0,0
-Statefunction = if[pluginstate[109] == 0, min[value+1 , 5], max[value-1 , 0]]
+Statefunction = if[headlights == 0, min[value+1 , 5], max[value-1 , 0]]
 RefreshRate = 0.01
 
 ;; Front Destination Sign ;;

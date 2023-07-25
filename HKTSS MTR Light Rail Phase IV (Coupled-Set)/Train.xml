@@ -244,6 +244,8 @@
 			</Doors>
 		</Car>
 		<Plugin>Plugin\LRVSystem.dll</Plugin>
+		<!-- Why do we need 2 headlight state, don't they start from 0? -->
+		<HeadlightStates>2</HeadlightStates>
 		<Description>香港輕鐵第四期列車(拖卡)
 --------------------------------
 作品性質: OpenBVE列車
