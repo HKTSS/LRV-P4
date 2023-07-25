@@ -5,7 +5,7 @@ AddVertex, -0.61, 0.98, 0.028,
 AddVertex, -0.61, 0.84, 0.02,
 AddFace2,3,2,1,0,
 SetEmissiveColor,255,255,255
-LoadTexture,DIRL.png,
+LoadTexture,frontsignal.png
 SetTextureCoordinates,0,0,1,
 SetTextureCoordinates,1,0,0,
 SetTextureCoordinates,2,1,0,
@@ -13,18 +13,17 @@ SetTextureCoordinates,3,1,1,
 translate,0,0,-0.009
 
 CreateMeshBuilder,
-AddVertex, 0.8, 0.8, 20.39,
-AddVertex, 0.85, 3.5, 20.31,
-AddVertex,-0.85, 3.5, 20.31,
-AddVertex,-0.8, 0.8, 20.39,
+AddVertex, -0.555, 1.285, 20.38,
+AddVertex, -0.555, 1.37, 20.377,
+AddVertex, -0.65, 1.37, 20.377,
+AddVertex, -0.65, 1.285, 20.38,
 AddFace,0, 1, 2, 3,
-SetEmissiveColor, 255, 255, 255
-LoadTexture,DIRR2.png,
-SetTextureCoordinates,0,0,1,
-SetTextureCoordinates,1,0,0,
+SetEmissiveColor,255,255,255
+LoadTexture, backsignal.png,
+SetTextureCoordinates,0,0,1
+SetTextureCoordinates,1,0,0
 SetTextureCoordinates,2,1,0
-SetTextureCoordinates,3,1,1,
-SetDecalTransparentColor,0,144,181,
-translate,0,0,0.002
+SetTextureCoordinates,3,1,1
+SetDecalTransparentColor,0,0,255
 RotateAll,0,1,0,180
 TranslateAll,0,0,10

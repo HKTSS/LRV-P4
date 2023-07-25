@@ -4,7 +4,7 @@ AddVertex,-1.42, 2.6, 2.03, 0,1,0
 AddVertex,-1.42, 2.6, 1.98, 0,1,0
 AddVertex,-1.42, 2.4, 1.98, 0,1,0
 AddFace,0, 1, 2, 3
-LoadTexture,dirlight.png,
+LoadTexture,side.png,
 SetTextureCoordinates,0,0,1,
 SetTextureCoordinates,1,0,0,
 SetTextureCoordinates,2,0.5,0
@@ -16,7 +16,7 @@ AddVertex,-1.35, 2.6, 2.03, 0,1,0
 AddVertex,-1.35, 2.6, 1.98, 0,1,0
 AddVertex,-1.35, 2.4, 1.98, 0,1,0
 AddFace,3, 2, 1, 0
-LoadTexture,dirlight.png,
+LoadTexture,side.png,
 SetTextureCoordinates,0,0,1,
 SetTextureCoordinates,1,0,0,
 SetTextureCoordinates,2,0.5,0
@@ -28,7 +28,7 @@ AddVertex,-1.35, 2.6, 2.03,0,1,0
 AddVertex,-1.42, 2.6, 2.03,0,1,0
 AddVertex,-1.42, 2.4, 2.03,0,1,0
 AddFace,0, 1, 2, 3,
-LoadTexture,dirlight.png,
+LoadTexture,side.png,
 SetTextureCoordinates,0,0,1,
 SetTextureCoordinates,1,0,0,
 SetTextureCoordinates,2,0.5,0,
@@ -40,7 +40,7 @@ AddVertex,-1.35, 2.6, 1.98,0,1,0
 AddVertex,-1.42, 2.6, 1.98,0,1,0
 AddVertex,-1.42, 2.4, 1.98,0,1,0
 AddFace,3, 2, 1, 0
-LoadTexture,dirlight.png,
+LoadTexture,side.png,
 SetTextureCoordinates,0,0,1,
 SetTextureCoordinates,1,0,0,
 SetTextureCoordinates,2,0.5,0,
@@ -52,7 +52,7 @@ AddVertex,-1.35, 2.4, 1.98, 0,1,0
 AddVertex,-1.42, 2.4, 1.98, 0,1,0
 AddVertex,-1.42, 2.4, 2.03, 0,1,0
 AddFace,3, 2, 1, 0
-LoadTexture,dirlight.png,
+LoadTexture,side.png,
 SetTextureCoordinates,0,0,0.7,
 SetTextureCoordinates,1,0,0.4,
 SetTextureCoordinates,2,0.5,0.4,
@@ -64,7 +64,7 @@ AddVertex,-1.35, 2.6, 1.98,0,1,0
 AddVertex,-1.42, 2.6, 1.98,0,1,0
 AddVertex,-1.42, 2.6, 2.03,0,1,0
 AddFace,0, 1, 2, 3,
-LoadTexture,dirlight.png,
+LoadTexture,side.png,
 SetTextureCoordinates,0,0,0.7,
 SetTextureCoordinates,1,0,0.4,
 SetTextureCoordinates,2,0.5,0.4,
