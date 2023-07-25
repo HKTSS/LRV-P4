@@ -213,6 +213,19 @@ SetTextureCoordinates, 1, 1, 0,
 SetTextureCoordinates, 2, 1, 1,
 SetTextureCoordinates, 3, 0, 1,
 
+
+CreateMeshBuilder,
+AddVertex, -0.34,  1.73, -9.7, 0,1,0
+AddVertex, -0.83,  1.73, -9.7, 0,1,0
+AddVertex, -1.23,  1.73, -8.25, 0,1,0
+AddVertex, -0.99,  1.73, -8.25, 0,1,0
+AddFace, 0, 1, 2, 3
+LoadTexture, desk.png
+SetTextureCoordinates, 0, 0, 0,
+SetTextureCoordinates, 1, 1, 0,
+SetTextureCoordinates, 2, 1, 1,
+SetTextureCoordinates, 3, 0, 1,
+
 CreateMeshBuilder,
 AddVertex, 0.74, 1.732, -10.0, 0,1,0
 AddVertex, 0.4, 1.7305, -10.0, 0,1,0

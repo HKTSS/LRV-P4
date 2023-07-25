@@ -408,9 +408,9 @@ SetTextureCoordinates,3,0.101,0.990
 
 CreateMeshBuilder
 AddVertex,-0.798,0.500,10.020, 0,1,0
-AddVertex,-0.798,0.730,10.020, 0,1,0
-AddVertex,-0.802,0.735,9.990, 0,1,0
-AddVertex,-0.820,0.506,10.000, 0,1,0
+AddVertex,-0.798,0.720,10.020, 0,1,0
+AddVertex,-0.84,0.720,9.900, 0,1,0
+AddVertex,-0.84,0.506,9.900, 0,1,0
 AddFace2,3,2,1,0
 LoadTexture,headcurve.png
 SetTextureCoordinates,0,0.999,0.990
@@ -421,8 +421,8 @@ SetDecalTransparentColor,0,0,255
 
 CreateMeshBuilder
 AddVertex,-0.785,0.500,10.040, 0,1,0
-AddVertex,-0.785,0.725,10.040, 0,1,0
-AddVertex,-0.798,0.730,10.020, 0,1,0
+AddVertex,-0.785,0.720,10.040, 0,1,0
+AddVertex,-0.798,0.720,10.020, 0,1,0
 AddVertex,-0.798,0.500,10.020, 0,1,0
 AddFace2,3,2,1,0
 LoadTexture,headcurve.png
@@ -435,7 +435,7 @@ SetDecalTransparentColor,0,0,255
 CreateMeshBuilder
 AddVertex,-0.775,0.500,10.065, 0,1,0
 AddVertex,-0.775,0.720,10.065, 0,1,0
-AddVertex,-0.785,0.725,10.040, 0,1,0
+AddVertex,-0.785,0.720,10.040, 0,1,0
 AddVertex,-0.785,0.500,10.040, 0,1,0
 AddFace2,3,2,1,0
 LoadTexture,headcurve.png
@@ -459,7 +459,7 @@ SetTextureCoordinates,3,-0.001,0.990
 SetDecalTransparentColor,0,0,255
 
 CreateMeshBuilder
-AddVertex,-0.800,0.200,10.100, 0,1,0
+AddVertex,-0.780,0.200,10.100, 0,1,0
 AddVertex,-0.660,3.300,9.900, 0,1,0
 AddVertex,-1.330,3.300,8.130, 0,1,0
 AddVertex,-1.330,0.200,8.130, 0,1,0

@@ -25,6 +25,79 @@ SetTextureCoordinates,2,0,0.05,
 SetTextureCoordinates,3,0,1,
 SetDecalTransparentColor,0,0,255
 
+;; Lower ;;
+
+CreateMeshBuilder,
+AddVertex,-1.33, 0.5, 0.6, 0,1,0
+AddVertex,-1.33, 0.775, 0.6, 0,1,0
+AddVertex,-1.33, 0.775, 2.05, 0,1,0
+AddVertex,-1.33, 0.5, 2.05, 0,1,0
+AddFace,3, 2, 1, 0
+LoadTexture,../exterior/skirt_back.png
+SetTextureCoordinates,0,1,0.5,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,0,0,
+SetTextureCoordinates,3,0,0.5,
+SetDecalTransparentColor,255,255,255
+
+CreateMeshBuilder,
+AddVertex,-1.28, 0.2, 0.6, 0,1,0
+AddVertex,-1.33, 0.5, 0.6, 0,1,0
+AddVertex,-1.33, 0.5, 2.05, 0,1,0
+AddVertex,-1.28, 0.2, 2.05, 0,1,0
+AddFace,3, 2, 1, 0
+LoadTexture,../exterior/skirt_back.png
+SetTextureCoordinates,0,1,1,
+SetTextureCoordinates,1,1,0.5,
+SetTextureCoordinates,2,0,0.5,
+SetTextureCoordinates,3,0,1,
+SetDecalTransparentColor,255,255,255
+
+CreateMeshBuilder,
+AddVertex,-1.28, 0.64, 0.6, 0,1,0
+AddVertex,-1.33, 0.64, 0.6, 0,1,0
+AddVertex,-1.33, 0.775, 0.6, 0,1,0
+AddVertex,-1.28, 0.775, 0.6, 0,1,0
+
+AddVertex,-1.28, 0.5, 0.75, 0,1,0
+AddVertex,-1.33, 0.5, 0.75, 0,1,0
+AddVertex,-1.33, 0.64, 0.6, 0,1,0
+AddVertex,-1.28, 0.64, 0.6, 0,1,0
+
+AddVertex,-1.25, 0.325, 0.90, 0,1,0
+AddVertex,-1.30, 0.325, 0.90, 0,1,0
+AddVertex,-1.33, 0.5, 0.75, 0,1,0
+AddVertex,-1.28, 0.5, 0.75, 0,1,0
+
+AddVertex,-1.25, 0.2, 2.05, 0,1,0
+AddVertex,-1.28, 0.2, 2.05, 0,1,0
+AddVertex,-1.30, 0.325, 0.90, 0,1,0
+AddVertex,-1.25, 0.325, 0.90, 0,1,0
+
+AddFace,0, 1, 2, 3
+AddFace,4, 5, 6, 7
+AddFace,8, 9, 10, 11
+AddFace,12, 13, 14, 15
+SetColor, 170, 170, 170
+LoadTexture,../exterior/skirt_back.png
+SetTextureCoordinates,0,0.5,0.5,
+SetTextureCoordinates,1,0.5,0.5,
+SetTextureCoordinates,2,0.5,0.5,
+SetTextureCoordinates,3,0.5,0.5,
+SetTextureCoordinates,4,0.5,0.5,
+SetTextureCoordinates,5,0.5,0.5,
+SetTextureCoordinates,6,0.5,0.5,
+SetTextureCoordinates,7,0.5,0.5,
+SetTextureCoordinates,8,0.5,0.5,
+SetTextureCoordinates,9,0.5,0.5,
+SetTextureCoordinates,10,0.5,0.5,
+SetTextureCoordinates,11,0.5,0.5,
+SetTextureCoordinates,12,0.5,0.5,
+SetTextureCoordinates,13,0.5,0.5,
+SetTextureCoordinates,14,0.5,0.5,
+SetTextureCoordinates,15,0.5,0.5,
+SetDecalTransparentColor,255,255,255
+
 CreateMeshBuilder,
 AddVertex,-1.315, 0.775, 0.05,
 AddVertex,-1.315, 2.91, 0.1,

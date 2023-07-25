@@ -26,8 +26,8 @@ Position = 0,0,6.25
 
 ;; Window 2B;;
 [Object]
-States = Window\24b.csv
-Position = 0,0,2.58
+States = Window\2b.csv
+Position = 0,0,2.625
 
 ;; Window 3B;;
 [Object]
