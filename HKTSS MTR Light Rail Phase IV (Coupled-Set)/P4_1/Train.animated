@@ -435,16 +435,6 @@ States = Interior\light.csv, Interior\NoLight\light.csv
 Position = 0.77,3.26,7.3
 Statefunction = pluginState[99]
 
-[Object]
-States = Interior\doorlightingL.csv
-Position = 0,0,0
-TextureShiftXFunction = if[leftDoors[0]>0.7,0.5,-leftDoors[0]/1.4]
-
-[Object]
-States = Interior\doorlightingR.csv
-Position = 0,0,0
-TextureShiftXFunction = if[leftDoors[0]>0.7,0.5,leftDoors[0]/1.4]
-
 ;;Left;;
 [Object]
 States = Interior\Seats\2_L.csv, Interior\NoLight\Seats\1_Purple_R.csv

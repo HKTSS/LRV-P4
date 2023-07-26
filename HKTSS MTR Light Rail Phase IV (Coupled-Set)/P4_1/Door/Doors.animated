@@ -19,36 +19,52 @@ Statefunction = pluginState[99]
 [Object]
 States = doorR.csv, Dark\doorR.csv
 Position = 0.01,0,5.2
-TranslateZFunction = if[leftdoorstarget == 1 | rightdoorstarget == 1, 0.9 * power[-sin[(0.5 * doors) * pi], 3], if[doors < 0.7, if[doors > 0.2, -0.85 * (power[abs[sin[pi*(doors-0.2)]], 2]) - 0.05, if[doors < 0.15, 0.05 * power[-sin[(3.35 * doors) * pi], 5], value]], -0.9]]
+TranslateZFunction = if[leftdoorstarget == 1 | rightdoorstarget == 1, 0.9 * power[-sin[(0.5 * doors) * pi], 3], if[doors < 0.7, if[doors > 0.2, -0.85 * (power[sin[pi*(doors-0.2)], 2]) - 0.05, if[doors < 0.15, 0.05 * power[-sin[(3.35 * doors) * pi], 5], value]], -0.9]]
 Statefunction = pluginState[99]
 
 [Object]
 States = doorR.csv, Dark\doorR.csv
 Position = 0.01,0,-0.25
 Statefunction = pluginState[99]
-TranslateZFunction = if[leftdoorstarget == 1, 0.9 * power[-sin[(0.5 * leftDoors) * pi], 3], if[leftDoors < 0.7, if[leftDoors > 0.2, -0.85 * (power[abs[sin[pi*(leftDoors-0.2)]], 2]) - 0.05, if[leftDoors < 0.15, 0.05 * power[-sin[(3.35 * leftDoors) * pi], 5], value]], -0.9]]
+TranslateZFunction = if[leftdoorstarget == 1, 0.9 * power[-sin[(0.5 * leftDoors) * pi], 3], if[leftDoors < 0.7, if[leftDoors > 0.2, -0.85 * (power[sin[pi*(leftDoors-0.2)], 2]) - 0.05, if[leftDoors < 0.15, 0.05 * power[-sin[(3.35 * leftDoors) * pi], 5], value]], -0.9]]
 
 [Object]
 States = doorR.csv, Dark\doorR.csv
 Position = 0.01,0,-5.65
-TranslateZFunction = if[leftdoorstarget == 1, 0.9 * power[-sin[(0.5 * leftDoors) * pi], 3], if[leftDoors < 0.7, if[leftDoors > 0.2, -0.85 * (power[abs[sin[pi*(leftDoors-0.2)]], 2]) - 0.05, if[leftDoors < 0.15, 0.05 * power[-sin[(3.35 * leftDoors) * pi], 5], value]], -0.9]]
+TranslateZFunction = if[leftdoorstarget == 1, 0.9 * power[-sin[(0.5 * leftDoors) * pi], 3], if[leftDoors < 0.7, if[leftDoors > 0.2, -0.85 * (power[sin[pi*(leftDoors-0.2)], 2]) - 0.05, if[leftDoors < 0.15, 0.05 * power[-sin[(3.35 * leftDoors) * pi], 5], value]], -0.9]]
 Statefunction = pluginState[99]
 
 [Object]
 States = doorWC.csv, Dark\doorWC.csv
 Position = 0.01,0,5.2
-TranslateZFunction = if[leftdoorstarget == 1 | rightdoorstarget == 1, 0.9 * power[sin[(0.5 * doors) * pi], 3], if[doors < 0.7, if[doors > 0.2, 0.85 * (power[abs[sin[pi*(leftDoors-0.2)]], 2]) + 0.05, if[doors < 0.15, 0.05 * power[sin[(3.35 * doors) * pi], 5], value]], 0.9]]
+TranslateZFunction = if[leftdoorstarget == 1 | rightdoorstarget == 1, 0.9 * power[sin[(0.5 * doors) * pi], 3], if[doors < 0.7, if[doors > 0.2, 0.85 * (power[sin[pi*(leftDoors-0.2)], 2]) + 0.05, if[doors < 0.15, 0.05 * power[sin[(3.35 * doors) * pi], 5], value]], 0.9]]
 Statefunction = pluginState[99]
 
 [Object]
 States = doorL.csv, Dark\doorL.csv
 Position = 0.01,0,-0.25
-TranslateZFunction = if[leftdoorstarget == 1, 0.9 * power[sin[(0.5 * leftDoors) * pi], 3], if[leftDoors < 0.7, if[leftDoors > 0.2, 0.85 * (power[abs[sin[pi*(leftDoors-0.2)]], 2]) + 0.05, if[leftDoors < 0.15, 0.05 * power[sin[(3.35 * leftDoors) * pi], 5], value]], 0.9]]
+TranslateZFunction = if[leftdoorstarget == 1, 0.9 * power[sin[(0.5 * leftDoors) * pi], 3], if[leftDoors < 0.7, if[leftDoors > 0.2, 0.85 * (power[sin[pi*(leftDoors-0.2)], 2]) + 0.05, if[leftDoors < 0.15, 0.05 * power[sin[(3.35 * leftDoors) * pi], 5], value]], 0.9]]
 Statefunction = pluginState[99]
 
 
 [Object]
 States = doorL.csv, Dark\doorL.csv
 Position = 0.01,0,-5.65
-TranslateZFunction = if[leftdoorstarget == 1, 0.9 * power[sin[(0.5 * leftDoors) * pi], 3], if[leftDoors < 0.7, if[leftDoors > 0.2, 0.85 * (power[abs[sin[pi*(leftDoors-0.2)]], 2]) + 0.05, if[leftDoors < 0.15, 0.05 * power[sin[(3.35 * leftDoors) * pi], 5], value]], 0.9]]
+TranslateZFunction = if[leftdoorstarget == 1, 0.9 * power[sin[(0.5 * leftDoors) * pi], 3], if[leftDoors < 0.7, if[leftDoors > 0.2, 0.85 * (power[sin[pi*(leftDoors-0.2)], 2]) + 0.05, if[leftDoors < 0.15, 0.05 * power[sin[(3.35 * leftDoors) * pi], 5], value]], 0.9]]
 Statefunction = pluginState[99]
+
+;; Door Shadow ;;
+[Object]
+States = doorlightingL.csv
+Position = 0,0,0
+TextureShiftXFunction = if[leftdoorstarget == 1, -0.5 * power[sin[(0.5 * leftDoors) * pi], 3], if[leftDoors < 0.7, if[leftDoors > 0.2, -0.04 - (0.45 * (power[sin[pi*(leftDoors-0.2)], 2])), if[leftDoors < 0.15, -0.04 * power[sin[(2.75 * leftDoors) * pi], 2], value]], 0.5]]
+
+[Object]
+States = doorlightingR.csv
+Position = 0,0,0
+TextureShiftXFunction = if[leftdoorstarget == 1, 0.5 * power[sin[(0.5 * leftDoors) * pi], 3], if[leftDoors < 0.7, if[leftDoors > 0.2, 0.04 + (0.45 * (power[sin[pi*(leftDoors-0.2)], 2])), if[leftDoors < 0.15, 0.04 * power[sin[(2.75 * leftDoors) * pi], 2], value]], 0.5]]
+
+;; Door Open Formula: 0.9 * power[sin[(0.5 * leftDoors) * pi], 3] ;;
+;; Door Closing Formula:
+;; Initial Close (Start @ 0.7): 0.85 * (power[sin[pi*(leftDoors-0.2)], 2]) + 0.05
+;; Final Close: 0.05 * power[sin[(3.35 * leftDoors) * pi], 5]
