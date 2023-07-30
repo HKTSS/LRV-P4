@@ -1,5 +1,6 @@
 [Include]
 Door\Doors.animated
+Exterior\Wiper\wiper.animated
 Exterior\TurnSignal\signal.animated
 Interior\Handles.animated
 LED\LR705706\led.animated
@@ -8,18 +9,6 @@ LED\LR705706\led.animated
 [Object]
 States = Exterior\outside.csv
 Position = 0,0,0
-
-[Object]
-States = Exterior\Wiper\wiper1.csv
-Position = 0.55,1.6,9.98
-RotateZFunction = if[pluginState[113] > 0 | value > 0, 1.55 * power[sin[(0.15*time) * pi], 54], 0]
-RotateXFunction = if[pluginState[113] > 0 | value > 0, -0.14 + 0.14*power[sin[(0.15*time) * pi], 54], -0.14]
-
-[Object]
-States = Exterior\Wiper\wiper2.csv
-Position = -0.55,1.6,9.98
-RotateZFunction = if[pluginState[113] > 0 | value > 0, 1.65 * power[sin[(0.15*time) * pi], 54], 0]
-RotateXFunction = if[pluginState[113] > 0 | value > 0, -0.14 + 0.14*power[sin[(0.15*time) * pi], 54], 0]
 
 [Object]
 States = Window\1b.csv

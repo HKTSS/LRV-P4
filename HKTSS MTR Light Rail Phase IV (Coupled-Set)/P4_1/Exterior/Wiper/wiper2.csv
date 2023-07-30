@@ -1,26 +1,54 @@
 ﻿CreateMeshBuilder
-AddVertex, 0.00, 0.0,-0.0, 0,1,0
-AddVertex, 0.00, 0.3,-0.01, 0,1,0
-AddVertex, 0.80, 0.3,-0.01, 0,1,0
-AddVertex, 0.80, 0.0,-0.0, 0,1,0
-AddFace2, 3, 2, 1, 0
+AddVertex, 0, 0.0,-0.0, 0,1,0
+AddVertex, 0, 0.3,-0.0, 0,1,0
+AddVertex, 0.55, 0.3,-0.08, 0,1,0
+AddVertex, 0.55, 0.0,-0.08, 0,1,0
+AddFace, 3, 2, 1, 0
 LoadTexture, wiper.png
 SetTextureCoordinates,0,1,1
 SetTextureCoordinates,1,1,0
+SetTextureCoordinates,2,0.55,0
+SetTextureCoordinates,3,0.55,1
+SetDecalTransparentColor,0,0,255
+
+CreateMeshBuilder
+AddVertex, 0.55, 0.0,-0.08, 0,1,0
+AddVertex, 0.55, 0.3,-0.08, 0,1,0
+AddVertex, 1.10, 0.3,-0.16, 0,1,0
+AddVertex, 1.10, 0.0,-0.16, 0,1,0
+AddFace, 3, 2, 1, 0
+LoadTexture, wiper.png
+SetTextureCoordinates,0,0.55,1
+SetTextureCoordinates,1,0.55,0
 SetTextureCoordinates,2,0,0
 SetTextureCoordinates,3,0,1
 SetDecalTransparentColor,0,0,255
 
+;; Back side from cab ;;
 CreateMeshBuilder
-AddVertex, 0.00, 0.0,-0.0, 0,1,0
-AddVertex, 0.00, 0.3,-0.01, 0,1,0
-AddVertex, 0.80, 0.3,-0.01, 0,1,0
-AddVertex, 0.80, 0.0,-0.0, 0,1,0
+AddVertex, 0, 0.0,-0.0, 0,1,0
+AddVertex, 0, 0.3,-0.0, 0,1,0
+AddVertex, 0.55, 0.3,-0.08, 0,1,0
+AddVertex, 0.55, 0.0,-0.08, 0,1,0
 AddFace, 0, 1, 2, 3
-SetColor, 70,70,70
+SetColor,60,60,60
 LoadTexture, wiper.png
 SetTextureCoordinates,0,1,1
 SetTextureCoordinates,1,1,0
+SetTextureCoordinates,2,0.55,0
+SetTextureCoordinates,3,0.55,1
+SetDecalTransparentColor,0,0,255
+
+CreateMeshBuilder
+AddVertex, 0.55, 0.0,-0.08, 0,1,0
+AddVertex, 0.55, 0.3,-0.08, 0,1,0
+AddVertex, 1.10, 0.3,-0.16, 0,1,0
+AddVertex, 1.10, 0.0,-0.16, 0,1,0
+AddFace, 0, 1, 2, 3
+SetColor,60,60,60
+LoadTexture, wiper.png
+SetTextureCoordinates,0,0.55,1
+SetTextureCoordinates,1,0.55,0
 SetTextureCoordinates,2,0,0
 SetTextureCoordinates,3,0,1
 SetDecalTransparentColor,0,0,255

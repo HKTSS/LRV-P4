@@ -1,0 +1,17 @@
+[Object]
+States = wiper1.csv
+Position = 0.55,1.6,9.98
+RotateZFunction = if[pluginState[113] == 1, 1 * power[sin[(0.15*time) * pi], 56], if[pluginstate[113] == 2 | value > 0.1, 1 * power[sin[(0.7*time) * pi], 4], 0]]
+RotateXFunction = if[pluginState[113] == 1, 0.05 * power[sin[(0.15*time) * pi], 56], if[pluginstate[113] == 2 | value > 0.01, 0.05 * power[sin[(0.7*time) * pi], 4], 0]]
+
+
+[Object]
+States = wiper2.csv
+Position = -0.55,1.63,9.98
+RotateZFunction = if[pluginState[113] == 1, 1.5 * power[sin[(0.15*time-0.01) * pi], 56], if[pluginstate[113] == 2, 1.5 * power[sin[(0.7*time-0.01) * pi], 4], 0]]
+RotateXFunction = if[pluginState[113] == 1, 0.5 - (0.5 * power[sin[(0.15*time) * pi], 56]), if[pluginstate[113] == 2, 0.5 - (0.5 * power[sin[(0.7*time-0.01) * pi], 4]), 0.5]]
+
+;; wiper2: 0.01 in "0.7*time-0.01" is just a slight delay added
+;; Modify 1 and 1.5 for higher/lower angle change
+;; Slow: power[sin[(0.15*time) * pi], 56]
+;; Fast: power[sin[(0.7*time) * pi], 4]
