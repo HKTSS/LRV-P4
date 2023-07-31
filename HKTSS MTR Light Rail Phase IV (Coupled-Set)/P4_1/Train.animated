@@ -69,6 +69,18 @@ Position = 0,0,0
 Statefunction = pluginState[99]
 
 [Object]
+States = Interior\top\fire_ex_sticker_down.csv
+Position = 0.05,0,1.7
+
+[Object]
+States = Interior\top\fire_ex_sticker_down.csv
+Position = 0.05,0,-3.8
+
+[Object]
+States = Interior\top\exit_back.csv
+Position = 0.0,0,-7.5
+
+[Object]
 States = LED\overlay.csv
 Position = 0,0,0
 

@@ -119,10 +119,12 @@ SetTextureCoordinates,3,0.856,0.42,
 SetDecalTransparentColor,0,0,255
 translate,-0.063,0.05,0.2
 
+;; Start FW ;;
+
 CreateMeshBuilder,
 AddVertex,1.20, 2.97, 5.22
-AddVertex,1.18, 3.05, 5.22
-AddVertex,1.18, 3.05, 5.40
+AddVertex,1.185, 3.05, 5.22
+AddVertex,1.185, 3.05, 5.40
 AddVertex,1.20, 2.97, 5.40
 AddFace, 3, 2, 1, 0
 SetEmissiveColor,255,255,255
@@ -131,13 +133,14 @@ SetTextureCoordinates,0,1,1
 SetTextureCoordinates,1,1,0.6
 SetTextureCoordinates,2,0,0.6
 SetTextureCoordinates,3,0,1
+SetDecalTransparentColor, 0,0,0
 translate,-0.063,0,0
 
 CreateMeshBuilder,
-AddVertex,1.18, 3.05, 5.22
-AddVertex,1.14, 3.16, 5.22
-AddVertex,1.14, 3.16, 5.40
-AddVertex,1.18, 3.05, 5.40
+AddVertex,1.185, 3.05, 5.22
+AddVertex,1.135, 3.16, 5.22
+AddVertex,1.135, 3.16, 5.40
+AddVertex,1.185, 3.05, 5.40
 AddFace, 3, 2, 1, 0
 SetEmissiveColor,255,255,255
 LoadTexture,./fw.png,
@@ -145,7 +148,36 @@ SetTextureCoordinates,0,1,0.6
 SetTextureCoordinates,1,1,0
 SetTextureCoordinates,2,0,0
 SetTextureCoordinates,3,0,0.6
+SetDecalTransparentColor, 0,0,0
 translate,-0.063,0,0
+
+CreateMeshBuilder,
+AddVertex,1.20, 2.97, 5.00
+AddVertex,1.185, 3.05, 5.00
+AddVertex,1.185, 3.05, 5.40
+AddVertex,1.20, 2.97, 5.40
+AddFace, 3, 2, 1, 0
+SetEmissiveColor,255,255,255
+LoadTexture,./fw_top.png
+SetTextureCoordinates,0,1,1
+SetTextureCoordinates,1,1,0.6
+SetTextureCoordinates,2,0,0.6
+SetTextureCoordinates,3,0,1
+translate,-0.062,0,0
+
+CreateMeshBuilder,
+AddVertex,1.185, 3.05, 5.00
+AddVertex,1.135, 3.16, 5.00
+AddVertex,1.135, 3.16, 5.40
+AddVertex,1.185, 3.05, 5.40
+AddFace, 3, 2, 1, 0
+SetEmissiveColor,255,255,255
+LoadTexture,./fw_top.png
+SetTextureCoordinates,0,1,0.6
+SetTextureCoordinates,1,1,0
+SetTextureCoordinates,2,0,0
+SetTextureCoordinates,3,0,0.6
+translate,-0.062,0,0
 
 RotateAll,0,1,0,180
 TranslateAll,0,0,10
