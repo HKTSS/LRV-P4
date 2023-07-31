@@ -25,3 +25,10 @@ States = Component\switch.csv, Component\switch_wiper_1.csv, Component\switch_wi
 Position = 0.234,1.823,9.60
 StateFunction = Mod[pluginstate[113], 5]
 RotateXFunction = 0.85
+
+;; Door 1 indicator ;;
+[Object]
+States = Component\switch.csv, Component\switchL.csv, Component\switchR.csv
+Position = -0.093,1.748,9.521
+StateFunction = if[rightDoors == 0 | rightDoors == 1, 0, rightDoorsTarget+1]
+RotateXFunction = 0.85
