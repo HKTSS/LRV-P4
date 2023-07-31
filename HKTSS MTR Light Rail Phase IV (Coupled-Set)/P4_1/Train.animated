@@ -3,6 +3,7 @@ Door\Doors.animated
 Exterior\Wiper\wiper.animated
 Exterior\TurnSignal\signal.animated
 Interior\Handles.animated
+Interior\WC\WC.animated
 LED\LR705706\led.animated
 ..\3DCab\panel.animated
 
@@ -359,39 +360,6 @@ Statefunction = pluginState[99]
 [Object]
 States = Interior\fire_ex\fire_ex.csv, Interior\fire_ex\fire_ex_dark.csv
 Position = 0,0,0
-Statefunction = pluginState[99]
-
-[Object]
-States = Interior\WC.csv, Interior\NoLight\WC.csv
-Position = 0.2,0.30,6.055
-Statefunction = pluginState[99]
-RotateXFunction = 0.05
-
-[Object]
-States = Interior\WC.csv, Interior\NoLight\WC.csv
-Position = 0.2,0.30,0.25
-Statefunction = pluginState[99]
-RotateXFunction = 0.05
-
-[Object]
-States = Interior\WC.csv, Interior\NoLight\WC.csv
-Statefunction = pluginState[99]
-Position = 0.2,0.30,-5.0
-RotateXFunction = 0.05
-
-[Object]
-States = Interior\WCStructure.csv, Interior\NoLight\WCStructure.csv
-Position = 0,0,-2.4
-Statefunction = pluginState[99]
-
-[Object]
-States = Interior\WCStructure.csv, Interior\NoLight\WCStructure.csv
-Position = 0,0,-7.65
-Statefunction = pluginState[99]
-
-[Object]
-States = Interior\WCStructure.csv, Interior\NoLight\WCStructure.csv
-Position = 0,0,3.4
 Statefunction = pluginState[99]
 
 [Object]
