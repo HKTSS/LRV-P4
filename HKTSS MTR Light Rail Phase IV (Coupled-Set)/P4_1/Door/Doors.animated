@@ -37,7 +37,7 @@ Statefunction = pluginState[99]
 [Object]
 States = doorWC.csv, Dark\doorWC.csv
 Position = 0.01,0,5.2
-TranslateZFunction = if[leftdoorstarget == 1 | rightdoorstarget == 1, 0.9 * power[sin[(0.5 * doors) * pi], 3], if[doors < 0.7, if[doors > 0.2, 0.85 * (power[sin[pi*(leftDoors-0.2)], 2]) + 0.05, if[doors < 0.15, 0.05 * power[sin[(3.35 * doors) * pi], 5], value]], 0.9]]
+TranslateZFunction = if[leftdoorstarget == 1 | rightdoorstarget == 1, 0.9 * power[sin[(0.5 * doors) * pi], 3], if[doors < 0.7, if[doors > 0.2, 0.85 * (power[sin[pi*(doors-0.2)], 2]) + 0.05, if[doors < 0.15, 0.05 * power[sin[(3.35 * doors) * pi], 5], value]], 0.9]]
 Statefunction = pluginState[99]
 
 [Object]
