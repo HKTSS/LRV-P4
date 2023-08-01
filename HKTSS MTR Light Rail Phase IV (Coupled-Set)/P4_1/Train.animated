@@ -82,6 +82,11 @@ States = Interior\top\exit_back.csv
 Position = 0.0,0,-7.5
 
 [Object]
+States = Interior\top\exit_back_right.csv
+Position = 0.03,-0.02,3.7
+RotateYFunction=pi
+
+[Object]
 States = LED\overlay.csv
 Position = 0,0,0
 
