@@ -328,12 +328,6 @@ States = null.csv, DestSign\Empty\E.csv
 Position = 0,0,0
 Statefunction = if[pluginstate[213] == 1, 1, 0]
 
-;;Head crashed;;
-[Object]
-States = null.csv, Exterior\glass_cracked.csv
-Position = 0,0,0
-Statefunction = if[pluginstate[213] == 1, 1, 0]
-
 [Object]
 States = DestSign\RunNo\0.csv, DestSign\RunNo\1.csv, DestSign\RunNo\2.csv, DestSign\RunNo\3.csv, DestSign\RunNo\4.csv, DestSign\RunNo\5.csv, DestSign\RunNo\6.csv, DestSign\RunNo\7.csv, DestSign\RunNo\8.csv, DestSign\RunNo\9.csv
 Position = 0,0,0
