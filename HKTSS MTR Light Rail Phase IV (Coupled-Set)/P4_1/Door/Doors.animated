@@ -1,18 +1,18 @@
 ;1;
 [Object]
-States = doorsideL.csv, Dark\doorside.csv
+States = doorsideL.csv, Dark\doorsideL.csv
 Position = 0,0,-1.97
 Statefunction = pluginState[99]
 
 ;2;
 [Object]
-States = doorsideL.csv, Dark\doorside.csv
+States = doorsideL.csv, Dark\doorsideL.csv
 Position = 0,0,-7.47
 Statefunction = pluginState[99]
 
 ;3;
 [Object]
-States = doorsideL.csv, Dark\doorside.csv
+States = doorsideL.csv, Dark\doorsideL.csv
 Position = 0,0,-12.87
 Statefunction = pluginState[99]
 
