@@ -54,14 +54,37 @@ TranslateZFunction = if[leftdoorstarget == 1, 0.9 * power[sin[(0.5 * leftDoors) 
 Statefunction = pluginState[99]
 
 ;; Door Shadow ;;
+;; Door 1 ;;
 [Object]
 States = doorlightingL.csv
 Position = 0,0,0
-TextureShiftXFunction = if[leftdoorstarget == 1, -0.5 * power[sin[(0.5 * leftDoors) * pi], 3], if[leftDoors < 0.7, if[leftDoors > 0.2, -0.04 - (0.45 * (power[sin[pi*(leftDoors-0.2)], 2])), if[leftDoors < 0.15, -0.04 * power[sin[(2.75 * leftDoors) * pi], 2], value]], 0.5]]
+TextureShiftXFunction = if[leftdoorstarget == 1 | rightdoorstarget == 1, -0.5 * power[sin[(0.5 * doors) * pi], 3], if[doors < 0.7, if[doors > 0.2, -0.04 - (0.45 * (power[sin[pi*(doors-0.2)], 2])), if[doors < 0.15, -0.04 * power[sin[(2.75 * doors) * pi], 2], value]], 0.5]]
 
 [Object]
 States = doorlightingR.csv
 Position = 0,0,0
+TextureShiftXFunction = if[leftdoorstarget == 1 | rightdoorstarget == 1, 0.5 * power[sin[(0.5 * doors) * pi], 3], if[doors < 0.7, if[doors > 0.2, 0.04 + (0.45 * (power[sin[pi*(doors-0.2)], 2])), if[doors < 0.15, 0.04 * power[sin[(2.75 * doors) * pi], 2], value]], 0.5]]
+
+;; Door 2 ;;
+[Object]
+States = doorlightingL.csv
+Position = 0,0,-5.45
+TextureShiftXFunction = if[leftdoorstarget == 1, -0.5 * power[sin[(0.5 * leftDoors) * pi], 3], if[leftDoors < 0.7, if[leftDoors > 0.2, -0.04 - (0.45 * (power[sin[pi*(leftDoors-0.2)], 2])), if[leftDoors < 0.15, -0.04 * power[sin[(2.75 * leftDoors) * pi], 2], value]], 0.5]]
+
+[Object]
+States = doorlightingR.csv
+Position = 0,0,-5.45
+TextureShiftXFunction = if[leftdoorstarget == 1, 0.5 * power[sin[(0.5 * leftDoors) * pi], 3], if[leftDoors < 0.7, if[leftDoors > 0.2, 0.04 + (0.45 * (power[sin[pi*(leftDoors-0.2)], 2])), if[leftDoors < 0.15, 0.04 * power[sin[(2.75 * leftDoors) * pi], 2], value]], 0.5]]
+
+;; Door 3 ;;
+[Object]
+States = doorlightingL.csv
+Position = 0,0,-10.85
+TextureShiftXFunction = if[leftdoorstarget == 1, -0.5 * power[sin[(0.5 * leftDoors) * pi], 3], if[leftDoors < 0.7, if[leftDoors > 0.2, -0.04 - (0.45 * (power[sin[pi*(leftDoors-0.2)], 2])), if[leftDoors < 0.15, -0.04 * power[sin[(2.75 * leftDoors) * pi], 2], value]], 0.5]]
+
+[Object]
+States = doorlightingR.csv
+Position = 0,0,-10.85
 TextureShiftXFunction = if[leftdoorstarget == 1, 0.5 * power[sin[(0.5 * leftDoors) * pi], 3], if[leftDoors < 0.7, if[leftDoors > 0.2, 0.04 + (0.45 * (power[sin[pi*(leftDoors-0.2)], 2])), if[leftDoors < 0.15, 0.04 * power[sin[(2.75 * leftDoors) * pi], 2], value]], 0.5]]
 
 ;; Door Open Formula: 0.9 * power[sin[(0.5 * leftDoors) * pi], 3] ;;
