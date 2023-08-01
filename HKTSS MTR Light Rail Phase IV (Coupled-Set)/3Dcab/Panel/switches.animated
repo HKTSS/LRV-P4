@@ -32,3 +32,10 @@ States = Component\switch.csv, Component\switchL.csv, Component\switchR.csv
 Position = -0.093,1.748,9.521
 StateFunction = if[rightDoors == 0 | rightDoors == 1, 0, rightDoorsTarget+1]
 RotateXFunction = 0.85
+
+;; Headlight ;;
+[Object]
+States = Component\switch.csv, Component\switchR.csv, Component\switchR_2.csv
+Position = 0.178,1.8215,9.60
+StateFunction = Mod[headlights+1, 3]
+RotateXFunction = 0.85

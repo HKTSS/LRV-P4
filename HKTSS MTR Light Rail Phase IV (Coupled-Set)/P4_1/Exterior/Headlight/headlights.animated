@@ -1,0 +1,11 @@
+[Object]
+States = null.csv, lo\1.csv, lo\2.csv, lo\3.csv, lo\4.csv, lo\5.csv, hi\1.csv, hi\2.csv, hi\3.csv, hi\4.csv, hi\5.csv
+Position = 0,0,0
+Statefunction = if[headlights < 2, min[value+1 , (headlights+1)*5], max[value-1 , 0]]
+RefreshRate = 0.015
+
+[Object]
+States = null.csv, casted_light\lo\1.csv, casted_light\lo\2.csv, casted_light\lo\3.csv, casted_light\lo\4.csv, casted_light\lo\5.csv, casted_light\hi\1.csv, casted_light\hi\2.csv, casted_light\hi\3.csv, casted_light\hi\4.csv, casted_light\hi\5.csv
+Position = 0,0,0
+Statefunction = if[headlights < 2 & carNumber != 1, min[value+1 , (headlights+1)*5], max[value-1 , 0]]
+RefreshRate = 0.015
