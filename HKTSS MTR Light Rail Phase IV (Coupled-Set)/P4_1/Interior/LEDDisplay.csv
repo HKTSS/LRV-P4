@@ -1,14 +1,14 @@
 CreateMeshBuilder,
-AddVertex, -1.3, 2.843, 1.5,
-AddVertex, -1.3, 3.06, 1.5,
-AddVertex, -1.23, 3.06, 1.5,
-AddVertex, -1.3, 2.843, 1.5,
+AddVertex, -1.3, 2.843, 1.63,
+AddVertex, -1.3, 3.06, 1.63,
+AddVertex, -1.23, 3.06, 1.63,
+AddVertex, -1.3, 2.843, 1.63,
 AddFace2,0,1,2,3
 SetEmissiveColor,255,255,255
-LoadTexture,top.png,
+LoadTexture,leddisplay_side.png
 SetTextureCoordinates,0,0,1,
-SetTextureCoordinates,1,0,0,
-SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,1,0,0.5,
+SetTextureCoordinates,2,1,0.5,
 SetTextureCoordinates,3,1,1,
 SetDecalTransparentColor,0,148,255
 Translate,0,-0.35,-8.25
@@ -20,28 +20,26 @@ AddVertex, -1.23, 3.06, 0,
 AddVertex, -1.3, 2.843, 0,
 AddFace2,0,1,2,3
 SetEmissiveColor,255,255,255
-LoadTexture,top.png,
+LoadTexture,leddisplay_side.png
 SetTextureCoordinates,0,0,1,
-SetTextureCoordinates,1,0,0,
-SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,1,0,0.5,
+SetTextureCoordinates,2,1,0.5,
 SetTextureCoordinates,3,1,1,
-SetDecalTransparentColor,0,148,255
 Translate,0,-0.35,-8.25
 
 
 CreateMeshBuilder,
-AddVertex, -1.3, 3.3, 1.5,
-AddVertex, -1.3, 3.06, 1.5,
-AddVertex, -1.23, 3.06, 1.5,
-AddVertex, -1.23, 3.3, 1.5,
-AddFace2,0,1,2,3
+AddVertex, -1.3, 3.3, 1.63,
+AddVertex, -1.3, 3.06, 1.63,
+AddVertex, -1.23, 3.06, 1.63,
+AddVertex, -1.23, 3.3, 1.63,
+AddFace,0,1,2,3
 SetEmissiveColor,255,255,255
-LoadTexture,top.png,
-SetTextureCoordinates,0,0,1,
-SetTextureCoordinates,1,0,0,
-SetTextureCoordinates,2,1,0,
-SetTextureCoordinates,3,1,1,
-SetDecalTransparentColor,0,148,255
+LoadTexture,leddisplay_side.png
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,0,0.5,
+SetTextureCoordinates,2,1,0.5,
+SetTextureCoordinates,3,1,0,
 Translate,0,-0.35,-8.25
 
 CreateMeshBuilder,
@@ -49,28 +47,13 @@ AddVertex, -1.3, 3.3, 0,
 AddVertex, -1.3, 3.06, 0,
 AddVertex, -1.23, 3.06, 0,
 AddVertex, -1.23, 3.3, 0,
-AddFace2,0,1,2,3
+AddFace,3,2,1,0
 SetEmissiveColor,255,255,255
-LoadTexture,top.png,
-SetTextureCoordinates,0,0,1,
-SetTextureCoordinates,1,0,0,
-SetTextureCoordinates,2,1,0,
-SetTextureCoordinates,3,1,1,
-SetDecalTransparentColor,0,148,255
-Translate,0,-0.35,-8.25
-
-CreateMeshBuilder,
-AddVertex,-1.3, 3.3, 1.63,
-AddVertex,-1.3, 3.3, 0
-AddVertex, -1.23, 3.3, 0,
-AddVertex, -1.23, 3.3, 1.63,
-AddFace2,0, 1, 2, 3,
-SetEmissiveColor,255,255,255
-LoadTexture,top.png,
-SetTextureCoordinates,0,0,1,
-SetTextureCoordinates,1,0,0,
-SetTextureCoordinates,2,1,0,
-SetTextureCoordinates,3,1,1,
+LoadTexture,leddisplay_side.png
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,0,0.5,
+SetTextureCoordinates,2,1,0.5,
+SetTextureCoordinates,3,1,0,
 Translate,0,-0.35,-8.25
 
 CreateMeshBuilder,
@@ -102,7 +85,7 @@ SetTextureCoordinates,2,1,0,
 SetTextureCoordinates,3,1,1,
 SetDecalTransparentColor,255,255,255
 Translate,0,-0.35,-8.25
-SetBlendMode, Normal, 1.2, DivideExponent4
+SetBlendMode, Normal, 2.5, DivideExponent4
 
 CreateMeshBuilder,
 AddVertex,-1.3, 2.843, 0,
