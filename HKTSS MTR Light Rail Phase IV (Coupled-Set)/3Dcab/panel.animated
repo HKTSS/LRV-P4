@@ -1,10 +1,15 @@
 [Include]
 Panel\switches.animated
+controlhandle\handle.animated
 ..\P4_1\Exterior\Headlight\headlights.animated
 
 [Object]
 States = cab.csv
 Position = 0,-0.05,-0.05
+
+[Object]
+States = key\key.csv
+Position = 0.17,-0.05,-0.12
 
 [Object]
 States = Panel\panel.csv
@@ -91,12 +96,6 @@ Statefunction = if[pluginstate[110] == 1, 1, 0]
 States = Panel\Component\pressure.csv
 Position = 0.08,-0.05,-0.1
 
-[Object]
-States = brakelever.csv
-Position = -0.7, 1.65, 9.4
-RotateXFunction = if[powerNotch >= 1, -0.11 * powerNotch, 0.08 * brakeNotchLinear]
-RotateXDirection = -1, 0, 0
-RotateXDamping = 20, 0.8
 
 [Object]
 States = brakeneedleY.csv

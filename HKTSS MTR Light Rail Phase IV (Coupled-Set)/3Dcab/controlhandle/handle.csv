@@ -1,14 +1,8 @@
 CreateMeshBuilder
-Cylinder,8,0.0070,0.0070,0.09
+Cylinder,8,0.007,0.007,0.09
 Translate,0,-0.02,0
 Rotate,0,1,0,180
 SetColor,60,60,60
-
-CreateMeshBuilder
-Cylinder,35,0.032,0.032,0.014
-Translate,-0.081,0,0
-Rotate,0,0,1,90
-SetColor,70,70,70
 
 CreateMeshBuilder
 AddVertex, -1.938444427196373e-08, -9.179391469160691e-09, 0.21000000834465027, 0.0, 0.0, 0.999969482421875
@@ -494,7 +488,7 @@ AddFace, 377, 378, 379
 SetColor, 35,35,35
 SetBlendMode, Normal, 0, DivideExponent4
 Scale,0.14,0.14,0.14
-translate,0,0.012,0
+translate,0,0.016,0
 
 TranslateAll,0.05,0.08,0
 ScaleAll,1.55,1.55,1.55
