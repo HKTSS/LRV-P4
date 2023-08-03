@@ -245,7 +245,7 @@
 		</Car>
 		<Plugin>Plugin\LRVSystem.dll</Plugin>
 		<HeadlightStates>3</HeadlightStates>
-		<Description>香港輕鐵第四期列車(拖卡)
+		<Description>香港輕鐵第四期車輛 (拖卡)
 --------------------------
 目前版本: v3
 列車編碼: UTF-8
