@@ -67,7 +67,7 @@ AddVertex,-0.7, 0.76, 0.02,0,1,0
 AddFace2,3,2,1,0,
 SetColor, 255, 255, 255, 204
 SetEmissiveColor,255,255,255
-LoadTexture, ../../empty.png, head_light_refl.png
+LoadTexture, ../../empty.png, ../head_light_refl.png
 SetTextureCoordinates,0,0,0.11,
 SetTextureCoordinates,1,0,0.1,
 SetTextureCoordinates,2,1,0.1,
@@ -82,7 +82,7 @@ AddVertex,0.7, 0.72, -0.07,0,1,0
 AddFace,0,1,2,3
 SetColor, 255, 255, 255, 204
 SetEmissiveColor,255,255,255
-LoadTexture, ../../empty.png, head_light_refl.png
+LoadTexture, ../../empty.png, ../head_light_refl.png
 SetTextureCoordinates,0,1,1,
 SetTextureCoordinates,1,1,0,
 SetTextureCoordinates,2,0,0,

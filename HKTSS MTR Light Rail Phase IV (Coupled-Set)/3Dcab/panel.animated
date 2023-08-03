@@ -1,5 +1,6 @@
 [Include]
 Panel\switches.animated
+..\P4_1\Exterior\Headlight\headlights.animated
 
 [Object]
 States = cab.csv
