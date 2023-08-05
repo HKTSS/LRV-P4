@@ -4,57 +4,14 @@ Exterior\Wiper\wiper.animated
 Exterior\TurnSignal\signal.animated
 Interior\Handles.animated
 Interior\WC\WC.animated
+Window\windows.animated
+Window\back.animated
 LED\LR705706\led.animated
 ..\3DCab\panel.animated
 
 [Object]
 States = Exterior\outside.csv
 Position = 0,0,0
-
-[Object]
-States = Window\1b.csv
-Position = 0,0,6.25
-
-;; Window 2B;;
-[Object]
-States = Window\2b.csv
-Position = 0,0,2.625
-
-;; Window 3B;;
-[Object]
-States = Window\35b.csv
-Position = 0,0,0.8
-
-;; Window 4B;;
-[Object]
-States = Window\24b.csv
-Position = 0,0,-2.88
-
-;; Window 5B;;
-[Object]
-States = Window\35b.csv
-Position = 0,0,-4.66
-
-;; Window 6B;;
-[Object]
-States = Window\6b.csv
-Position = 0,0,-8.45
-
-;; Window 7B;;
-[Object]
-States = Window\7b.csv
-Position = 0.5,0,-10.07
-RotateYFunction=-0.27
-
-;; Window 10A;;
-[Object]
-States = Window\10a.csv
-Position = -0.04,0,-8.28
-RotateYFunction=0.27
-
-;; BACK ;;
-[Include]
-Window\back.animated
 
 [Object]
 States = Exterior\pan\panto.csv
@@ -508,5 +465,3 @@ Statefunction = pluginState[99]
 States = Interior\Seats\2_R.csv, Interior\NoLight\Seats\2_R.csv
 Position = 0.58,1.1,-4.9
 Statefunction = pluginState[99]
-
-;;;-----3D Cab-----;;;
