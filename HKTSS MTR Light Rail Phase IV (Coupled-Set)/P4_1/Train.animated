@@ -10,6 +10,7 @@ Interior/WC/WC.animated
 Window/windows.animated
 StopReporter/LR705706/led.animated
 ../3DCab/panel.animated
+Exterior/Bogie/bogie.animated
 
 [Object]
 States = Exterior/outside.csv

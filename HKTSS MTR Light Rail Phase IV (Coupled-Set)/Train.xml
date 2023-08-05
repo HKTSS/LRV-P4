@@ -119,11 +119,6 @@
 				<Width>0.9</Width>
 				<Tolerance>0</Tolerance>
 			</Doors>
-			<frontbogie>
-				<frontaxle>-3.6</frontaxle>
-				<rearaxle>-6.2</rearaxle>
-				<object>P4_1\Exterior\wheel\bogie.animated</object>
-			</frontbogie>
 			<LoadingSway>True</LoadingSway>
 		</Car>
 		<Coupler>
