@@ -4,7 +4,8 @@ Position = -0.58, 1.66, 9.25
 ScaleXFunction=0.75
 ScaleYFunction=0.75
 ScaleZFunction=0.75
-RotateXFunction = if[carNumber == 0, if[powerNotch >= 1, -0.11 * powerNotch, 0.08 * brakeNotchLinear], 0]
+;; Ignore non first car ;;
+RotateXFunction = if[carNumber >= 1, 0, if[powerNotch >= 1, -0.11 * powerNotch, 0.08 * brakeNotchLinear]]
 RotateXDirection = -1, 0, 0
 RotateXDamping = 20, 0.8
 
