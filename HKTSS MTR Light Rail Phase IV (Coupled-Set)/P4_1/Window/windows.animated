@@ -87,3 +87,8 @@ Position = 0,0,-6.65
 States = 10a.csv
 Position = -0.04,0,-8.28
 RotateYFunction=0.27
+
+;; Back emergency exit ;;
+[Object]
+States = back.csv
+Position = 0,0,-10

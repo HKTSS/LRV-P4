@@ -1,467 +1,422 @@
 [Include]
-Door\Doors.animated
-Exterior\Wiper\wiper.animated
-Exterior\TurnSignal\signal.animated
-Interior\Handles.animated
-Interior\WC\WC.animated
-Window\windows.animated
-Window\back.animated
-LED\LR705706\led.animated
-..\3DCab\panel.animated
+Door/Doors.animated
+LED/DestSign.animated
+LED/RunNo.animated
+CarNum/CarNum.animated
+Exterior/Wiper/wiper.animated
+Exterior/TurnSignal/signal.animated
+Interior/Handles.animated
+Interior/WC/WC.animated
+Window/windows.animated
+StopReporter/LR705706/led.animated
+../3DCab/panel.animated
 
 [Object]
-States = Exterior\outside.csv
+States = Exterior/outside.csv
 Position = 0,0,0
 
 [Object]
-States = Exterior\pan\panto.csv
+States = Exterior/pantograph/pan.csv
 Position = 0,-0.15,0
 
 [Object]
-States = Exterior\aircon.csv
+States = Exterior/aircon.csv
 Position = 0,0,0
 
 [Object]
-States = Interior\inside.csv, Interior\NoLight\inside.csv
+States = Interior/inside.csv, Interior/NoLight/inside.csv
 Position = 0,0,0
 Statefunction = pluginState[99]
 
 [Object]
-States = Interior\top\fire_ex_sticker_down.csv
+States = Interior/top/fire_ex_sticker_down.csv
 Position = 0.05,0,1.7
 
 [Object]
-States = Interior\top\fire_ex_sticker_down.csv
+States = Interior/top/fire_ex_sticker_down.csv
 Position = 0.05,0,-3.8
 
 [Object]
-States = Interior\top\exit_back.csv
+States = Interior/top/exit_back.csv
 Position = 0.0,0,-7.5
 
 [Object]
-States = Interior\top\exit_back_right.csv
+States = Interior/top/exit_back_right.csv
 Position = 0.03,-0.02,3.7
 RotateYFunction=pi
 
 [Object]
-States = LED\overlay.csv
+States = StopReporter/overlay.csv
 Position = 0,0,0
 
 [Object]
-States = Interior\ceiling.csv, Interior\NoLight\ceiling.csv
+States = Interior/ceiling.csv, Interior/NoLight/ceiling.csv
 Position = 0,0,0
 Statefunction = pluginState[99]
 
 [Object]
-States = Interior\top_window.csv
+States = Interior/top_window.csv
 Position = 0,0,-1.85
 Statefunction = pluginState[99]
 
 [Object]
-States = Interior\top_doors.csv
+States = Interior/top_doors.csv
 Position = 0,0,-3.7
 Statefunction = pluginState[99]
 
 [Object]
-States = Interior\top_window.csv
+States = Interior/top_window.csv
 Position = 0,0,-5.5
 Statefunction = pluginState[99]
 
 [Object]
-States = Interior\top_window.csv
+States = Interior/top_window.csv
 Position = 0,0,-7.35
 Statefunction = pluginState[99]
 
 [Object]
-States = Interior\top_doors.csv
+States = Interior/top_doors.csv
 Position = 0,0,-9.2
 Statefunction = pluginState[99]
 
 [Object]
-States = Interior\top_window.csv
+States = Interior/top_window.csv
 Position = 0,0,-11
 Statefunction = pluginState[99]
 
 [Object]
-States = Interior\top_window.csv
+States = Interior/top_window.csv
 Position = 0,0,-12.85
 Statefunction = pluginState[99]
 
 [Object]
-States = Interior\top_doors.csv
+States = Interior/top_doors.csv
 Position = -0.001,0,-14.6
 Statefunction = pluginState[99]
 
 [Object]
-States = Interior\top_window.csv
+States = Interior/top_window.csv
 Position = 0,0,-16.4
 Statefunction = pluginState[99]
 
 [Object]
-States = Interior\top_window.csv
+States = Interior/top_window.csv
 Position = 0.001,0,-16.6
 Statefunction = pluginState[99]
 
 [Object]
-States = Interior\top_window_right.csv
+States = Interior/top_window_right.csv
 Position = 0.02,0,-3.65
 
 [Object]
-States = Interior\top_window_right.csv
+States = Interior/top_window_right.csv
 Position = 0.02,0,-5.5
 
 [Object]
-States = Interior\top_window_right.csv
+States = Interior/top_window_right.csv
 Position = 0.02,0,-7.35
 
 [Object]
-States = Interior\top_window_right.csv
+States = Interior/top_window_right.csv
 Position = 0.02,0,-9.2
 
 [Object]
-States = Interior\top_window_right.csv
+States = Interior/top_window_right.csv
 Position = 0.02,0,-11.05
 
 [Object]
-States = Interior\top_window_right.csv
+States = Interior/top_window_right.csv
 Position = 0.02,0,-12.9
 
 [Object]
-States = Interior\top_window_right.csv
+States = Interior/top_window_right.csv
 Position = 0.02,0,-14.75
 
 [Object]
-States = Interior\top_window_right.csv
+States = Interior/top_window_right.csv
 Position = 0.02,0,-16.6
 
 [Object]
-States = Interior\top_window_right.csv
+States = Interior/top_window_right.csv
 Position = 0.02,0,-18.45
 
 [Object]
-States = Interior\reporter.csv, Interior\NoLight\reporter.csv
+States = Interior/reporter.csv, Interior/NoLight/reporter.csv
 Position = 0,0,0
 Statefunction = pluginState[99]
 
 ;;Interior Routemap;;
 ;;Door 1;;
 [Object]
-States = Interior\routemap.csv, Interior\NoLight\routemap.csv
+States = Interior/routemap.csv, Interior/NoLight/routemap.csv
 Position = 0,0,0
 Statefunction = pluginState[99]
 
 ;;Door 2;;
 [Object]
-States = Interior\routemap.csv, Interior\NoLight\routemap.csv
+States = Interior/routemap.csv, Interior/NoLight/routemap.csv
 Position = 0,0,-5.5
 Statefunction = pluginState[99]
 
 ;;Door 3;;
 [Object]
-States = Interior\routemap.csv, Interior\NoLight\routemap.csv
+States = Interior/routemap.csv, Interior/NoLight/routemap.csv
 Position = 0,0,-10.9
 Statefunction = pluginState[99]
 
 [Object]
-States = Interior\ticket_info.csv
+States = Interior/ticket_info.csv
 Position = 0,0,2.18
 Statefunction = pluginState[99]
 
 ;;CCTV;;
 ;;Door 1;;
 [Object]
-States = Interior\CCTV.csv, Interior\NoLight\CCTV.csv
+States = Interior/CCTV.csv, Interior/NoLight/CCTV.csv
 Position = 0,0,-0.1
 Statefunction = pluginstate[99]
 
 ;;Door 2;;
 [Object]
-States = Interior\CCTV.csv, Interior\NoLight\CCTV.csv
+States = Interior/CCTV.csv, Interior/NoLight/CCTV.csv
 Position = 0,0,-5.55
 Statefunction = pluginState[99]
 
 ;;Door 3;;
 [Object]
-States = Interior\CCTV.csv, Interior\NoLight\CCTV.csv
+States = Interior/CCTV.csv, Interior/NoLight/CCTV.csv
 Position = 0,0,-10.95
 Statefunction = pluginState[99]
 
 ;;Reflection @ top red line on the side of the LRV;;
 [Object]
-States = Exterior\redline_refl.csv
+States = Exterior/redline_refl.csv
 Position = 0,0,0
 TextureShiftXFunction = value - speed * 0.0005
 
 ;;Train Status, controlled via plugin;;
 [Object]
-States = null.csv, Exterior\TrainStatus\NotToGoKCR.csv, Exterior\TrainStatus\NotToGoMTR.csv, Exterior\TrainStatus\ScotchBlock.csv
+States = null.csv, Exterior/TrainStatus/NotToGoKCR.csv, Exterior/TrainStatus/NotToGoMTR.csv, Exterior/TrainStatus/ScotchBlock.csv
 Position = 0,0,0
 StateFunction = PluginState[131]
 
-;;Switchable car number, controlled via plugin;;
 [Object]
-States = null.csv, CarNum\1111.csv, CarNum\1112.csv, CarNum\1113.csv, CarNum\1114.csv, CarNum\1115.csv, CarNum\1116.csv, CarNum\1117.csv, CarNum\1118.csv, CarNum\1119.csv, CarNum\1120.csv, CarNum\1121.csv, CarNum\1122.csv, CarNum\1123.csv, CarNum\1124.csv, CarNum\1125.csv, CarNum\1126.csv, CarNum\1127.csv, CarNum\1128.csv, CarNum\1129.csv, CarNum\1130.csv, CarNum\1131.csv, CarNum\1132.csv
-Position = 0,0,0
-StateFunction = Pluginstate[205]
-
-[Object]
-States = Exterior\mirrorarm.csv
+States = Exterior/mirrorarm.csv
 Position = 0,-0.1,0
 
 [Object]
-States = Exterior\mirror.csv
+States = Exterior/mirror.csv
 Position = 0,-0.1,0
 
 ;;[Object]
 ;;Position = -0.05, 0, -3.9
-;;States = Exterior\wheel\wheel2.csv
+;;States = Exterior/wheel/wheel2.csv
 
 ;;[Object]
 ;;Position = -0.05, 0, 7
-;;States = Exterior\wheel\wheel2.csv
+;;States = Exterior/wheel/wheel2.csv
 
 ;;[Object]
-;;States = Exterior\wheel\wheel.csv
+;;States = Exterior/wheel/wheel.csv
 ;;Position = -0.20, 0.41, 4.30
 ;;RotateXFunction = value + delta * speedometer / 0.40
 
 ;;[Object]
-;;States = Exterior\wheel\wheel.csv
+;;States = Exterior/wheel/wheel.csv
 ;;Position = -0.20, 0.41, 6.7
 ;;RotateXFunction = value + delta * speedometer / 0.40
 
 ;;[Object]
-;;States = Exterior\wheel\wheel.csv
+;;States = Exterior/wheel/wheel.csv
 ;;Position = -0.20, 0.41, -4.20
 ;;RotateXFunction = value + delta * speedometer / 0.40
 
 ;;[Object]
-;;States = Exterior\wheel\wheel.csv
+;;States = Exterior/wheel/wheel.csv
 ;;Position = -0.20, 0.41, -6.5
 ;;RotateXFunction = value + delta * speedometer / 0.40
 
 [Object]
-States = Exterior\BrakingLight.csv, null.csv
+States = Exterior/BrakingLight.csv, null.csv
 Position = 0,0,0
 Statefunction = if[brakeNotchLinear > 0,0,1]
 
 [Object]
-States = Exterior\reverse.csv, null.csv
+States = Exterior/ReverseLight.csv, null.csv
 Position = 0,0,0.01
 Statefunction = if[reverserNotch == -1,0,1]
 
-;; Front Destination Sign ;;
-
 [Object]
-States = DestSign\610\610_YL.csv, DestSign\610\610_FP.csv, DestSign\705\705.csv, DestSign\705\705_TSW.csv, DestSign\706\706.csv, DestSign\706\706_TSW.csv, DestSign\701\701.csv, DestSign\507\507_FP.csv, DestSign\507\507_TK.csv, DestSign\507P\507P_FP.csv,  DestSign\614\614_FP.csv, DestSign\614\614_YL.csv, DestSign\614P\614P_FP.csv, DestSign\614P\614P_SH.csv, DestSign\615\615_FP.csv, DestSign\615\615_YL.csv, DestSign\615P\615P_FP.csv, DestSign\615P\615P_SH.csv, DestSign\751\751_TY.csv, DestSign\751\751_YO.csv, DestSign\751\751_SP.csv, DestSign\NIS\NIS.csv, DestSign\Empty\E.csv, DestSign\761P\761P_TY.csv, DestSign\761P\761P_YL.csv, DestSign\751P\751P_TSW.csv, DestSign\751P\751P_TY.csv, DestSign\505\505_SH.csv, DestSign\505\505_SS.csv
-Position = 0,0,0
-Statefunction = Mod[pluginstate[104], 22]
-RefreshRate = 0.1
-
-;; Side Destination Sign ;;
-[Object]
-States = DestSign\610\Side_YL.csv, DestSign\610\Side_FP.csv, DestSign\705\Side.csv, DestSign\705\Side_TSW.csv, DestSign\706\Side.csv, DestSign\706\Side_TSW.csv, DestSign\701\Side.csv, DestSign\507\Side_FP.csv, DestSign\507\Side_TK.csv, DestSign\507P\Side_FP.csv,  DestSign\614\Side_FP.csv, DestSign\614\Side_YL.csv, DestSign\614P\Side_FP.csv, DestSign\614P\Side_SH.csv, DestSign\615\Side_FP.csv, DestSign\615\Side_YL.csv, DestSign\615P\Side_FP.csv, DestSign\615P\Side_SH.csv, DestSign\751\Side_TY.csv, DestSign\751\Side_YO.csv, DestSign\751\Side_SP.csv, DestSign\NIS\Side.csv, DestSign\Empty\Side.csv, DestSign\761P\Side_TY.csv, DestSign\761P\Side_YL.csv, DestSign\751P\Side_TSW.csv, DestSign\751P\Side_TY.csv, DestSign\505\Side_SH.csv, DestSign\505\Side_SS.csv
-Position = -1.335,2.51,-8.3
-Statefunction = Mod[pluginstate[104], 22]
-RefreshRate = 0.1
-
-;; Interior Destination Sign ;;
-
-[Object]
-States = DestSign\610\Interior_YL.csv, DestSign\610\Interior_FP.csv, DestSign\705\Interior.csv, DestSign\705\Interior_TSW.csv, DestSign\706\Interior.csv, DestSign\706\Interior_TSW.csv, DestSign\701\Interior.csv, DestSign\507\Interior_FP.csv, DestSign\507\Interior_TK.csv, DestSign\507P\Interior_FP.csv,  DestSign\614\Interior_FP.csv, DestSign\614\Interior_YL.csv, DestSign\614P\Interior_FP.csv, DestSign\614P\Interior_SH.csv, DestSign\615\Interior_FP.csv, DestSign\615\Interior_YL.csv, DestSign\615P\Interior_FP.csv, DestSign\615P\Interior_SH.csv, DestSign\751\Interior_TY.csv, DestSign\751\Interior_YO.csv, DestSign\751\Interior_SP.csv, DestSign\NIS\Interior.csv, DestSign\Empty\Interior.csv, DestSign\761P\Interior_TY.csv, DestSign\761P\Interior_YL.csv, DestSign\751P\Interior_TSW.csv, DestSign\751P\Interior_TY.csv, DestSign\505\Interior_SH.csv, DestSign\505\Interior_SS.csv
-Position = -1.232,2.73,-8.1
-Statefunction = Mod[pluginstate[104], 22]
-RefreshRate = 0.1
-
-[Object]
-States = Interior\LEDDisplay.csv, Interior\NoLight\LEDDisplay.csv
+States = Interior/LEDDisplay.csv, Interior/NoLight/LEDDisplay.csv
 Position = 0,0,-0.07
 Statefunction = pluginState[99]
 
 ;;No Power;;
 [Object]
-States = null.csv, DestSign\Empty\E.csv
+States = null.csv, LED/Empty/E.csv
 Position = 0,0,0
 Statefunction = if[pluginstate[213] == 1, 1, 0]
 
 [Object]
-States = DestSign\RunNo\0.csv, DestSign\RunNo\1.csv, DestSign\RunNo\2.csv, DestSign\RunNo\3.csv, DestSign\RunNo\4.csv, DestSign\RunNo\5.csv, DestSign\RunNo\6.csv, DestSign\RunNo\7.csv, DestSign\RunNo\8.csv, DestSign\RunNo\9.csv
-Position = 0,0,0
-Statefunction = Mod[pluginstate[105], 10]
-RefreshRate = 0.1
-
-[Object]
-States = DestSign\RunNo\0.csv, DestSign\RunNo\1.csv, DestSign\RunNo\2.csv, DestSign\RunNo\3.csv, DestSign\RunNo\4.csv, DestSign\RunNo\5.csv, DestSign\RunNo\6.csv, DestSign\RunNo\7.csv, DestSign\RunNo\8.csv, DestSign\RunNo\9.csv
-Position = -0.10,0,0
-Statefunction = Mod[pluginstate[106], 10]
-RefreshRate = 0.1
-
-[Object]
-States = DestSign\RunNo\0.csv, DestSign\RunNo\1.csv, DestSign\RunNo\2.csv, DestSign\RunNo\3.csv, DestSign\RunNo\4.csv, DestSign\RunNo\5.csv, DestSign\RunNo\6.csv, DestSign\RunNo\7.csv, DestSign\RunNo\8.csv, DestSign\RunNo\9.csv
-Position = -0.20,0,0
-Statefunction = Mod[pluginstate[107], 10]
-RefreshRate = 0.1
-
-[Object]
-States = Interior\fire_ex\fire_ex.csv, Interior\fire_ex\fire_ex_dark.csv
+States = Interior/fire_ex/fire_ex.csv, Interior/fire_ex/fire_ex_dark.csv
 Position = 0,0,5.5
 Statefunction = pluginState[99]
 
 [Object]
-States = Interior\fire_ex\fire_ex.csv, Interior\fire_ex\fire_ex_dark.csv
+States = Interior/fire_ex/fire_ex.csv, Interior/fire_ex/fire_ex_dark.csv
 Position = 0,0,0
 Statefunction = pluginState[99]
 
 [Object]
-States = Interior\handrail.csv, Interior\NoLight\handrail.csv
+States = Interior/handrail.csv, Interior/NoLight/handrail.csv
 Position = -0.1,0,4.55
 Statefunction = pluginState[99]
 
 
 [Object]
-States = Interior\handrail.csv, Interior\NoLight\handrail.csv
+States = Interior/handrail.csv, Interior/NoLight/handrail.csv
 Position = -0.1,0,1
 Statefunction = pluginState[99]
 
 [Object]
-States = Interior\handrail.csv, Interior\NoLight\handrail.csv
+States = Interior/handrail.csv, Interior/NoLight/handrail.csv
 Position = -0.1,0,-1
 Statefunction = pluginState[99]
 
 [Object]
-States = Interior\handrail.csv, Interior\NoLight\handrail.csv
+States = Interior/handrail.csv, Interior/NoLight/handrail.csv
 Position = -0.1,0,-4.4
 Statefunction = pluginState[99]
 
 [Object]
-States = Interior\handrail.csv, Interior\NoLight\handrail.csv
+States = Interior/handrail.csv, Interior/NoLight/handrail.csv
 Position = -0.1,0,-6.4
 Statefunction = pluginState[99]
 
 [Object]
-States = Interior\cabdoor.csv, Interior\NoLight\cabdoor.csv
+States = Interior/cabdoor.csv, Interior/NoLight/cabdoor.csv
 Position = 0,0,0
 TranslateXFunction = if[pluginstate[111] == 1, Min[value + 0.6 * delta, 0.6], Max[value - 0.6 * delta, 0]]
 Statefunction = pluginState[99]
 
 [Object]
-States = Interior\light.csv, Interior\NoLight\light.csv
+States = Interior/light.csv, Interior/NoLight/light.csv
 Position = -0.97,3.26,7.3
 Statefunction = pluginState[99]
 
 [Object]
-States = Interior\light.csv, Interior\NoLight\light.csv
+States = Interior/light.csv, Interior/NoLight/light.csv
 Position = 0.77,3.26,7.3
 Statefunction = pluginState[99]
 
 ;;Left;;
 [Object]
-States = Interior\Seats\2_L.csv, Interior\NoLight\Seats\1_Purple_R.csv
+States = Interior/Seats/2_L.csv, Interior/NoLight/Seats/1_Purple_R.csv
 Position = -1.15,1.1,7.3
 Statefunction = pluginState[99]
 
 [Object]
-States = Interior\Seats\1_Purple_R.csv, Interior\NoLight\Seats\1_Purple_R.csv
+States = Interior/Seats/1_Purple_R.csv, Interior/NoLight/Seats/1_Purple_R.csv
 Position = -1.15,1.1,3
 Statefunction = pluginState[99]
 
 [Object]
-States = Interior\Seats\2_R.csv, Interior\NoLight\Seats\2_R.csv
+States = Interior/Seats/2_R.csv, Interior/NoLight/Seats/2_R.csv
 Position = -1.15,1.1,6.5
 Statefunction = pluginState[99]
 
 [Object]
-States = Interior\Seats\1_Green_L.csv, Interior\NoLight\Seats\1_Green_L.csv
+States = Interior/Seats/1_Green_L.csv, Interior/NoLight/Seats/1_Green_L.csv
 Position = -1.15,1.1,2
 Statefunction = pluginState[99]
 
 [Object]
-States = Interior\Seats\1_Purple_R.csv, Interior\NoLight\Seats\1_Purple_R.csv
+States = Interior/Seats/1_Purple_R.csv, Interior/NoLight/Seats/1_Purple_R.csv
 Position = -1.15,1.1,-2.5
 Statefunction = pluginState[99]
 
 [Object]
-States = Interior\Seats\1_Green_L.csv, Interior\NoLight\Seats\1_Green_L.csv
+States = Interior/Seats/1_Green_L.csv, Interior/NoLight/Seats/1_Green_L.csv
 Position = -1.15,1.1,-3.5
 Statefunction = pluginState[99]
 
 [Object]
-States = Interior\Seats\1_Purple_R.csv, Interior\NoLight\Seats\1_Purple_R.csv
+States = Interior/Seats/1_Purple_R.csv, Interior/NoLight/Seats/1_Purple_R.csv
 Position = -1.15,1.1,-7.7
 Statefunction = pluginState[99]
 
 [Object]
-States = Interior\Seats\1_Green_L.csv, Interior\NoLight\Seats\1_Green_L.csv
+States = Interior/Seats/1_Green_L.csv, Interior/NoLight/Seats/1_Green_L.csv
 Position = -1.15,1.1,-8.4
 Statefunction = pluginState[99]
 
 ;;Right;;
 [Object]
-States = Interior\Seats\1_Purple_R.csv, Interior\NoLight\Seats\1_Purple_R.csv
+States = Interior/Seats/1_Purple_R.csv, Interior/NoLight/Seats/1_Purple_R.csv
 Position = 0.98,1.1,7.3
 Statefunction = pluginState[99]
 
 [Object]
-States = Interior\Seats\2_R.csv, Interior\NoLight\Seats\2_R.csv
+States = Interior/Seats/2_R.csv, Interior/NoLight/Seats/2_R.csv
 Position = 0.58,1.1,6.5
 Statefunction = pluginState[99]
 
 [Object]
-States = Interior\Seats\2_Priority_L.csv, Interior\NoLight\Seats\2_Priority_L.csv
+States = Interior/Seats/2_Priority_L.csv, Interior/NoLight/Seats/2_Priority_L.csv
 Position = 0.58,1.1,3.3
 Statefunction = pluginState[99]
 
 [Object]
-States = Interior\Seats\2_R.csv, Interior\NoLight\Seats\2_R.csv
+States = Interior/Seats/2_R.csv, Interior/NoLight/Seats/2_R.csv
 Position = 0.58,1.1,2.6
 Statefunction = pluginState[99]
 
 [Object]
-States = Interior\Seats\2_R.csv, Interior\NoLight\Seats\2_R.csv
+States = Interior/Seats/2_R.csv, Interior/NoLight/Seats/2_R.csv
 Position = 0.58,1.1,1.9
 Statefunction = pluginState[99]
 
 [Object]
-States = Interior\Seats\2_R.csv, Interior\NoLight\Seats\2_R.csv
+States = Interior/Seats/2_R.csv, Interior/NoLight/Seats/2_R.csv
 Position = 0.58,1.1,1.2
 Statefunction = pluginState[99]
 
 [Object]
-States = Interior\Seats\2_R.csv, Interior\NoLight\Seats\2_R.csv
+States = Interior/Seats/2_R.csv, Interior/NoLight/Seats/2_R.csv
 Position = 0.58,1.1,0.5
 Statefunction = pluginState[99]
 
 [Object]
-States = Interior\Seats\2_Priority_L.csv, Interior\NoLight\Seats\2_Priority_L.csv
+States = Interior/Seats/2_Priority_L.csv, Interior/NoLight/Seats/2_Priority_L.csv
 Position = 0.58,1.1,-7.7
 Statefunction = pluginState[99]
 
 [Object]
-States = Interior\Seats\2_R.csv, Interior\NoLight\Seats\2_R.csv
+States = Interior/Seats/2_R.csv, Interior/NoLight/Seats/2_R.csv
 Position = 0.58,1.1,-8.4
 Statefunction = pluginState[99]
 
 [Object]
-States = Interior\Seats\2_Priority_L.csv, Interior\NoLight\Seats\2_Priority_L.csv
+States = Interior/Seats/2_Priority_L.csv, Interior/NoLight/Seats/2_Priority_L.csv
 Position = 0.58,1.1,-2.2
 Statefunction = pluginState[99]
 
 [Object]
-States = Interior\Seats\2_R.csv, Interior\NoLight\Seats\2_R.csv
+States = Interior/Seats/2_R.csv, Interior/NoLight/Seats/2_R.csv
 Position = 0.58,1.1,-2.84
 Statefunction = pluginState[99]
 
 [Object]
-States = Interior\Seats\2_R.csv, Interior\NoLight\Seats\2_R.csv
+States = Interior/Seats/2_R.csv, Interior/NoLight/Seats/2_R.csv
 Position = 0.58,1.1,-3.53
 Statefunction = pluginState[99]
 
 [Object]
-States = Interior\Seats\2_R.csv, Interior\NoLight\Seats\2_R.csv
+States = Interior/Seats/2_R.csv, Interior/NoLight/Seats/2_R.csv
 Position = 0.58,1.1,-4.23
 Statefunction = pluginState[99]
 
 [Object]
-States = Interior\Seats\2_R.csv, Interior\NoLight\Seats\2_R.csv
+States = Interior/Seats/2_R.csv, Interior/NoLight/Seats/2_R.csv
 Position = 0.58,1.1,-4.9
 Statefunction = pluginState[99]
