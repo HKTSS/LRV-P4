@@ -1,8 +1,8 @@
 CreateMeshBuilder,
-AddVertex,-0.32,  1.91, 9.76, 0,1,0
-AddVertex,-0.21,  1.91, 9.76, 0,1,0
-AddVertex,-0.21,  1.815, 9.66, 0,1,0
-AddVertex,-0.32,  1.815, 9.66, 0,1,0
+AddVertex,-0.325,  1.91, 9.76, 0,1,0
+AddVertex,-0.205,  1.91, 9.76, 0,1,0
+AddVertex,-0.205,  1.815, 9.66, 0,1,0
+AddVertex,-0.325,  1.815, 9.66, 0,1,0
 AddFace, 0, 1, 2, 3
 SetEmissiveColor,255,255,255
 LoadTexture,Pressuremeter.png

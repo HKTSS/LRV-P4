@@ -1,41 +1,41 @@
 ;; Hazard Warning Light ;;
 [Object]
 States = Component\switch.csv, Component\switchR.csv
-Position = -0.332,1.755,9.527
+Position = -0.372,1.755,9.527
 StateFunction = pluginstate[108]
 RotateXFunction = 0.85
 
 ;; Speed Mode ;;
 [Object]
 States = Component\switch.csv, Component\switchR.csv, Component\switchL.csv
-Position = -0.286,1.755,9.527
+Position = -0.323,1.755,9.527
 StateFunction = pluginstate[112]
 RotateXFunction = 0.85
 
 ;; Left/Right Indicator ;;
 [Object]
 States = Component\switch.csv, Component\switchL.csv, Component\switchR.csv, Component\switch.csv
-Position = 0.248,1.753,9.527
+Position = 0.245,1.753,9.527
 StateFunction = pluginstate[102]
 RotateXFunction = 0.85
 
 ;; Wiper Switch ;;
 [Object]
 States = Component\switch.csv, Component\switch_wiper_1.csv, Component\switch_wiper_2.csv, Component\switch_wiper_3.csv, Component\switch_wiper_4.csv
-Position = 0.234,1.823,9.60
+Position = 0.23,1.823,9.60
 StateFunction = Mod[pluginstate[113], 5]
 RotateXFunction = 0.85
 
-;; Door 1 indicator ;;
-[Object]
-States = Component\switch.csv, Component\switchL.csv, Component\switchR.csv
-Position = -0.093,1.748,9.521
-StateFunction = if[rightDoors == 0 | rightDoors == 1, 0, rightDoorsTarget+1]
-RotateXFunction = 0.85
-
-;; Headlight ;;
+;; Headlight Switch ;;
 [Object]
 States = Component\switch.csv, Component\switchR.csv, Component\switchR_2.csv
-Position = 0.178,1.8215,9.60
+Position = 0.170,1.8215,9.60
 StateFunction = Mod[headlights+1, 3]
+RotateXFunction = 0.85
+
+;; Door 1 Switch ;;
+[Object]
+States = Component\switch.csv, Component\switchL.csv, Component\switchR.csv
+Position = -0.117,1.748,9.521
+StateFunction = if[rightDoors == 0 | rightDoors == 1, 0, rightDoorsTarget+1]
 RotateXFunction = 0.85

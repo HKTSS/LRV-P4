@@ -1,8 +1,8 @@
 CreateMeshBuilder,
-AddVertex,-0.313,  1.956, 9.736, 0,1,0
-AddVertex,-0.293,  1.956, 9.736, 0,1,0
-AddVertex,-0.293,  1.9435, 9.722, 0,1,0
-AddVertex,-0.313,  1.9435, 9.722, 0,1,0
+AddVertex,-0.31,  1.956, 9.736, 0,1,0
+AddVertex,-0.288,  1.956, 9.736, 0,1,0
+AddVertex,-0.288,  1.9435, 9.722, 0,1,0
+AddVertex,-0.31,  1.9435, 9.722, 0,1,0
 SetEmissiveColor,255,255,255
 AddFace2, 0, 1, 2, 3
 LoadTexture, atlas.png

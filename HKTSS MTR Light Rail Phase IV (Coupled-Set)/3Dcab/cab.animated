@@ -1,0 +1,26 @@
+[Object]
+States = cab.csv
+Position = 0,-0.05,-0.05
+
+[Include]
+Panel/panel.animated
+
+[Include]
+ControlHandle/handle.animated
+
+[Object]
+States = key/key.csv
+Position = 0.17,-0.05,-0.12
+
+[Include]
+iSPS/iSPS.animated
+
+;; Head crashed ;;
+[Object]
+States = ../P4_1/null.csv, glass_cracked.csv
+Position = 0,0,0
+Statefunction = pluginstate[212]
+
+;; Headlights in F1 ;;
+[Include]
+../P4_1/Exterior/Headlight/headlights.animated

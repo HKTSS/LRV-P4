@@ -1,8 +1,8 @@
 CreateMeshBuilder,
-AddVertex,-0.21,  1.91, 9.76, 0,1,0
+AddVertex,-0.218,  1.91, 9.76, 0,1,0
 AddVertex,-0.085,  1.91, 9.76, 0,1,0
 AddVertex,-0.085,  1.815, 9.66, 0,1,0
-AddVertex,-0.21,  1.815, 9.66, 0,1,0
+AddVertex,-0.218,  1.815, 9.66, 0,1,0
 AddFace, 0, 1, 2, 3
 LoadTexture,Speedometer.png
 SetTextureCoordinates,0, 0.5, 0

@@ -1,0 +1,41 @@
+[Include]
+switches.animated
+
+[Object]
+States = panel.csv
+Position = 0,-0.05,-0.05
+
+[Object]
+States = ../../P4_1/null.csv, Component/dirflash.csv
+Position = -0.004,0,0
+StateFunction = if[Pluginstate[102] > 0, value == 0, 0]
+RefreshRate = 0.65
+
+[Include]
+Component/InfoPanel/InfoPanel.animated
+Position = 0,0.003,0.003
+
+[Object]
+States = ../../P4_1/null.csv, panelLight/doorlock_blink.csv
+Position = 0.032,-0.05,-0.05
+StateFunction = if[pluginstate[202] == 1, value == 0, 0]
+RefreshRate = 0.52
+
+;;[Object]
+;;States = ../../P4_1/null.csv, panelLight/door_cnopn.csv
+;;Position = 0,0.104,-0.096
+;; This light lits up if the speed is less than 0.2km/h ;;
+;; But it unlits only if the speed is more than 2km/h ;;
+
+;;Statefunction = if[value == 0, if[abs[speedometer] < 0.0555, 1, 0], if[abs[speedometer] < 0.5555, 1, 0]]
+
+;;[Object]
+;;States = ../P4_1/null.csv, panelLight/dooropened.csv
+;;Position = 0,0.104,-0.096
+;;StateFunction = if[leftDoors != 0, 1, 0]
+
+[Include]
+Component/speedometer/Speedometer.animated
+
+[Include]
+Component/pressuremeter/PressureMeter.animated
