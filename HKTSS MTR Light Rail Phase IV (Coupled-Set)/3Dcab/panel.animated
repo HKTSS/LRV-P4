@@ -126,8 +126,8 @@ Position = 0,0.1,-0.1
 StateFunction= if[pluginstate[103] == 1, Mod[value + pluginstate[103], 2] ,0]
 RefreshRate = 0.54
 
-;;Head crashed;;
+;; Head crashed ;;
 [Object]
 States = ../P4_1/null.csv, glass_cracked.csv
 Position = 0,0,0
-Statefunction = pluginstate[213]
+Statefunction = pluginstate[212]

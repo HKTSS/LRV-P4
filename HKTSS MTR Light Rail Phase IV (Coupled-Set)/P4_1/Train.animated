@@ -209,34 +209,6 @@ Position = 0,-0.1,0
 States = Exterior/mirror.csv
 Position = 0,-0.1,0
 
-;;[Object]
-;;Position = -0.05, 0, -3.9
-;;States = Exterior/wheel/wheel2.csv
-
-;;[Object]
-;;Position = -0.05, 0, 7
-;;States = Exterior/wheel/wheel2.csv
-
-;;[Object]
-;;States = Exterior/wheel/wheel.csv
-;;Position = -0.20, 0.41, 4.30
-;;RotateXFunction = value + delta * speedometer / 0.40
-
-;;[Object]
-;;States = Exterior/wheel/wheel.csv
-;;Position = -0.20, 0.41, 6.7
-;;RotateXFunction = value + delta * speedometer / 0.40
-
-;;[Object]
-;;States = Exterior/wheel/wheel.csv
-;;Position = -0.20, 0.41, -4.20
-;;RotateXFunction = value + delta * speedometer / 0.40
-
-;;[Object]
-;;States = Exterior/wheel/wheel.csv
-;;Position = -0.20, 0.41, -6.5
-;;RotateXFunction = value + delta * speedometer / 0.40
-
 [Object]
 States = Exterior/BrakingLight.csv, null.csv
 Position = 0,0,0
@@ -256,7 +228,7 @@ Statefunction = pluginState[99]
 [Object]
 States = null.csv, LED/Empty/E.csv
 Position = 0,0,0
-Statefunction = if[pluginstate[213] == 1, 1, 0]
+Statefunction = pluginstate[213]
 
 [Object]
 States = Interior/fire_ex/fire_ex.csv, Interior/fire_ex/fire_ex_dark.csv
