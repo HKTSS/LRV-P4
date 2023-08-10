@@ -3,8 +3,8 @@ AddVertex,-0.313,  1.956, 9.7362, 0,1,0
 AddVertex,-0.292,  1.956, 9.7362, 0,1,0
 AddVertex,-0.292,  1.9435, 9.7225, 0,1,0
 AddVertex,-0.313,  1.9435, 9.7225, 0,1,0
+AddFace, 0, 1, 2, 3
 SetEmissiveColor,255,255,255
-AddFace2, 0, 1, 2, 3
 LoadTexture, atlas.png
 SetTextureCoordinates,0, 0, 0.21
 SetTextureCoordinates,1, 0.24, 0.21
