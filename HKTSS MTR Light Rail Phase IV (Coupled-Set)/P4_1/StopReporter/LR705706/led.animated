@@ -1,3 +1,10 @@
+;;  ;;
+[Object]
+States = 0.csv, 1TinTsz_E_S.csv, null.csv
+Position = 0,0,0
+StateFunction = 0
+TextureShiftXFunction = pluginState[127]/1000
+
 ;; Tin Tsz ;;
 [Object]
 States = 1TinTsz_C_S.csv, 1TinTsz_E_S.csv, null.csv

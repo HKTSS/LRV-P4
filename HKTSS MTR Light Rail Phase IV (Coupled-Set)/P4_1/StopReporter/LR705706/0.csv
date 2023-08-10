@@ -1,0 +1,18 @@
+;; Assume 160x16 ;;
+
+CreateMeshBuilder,
+AddVertex, 0.305, 3.153, 1.891,
+AddVertex, 0.305, 3.22, 1.891,
+AddVertex, -0.355, 3.22, 1.891,
+AddVertex, -0.355, 3.153, 1.891,
+AddFace,0,1,2,3
+SetEmissiveColor,255,255,255
+LoadTexture,Tex\mld.png
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,3,1,1,
+SetDecalTransparentColor,0,0,0
+
+RotateAll,0,1,0,180
+TranslateAll,0,0,10

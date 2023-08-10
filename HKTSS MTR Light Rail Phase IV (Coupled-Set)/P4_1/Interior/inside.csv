@@ -340,7 +340,7 @@ AddVertex, -1.3, 3.28, 1.799,
 AddVertex, -1.3, 0.8, 1.799,
 AddFace,3, 2, 1, 0
 SetEmissiveColor,255,255,255
-LoadTexture,frontdoor_cab.png,
+LoadTexture,frontdoor.png,
 SetTextureCoordinates,0,0,1,
 SetTextureCoordinates,1,0,0,
 SetTextureCoordinates,2,1,0
