@@ -1,0 +1,15 @@
+# 修改此檔案後，你需要重新載入OpenBVE才能令設定生效
+# After editing this config, please restart OpenBVE to apply changes.
+# true = 啟用/Enabled
+# false = 停用/Disabled
+
+CarNum = 1118,1114
+DoorLock = true
+ApplyBrake = true
+iSPSDoorLock = true
+Crash = true
+MTRbeep = false
+RevAtStation = false
+TrainStatus = 0
+dsd = true
+Tutorial = true
