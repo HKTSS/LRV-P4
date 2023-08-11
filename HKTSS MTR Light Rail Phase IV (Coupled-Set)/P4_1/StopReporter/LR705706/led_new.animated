@@ -1,6 +1,6 @@
 ;; Tin Tsz ;;
 [Object]
-States = null.csv, 1TinTsz_C_S.csv, 1TinTsz_E_S.csv
+States = ../../null.csv, 1TinTsz_C_S.csv, 1TinTsz_E_S.csv
 Position = 0,0,0
 StateScript = led.cs?destination=2435
 StateFunction = if[destination == 2435, pluginState[126], 3]
@@ -8,28 +8,28 @@ TextureShiftXFunction = pluginState[127]/1000
 
 ;; Tin Wu ;;
 [Object]
-States = 2TinWu_C_S.csv, 2TinWu_E_S.csv, null.csv
+States = 2TinWu_C_S.csv, 2TinWu_E_S.csv, ../../null.csv
 Position = 0,0,0
 StateFunction = if[destination == 2450, pluginState[126], 3]
 TextureShiftXFunction = pluginState[127]/1000
 
 ;; Ginza ;;
 [Object]
-States = 3Ginza_C_S.csv, 3Ginza_E_S.csv, null.csv
+States = 3Ginza_C_S.csv, 3Ginza_E_S.csv, ../../null.csv
 Position = 0,0,0
 StateFunction = if[destination == 2455, pluginState[126], 3]
 TextureShiftXFunction = pluginState[127]/1000
 
 ;; Tin Wing ;;
 [Object]
-States = 4TinWing_C_S.csv, 4TinWing_E_S.csv, null.csv
+States = 4TinWing_C_S.csv, 4TinWing_E_S.csv, ../../null.csv
 Position = 0,0,0
 StateFunction = if[destination == 2500, pluginState[126], 3]
 TextureShiftXFunction = pluginState[127]/1000
 
 ;; Special Message ;;
 [Object]
-States = null.csv, Octopus.csv, MTRHotline.csv, LastTrain.csv
+States = ../../null.csv, Octopus.csv, MTRHotline.csv, LastTrain.csv
 Position = 0,0,0
 StateFunction = pluginState[125]
 TextureShiftXFunction = pluginState[127]/1000

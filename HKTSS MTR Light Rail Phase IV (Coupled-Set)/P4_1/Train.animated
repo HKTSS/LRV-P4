@@ -3,6 +3,7 @@ Door/Doors.animated
 LED/DestSign.animated
 LED/RunNo.animated
 CarNum/CarNum.animated
+Exterior/Head/Head.animated
 Exterior/Wiper/wiper.animated
 Exterior/TurnSignal/signal.animated
 Interior/Handles.animated
@@ -200,14 +201,6 @@ TextureShiftXFunction = value - speed * 0.0005
 States = null.csv, Exterior/TrainStatus/NotToGoKCR.csv, Exterior/TrainStatus/NotToGoMTR.csv, Exterior/TrainStatus/ScotchBlock.csv
 Position = 0,0,0
 StateFunction = PluginState[131]
-
-[Object]
-States = Exterior/mirrorarm.csv
-Position = 0,-0.1,0
-
-[Object]
-States = Exterior/mirror.csv
-Position = 0,-0.1,0
 
 [Object]
 States = Exterior/BrakingLight.csv, null.csv

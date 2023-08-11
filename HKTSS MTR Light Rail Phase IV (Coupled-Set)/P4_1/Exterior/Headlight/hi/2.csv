@@ -60,35 +60,32 @@ SetDecalTransparentColor,0,0,255
 translate,0,0,-0.003
 
 CreateMeshBuilder,
-AddVertex, 0.7, 0.76, 0.02,0,1,0
-AddVertex, 0.7, 0.73, -0.025,0,1,0
-AddVertex,-0.7, 0.73, -0.025,0,1,0
-AddVertex,-0.7, 0.76, 0.02,0,1,0
-AddFace2,3,2,1,0,
-SetColor, 255, 255, 255, 102
-SetEmissiveColor,255,255,255
+AddVertex, 0.7, 0.791, 0.02, 0,1,0
+AddVertex, 0.7, 0.761, -0.025, 0,1,0
+AddVertex,-0.7, 0.761, -0.025, 0,1,0
+AddVertex,-0.7, 0.791, 0.02, 0,1,0
+AddFace, 0, 1, 2, 3
+SetColor,255,255,255,102
+SetEmissiveColor, 255,255,255
 LoadTexture, ../../empty.png, ../head_light_refl.png
-SetTextureCoordinates,0,0,0.11,
-SetTextureCoordinates,1,0,0.1,
-SetTextureCoordinates,2,1,0.1,
-SetTextureCoordinates,3,1,0.11,
-SetDecalTransparentColor,0,0,255
+SetTextureCoordinates,0,0,1
+SetTextureCoordinates,1,0,0
+SetTextureCoordinates,2,1,0
+SetTextureCoordinates,3,1,1
 
 CreateMeshBuilder,
-AddVertex,-0.7, 0.72, -0.07,0,1,0
-AddVertex,-0.7, 0.73, -0.025,0,1,0
-AddVertex,0.7, 0.73, -0.025,0,1,0
-AddVertex,0.7, 0.72, -0.07,0,1,0
-AddFace,0,1,2,3
-SetColor, 255, 255, 255, 102
-SetEmissiveColor,255,255,255
+AddVertex,-0.7, 0.751, -0.07, 0,1,0
+AddVertex,-0.7, 0.761, -0.025, 0,1,0
+AddVertex,0.7, 0.761, -0.025, 0,1,0
+AddVertex,0.7, 0.751, -0.07, 0,1,0
+AddFace, 0,1,2,3
+SetColor,255,255,255,102
+SetEmissiveColor, 255,255,255
 LoadTexture, ../../empty.png, ../head_light_refl.png
-SetTextureCoordinates,0,1,1,
-SetTextureCoordinates,1,1,0,
-SetTextureCoordinates,2,0,0,
-SetTextureCoordinates,3,0,1,
-SetDecalTransparentColor,0,0,255
-SetWrapMode,RepeatClamp
+SetTextureCoordinates,0,1,1
+SetTextureCoordinates,1,1,0
+SetTextureCoordinates,2,0,0
+SetTextureCoordinates,3,0,1
 
 RotateAll,0,1,0,180
 TranslateAll,0,0,10

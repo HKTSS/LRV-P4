@@ -1,0 +1,205 @@
+
+CreateMeshBuilder
+AddVertex,-0.750,0.500,10.080, 0,1,0
+AddVertex,-0.750,0.720,10.080, 0,1,0
+AddVertex,0.750,0.720,10.080, 0,1,0
+AddVertex,0.750,0.500,10.080, 0,1,0
+AddFace2,3,2,1,0
+LoadTexture,bumper.png
+SetTextureCoordinates,0,0.000,1.000
+SetTextureCoordinates,1,0.000,0.100
+SetTextureCoordinates,2,-1.000,0.100
+SetTextureCoordinates,3,-1.000,1.000
+SetDecalTransparentColor,0,0,255
+
+CreateMeshBuilder
+AddVertex,-0.750,0.720,10.080, 0,1,0
+AddVertex,-0.750,0.720,9.980, 0,1,0
+AddVertex,0.750,0.720,9.980, 0,1,0
+AddVertex,0.750,0.720,10.080, 0,1,0
+AddFace2,3,2,1,0
+LoadTexture,BumperCurve.png
+SetTextureCoordinates,0,0.999,0.990
+SetTextureCoordinates,1,0.999,0.010
+SetTextureCoordinates,2,0.001,0.010
+SetTextureCoordinates,3,0.001,0.990
+SetDecalTransparentColor,0,0,255
+
+CreateMeshBuilder
+AddVertex,-0.770,0.720,10.070, 0,1,0
+AddVertex,-0.800,0.720,9.980, 0,1,0
+AddVertex,-0.750,0.720,9.980, 0,1,0
+AddVertex,-0.750,0.720,10.080, 0,1,0
+AddFace2,3,2,1,0
+LoadTexture,BumperCurve.png
+SetTextureCoordinates,0,0.999,0.990
+SetTextureCoordinates,1,0.999,0.010
+SetTextureCoordinates,2,0.001,0.010
+SetTextureCoordinates,3,0.001,0.990
+SetDecalTransparentColor,0,0,255
+
+CreateMeshBuilder
+AddVertex,-0.750,0.720,10.070, 0,1,0
+AddVertex,-0.800,0.720,9.980, 0,1,0
+AddVertex,-0.805,0.720,9.980, 0,1,0
+AddVertex,-0.775,0.720,10.070, 0,1,0
+AddFace2,3,2,1,0
+LoadTexture,BumperCurve.png
+SetTextureCoordinates,0,0.999,0.990
+SetTextureCoordinates,1,0.999,0.010
+SetTextureCoordinates,2,0.001,0.010
+SetTextureCoordinates,3,0.001,0.990
+SetDecalTransparentColor,0,0,255
+
+CreateMeshBuilder
+AddVertex,-0.798,0.500,10.020, 0,1,0
+AddVertex,-0.798,0.720,10.020, 0,1,0
+AddVertex,-0.84,0.720,9.900, 0,1,0
+AddVertex,-0.84,0.506,9.900, 0,1,0
+AddFace2,3,2,1,0
+LoadTexture,BumperCurve.png
+SetTextureCoordinates,0,0.999,0.990
+SetTextureCoordinates,1,0.999,0.010
+SetTextureCoordinates,2,0.001,0.010
+SetTextureCoordinates,3,0.001,0.990
+SetDecalTransparentColor,0,0,255
+
+CreateMeshBuilder
+AddVertex,-0.785,0.500,10.040, 0,1,0
+AddVertex,-0.785,0.720,10.040, 0,1,0
+AddVertex,-0.798,0.720,10.020, 0,1,0
+AddVertex,-0.798,0.500,10.020, 0,1,0
+AddFace2,3,2,1,0
+LoadTexture,BumperCurve.png
+SetTextureCoordinates,0,-0.999,0.990
+SetTextureCoordinates,1,-0.999,0.010
+SetTextureCoordinates,2,-0.001,0.010
+SetTextureCoordinates,3,-0.001,0.990
+SetDecalTransparentColor,0,0,255
+
+CreateMeshBuilder
+AddVertex,-0.775,0.500,10.065, 0,1,0
+AddVertex,-0.775,0.720,10.065, 0,1,0
+AddVertex,-0.785,0.720,10.040, 0,1,0
+AddVertex,-0.785,0.500,10.040, 0,1,0
+AddFace2,3,2,1,0
+LoadTexture,BumperCurve.png
+SetTextureCoordinates,0,0.999,0.990
+SetTextureCoordinates,1,0.999,0.010
+SetTextureCoordinates,2,0.001,0.010
+SetTextureCoordinates,3,0.001,0.990
+SetDecalTransparentColor,0,0,255
+
+CreateMeshBuilder
+AddVertex,-0.750,0.500,10.080, 0,1,0
+AddVertex,-0.750,0.720,10.080, 0,1,0
+AddVertex,-0.775,0.720,10.065, 0,1,0
+AddVertex,-0.775,0.500,10.065, 0,1,0
+AddFace2,3,2,1,0
+LoadTexture,BumperCurve.png
+SetTextureCoordinates,0,-0.999,0.990
+SetTextureCoordinates,1,-0.999,0.010
+SetTextureCoordinates,2,-0.001,0.010
+SetTextureCoordinates,3,-0.001,0.990
+SetDecalTransparentColor,0,0,255
+
+;; Right ;;
+
+CreateMeshBuilder
+AddVertex,0.836,0.500,9.870, 0,1,0
+AddVertex,0.833,0.715,9.860, 0,1,0
+AddVertex,0.805,0.720,9.980, 0,1,0
+AddVertex,0.805,0.500,9.980, 0,1,0
+AddFace,0,1,2,3
+LoadTexture,BumperCurve.png
+SetTextureCoordinates,0,0.999,0.990
+SetTextureCoordinates,1,0.999,0.010
+SetTextureCoordinates,2,0.001,0.010
+SetTextureCoordinates,3,0.001,0.990
+SetDecalTransparentColor,0,0,255
+
+CreateMeshBuilder
+AddVertex,0.805,0.500,9.980, 0,1,0
+AddVertex,0.805,0.720,9.980, 0,1,0
+AddVertex,0.790,0.720,10.020, 0,1,0
+AddVertex,0.790,0.500,10.020, 0,1,0
+AddFace,0,1,2,3
+LoadTexture,BumperCurve.png
+SetTextureCoordinates,0,0.999,0.990
+SetTextureCoordinates,1,0.999,0.010
+SetTextureCoordinates,2,0.001,0.010
+SetTextureCoordinates,3,0.001,0.990
+SetDecalTransparentColor,0,0,255
+
+CreateMeshBuilder
+AddVertex,0.790,0.500,10.020, 0,1,0
+AddVertex,0.790,0.720,10.020, 0,1,0
+AddVertex,0.775,0.720,10.050, 0,1,0
+AddVertex,0.775,0.500,10.050, 0,1,0
+AddFace,0,1,2,3
+LoadTexture,BumperCurve.png
+SetTextureCoordinates,0,0.999,0.990
+SetTextureCoordinates,1,0.999,0.010
+SetTextureCoordinates,2,0.001,0.010
+SetTextureCoordinates,3,0.001,0.990
+SetDecalTransparentColor,0,0,255
+
+CreateMeshBuilder
+AddVertex,0.775,0.500,10.050, 0,1,0
+AddVertex,0.775,0.720,10.050, 0,1,0
+AddVertex,0.750,0.720,10.080, 0,1,0
+AddVertex,0.750,0.500,10.080, 0,1,0
+AddFace,0,1,2,3
+LoadTexture,BumperCurve.png
+SetTextureCoordinates,0,0.999,0.990
+SetTextureCoordinates,1,0.999,0.010
+SetTextureCoordinates,2,0.001,0.010
+SetTextureCoordinates,3,0.001,0.990
+SetDecalTransparentColor,0,0,255
+
+CreateMeshBuilder
+AddVertex,0.770,0.720,10.070, 0,1,0
+AddVertex,0.810,0.720,9.980, 0,1,0
+AddVertex,0.750,0.720,9.980, 0,1,0
+AddVertex,0.750,0.720,10.080, 0,1,0
+AddFace,0,1,2,3
+LoadTexture,BumperCurve.png
+SetTextureCoordinates,0,0.999,0.990
+SetTextureCoordinates,1,0.999,0.010
+SetTextureCoordinates,2,0.001,0.010
+SetTextureCoordinates,3,0.001,0.990
+SetDecalTransparentColor,0,0,255
+
+;;
+
+CreateMeshBuilder
+AddVertex,-0.500,0.495,9.855
+AddVertex,-0.500,0.720,9.855
+AddVertex,-0.841,0.720,9.850
+AddVertex,-0.848,0.495,9.855
+AddFace2,0,1,2,3
+SetColor,25,25,25
+
+CreateMeshBuilder
+AddVertex,-0.500,0.505,9.901
+AddVertex,-0.500,0.720,9.901
+AddVertex,-0.840,0.720,9.901
+AddVertex,-0.840,0.505,9.901
+AddFace2,0,1,2,3
+SetColor,25,25,25
+
+CreateMeshBuilder
+AddVertex,0.850,0.505,9.810
+AddVertex,0.850,0.695,9.800
+AddVertex,0.493,0.695,9.805
+AddVertex,0.482,0.505,9.805
+AddFace2,0,1,2,3
+SetColor,25,25,25
+
+CreateMeshBuilder
+AddVertex,0.836,0.507,9.875
+AddVertex,0.830,0.695,9.875
+AddVertex,0.520,0.695,9.875
+AddVertex,0.499,0.507,9.880
+AddFace2,0,1,2,3
+SetColor,25,25,25
