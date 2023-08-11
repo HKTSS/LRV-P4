@@ -261,7 +261,7 @@ Statefunction = pluginState[99]
 
 [Object]
 States = Interior/cabdoor.csv, Interior/NoLight/cabdoor.csv
-Position = 0,0,0
+Position = 0,0.047,0
 TranslateXFunction = if[pluginstate[111] == 1, Min[value + 0.6 * delta, 0.6], Max[value - 0.6 * delta, 0]]
 Statefunction = pluginState[99]
 

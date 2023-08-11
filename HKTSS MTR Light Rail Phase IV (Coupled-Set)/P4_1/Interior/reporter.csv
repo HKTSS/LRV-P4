@@ -1,9 +1,9 @@
 ;;Actual Reporter;;
 CreateMeshBuilder,
-AddVertex, 0.35, 3.14, 1.889,
+AddVertex, 0.35, 3.16, 1.889,
 AddVertex, 0.35, 3.25, 1.889,
 AddVertex, -0.4, 3.25, 1.889,
-AddVertex, -0.4, 3.14, 1.889,
+AddVertex, -0.4, 3.16, 1.889,
 AddFace,0,1,2,3
 SetEmissiveColor,255,255,255
 LoadTexture,reporter.png,
@@ -16,10 +16,10 @@ SetDecalTransparentColor,0,0,255
 
 ;;3D;;
 CreateMeshBuilder,
-AddVertex, 0.33, 3.14, 1.87, 0,1,0
-AddVertex, 0.33, 3.14, 1.889, 0,1,0
-AddVertex, -0.38, 3.14, 1.889, 0,1,0
-AddVertex, -0.38, 3.14, 1.87, 0,1,0
+AddVertex, 0.33, 3.16, 1.87, 0,1,0
+AddVertex, 0.33, 3.16, 1.889, 0,1,0
+AddVertex, -0.38, 3.16, 1.889, 0,1,0
+AddVertex, -0.38, 3.16, 1.87, 0,1,0
 AddFace,0,1,2,3
 SetEmissiveColor,255,255,255
 SetColor,150,150,150
@@ -32,14 +32,14 @@ SetDecalTransparentColor,0,0,255
 
 ;;Right 3D;;
 CreateMeshBuilder,
-AddVertex, -0.38, 3.14, 1.87, 0,1,0
-AddVertex, -0.38, 3.14, 1.889, 0,1,0
-AddVertex, -0.395, 3.15, 1.889, 0,1,0
-AddVertex, -0.395, 3.15, 1.87, 0,1,0
-AddVertex, -0.395, 3.15, 1.87, 0,1,0
-AddVertex, -0.395, 3.15, 1.889, 0,1,0
-AddVertex, -0.40, 3.16, 1.889, 0,1,0
-AddVertex, -0.40, 3.16, 1.87, 0,1,0
+AddVertex, -0.38, 3.16, 1.87, 0,1,0
+AddVertex, -0.38, 3.16, 1.889, 0,1,0
+AddVertex, -0.395, 3.17, 1.889, 0,1,0
+AddVertex, -0.395, 3.17, 1.87, 0,1,0
+AddVertex, -0.395, 3.17, 1.87, 0,1,0
+AddVertex, -0.395, 3.17, 1.889, 0,1,0
+AddVertex, -0.40, 3.18, 1.889, 0,1,0
+AddVertex, -0.40, 3.18, 1.87, 0,1,0
 AddFace,0,1,2,3
 AddFace,4,5,6,7
 SetEmissiveColor,255,255,255
@@ -82,12 +82,12 @@ SetDecalTransparentColor,0,0,255
 
 ;;Middle vertical;;
 CreateMeshBuilder,
-AddVertex, -0.40, 3.16, 1.87, 0,1,0
-AddVertex, -0.40, 3.16, 1.889, 0,1,0
+AddVertex, -0.40, 3.18, 1.87, 0,1,0
+AddVertex, -0.40, 3.18, 1.889, 0,1,0
 AddVertex, -0.40, 3.23, 1.889, 0,1,0
 AddVertex, -0.40, 3.23, 1.87, 0,1,0
-AddVertex, 0.35, 3.16, 1.87, 0,1,0
-AddVertex, 0.35, 3.16, 1.889, 0,1,0
+AddVertex, 0.35, 3.18, 1.87, 0,1,0
+AddVertex, 0.35, 3.18, 1.889, 0,1,0
 AddVertex, 0.35, 3.23, 1.889, 0,1,0
 AddVertex, 0.35, 3.23, 1.87, 0,1,0
 AddFace,0,1,2,3
@@ -107,14 +107,14 @@ SetDecalTransparentColor,0,0,255
 
 ;;Left 3D;;
 CreateMeshBuilder,
-AddVertex, 0.345, 3.15, 1.87, 0,1,0
-AddVertex, 0.345, 3.15, 1.889, 0,1,0
-AddVertex, 0.33, 3.14, 1.889, 0,1,0
-AddVertex, 0.33, 3.14, 1.87, 0,1,0
-AddVertex, 0.35, 3.16, 1.87, 0,1,0
-AddVertex, 0.35, 3.16, 1.889, 0,1,0
-AddVertex, 0.345, 3.15, 1.889, 0,1,0
-AddVertex, 0.345, 3.15, 1.87, 0,1,0
+AddVertex, 0.345, 3.17, 1.87, 0,1,0
+AddVertex, 0.345, 3.17, 1.889, 0,1,0
+AddVertex, 0.33, 3.16, 1.889, 0,1,0
+AddVertex, 0.33, 3.16, 1.87, 0,1,0
+AddVertex, 0.35, 3.18, 1.87, 0,1,0
+AddVertex, 0.35, 3.18, 1.889, 0,1,0
+AddVertex, 0.345, 3.17, 1.889, 0,1,0
+AddVertex, 0.345, 3.17, 1.87, 0,1,0
 AddFace,0,1,2,3
 AddFace,4,5,6,7
 SetEmissiveColor,255,255,255

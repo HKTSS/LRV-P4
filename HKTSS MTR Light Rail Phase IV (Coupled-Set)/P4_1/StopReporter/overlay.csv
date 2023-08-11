@@ -1,8 +1,8 @@
 CreateMeshBuilder,
-AddVertex, 0.305, 3.153, 1.8912,
-AddVertex, 0.305, 3.22, 1.8912,
-AddVertex, -0.355, 3.22, 1.8912,
-AddVertex, -0.355, 3.153, 1.8912,
+AddVertex, 0.305, 3.170, 1.8912,
+AddVertex, 0.305, 3.237, 1.8912,
+AddVertex, -0.355, 3.237, 1.8912,
+AddVertex, -0.355, 3.170, 1.8912,
 AddFace,0,1,2,3
 SetEmissiveColor,255,255,255
 LoadTexture,square.png,
