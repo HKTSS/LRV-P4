@@ -1,25 +1,25 @@
 CreateMeshBuilder,
-AddVertex, -0.50, 0.84, 0.02,
-AddVertex, -0.50, 0.98, 0.028,
-AddVertex, -0.61, 0.98, 0.028,
-AddVertex, -0.61, 0.84, 0.02,
-AddFace2,3,2,1,0,
+AddVertex, -0.505, 0.88, 0.02
+AddVertex, -0.505, 1.005, 0.028
+AddVertex, -0.605, 1.005, 0.028
+AddVertex, -0.605, 0.88, 0.02
+AddFace, 3, 2, 1, 0
 SetEmissiveColor,255,255,255
 LoadTexture,frontsignal.png
-SetTextureCoordinates,0,0,1,
-SetTextureCoordinates,1,0,0,
-SetTextureCoordinates,2,1,0,
-SetTextureCoordinates,3,1,1,
+SetTextureCoordinates,0,0,1
+SetTextureCoordinates,1,0,0
+SetTextureCoordinates,2,1,0
+SetTextureCoordinates,3,1,1
 translate,0,0,-0.009
 
 CreateMeshBuilder,
-AddVertex, -0.555, 1.285, 20.38,
-AddVertex, -0.555, 1.37, 20.377,
-AddVertex, -0.65, 1.37, 20.377,
-AddVertex, -0.65, 1.285, 20.38,
+AddVertex, -0.555, 1.285, 20.38
+AddVertex, -0.555, 1.37, 20.377
+AddVertex, -0.65, 1.37, 20.377
+AddVertex, -0.65, 1.285, 20.38
 AddFace,0, 1, 2, 3,
 SetEmissiveColor,255,255,255
-LoadTexture, backsignal.png,
+LoadTexture, backsignal.png
 SetTextureCoordinates,0,0,1
 SetTextureCoordinates,1,0,0
 SetTextureCoordinates,2,1,0
