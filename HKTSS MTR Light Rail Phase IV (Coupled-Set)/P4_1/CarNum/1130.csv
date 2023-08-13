@@ -35,10 +35,10 @@ SetTextureCoordinates,2,0.500,0.849
 SetTextureCoordinates,3,0.500,0.890
 
 CreateMeshBuilder
-AddVertex,1.325,1.520,-8.460,0.000,1.000,0.000
-AddVertex,1.325,1.716,-8.460,0.000,1.000,0.000
-AddVertex,1.245,1.716,-8.755,0.000,1.000,0.000
-AddVertex,1.245,1.520,-8.755,0.000,1.000,0.000
+AddVertex,1.329,1.520,-8.460,0.000,1.000,0.000
+AddVertex,1.329,1.716,-8.460,0.000,1.000,0.000
+AddVertex,1.249,1.716,-8.755,0.000,1.000,0.000
+AddVertex,1.249,1.520,-8.755,0.000,1.000,0.000
 AddFace,3,2,1,0
 LoadTexture,outside.png
 SetTextureCoordinates,0,0.500,0.890
