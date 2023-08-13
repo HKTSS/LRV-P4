@@ -48,6 +48,11 @@ Position = 0.03,-0.02,3.7
 RotateYFunction=pi
 
 [Object]
+States = Interior/top/exit_back_right.csv
+Position = 0.03,-0.02,13.4
+RotateYFunction=pi
+
+[Object]
 States = StopReporter/overlay.csv
 Position = 0,0,0
 
