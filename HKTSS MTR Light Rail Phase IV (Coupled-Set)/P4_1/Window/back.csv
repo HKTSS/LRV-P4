@@ -124,17 +124,15 @@ SetTextureCoordinates,3,1.000,1.000
 
 CreateMeshBuilder
 AddVertex,-0.730,0.650,-0.500, 0,1,0
-AddVertex,-0.800,3.500,-0.470, 0,1,0
-AddVertex,0.800,3.500,-0.470, 0,1,0
+AddVertex,-0.730,0.890,-0.500, 0,1,0
+AddVertex,0.730,0.890,-0.500, 0,1,0
 AddVertex,0.730,0.650,-0.500, 0,1,0
 AddFace,0,1,2,3
-LoadTexture,Backlow.png
+LoadTexture,BackBumper.png
 SetTextureCoordinates,0,0.000,1.000
 SetTextureCoordinates,1,0.000,0.000
 SetTextureCoordinates,2,1.000,0.000
 SetTextureCoordinates,3,1.000,1.000
-SetDecalTransparentColor,0,0,255
-SetWrapMode,ClampClamp
 
 CreateMeshBuilder
 AddVertex,-0.730,0.890,-0.500, 0,1,0
@@ -142,12 +140,11 @@ AddVertex,-0.730,0.890,-0.380, 0,1,0
 AddVertex,0.730,0.890,-0.380, 0,1,0
 AddVertex,0.730,0.890,-0.500, 0,1,0
 AddFace,0,1,2,3
-LoadTexture,../exterior/headcurve.png
+LoadTexture,../exterior/Head/BumperCurve.png
 SetTextureCoordinates,0,0.000,1.000
 SetTextureCoordinates,1,0.000,0.000
 SetTextureCoordinates,2,15.000,0.000
 SetTextureCoordinates,3,15.000,1.000
-SetDecalTransparentColor,0,0,255
 
 CreateMeshBuilder
 AddVertex,-0.760,0.890,-0.490, 0,1,0
@@ -155,12 +152,11 @@ AddVertex,-0.760,0.890,-0.380, 0,1,0
 AddVertex,-0.730,0.890,-0.380, 0,1,0
 AddVertex,-0.730,0.890,-0.500, 0,1,0
 AddFace,0,1,2,3
-LoadTexture,../exterior/headcurve.png
+LoadTexture,../exterior/Head/BumperCurve.png
 SetTextureCoordinates,0,0.000,1.000
 SetTextureCoordinates,1,0.000,0.000
 SetTextureCoordinates,2,1.000,0.000
 SetTextureCoordinates,3,1.000,1.000
-SetDecalTransparentColor,0,0,255
 
 CreateMeshBuilder
 AddVertex,-0.810,0.870,-0.440, 0,1,0
@@ -168,12 +164,11 @@ AddVertex,-0.827,0.867,-0.350, 0,1,0
 AddVertex,-0.760,0.890,-0.380, 0,1,0
 AddVertex,-0.760,0.890,-0.490, 0,1,0
 AddFace,0,1,2,3
-LoadTexture,../exterior/headcurve.png
+LoadTexture,../exterior/Head/BumperCurve.png
 SetTextureCoordinates,0,0.000,1.000
 SetTextureCoordinates,1,0.000,0.000
 SetTextureCoordinates,2,1.000,0.000
 SetTextureCoordinates,3,1.000,1.000
-SetDecalTransparentColor,0,0,255
 
 CreateMeshBuilder
 AddVertex,0.730,0.890,-0.500, 0,1,0
@@ -181,12 +176,11 @@ AddVertex,0.730,0.890,-0.380, 0,1,0
 AddVertex,-0.730,0.890,-0.380, 0,1,0
 AddVertex,-0.730,0.890,-0.500, 0,1,0
 AddFace,0,1,2,3
-LoadTexture,../exterior/headcurve.png
+LoadTexture,../exterior/Head/BumperCurve.png
 SetTextureCoordinates,0,0.000,1.000
 SetTextureCoordinates,1,0.000,0.000
 SetTextureCoordinates,2,15.000,0.000
 SetTextureCoordinates,3,15.000,1.000
-SetDecalTransparentColor,0,0,255
 
 CreateMeshBuilder
 AddVertex,0.760,0.890,-0.490, 0,1,0
@@ -194,12 +188,11 @@ AddVertex,0.760,0.890,-0.380, 0,1,0
 AddVertex,0.730,0.890,-0.380, 0,1,0
 AddVertex,0.730,0.890,-0.500, 0,1,0
 AddFace2,0,1,2,3
-LoadTexture,../exterior/headcurve.png
+LoadTexture,../exterior/Head/BumperCurve.png
 SetTextureCoordinates,0,0.000,1.000
 SetTextureCoordinates,1,0.000,0.000
 SetTextureCoordinates,2,1.000,0.000
 SetTextureCoordinates,3,1.000,1.000
-SetDecalTransparentColor,0,0,255
 
 CreateMeshBuilder
 AddVertex,0.810,0.870,-0.440, 0,1,0
@@ -207,12 +200,11 @@ AddVertex,0.827,0.867,-0.350, 0,1,0
 AddVertex,0.760,0.890,-0.380, 0,1,0
 AddVertex,0.760,0.890,-0.490, 0,1,0
 AddFace2,0,1,2,3
-LoadTexture,../exterior/headcurve.png
+LoadTexture,../exterior/Head/BumperCurve.png
 SetTextureCoordinates,0,0.000,1.000
 SetTextureCoordinates,1,0.000,0.000
 SetTextureCoordinates,2,1.000,0.000
 SetTextureCoordinates,3,1.000,1.000
-SetDecalTransparentColor,0,0,255
 
 CreateMeshBuilder
 AddVertex,0.760,0.650,-0.490, 0,1,0
@@ -225,7 +217,6 @@ SetTextureCoordinates,0,0.001,0.999
 SetTextureCoordinates,1,0.001,0.001
 SetTextureCoordinates,2,0.999,0.001
 SetTextureCoordinates,3,0.999,0.999
-SetDecalTransparentColor,0,0,255
 
 CreateMeshBuilder
 AddVertex,0.810,0.650,-0.440, 0,1,0
@@ -238,7 +229,6 @@ SetTextureCoordinates,0,0.001,0.999
 SetTextureCoordinates,1,0.001,0.001
 SetTextureCoordinates,2,0.999,0.001
 SetTextureCoordinates,3,0.999,0.999
-SetDecalTransparentColor,0,0,255
 
 CreateMeshBuilder
 AddVertex,0.850,0.643,-0.200, 0,1,0
@@ -251,7 +241,6 @@ SetTextureCoordinates,0,0.001,0.999
 SetTextureCoordinates,1,0.001,0.001
 SetTextureCoordinates,2,0.999,0.001
 SetTextureCoordinates,3,0.999,0.999
-SetDecalTransparentColor,0,0,255
 
 CreateMeshBuilder
 AddVertex,-0.760,0.650,-0.490, 0,1,0
@@ -264,7 +253,6 @@ SetTextureCoordinates,0,0.001,0.999
 SetTextureCoordinates,1,0.001,0.001
 SetTextureCoordinates,2,0.999,0.001
 SetTextureCoordinates,3,0.999,0.999
-SetDecalTransparentColor,0,0,255
 
 CreateMeshBuilder
 AddVertex,-0.810,0.650,-0.440, 0,1,0
@@ -277,7 +265,6 @@ SetTextureCoordinates,0,0.001,0.999
 SetTextureCoordinates,1,0.001,0.001
 SetTextureCoordinates,2,0.999,0.001
 SetTextureCoordinates,3,0.999,0.999
-SetDecalTransparentColor,0,0,255
 
 CreateMeshBuilder
 AddVertex,-0.850,0.643,-0.200, 0,1,0
@@ -290,4 +277,3 @@ SetTextureCoordinates,0,0.001,0.999
 SetTextureCoordinates,1,0.001,0.001
 SetTextureCoordinates,2,0.999,0.001
 SetTextureCoordinates,3,0.999,0.999
-SetDecalTransparentColor,0,0,255

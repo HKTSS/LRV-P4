@@ -92,3 +92,9 @@ RotateYFunction=0.27
 [Object]
 States = back.csv
 Position = 0,0,-10
+
+;; Back bumper C pai ;;
+[Object]
+States = ../null.csv, BackBumperC.csv
+StateFunction = carNumber
+Position = 0,0,-10
