@@ -3,13 +3,13 @@
 # true = 啟用/Enabled
 # false = 停用/Disabled
 
-CarNum = 1118,1114
-DoorLock = true
+carnum = 1127,1120
+doorlock = true
 ApplyBrake = true
-iSPSDoorLock = true
-Crash = true
-MTRbeep = false
-RevAtStation = false
-TrainStatus = 0
-dsd = true
-Tutorial = true
+ispsdoorlock = true
+crash = true
+mtrbeep = false
+revatstation = false
+trainstatus = 0
+dsd = false
+tutorial = false
