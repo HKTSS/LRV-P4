@@ -1,0 +1,2 @@
+Chinese: PMingLiU 12pt
+English: Unknown 10pt, closest is Microsoft San Serif (PDN Bold), second closest is Arial Bold, manual adjustment might be made if glyph shape is known.

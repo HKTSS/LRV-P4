@@ -15,7 +15,7 @@
 			<Object>P4_1\Train.animated</Object>
 			<Reversed>False</Reversed>
 			<LoadingSway>False</LoadingSway>
-			<DriverPosition>0,2.15.7,-1.7</DriverPosition>
+			<DriverPosition>0,2.15.7,-1.75</DriverPosition>
 			<MotorCar>True</MotorCar>
 			<Mass>37000</Mass>
 			<ReadhesionDevice>TypeA</ReadhesionDevice>

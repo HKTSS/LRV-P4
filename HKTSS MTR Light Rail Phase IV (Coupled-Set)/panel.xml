@@ -8,61 +8,61 @@
 			<Number>0</Number>
 			<Touch>
 				<Cursor>3DCab/Cursor/tooltip/headlights.png</Cursor>
-				<Position>0.169, 1.830, 9.60</Position>
+				<Position>0.169, 1.830, 9.55</Position>
 				<Size>0.019, 0.020, 0.015</Size>
 				<Command>HEADLIGHTS</Command>
 			</Touch>
 			<Touch>
 				<Cursor>3DCab/Cursor/tooltip/ding.png</Cursor>
-				<Position>0.137, 1.755, 9.53</Position>
+				<Position>0.137, 1.755, 9.48</Position>
 				<Size>0.019, 0.020, 0.015</Size>
 				<Command>HORN_PRIMARY</Command>
 			</Touch>
 			<Touch>
 				<Cursor>3DCab/Cursor/tooltip/horn.png</Cursor>
-				<Position>0.050, 1.755, 9.53</Position>
+				<Position>0.050, 1.755, 9.48</Position>
 				<Size>0.019, 0.020, 0.015</Size>
 				<Command>HORN_SECONDARY</Command>
 			</Touch>
 			<Touch>
 				<Cursor>3DCab/Cursor/tooltip/left.png</Cursor>
-				<Position>0.235, 1.755, 9.53</Position>
+				<Position>0.235, 1.755, 9.48</Position>
 				<Size>0.008, 0.020, 0.009</Size>
 				<Command>SECURITY_D</Command>
 			</Touch>
 			<Touch>
 				<Cursor>3DCab/Cursor/tooltip/right.png</Cursor>
-				<Position>0.254, 1.755, 9.53</Position>
+				<Position>0.254, 1.755, 9.48</Position>
 				<Size>0.008, 0.020, 0.009</Size>
 				<Command>SECURITY_E</Command>
 			</Touch>
 			<Touch>
 				<Cursor>3DCab/Cursor/tooltip/doorcls.png</Cursor>
-				<Position>-0.203, 1.755, 9.53</Position>
+				<Position>-0.203, 1.755, 9.48</Position>
 				<Size>0.020, 0.020, 0.015</Size>
 				<Command>DOORS_LEFT</Command>
 			</Touch>
 			<Touch>
 				<Cursor>3DCab/Cursor/tooltip/dooropn.png</Cursor>
-				<Position>-0.160, 1.755, 9.53</Position>
+				<Position>-0.160, 1.755, 9.48</Position>
 				<Size>0.020, 0.020, 0.015</Size>
 				<Command>DOORS_LEFT</Command>
 			</Touch>
 			<Touch>
 				<Cursor>3DCab/Cursor/tooltip/firstdoor.png</Cursor>
-				<Position>-0.118, 1.755, 9.53</Position>
+				<Position>-0.118, 1.755, 9.48</Position>
 				<Size>0.020, 0.020, 0.015</Size>
 				<Command>DOORS_RIGHT</Command>
 			</Touch>
 			<Touch>
 				<Cursor>3DCab/Cursor/tooltip/speedmode.png</Cursor>
-				<Position>-0.320, 1.755, 9.53</Position>
+				<Position>-0.320, 1.755, 9.48</Position>
 				<Size>0.020, 0.020, 0.015</Size>
 				<Command>SECURITY_A2</Command>
 			</Touch>
 			<Touch>
 				<Cursor>3DCab/Cursor/tooltip/warning_indicator.png</Cursor>
-				<Position>-0.374, 1.755, 9.53</Position>
+				<Position>-0.374, 1.755, 9.48</Position>
 				<Size>0.019, 0.020, 0.015</Size>
 				<Command>MAIN_BREAKER</Command>
 			</Touch>

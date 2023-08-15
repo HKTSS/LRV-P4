@@ -21,7 +21,7 @@ AddVertex,-0.750,3.0,-0.330, 0,1,0
 AddVertex,0.750,3.0,-0.330, 0,1,0
 AddVertex,0.750,2,-0.360, 0,1,0
 AddFace,0,1,2,3
-SetColor,50,25,0,60
+SetColor,40,20,0,125
 SetBlendMode, Normal, 1, DivideExponent4
 
 CreateMeshBuilder

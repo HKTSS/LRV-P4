@@ -1,42 +1,34 @@
 ;;  ;;
 [Object]
-States = 0.csv, 1TinTsz_E_S.csv, ../../null.csv
+States = ../../null.csv, 0.csv, 1TIT_EN.csv, ../../null.csv
 Position = 0,0,0
-StateFunction = 0
-TextureShiftXFunction = pluginState[127]/1000
+TextureShiftXFunction = (pluginState[127] / 1000) * 0.5
+StateFunction = pluginState[126]
 
 ;; Tin Tsz ;;
-[Object]
-States = 1TinTsz_C_S.csv, 1TinTsz_E_S.csv, ../../null.csv
-Position = 0,0,0
-StateFunction = if[destination == 2435, pluginState[126], 3]
-TextureShiftXFunction = pluginState[127]/1000
+;[Object]
+;States = ../../null.csv, 1TIT_ZH.csv, 1TIT_EN.csv, ../../null.csv
+;Position = 0,0,0
+;TextureShiftXFunction = (pluginState[127] / 1000) * 0.5
+;StateFunction = if[destination == 2435, pluginState[126], 3]
 
 ;; Tin Wu ;;
-[Object]
-States = 2TinWu_C_S.csv, 2TinWu_E_S.csv, ../../null.csv
-Position = 0,0,0
-StateFunction = if[destination == 2450, pluginState[126], 3]
-TextureShiftXFunction = pluginState[127]/1000
+;[Object]
+;States = ../../null.csv, 2TWU_ZH.csv, 2TWU_EN.csv, ../../null.csv
+;Position = 0,0,0
+;TextureShiftXFunction = (pluginState[127] / 1000) * 0.5
+;StateFunction = if[destination == 2450, pluginState[126], 3]
 
 ;; Ginza ;;
-[Object]
-States = 3Ginza_C_S.csv, 3Ginza_E_S.csv, ../../null.csv
-Position = 0,0,0
-StateFunction = if[destination == 2455, pluginState[126], 3]
-TextureShiftXFunction = pluginState[127]/1000
+;[Object]
+;States = ../../null.csv, 3GIN_ZH.csv, 3GIN_EN.csv, ../../null.csv
+;Position = 0,0,0
+;TextureShiftXFunction = (pluginState[127] / 1000) * 0.5
+;StateFunction = if[destination == 2455, pluginState[126], 3]
 
 ;; Tin Wing ;;
-[Object]
-States = 4TinWing_C_S.csv, 4TinWing_E_S.csv, ../../null.csv
-Position = 0,0,0
-StateFunction = if[destination == 2500, pluginState[126], 3]
-TextureShiftXFunction = pluginState[127]/1000
-
-;; Special Message ;;
-[Object]
-States = ../../null.csv, Octopus.csv, MTRHotline.csv, LastTrain.csv
-Position = 0,0,0
-StateFunction = pluginState[125]
-TextureShiftXFunction = pluginState[127]/1000
-TextureShiftYFunction = pluginState[128]/1000
+;[Object]
+;States = ../../null.csv, 4TWI_ZH.csv, 4TWI_EN.csv, ../../null.csv
+;Position = 0,0,0
+;TextureShiftXFunction = (pluginState[127] / 1000) * 0.5
+;StateFunction = if[destination == 2500, pluginState[126], 3]

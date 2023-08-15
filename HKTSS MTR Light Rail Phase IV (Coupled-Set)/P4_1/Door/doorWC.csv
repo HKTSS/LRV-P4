@@ -128,7 +128,7 @@ AddVertex,1.321, 2.913, 2.3
 AddVertex,1.321, 2.913, 3
 AddVertex,1.321, 0.80, 3
 AddFace,3,2,1,0
-SetColor, 50,25,0,120
+SetColor,40,20,0,125
 SetBlendMode, Normal, 2, DivideExponent4
 translate,-2.68,0,-2
 

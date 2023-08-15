@@ -1,0 +1,9 @@
+[Include]
+LR705706/led.animated
+
+;; Special Message ;;
+;[Object]
+;States = ../../null.csv, Special/Octopus.csv, Special/MTRHotline.csv, Special/LastTrain.csv
+;Position = 0,0,0
+;StateFunction = pluginState[125]
+;TextureShiftYFunction = pluginState[128]/1000

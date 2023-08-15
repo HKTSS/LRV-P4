@@ -4,13 +4,15 @@ Position = 0,-0.05,-0.05
 
 [Include]
 Panel/panel.animated
+Position = 0,0,-0.05
 
 [Include]
 ControlHandle/handle.animated
+Position = 0,0,-0.05
 
 [Object]
 States = key/key.csv
-Position = 0.17,-0.05,-0.12
+Position = 0.17,-0.05,-0.19
 
 [Include]
 iSPS/iSPS.animated
