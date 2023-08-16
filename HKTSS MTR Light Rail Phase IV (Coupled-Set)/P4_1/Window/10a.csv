@@ -86,4 +86,93 @@ SetTextureCoordinates,2,1,0.641,
 SetTextureCoordinates,3,1,0.8,
 SetDecalTransparentColor,255,255,255
 
+;; Skirt ;;
+
+CreateMeshBuilder,
+AddVertex,-1.3685, 0.2, 1.2, 0,1,0
+AddVertex,-1.3685, 0.785, 1.2, 0,1,0
+AddVertex,-1.3665, 0.76, -0.201, 0,1,0
+AddVertex,-1.3665, 0.5, -0.201, 0,1,0
+AddFace,0, 1, 2, 3
+LoadTexture,../exterior/skirt_back.png
+SetTextureCoordinates,0,1,1,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,0,0,
+SetTextureCoordinates,3,0,0.5,
+SetDecalTransparentColor,255,255,255
+
+CreateMeshBuilder,
+AddVertex,-1.3685, 0.2, 1.2, 0,1,0
+AddVertex,-1.3685, 0.2, 1.2, 0,1,0
+AddVertex,-1.3665, 0.5, -0.201, 0,1,0
+AddVertex,-1.31, 0.2, -0.201, 0,1,0
+AddFace,0, 1, 2, 3
+LoadTexture,../exterior/skirt_back.png
+SetTextureCoordinates,0,1,1,
+SetTextureCoordinates,1,1,0.5,
+SetTextureCoordinates,2,0,0.5,
+SetTextureCoordinates,3,0,1,
+SetDecalTransparentColor,255,255,255
+
+;; Backside;;
+CreateMeshBuilder,
+AddVertex,-1.390, 0.2, 1.2, 0,1,0
+AddVertex,-1.3685, 0.785, 1.2, 0,1,0
+AddVertex,-1.31, 0.76, -0.201, 0,1,0
+AddVertex,-1.31, 0.2, -0.201, 0,1,0
+AddFace,3, 2, 1, 0
+SetColor,70,70,70
+LoadTexture,../exterior/skirt_back.png
+SetTextureCoordinates,0,1,1
+SetTextureCoordinates,1,1,0.05
+SetTextureCoordinates,2,0,0
+SetTextureCoordinates,3,0,1
+SetDecalTransparentColor,255,255,255
+Translate,0.05,0,0
+;;
+
+CreateMeshBuilder,
+AddVertex,-1.3685, 0.8, 1.2, 0,1,0
+AddVertex,-1.3685, 0.64,  1.2, 0,1,0
+AddVertex,-1.3185, 0.64,  1.2, 0,1,0
+AddVertex,-1.3185, 0.8, 1.2, 0,1,0
+AddFace,0, 1, 2, 3
+SetColor, 170, 170, 170
+LoadTexture,../exterior/skirt_back.png
+SetTextureCoordinates,0,0.5,0.5
+SetTextureCoordinates,1,0.5,0.5
+SetTextureCoordinates,2,0.5,0.5
+SetTextureCoordinates,3,0.5,0.5
+SetDecalTransparentColor,255,255,255
+
+CreateMeshBuilder,
+AddVertex,-1.3685, 0.64, 1.2, 0,1,0
+AddVertex,-1.3685, 0.32,  0.9, 0,1,0
+AddVertex,-1.3185, 0.32,  0.9, 0,1,0
+AddVertex,-1.3185, 0.64, 1.2, 0,1,0
+AddFace,0, 1, 2, 3
+SetColor, 170, 170, 170
+LoadTexture,../exterior/skirt_back.png
+SetTextureCoordinates,0,0.5,0.5
+SetTextureCoordinates,1,0.5,0.5
+SetTextureCoordinates,2,0.5,0.5
+SetTextureCoordinates,3,0.5,0.5
+SetDecalTransparentColor,255,255,255
+
+CreateMeshBuilder,
+AddVertex,-1.3685, 0.32, 0.9, 0,1,0
+AddVertex,-1.312, 0.201, -0.201, 0,1,0
+AddVertex,-1.262, 0.201, -0.201, 0,1,0
+AddVertex,-1.3185, 0.32, 0.9, 0,1,0
+AddFace,0, 1, 2, 3
+SetColor, 170, 170, 170
+LoadTexture,../exterior/skirt_back.png
+SetTextureCoordinates,0,0.5,0.5
+SetTextureCoordinates,1,0.5,0.5
+SetTextureCoordinates,2,0.5,0.5
+SetTextureCoordinates,3,0.5,0.5
+SetDecalTransparentColor,255,255,255
+
+;; Skirt End ;;
+
 RotateAll, 0, 1, 0, 180

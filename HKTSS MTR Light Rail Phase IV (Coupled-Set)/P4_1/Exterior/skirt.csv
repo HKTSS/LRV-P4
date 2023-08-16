@@ -1,0 +1,119 @@
+;; Left ;;
+CreateMeshBuilder
+AddVertex,-1.33,0.5,8.13, 0,1,0
+AddVertex,-1.33,0.775,8.13, 0,1,0
+AddVertex,-1.33,0.775,-8.45, 0,1,0
+AddVertex,-1.33,0.5,-8.45, 0,1,0
+AddFace,0,1,2,3
+LoadTexture,bottom.png
+SetTextureCoordinates,0,0,0.3
+SetTextureCoordinates,1,0,0.0
+SetTextureCoordinates,2,1,0.0
+SetTextureCoordinates,3,1,0.3
+SetDecalTransparentColor,0,0,255
+SetWrapMode,ClampClamp
+
+CreateMeshBuilder
+AddVertex,-1.28,0.2,8.13, 0,1,0
+AddVertex,-1.33,0.5,8.13, 0,1,0
+AddVertex,-1.33,0.5,-8.45, 0,1,0
+AddVertex,-1.28,0.2,-8.45, 0,1,0
+AddFace,0,1,2,3
+LoadTexture,bottom.png
+SetTextureCoordinates,0,0,0.6
+SetTextureCoordinates,1,0,0.3
+SetTextureCoordinates,2,1,0.3
+SetTextureCoordinates,3,1,0.6
+SetDecalTransparentColor,0,0,255
+SetWrapMode,ClampClamp
+
+;; Left backside ;;
+CreateMeshBuilder
+AddVertex,-1.33,0.5,8.13, 0,1,0
+AddVertex,-1.33,0.775,8.13, 0,1,0
+AddVertex,-1.33,0.775,-8.45, 0,1,0
+AddVertex,-1.33,0.5,-8.45, 0,1,0
+AddFace,3,2,1,0
+SetColor,70,70,70
+LoadTexture,bottom.png
+SetTextureCoordinates,0,0,0.3
+SetTextureCoordinates,1,0,0.0
+SetTextureCoordinates,2,1,0.0
+SetTextureCoordinates,3,1,0.3
+SetDecalTransparentColor,0,0,255
+SetWrapMode,ClampClamp
+
+CreateMeshBuilder
+AddVertex,-1.28,0.2,8.13, 0,1,0
+AddVertex,-1.33,0.5,8.13, 0,1,0
+AddVertex,-1.33,0.5,-8.45, 0,1,0
+AddVertex,-1.28,0.2,-8.45, 0,1,0
+AddFace,3,2,1,0
+SetColor,70,70,70
+LoadTexture,bottom.png
+SetTextureCoordinates,0,0,0.6
+SetTextureCoordinates,1,0,0.3
+SetTextureCoordinates,2,1,0.3
+SetTextureCoordinates,3,1,0.6
+SetDecalTransparentColor,0,0,255
+SetWrapMode,ClampClamp
+
+;; Right ;;
+CreateMeshBuilder
+AddVertex,1.33,0.5,8.13, 0,1,0
+AddVertex,1.33,0.76,8.13, 0,1,0
+AddVertex,1.33,0.76,-8.45, 0,1,0
+AddVertex,1.33,0.5,-8.45, 0,1,0
+AddFace,3,2,1,0
+LoadTexture,bottomR.png
+SetTextureCoordinates,0,0,0.3
+SetTextureCoordinates,1,0,0.0
+SetTextureCoordinates,2,1,0.0
+SetTextureCoordinates,3,1,0.3
+SetDecalTransparentColor,0,0,255
+SetWrapMode,ClampClamp
+
+CreateMeshBuilder
+AddVertex,1.28,0.2,8.13, 0,1,0
+AddVertex,1.33,0.5,8.13, 0,1,0
+AddVertex,1.33,0.5,-8.45, 0,1,0
+AddVertex,1.28,0.2,-8.45, 0,1,0
+AddFace,3,2,1,0
+LoadTexture,bottomR.png
+SetTextureCoordinates,0,0,0.6
+SetTextureCoordinates,1,0,0.3
+SetTextureCoordinates,2,1,0.3
+SetTextureCoordinates,3,1,0.6
+SetDecalTransparentColor,0,0,255
+SetWrapMode,ClampClamp
+
+;; Right Backside ;;
+CreateMeshBuilder
+AddVertex,1.33,0.5,8.13, 0,1,0
+AddVertex,1.33,0.76,8.13, 0,1,0
+AddVertex,1.33,0.76,-8.45, 0,1,0
+AddVertex,1.33,0.5,-8.45, 0,1,0
+AddFace,0,1,2,3
+SetColor,70,70,70
+LoadTexture,bottomR.png
+SetTextureCoordinates,0,0,0.3
+SetTextureCoordinates,1,0,0.0
+SetTextureCoordinates,2,1,0.0
+SetTextureCoordinates,3,1,0.3
+SetDecalTransparentColor,0,0,255
+SetWrapMode,ClampClamp
+
+CreateMeshBuilder
+AddVertex,1.28,0.2,8.13, 0,1,0
+AddVertex,1.33,0.5,8.13, 0,1,0
+AddVertex,1.33,0.5,-8.45, 0,1,0
+AddVertex,1.28,0.2,-8.45, 0,1,0
+AddFace,0,1,2,3
+SetColor,70,70,70
+LoadTexture,bottomR.png
+SetTextureCoordinates,0,0,0.6
+SetTextureCoordinates,1,0,0.3
+SetTextureCoordinates,2,1,0.3
+SetTextureCoordinates,3,1,0.6
+SetDecalTransparentColor,0,0,255
+SetWrapMode,ClampClamp

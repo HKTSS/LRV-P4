@@ -1,0 +1,12 @@
+CreateMeshBuilder,
+AddVertex,0, 0.0, 1.7
+AddVertex,0, 0.28, 1.7
+AddVertex,0, 0.28, 0
+AddVertex,0, 0.0, 0
+AddFace,0, 1, 2, 3
+SetEmissiveColor,255,255,255
+LoadTexture,L506_YO.png,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0.05,
+SetTextureCoordinates,2,1,0.05,
+SetTextureCoordinates,3,1,1,

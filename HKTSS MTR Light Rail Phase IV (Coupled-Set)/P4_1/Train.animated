@@ -18,6 +18,10 @@ States = Exterior/outside.csv
 Position = 0,0,0
 
 [Object]
+States = Exterior/skirt.csv
+Position = 0,0,0
+
+[Object]
 States = Exterior/pantograph/pan.csv
 Position = 0,-0.15,0
 

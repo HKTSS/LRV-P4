@@ -1,8 +1,8 @@
 CreateMeshBuilder
-AddVertex,-0.630,2.890,9.53, 0,1,0
-AddVertex,-0.630,3.305,9.53, 0,1,0
-AddVertex,0.640,3.305,9.53, 0,1,0
-AddVertex,0.640,2.890,9.53, 0,1,0
+AddVertex,-0.630,2.92,9.53, 0,1,0
+AddVertex,-0.630,3.26,9.53, 0,1,0
+AddVertex,0.640,3.26,9.53, 0,1,0
+AddVertex,0.640,2.92,9.53, 0,1,0
 AddFace,3,2,1,0
 SetEmissiveColor,255,255,255
 LoadTexture,F751P_TY.png,

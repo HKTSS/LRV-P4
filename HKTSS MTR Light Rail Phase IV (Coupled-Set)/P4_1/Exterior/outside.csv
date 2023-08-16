@@ -63,34 +63,6 @@ AddFace2,0,1,2,3
 SetColor,108,91,0
 
 CreateMeshBuilder
-AddVertex,-1.330,0.5,8.130, 0,1,0
-AddVertex,-1.330,0.775,8.130, 0,1,0
-AddVertex,-1.330,0.775,-8.450, 0,1,0
-AddVertex,-1.330,0.5,-8.450, 0,1,0
-AddFace,0,1,2,3
-LoadTexture,bottom.png
-SetTextureCoordinates,0,0.000,0.300
-SetTextureCoordinates,1,0.000,0.000
-SetTextureCoordinates,2,1.000,0.000
-SetTextureCoordinates,3,1.000,0.300
-SetDecalTransparentColor,0,0,255
-SetWrapMode,ClampClamp
-
-CreateMeshBuilder
-AddVertex,-1.280,0.2,8.130, 0,1,0
-AddVertex,-1.330,0.5,8.130, 0,1,0
-AddVertex,-1.330,0.5,-8.450, 0,1,0
-AddVertex,-1.280,0.2,-8.450, 0,1,0
-AddFace,0,1,2,3
-LoadTexture,bottom.png
-SetTextureCoordinates,0,0.000,0.600
-SetTextureCoordinates,1,0.000,0.300
-SetTextureCoordinates,2,1.000,0.300
-SetTextureCoordinates,3,1.000,0.600
-SetDecalTransparentColor,0,0,255
-SetWrapMode,ClampClamp
-
-CreateMeshBuilder
 AddVertex,-1.330,3.10,8.130, 0,1,0
 AddVertex,-1.330,3.300,8.130, 0,1,0
 AddVertex,-1.330,3.300,-8.450, 0,1,0
@@ -120,7 +92,7 @@ AddVertex,1.330,0.000,-8.450, 0,1,0
 AddVertex,1.330,3.1,-8.450, 0,1,0
 AddVertex,1.330,3.1,8.130, 0,1,0
 AddVertex,1.330,0.000,8.130, 0,1,0
-AddFace,0,1,2,3
+;AddFace,0,1,2,3
 LoadTexture,middle-right.png
 SetTextureCoordinates,0,0.000,1.000
 SetTextureCoordinates,1,0.000,0.130
