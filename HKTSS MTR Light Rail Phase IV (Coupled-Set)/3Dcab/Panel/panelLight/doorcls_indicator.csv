@@ -1,0 +1,12 @@
+CreateMeshBuilder,
+AddVertex,-0.218,  1.8115, 9.5855, 0,1,0
+AddVertex,-0.1895,  1.8115, 9.5855, 0,1,0
+AddVertex,-0.1895,  1.791, 9.563, 0,1,0
+AddVertex,-0.218,  1.791, 9.563, 0,1,0
+AddFace2, 0, 1, 2, 3
+LoadTexture,doorcls_indicator.png
+SetTextureCoordinates,0, 0.0, 0
+SetTextureCoordinates,1, 1, 0
+SetTextureCoordinates,2, 1, 1
+SetTextureCoordinates,3, 0.0, 1
+SetDecalTransparentColor,0,0,255

@@ -29,6 +29,17 @@ RefreshRate = 0.52
 
 ;;Statefunction = if[value == 0, if[abs[speedometer] < 0.0555, 1, 0], if[abs[speedometer] < 0.5555, 1, 0]]
 
+[Object]
+States = ../P4_1/null.csv, panelLight/doorcls_indicator.csv
+Position = 0,-0.05,-0.05
+StateFunction = if[leftDoors > 0, 1, 0]
+
+[Object]
+States = ../P4_1/null.csv, panelLight/dooropn_indicator.csv
+Position = 0,-0.05,-0.05
+StateFunction = if[leftDoorsTarget == 1, if[leftDoors > 0.075, 1, 0], if[leftDoors > 0.025, 1, 0]]
+
+
 ;;[Object]
 ;;States = ../P4_1/null.csv, panelLight/dooropened.csv
 ;;Position = 0,0.104,-0.096
