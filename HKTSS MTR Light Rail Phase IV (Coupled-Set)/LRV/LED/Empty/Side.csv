@@ -1,12 +1,12 @@
 CreateMeshBuilder,
-AddVertex,0, 0.0, 0
-AddVertex,0, 0.28, 0
-AddVertex,0, 0.28, 1.7
-AddVertex,0, 0.0, 1.7
-AddFace,3, 2, 1, 0
-SetEmissiveColor,255,255,255
-LoadTexture,LE.png,
+AddVertex,0.01, -0.02, 1.58, 0,1,0
+AddVertex,0.01, 0.26, 1.58, 0,1,0
+AddVertex,0.01, 0.26, 0.13, 0,1,0
+AddVertex,0.01, -0.02, 0.13, 0,1,0
+AddFace,0, 1, 2, 3
+LoadTexture,LE.png
 SetTextureCoordinates,0,0,1,
-SetTextureCoordinates,1,0,0.05,
-SetTextureCoordinates,2,1,0.05,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0,
 SetTextureCoordinates,3,1,1,
+SetDecalTransparentColor,0,0,255

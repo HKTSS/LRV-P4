@@ -1,0 +1,6 @@
+Side Destination Display:
+Resize to 512x128 (Bicubic)
+Filter: Blur (XY is 1)
+Hue: Shift (-5)
+Magic Wand: (Threshold 10) for black area, open new layer, fill 0,0,255
+Save

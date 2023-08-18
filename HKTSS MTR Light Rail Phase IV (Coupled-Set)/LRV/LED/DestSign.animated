@@ -13,6 +13,10 @@ Position = -1.335,2.51,-8.3
 Statefunction = Mod[pluginstate[104], 31]
 RefreshRate = 0.1
 
+[Object]
+States = Side_LED_Base.csv
+Position = -1.335,2.51,-8.3
+
 ;; Interior Destination Sign ;;
 
 [Object]
