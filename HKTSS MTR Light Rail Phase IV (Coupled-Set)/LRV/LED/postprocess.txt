@@ -1,3 +1,9 @@
+Front Destination Display:
+Filter: Blur (XY is 1)
+Hue: Shift (-7)
+Resize to 256x128 (Bicubic)
+Save
+
 Side Destination Display:
 Resize to 512x128 (Bicubic)
 Filter: Blur (XY is 1)
