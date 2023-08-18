@@ -20,6 +20,13 @@ Position = 0,0,-0.07
 Statefunction = pluginState[99]
 
 [Object]
+States = LEDDisplay_refl.csv, null.csv
+Position = -0.003,0,-0.07
+TextureShiftYFunction = -0.65 + (cameraYDistance * 0.3)
+Statefunction = pluginState[99]
+RefreshRate = 0.04
+
+[Object]
 States = fire_ex/fire_ex.csv, fire_ex/fire_ex_dark.csv
 Position = 0,0,5.5
 Statefunction = pluginState[99]
