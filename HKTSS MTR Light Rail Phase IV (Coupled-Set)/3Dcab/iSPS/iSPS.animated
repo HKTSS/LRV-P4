@@ -4,7 +4,7 @@ Position = -0.03,-0.152,0.1
 
 ;;iSPS overspeed light;;
 [Object]
-States = ../../P4_1/null.csv, indicationLight.csv
+States = ../null.csv, indicationLight.csv
 Position = -0.03,-0.152,0.1
 Statefunction = pluginstate[201]
 
@@ -14,6 +14,6 @@ States = indicationLight.csv
 Position = 0,-0.152,0.1
 
 [Object]
-States = ../../P4_1/null.csv, fault.csv
+States = ../null.csv, fault.csv
 Position = 0,-0.152,0.1
 Statefunction = pluginstate[203]

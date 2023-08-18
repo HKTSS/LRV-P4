@@ -19,10 +19,10 @@ iSPS/iSPS.animated
 
 ;; Head crashed ;;
 [Object]
-States = ../P4_1/null.csv, glass_cracked.csv
+States = ../LRV/null.csv, glass_cracked.csv
 Position = 0,0,0
 Statefunction = pluginstate[212]
 
 ;; Headlights in F1 ;;
 [Include]
-../P4_1/Exterior/Headlight/headlights.animated
+../LRV/Exterior/Headlight/headlights.animated

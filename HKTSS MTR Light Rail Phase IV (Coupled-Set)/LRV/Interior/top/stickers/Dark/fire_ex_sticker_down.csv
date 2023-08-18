@@ -1,0 +1,45 @@
+;;fire ex sticker;;
+CreateMeshBuilder,
+AddVertex,-1.155, 3.06, 0.13, 0,1,0
+AddVertex,-1.17, 3.00, 0.13, 0,1,0
+AddVertex,-1.17, 3.00, 0.0, 0,1,0
+AddVertex,-1.155, 3.06, 0.0, 0,1,0
+AddFace, 0, 1, 2, 3
+SetColor,60,60,60
+LoadTexture,../../../../sticker.png,
+SetTextureCoordinates,0,0.624,0.27
+SetTextureCoordinates,1,0.624,0.312
+SetTextureCoordinates,2,0.551,0.312
+SetTextureCoordinates,3,0.551,0.27
+SetDecalTransparentColor,0,0,255
+
+CreateMeshBuilder,
+AddVertex,-1.155, 3.06, 0.13, 0,1,0
+AddVertex,-1.105, 3.16, 0.13, 0,1,0
+AddVertex,-1.105, 3.16, 0.0, 0,1,0
+AddVertex,-1.155, 3.06, 0.0, 0,1,0
+AddFace,3, 2, 1, 0
+SetColor,60,60,60
+LoadTexture,../../../../sticker.png,
+SetTextureCoordinates,0,0.624,0.27
+SetTextureCoordinates,1,0.624,0.22
+SetTextureCoordinates,2,0.551,0.22
+SetTextureCoordinates,3,0.551,0.27
+SetDecalTransparentColor,0,0,255
+
+
+CreateMeshBuilder,
+AddVertex,-1.105, 3.16, 0.13, 0,1,0
+AddVertex,-1.065, 3.21, 0.13, 0,1,0
+AddVertex,-1.065, 3.21, 0.0, 0,1,0
+AddVertex,-1.105, 3.16, 0.0, 0,1,0
+AddFace,3, 2, 1, 0
+SetColor,60,60,60
+LoadTexture,../../../../sticker.png,
+SetTextureCoordinates,0,0.624,0.22
+SetTextureCoordinates,1,0.624,0.187
+SetTextureCoordinates,2,0.551,0.187
+SetTextureCoordinates,3,0.551,0.22
+SetDecalTransparentColor,0,0,255
+
+;;Fire Ex Sticker end;;

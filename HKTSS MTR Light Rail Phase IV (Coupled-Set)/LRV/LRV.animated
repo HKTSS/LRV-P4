@@ -1,0 +1,19 @@
+[Include]
+Door/Doors.animated
+LED/DestSign.animated
+LED/RunNo.animated
+CarNum/CarNum.animated
+Window/windows.animated
+../3DCab/cab.animated
+
+[Include]
+Exterior/Exterior.animated
+
+[Include]
+Interior/Interior.animated
+
+;;No Power;;
+[Object]
+States = null.csv, LED/Empty/E.csv
+Position = 0,0,0
+Statefunction = pluginstate[213]

@@ -10,7 +10,7 @@ def uppotwo(x):
     return pow(2, math.ceil(math.log(x)/math.log(2)))
 
 for filename in glob.iglob('**/*.png', recursive=True):
-    if "train.png" in filename or "Temp_ReplicaSticker" in filename or "/Night/" in filename or "/NoLight/" in filename or "src/" in filename:
+    if "train.png" in filename or "Temp_ReplicaSticker" in filename or "/Dark/" in filename or "src/" in filename:
         continue
     with Image.open(filename) as image:
          w, h = image.size
