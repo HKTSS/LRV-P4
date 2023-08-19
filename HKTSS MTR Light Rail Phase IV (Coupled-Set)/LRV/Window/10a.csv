@@ -59,10 +59,10 @@ SetTextureCoordinates,3,1,1,
 SetDecalTransparentColor,255,255,255
 
 CreateMeshBuilder,
-AddVertex,-1.2, 1.822, 0.18,
-AddVertex,-1.3, 1.822, 0.18,
-AddVertex,-1.3, 1.822, 1.60,
-AddVertex,-1.2, 1.822, 1.60,
+AddVertex,-1.2, 1.83, 0.18,
+AddVertex,-1.3, 1.83, 0.18,
+AddVertex,-1.3, 1.83, 1.60,
+AddVertex,-1.2, 1.83, 1.60,
 AddFace,0, 1, 2, 3
 SetEmissiveColor,255,255,255
 LoadTexture,7B_I.png
@@ -74,8 +74,8 @@ SetDecalTransparentColor,255,255,255
 
 CreateMeshBuilder,
 AddVertex,-1.2, 1.12, 0.18,
-AddVertex,-1.2, 1.822, 0.18,
-AddVertex,-1.2, 1.822, 1.60,
+AddVertex,-1.2, 1.83, 0.18,
+AddVertex,-1.2, 1.83, 1.60,
 AddVertex,-1.2, 1.12, 1.60,
 AddFace,0, 1, 2, 3
 SetEmissiveColor,255,255,255
@@ -174,5 +174,385 @@ SetTextureCoordinates,3,0.5,0.5
 SetDecalTransparentColor,255,255,255
 
 ;; Skirt End ;;
+
+;; Curved Handrail Start ;;
+CreateMeshBuilder,
+Cylinder,10,0.02,0.02,0.1
+LoadTexture,../Interior/yl_handrail.png
+SetTextureCoordinates, 0,0.1,0
+SetTextureCoordinates, 1,0.1,1
+SetTextureCoordinates, 2,0,0
+SetTextureCoordinates, 3,0,1
+SetTextureCoordinates, 4,0.1,0
+SetTextureCoordinates, 5,0.1,1
+SetTextureCoordinates, 6,0.3,0
+SetTextureCoordinates, 7,0.3,1
+SetTextureCoordinates, 8,0.5,0
+SetTextureCoordinates, 9,0.5,1
+SetTextureCoordinates, 10,0.7,0
+SetTextureCoordinates, 11,0.7,1
+SetTextureCoordinates, 12,0.5,0
+SetTextureCoordinates, 13,0.5,1
+SetTextureCoordinates, 14,0.3,0
+SetTextureCoordinates, 15,0.3,1
+SetTextureCoordinates, 16,0.1,0
+SetTextureCoordinates, 17,0.1,1
+SetTextureCoordinates, 18,0,0
+SetTextureCoordinates, 19,0,1
+SetEmissiveColor,255,255,255
+Rotate,1,0,0,65
+Translate,-1.25,1.83,0.54
+
+CreateMeshBuilder,
+Cylinder,10,0.02,0.02,0.07
+LoadTexture,../Interior/yl_handrail.png
+SetTextureCoordinates, 0,0.1,0
+SetTextureCoordinates, 1,0.1,0.6
+SetTextureCoordinates, 2,0,0
+SetTextureCoordinates, 3,0,0.6
+SetTextureCoordinates, 4,0.1,0
+SetTextureCoordinates, 5,0.1,0.6
+SetTextureCoordinates, 6,0.3,0
+SetTextureCoordinates, 7,0.3,0.6
+SetTextureCoordinates, 8,0.5,0
+SetTextureCoordinates, 9,0.5,0.6
+SetTextureCoordinates, 10,0.7,0
+SetTextureCoordinates, 11,0.7,0.6
+SetTextureCoordinates, 12,0.5,0
+SetTextureCoordinates, 13,0.5,0.6
+SetTextureCoordinates, 14,0.3,0
+SetTextureCoordinates, 15,0.3,0.6
+SetTextureCoordinates, 16,0.1,0
+SetTextureCoordinates, 17,0.1,0.6
+SetTextureCoordinates, 18,0,0
+SetTextureCoordinates, 19,0,0.6
+SetEmissiveColor,255,255,255
+Rotate,1,0,0,70
+Translate,-1.25,1.862,0.617
+
+CreateMeshBuilder,
+Cylinder,10,0.02,0.02,0.07
+LoadTexture,../Interior/yl_handrail.png
+SetTextureCoordinates, 0,0.1,0
+SetTextureCoordinates, 1,0.1,0.6
+SetTextureCoordinates, 2,0,0
+SetTextureCoordinates, 3,0,0.6
+SetTextureCoordinates, 4,0.1,0
+SetTextureCoordinates, 5,0.1,0.6
+SetTextureCoordinates, 6,0.3,0
+SetTextureCoordinates, 7,0.3,0.6
+SetTextureCoordinates, 8,0.5,0
+SetTextureCoordinates, 9,0.5,0.6
+SetTextureCoordinates, 10,0.7,0
+SetTextureCoordinates, 11,0.7,0.6
+SetTextureCoordinates, 12,0.5,0
+SetTextureCoordinates, 13,0.5,0.6
+SetTextureCoordinates, 14,0.3,0
+SetTextureCoordinates, 15,0.3,0.6
+SetTextureCoordinates, 16,0.1,0
+SetTextureCoordinates, 17,0.1,0.6
+SetTextureCoordinates, 18,0,0
+SetTextureCoordinates, 19,0,0.6
+SetEmissiveColor,255,255,255
+Rotate,1,0,0,75
+Translate,-1.25,1.882,0.68
+
+CreateMeshBuilder,
+Cylinder,10,0.02,0.02,0.07
+LoadTexture,../Interior/yl_handrail.png
+SetTextureCoordinates, 0,0.1,0
+SetTextureCoordinates, 1,0.1,0.6
+SetTextureCoordinates, 2,0,0
+SetTextureCoordinates, 3,0,0.6
+SetTextureCoordinates, 4,0.1,0
+SetTextureCoordinates, 5,0.1,0.6
+SetTextureCoordinates, 6,0.3,0
+SetTextureCoordinates, 7,0.3,0.6
+SetTextureCoordinates, 8,0.5,0
+SetTextureCoordinates, 9,0.5,0.6
+SetTextureCoordinates, 10,0.7,0
+SetTextureCoordinates, 11,0.7,0.6
+SetTextureCoordinates, 12,0.5,0
+SetTextureCoordinates, 13,0.5,0.6
+SetTextureCoordinates, 14,0.3,0
+SetTextureCoordinates, 15,0.3,0.6
+SetTextureCoordinates, 16,0.1,0
+SetTextureCoordinates, 17,0.1,0.6
+SetTextureCoordinates, 18,0,0
+SetTextureCoordinates, 19,0,0.6
+SetEmissiveColor,255,255,255
+Rotate,1,0,0,78
+Translate,-1.25,1.898,0.745
+
+CreateMeshBuilder,
+Cylinder,10,0.02,0.02,0.07
+LoadTexture,../Interior/yl_handrail.png
+SetTextureCoordinates, 0,0.1,0
+SetTextureCoordinates, 1,0.1,0.6
+SetTextureCoordinates, 2,0,0
+SetTextureCoordinates, 3,0,0.6
+SetTextureCoordinates, 4,0.1,0
+SetTextureCoordinates, 5,0.1,0.6
+SetTextureCoordinates, 6,0.3,0
+SetTextureCoordinates, 7,0.3,0.6
+SetTextureCoordinates, 8,0.5,0
+SetTextureCoordinates, 9,0.5,0.6
+SetTextureCoordinates, 10,0.7,0
+SetTextureCoordinates, 11,0.7,0.6
+SetTextureCoordinates, 12,0.5,0
+SetTextureCoordinates, 13,0.5,0.6
+SetTextureCoordinates, 14,0.3,0
+SetTextureCoordinates, 15,0.3,0.6
+SetTextureCoordinates, 16,0.1,0
+SetTextureCoordinates, 17,0.1,0.6
+SetTextureCoordinates, 18,0,0
+SetTextureCoordinates, 19,0,0.6
+SetEmissiveColor,255,255,255
+Rotate,1,0,0,82
+Translate,-1.25,1.91,0.810
+
+CreateMeshBuilder,
+Cylinder,10,0.02,0.02,0.07
+LoadTexture,../Interior/yl_handrail.png
+SetTextureCoordinates, 0,0.1,0
+SetTextureCoordinates, 1,0.1,0.6
+SetTextureCoordinates, 2,0,0
+SetTextureCoordinates, 3,0,0.6
+SetTextureCoordinates, 4,0.1,0
+SetTextureCoordinates, 5,0.1,0.6
+SetTextureCoordinates, 6,0.3,0
+SetTextureCoordinates, 7,0.3,0.6
+SetTextureCoordinates, 8,0.5,0
+SetTextureCoordinates, 9,0.5,0.6
+SetTextureCoordinates, 10,0.7,0
+SetTextureCoordinates, 11,0.7,0.6
+SetTextureCoordinates, 12,0.5,0
+SetTextureCoordinates, 13,0.5,0.6
+SetTextureCoordinates, 14,0.3,0
+SetTextureCoordinates, 15,0.3,0.6
+SetTextureCoordinates, 16,0.1,0
+SetTextureCoordinates, 17,0.1,0.6
+SetTextureCoordinates, 18,0,0
+SetTextureCoordinates, 19,0,0.6
+SetEmissiveColor,255,255,255
+Rotate,1,0,0,85
+Translate,-1.25,1.9175,0.877
+
+CreateMeshBuilder,
+Cylinder,10,0.02,0.02,0.07
+LoadTexture,../Interior/yl_handrail.png
+SetTextureCoordinates, 0,0.1,0
+SetTextureCoordinates, 1,0.1,0.6
+SetTextureCoordinates, 2,0,0
+SetTextureCoordinates, 3,0,0.6
+SetTextureCoordinates, 4,0.1,0
+SetTextureCoordinates, 5,0.1,0.6
+SetTextureCoordinates, 6,0.3,0
+SetTextureCoordinates, 7,0.3,0.6
+SetTextureCoordinates, 8,0.5,0
+SetTextureCoordinates, 9,0.5,0.6
+SetTextureCoordinates, 10,0.7,0
+SetTextureCoordinates, 11,0.7,0.6
+SetTextureCoordinates, 12,0.5,0
+SetTextureCoordinates, 13,0.5,0.6
+SetTextureCoordinates, 14,0.3,0
+SetTextureCoordinates, 15,0.3,0.6
+SetTextureCoordinates, 16,0.1,0
+SetTextureCoordinates, 17,0.1,0.6
+SetTextureCoordinates, 18,0,0
+SetTextureCoordinates, 19,0,0.6
+SetEmissiveColor,255,255,255
+Rotate,1,0,0,88
+Translate,-1.25,1.922,0.945
+
+CreateMeshBuilder,
+Cylinder,10,0.02,0.02,0.07
+LoadTexture,../Interior/yl_handrail.png
+SetTextureCoordinates, 0,0.1,0
+SetTextureCoordinates, 1,0.1,0.6
+SetTextureCoordinates, 2,0,0
+SetTextureCoordinates, 3,0,0.6
+SetTextureCoordinates, 4,0.1,0
+SetTextureCoordinates, 5,0.1,0.6
+SetTextureCoordinates, 6,0.3,0
+SetTextureCoordinates, 7,0.3,0.6
+SetTextureCoordinates, 8,0.5,0
+SetTextureCoordinates, 9,0.5,0.6
+SetTextureCoordinates, 10,0.7,0
+SetTextureCoordinates, 11,0.7,0.6
+SetTextureCoordinates, 12,0.5,0
+SetTextureCoordinates, 13,0.5,0.6
+SetTextureCoordinates, 14,0.3,0
+SetTextureCoordinates, 15,0.3,0.6
+SetTextureCoordinates, 16,0.1,0
+SetTextureCoordinates, 17,0.1,0.6
+SetTextureCoordinates, 18,0,0
+SetTextureCoordinates, 19,0,0.6
+SetEmissiveColor,255,255,255
+Rotate,1,0,0,92
+Translate,-1.25,1.922,1.01
+
+CreateMeshBuilder,
+Cylinder,10,0.02,0.02,0.07
+LoadTexture,../Interior/yl_handrail.png
+SetTextureCoordinates, 0,0.1,0
+SetTextureCoordinates, 1,0.1,0.6
+SetTextureCoordinates, 2,0,0
+SetTextureCoordinates, 3,0,0.6
+SetTextureCoordinates, 4,0.1,0
+SetTextureCoordinates, 5,0.1,0.6
+SetTextureCoordinates, 6,0.3,0
+SetTextureCoordinates, 7,0.3,0.6
+SetTextureCoordinates, 8,0.5,0
+SetTextureCoordinates, 9,0.5,0.6
+SetTextureCoordinates, 10,0.7,0
+SetTextureCoordinates, 11,0.7,0.6
+SetTextureCoordinates, 12,0.5,0
+SetTextureCoordinates, 13,0.5,0.6
+SetTextureCoordinates, 14,0.3,0
+SetTextureCoordinates, 15,0.3,0.6
+SetTextureCoordinates, 16,0.1,0
+SetTextureCoordinates, 17,0.1,0.6
+SetTextureCoordinates, 18,0,0
+SetTextureCoordinates, 19,0,0.6
+SetEmissiveColor,255,255,255
+Rotate,1,0,0,95
+Translate,-1.25,1.918,1.075
+
+CreateMeshBuilder,
+Cylinder,10,0.02,0.02,0.07
+LoadTexture,../Interior/yl_handrail.png
+SetTextureCoordinates, 0,0.1,0
+SetTextureCoordinates, 1,0.1,0.6
+SetTextureCoordinates, 2,0,0
+SetTextureCoordinates, 3,0,0.6
+SetTextureCoordinates, 4,0.1,0
+SetTextureCoordinates, 5,0.1,0.6
+SetTextureCoordinates, 6,0.3,0
+SetTextureCoordinates, 7,0.3,0.6
+SetTextureCoordinates, 8,0.5,0
+SetTextureCoordinates, 9,0.5,0.6
+SetTextureCoordinates, 10,0.7,0
+SetTextureCoordinates, 11,0.7,0.6
+SetTextureCoordinates, 12,0.5,0
+SetTextureCoordinates, 13,0.5,0.6
+SetTextureCoordinates, 14,0.3,0
+SetTextureCoordinates, 15,0.3,0.6
+SetTextureCoordinates, 16,0.1,0
+SetTextureCoordinates, 17,0.1,0.6
+SetTextureCoordinates, 18,0,0
+SetTextureCoordinates, 19,0,0.6
+SetEmissiveColor,255,255,255
+Rotate,1,0,0,99
+Translate,-1.25,1.91,1.142
+
+CreateMeshBuilder,
+Cylinder,10,0.02,0.02,0.07
+LoadTexture,../Interior/yl_handrail.png
+SetTextureCoordinates, 0,0.1,0
+SetTextureCoordinates, 1,0.1,0.6
+SetTextureCoordinates, 2,0,0
+SetTextureCoordinates, 3,0,0.6
+SetTextureCoordinates, 4,0.1,0
+SetTextureCoordinates, 5,0.1,0.6
+SetTextureCoordinates, 6,0.3,0
+SetTextureCoordinates, 7,0.3,0.6
+SetTextureCoordinates, 8,0.5,0
+SetTextureCoordinates, 9,0.5,0.6
+SetTextureCoordinates, 10,0.7,0
+SetTextureCoordinates, 11,0.7,0.6
+SetTextureCoordinates, 12,0.5,0
+SetTextureCoordinates, 13,0.5,0.6
+SetTextureCoordinates, 14,0.3,0
+SetTextureCoordinates, 15,0.3,0.6
+SetTextureCoordinates, 16,0.1,0
+SetTextureCoordinates, 17,0.1,0.6
+SetTextureCoordinates, 18,0,0
+SetTextureCoordinates, 19,0,0.6
+SetEmissiveColor,255,255,255
+Rotate,1,0,0,102
+Translate,-1.25,1.897,1.209
+
+CreateMeshBuilder,
+Cylinder,10,0.02,0.02,0.07
+LoadTexture,../Interior/yl_handrail.png
+SetTextureCoordinates, 0,0.1,0
+SetTextureCoordinates, 1,0.1,0.6
+SetTextureCoordinates, 2,0,0
+SetTextureCoordinates, 3,0,0.6
+SetTextureCoordinates, 4,0.1,0
+SetTextureCoordinates, 5,0.1,0.6
+SetTextureCoordinates, 6,0.3,0
+SetTextureCoordinates, 7,0.3,0.6
+SetTextureCoordinates, 8,0.5,0
+SetTextureCoordinates, 9,0.5,0.6
+SetTextureCoordinates, 10,0.7,0
+SetTextureCoordinates, 11,0.7,0.6
+SetTextureCoordinates, 12,0.5,0
+SetTextureCoordinates, 13,0.5,0.6
+SetTextureCoordinates, 14,0.3,0
+SetTextureCoordinates, 15,0.3,0.6
+SetTextureCoordinates, 16,0.1,0
+SetTextureCoordinates, 17,0.1,0.6
+SetTextureCoordinates, 18,0,0
+SetTextureCoordinates, 19,0,0.6
+SetEmissiveColor,255,255,255
+Rotate,1,0,0,105
+Translate,-1.25,1.881,1.275
+
+CreateMeshBuilder,
+Cylinder,10,0.02,0.02,0.07
+LoadTexture,../Interior/yl_handrail.png
+SetTextureCoordinates, 0,0.1,0
+SetTextureCoordinates, 1,0.1,0.6
+SetTextureCoordinates, 2,0,0
+SetTextureCoordinates, 3,0,0.6
+SetTextureCoordinates, 4,0.1,0
+SetTextureCoordinates, 5,0.1,0.6
+SetTextureCoordinates, 6,0.3,0
+SetTextureCoordinates, 7,0.3,0.6
+SetTextureCoordinates, 8,0.5,0
+SetTextureCoordinates, 9,0.5,0.6
+SetTextureCoordinates, 10,0.7,0
+SetTextureCoordinates, 11,0.7,0.6
+SetTextureCoordinates, 12,0.5,0
+SetTextureCoordinates, 13,0.5,0.6
+SetTextureCoordinates, 14,0.3,0
+SetTextureCoordinates, 15,0.3,0.6
+SetTextureCoordinates, 16,0.1,0
+SetTextureCoordinates, 17,0.1,0.6
+SetTextureCoordinates, 18,0,0
+SetTextureCoordinates, 19,0,0.6
+SetEmissiveColor,255,255,255
+Rotate,1,0,0,109
+Translate,-1.25,1.861,1.34
+
+CreateMeshBuilder,
+Cylinder,10,0.02,0.02,0.1
+LoadTexture,../Interior/yl_handrail.png
+SetTextureCoordinates, 0,0.1,0
+SetTextureCoordinates, 1,0.1,0.7
+SetTextureCoordinates, 2,0,0
+SetTextureCoordinates, 3,0,0.7
+SetTextureCoordinates, 4,0.1,0
+SetTextureCoordinates, 5,0.1,0.7
+SetTextureCoordinates, 6,0.3,0
+SetTextureCoordinates, 7,0.3,0.7
+SetTextureCoordinates, 8,0.5,0
+SetTextureCoordinates, 9,0.5,0.7
+SetTextureCoordinates, 10,0.7,0
+SetTextureCoordinates, 11,0.7,0.7
+SetTextureCoordinates, 12,0.5,0
+SetTextureCoordinates, 13,0.5,0.7
+SetTextureCoordinates, 14,0.3,0
+SetTextureCoordinates, 15,0.3,0.7
+SetTextureCoordinates, 16,0.1,0
+SetTextureCoordinates, 17,0.1,0.7
+SetTextureCoordinates, 18,0,0
+SetTextureCoordinates, 19,0,0.7
+SetEmissiveColor,255,255,255
+Rotate,1,0,0,112
+Translate,-1.25,1.832,1.417
+
 
 RotateAll, 0, 1, 0, 180
