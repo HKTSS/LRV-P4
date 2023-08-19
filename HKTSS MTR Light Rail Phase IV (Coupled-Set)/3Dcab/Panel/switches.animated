@@ -21,9 +21,9 @@ RotateXFunction = 0.85
 
 ;; Wiper Switch ;;
 [Object]
-States = Component\switch.csv, Component\switch_wiper_1.csv, Component\switch_wiper_2.csv, Component\switch_wiper_3.csv, Component\switch_wiper_4.csv
+States = Component\switch.csv, Component\switchL.csv, Component\switchR.csv, Component\switchR_3.csv, Component\switchR_4.csv
 Position = 0.23,1.823,9.60
-StateFunction = if[carNumber <= 0, Mod[pluginstate[113], 5], 0]
+StateFunction = if[carNumber <= 0, pluginstate[113], 0]
 RotateXFunction = 0.85
 
 ;; Headlight Switch ;;

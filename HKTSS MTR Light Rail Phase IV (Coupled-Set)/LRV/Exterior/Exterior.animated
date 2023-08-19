@@ -1,6 +1,5 @@
 [Include]
 Head/Head.animated
-Wiper/wiper.animated
 TurnSignal/signal.animated
 Bogie/bogie.animated
 

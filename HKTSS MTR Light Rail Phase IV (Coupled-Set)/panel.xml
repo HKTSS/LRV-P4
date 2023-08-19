@@ -13,6 +13,18 @@
 				<Command>HEADLIGHTS</Command>
 			</Touch>
 			<Touch>
+				<Cursor>3DCab/Cursor/tooltip/wiper_dn.png</Cursor>
+				<Position>0.220, 1.830, 9.55</Position>
+				<Size>0.008, 0.020, 0.015</Size>
+				<Command>WIPER_SPEED_DOWN</Command>
+			</Touch>
+			<Touch>
+				<Cursor>3DCab/Cursor/tooltip/wiper_up.png</Cursor>
+				<Position>0.240, 1.830, 9.55</Position>
+				<Size>0.008, 0.020, 0.015</Size>
+				<Command>WIPER_SPEED_UP</Command>
+			</Touch>
+			<Touch>
 				<Cursor>3DCab/Cursor/tooltip/ding.png</Cursor>
 				<Position>0.137, 1.755, 9.48</Position>
 				<Size>0.019, 0.020, 0.015</Size>

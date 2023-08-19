@@ -7,6 +7,10 @@ Panel/panel.animated
 Position = 0,0,-0.05
 
 [Include]
+Wiper/wiper.animated
+Position = 0,0,0
+
+[Include]
 ControlHandle/handle.animated
 Position = 0,0,-0.05
 
