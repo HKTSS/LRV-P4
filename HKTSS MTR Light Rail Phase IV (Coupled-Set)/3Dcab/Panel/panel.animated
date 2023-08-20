@@ -1,5 +1,6 @@
 [Include]
 switches.animated
+switches_placeholder.animated
 
 [Object]
 States = panel.csv
