@@ -35,10 +35,10 @@ AddVertex,-1.1, 3.26, 1.87,
 AddVertex, 1.1, 3.26, 1.87,
 AddVertex, 1.1, 3.26, 18.45,
 
-AddVertex,-1.25, 3.26, 18.45
-AddVertex,-0.82, 3.26, 20.15,
-AddVertex, 0.82, 3.26, 20.15,
-AddVertex, 1.25, 3.26, 18.45,
+AddVertex,-1.3, 3.26, 18.45
+AddVertex,-0.83, 3.26, 20.15,
+AddVertex, 0.83, 3.26, 20.15,
+AddVertex, 1.3, 3.26, 18.45,
 AddFace,0, 1, 2, 3,
 AddFace,7, 6, 5, 4,
 SetEmissiveColor,255,255,255
