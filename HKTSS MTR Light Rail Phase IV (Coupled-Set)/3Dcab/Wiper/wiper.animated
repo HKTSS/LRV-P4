@@ -1,15 +1,11 @@
 [Object]
 States = wiper1.csv
 Position = 0.55,1.6,9.98
-RotateZFunction = if[pluginState[113] == 1, power[sin[time/2], 100],    if[pluginstate[113] == 2, power[sin[time/1.5], 50],     if[pluginstate[113] == 3, power[sin[time/1], 26],      if[pluginstate[113] == 4, power[sin[time/0.5], 4], 0]]]]
-RotateXFunction = 0.05 * if[pluginState[113] == 1, power[sin[time/2], 100],    if[pluginstate[113] == 2, power[sin[time/1.5], 50],     if[pluginstate[113] == 3, power[sin[time/1], 26],      if[pluginstate[113] == 4, power[sin[time/0.5], 4], 0]]]]
-
+RotateZFunction = if[pluginState[113] == 0, max[0, value-(delta*2)],  if[pluginState[113] == 1, power[sin[time/2], 100],    if[pluginstate[113] == 2, power[sin[time/1.5], 50],     if[pluginstate[113] == 3, power[sin[time/1], 26],      if[pluginstate[113] == 4, power[sin[time/0.5], 4], 0 ]]]]]
+RotateXFunction = if[pluginState[113] == 0, max[0, value-(delta*2)], 0.05 * if[pluginState[113] == 1, power[sin[time/2], 100],    if[pluginstate[113] == 2, power[sin[time/1.5], 50],     if[pluginstate[113] == 3, power[sin[time/1], 26],      if[pluginstate[113] == 4, power[sin[time/0.5], 4], 0   ]]]]]
 
 [Object]
 States = wiper2.csv
 Position = -0.55,1.63,9.98
-RotateZFunction = 1.5 * if[pluginState[113] == 1, power[sin[time/2], 100],    if[pluginstate[113] == 2, power[sin[time/1.5], 50],    if[pluginstate[113] == 3, power[sin[time/1], 26],     if[pluginstate[113] == 4, power[sin[time/0.5], 4], 0]]]]
-RotateXFunction = 0.5 - if[pluginState[113] == 1, 0.5 * power[sin[time/2], 100],    if[pluginstate[113] == 2, 0.5 * power[sin[time/1.5], 50], if[pluginstate[113] == 3, 0.5 * power[sin[time/1], 26],     if[pluginstate[113] == 4, 0.5 * power[sin[time/0.5], 4], 0]]]]
-
-;; Slow: power[sin[(0.15*time) * pi], 56]
-;; Fast: power[sin[(0.7*time) * pi], 4]
+RotateZFunction = if[pluginState[113] == 0, max[0, value-(delta*2)], 1.5 * if[pluginState[113] == 1, power[sin[time/2], 100],    if[pluginstate[113] == 2, power[sin[time/1.5], 50],    if[pluginstate[113] == 3, power[sin[time/1], 26],     if[pluginstate[113] == 4, power[sin[time/0.5], 4], 0    ]]]]]
+RotateXFunction = if[pluginState[113] == 0, min[0.5, value+(delta*2)], 0.5 - if[pluginState[113] == 1, 0.5 * power[sin[time/2], 100],    if[pluginstate[113] == 2, 0.5 * power[sin[time/1.5], 50], if[pluginstate[113] == 3, 0.5 * power[sin[time/1], 26],     if[pluginstate[113] == 4, 0.5 * power[sin[time/0.5], 4], 0   ]]]]]

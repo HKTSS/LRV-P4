@@ -6,10 +6,10 @@ States = panel.csv
 Position = 0,-0.05,-0.05
 
 [Object]
-States = ../null.csv, Component/dirflash.csv
+States = Component/dirflash.csv, ../null.csv
 Position = -0.004,0,0
-StateFunction = if[Pluginstate[102] > 0, value == 0, 0]
-RefreshRate = 0.65
+;; Value based blinking light, prevent touch area from resetting RefreshRate
+StateFunction = if[pluginstate[102] > 0, if[value > 1, 0, value+(delta/2)/0.54], 1]
 
 [Include]
 Component/InfoPanel/InfoPanel.animated
@@ -18,8 +18,8 @@ Position = 0,0.003,0.003
 [Object]
 States = ../null.csv, panelLight/doorlock_blink.csv
 Position = 0.032,-0.05,-0.05
-StateFunction = if[pluginstate[202] == 1, value == 0, 0]
-RefreshRate = 0.52
+;; Value based blinking light, prevent touch area from resetting RefreshRate
+StateFunction = if[pluginstate[202] == 1, if[value > 1, 0, value+(delta/2)/0.6], 0]
 
 ;;[Object]
 ;;States = ../null.csv, panelLight/door_cnopn.csv
