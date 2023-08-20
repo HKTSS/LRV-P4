@@ -1,7 +1,7 @@
 ﻿;;Exterior;;
 CreateMeshBuilder,
-AddVertex,-1.33, 0.775, 0, 0,1,0
-AddVertex,-1.33, 2.91, 0, 0,1,0
+AddVertex,-1.33, 0.775, 0.05, 0,1,0
+AddVertex,-1.33, 2.91, 0.05, 0,1,0
 AddVertex,-1.33, 2.91, 1.825, 0,1,0
 AddVertex,-1.33, 0.775, 1.825, 0,1,0
 AddFace,3, 2, 1, 0
