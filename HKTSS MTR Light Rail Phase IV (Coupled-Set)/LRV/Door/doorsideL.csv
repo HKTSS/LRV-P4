@@ -1,13 +1,13 @@
 CreateMeshBuilder,
-AddVertex,1.35, 0.9, 5.66
-AddVertex,1.35, 2.90, 5.66
-AddVertex,1.2, 2.90, 5.66
-AddVertex,1.2, 0.9, 5.66
+AddVertex,1.35, 0.9, 5.66, 0,1,0
+AddVertex,1.35, 2.90, 5.66, 0,1,0
+AddVertex,1.2, 2.90, 5.66, 0,1,0
+AddVertex,1.2, 0.9, 5.66, 0,1,0
 
-AddVertex,1.2, 0.9, 5.48
-AddVertex,1.2, 2.90, 5.48
-AddVertex,1.35, 2.90, 5.48
-AddVertex,1.35, 0.9, 5.48
+AddVertex,1.2, 0.9, 5.48, 0,1,0
+AddVertex,1.2, 2.90, 5.48, 0,1,0
+AddVertex,1.35, 2.90, 5.48, 0,1,0
+AddVertex,1.35, 0.9, 5.48, 0,1,0
 AddFace,0, 1, 2, 3
 AddFace,4, 5, 6, 7
 SetEmissiveColor,255,255,255
@@ -23,10 +23,10 @@ SetTextureCoordinates,7,0,1
 translate,-0.02,0,-1.95
 
 CreateMeshBuilder,
-AddVertex,1.2, 0.9, 5.66,
-AddVertex,1.2, 2.9, 5.66,
-AddVertex,1.18, 2.9, 5.61,
-AddVertex,1.18, 0.9, 5.61,
+AddVertex,1.2, 0.9, 5.66, 0,1,0
+AddVertex,1.2, 2.9, 5.66, 0,1,0
+AddVertex,1.18, 2.9, 5.61, 0,1,0
+AddVertex,1.18, 0.9, 5.61, 0,1,0
 AddFace,0, 1, 2, 3
 SetEmissiveColor,255,255,255
 LoadTexture,doorsideL.png
@@ -38,10 +38,10 @@ SetDecalTransparentColor,0,0,255
 translate,-0.02,0,-1.95
 
 CreateMeshBuilder,
-AddVertex,1.18, 0.9, 5.61,
-AddVertex,1.18, 2.9, 5.61,
-AddVertex,1.17, 2.9, 5.57,
-AddVertex,1.17, 0.9, 5.57,
+AddVertex,1.18, 0.9, 5.61, 0,1,0
+AddVertex,1.18, 2.9, 5.61, 0,1,0
+AddVertex,1.17, 2.9, 5.57, 0,1,0
+AddVertex,1.17, 0.9, 5.57, 0,1,0
 AddFace,0, 1, 2, 3
 SetEmissiveColor,255,255,255
 LoadTexture,doorsideL.png
@@ -53,10 +53,10 @@ SetDecalTransparentColor,0,0,255
 translate,-0.02,0,-1.95
 
 CreateMeshBuilder,
-AddVertex,1.17, 0.9, 5.57,
-AddVertex,1.17, 2.9, 5.57,
-AddVertex,1.18, 2.9, 5.53,
-AddVertex,1.18, 0.9, 5.53,
+AddVertex,1.17, 0.9, 5.57, 0,1,0
+AddVertex,1.17, 2.9, 5.57, 0,1,0
+AddVertex,1.18, 2.9, 5.53, 0,1,0
+AddVertex,1.18, 0.9, 5.53, 0,1,0
 AddFace,0, 1, 2, 3
 SetEmissiveColor,255,255,255
 LoadTexture,doorsideL.png
@@ -68,10 +68,10 @@ SetDecalTransparentColor,0,0,255
 translate,-0.02,0,-1.95
 
 CreateMeshBuilder,
-AddVertex,1.18, 0.9, 5.53,
-AddVertex,1.18, 2.9, 5.53,
-AddVertex,1.2, 2.9, 5.48,
-AddVertex,1.2, 0.9, 5.48,
+AddVertex,1.18, 0.9, 5.53, 0,1,0
+AddVertex,1.18, 2.9, 5.53, 0,1,0
+AddVertex,1.2, 2.9, 5.48, 0,1,0
+AddVertex,1.2, 0.9, 5.48, 0,1,0
 AddFace,0, 1, 2, 3
 SetEmissiveColor,255,255,255
 LoadTexture,doorsideL.png
@@ -83,15 +83,15 @@ SetDecalTransparentColor,0,0,255
 translate,-0.02,0,-1.95
 
 CreateMeshBuilder,
-AddVertex,1.2, 2.09, 5.57,
-AddVertex,1.17, 2.12, 5.57,
-AddVertex,1.2, 2.115, 5.48,
-AddVertex,1.2, 2.09, 5.48,
+AddVertex,1.2, 2.09, 5.57, 0,1,0
+AddVertex,1.17, 2.12, 5.57, 0,1,0
+AddVertex,1.2, 2.115, 5.48, 0,1,0
+AddVertex,1.2, 2.09, 5.48, 0,1,0
 
-AddVertex,1.2, 2.09, 5.66,
-AddVertex,1.2, 2.12, 5.66,
-AddVertex,1.17, 2.12, 5.57,
-AddVertex,1.2, 2.09, 5.57,
+AddVertex,1.2, 2.09, 5.66, 0,1,0
+AddVertex,1.2, 2.12, 5.66, 0,1,0
+AddVertex,1.17, 2.12, 5.57, 0,1,0
+AddVertex,1.2, 2.09, 5.57, 0,1,0
 AddFace,0, 1, 2, 3
 AddFace,4, 5, 6, 7
 SetEmissiveColor,255,255,255
@@ -109,10 +109,10 @@ SetDecalTransparentColor,0,0,255
 translate,-0.02,0,-1.95
 
 CreateMeshBuilder,
-AddVertex,1.2, 1.41, 5.66,
-AddVertex,1.2, 2.11, 5.66,
-AddVertex,1.2, 2.11, 5.48,
-AddVertex,1.2, 1.41, 5.48,
+AddVertex,1.2, 1.41, 5.66, 0,1,0
+AddVertex,1.2, 2.11, 5.66, 0,1,0
+AddVertex,1.2, 2.11, 5.48, 0,1,0
+AddVertex,1.2, 1.41, 5.48, 0,1,0
 AddFace,0, 1, 2, 3
 SetEmissiveColor,255,255,255
 LoadTexture,doorsideL.png
@@ -124,10 +124,10 @@ SetDecalTransparentColor,0,0,255
 translate,-0.02,0,-1.95
 
 CreateMeshBuilder,
-AddVertex,1.2, 1.41, 5.57,
-AddVertex,1.17, 1.38, 5.57,
-AddVertex,1.2, 1.38, 5.66,
-AddVertex,1.2, 1.41, 5.66,
+AddVertex,1.2, 1.41, 5.57, 0,1,0
+AddVertex,1.17, 1.38, 5.57, 0,1,0
+AddVertex,1.2, 1.38, 5.66, 0,1,0
+AddVertex,1.2, 1.41, 5.66, 0,1,0
 AddFace,0, 1, 2, 3
 SetEmissiveColor,255,255,255
 LoadTexture,doorsideL.png
@@ -139,10 +139,10 @@ SetDecalTransparentColor,0,0,255
 translate,-0.02,0,-1.95
 
 CreateMeshBuilder,
-AddVertex,1.2, 1.41, 5.48,
-AddVertex,1.2, 1.38, 5.48,
-AddVertex,1.17, 1.38, 5.57,
-AddVertex,1.2, 1.41, 5.57,
+AddVertex,1.2, 1.41, 5.48, 0,1,0
+AddVertex,1.2, 1.38, 5.48, 0,1,0
+AddVertex,1.17, 1.38, 5.57, 0,1,0
+AddVertex,1.2, 1.41, 5.57, 0,1,0
 AddFace,0, 1, 2, 3
 SetEmissiveColor,255,255,255
 LoadTexture,doorsideL.png
@@ -156,10 +156,10 @@ translate,-0.02,0,-1.95
 ;;Yellow;;
 
 CreateMeshBuilder,
-AddVertex,1.2, 2.58, 5.66,
-AddVertex,1.195, 2.612, 5.66,
-AddVertex,1.17, 2.612, 5.57,
-AddVertex,1.2, 2.58, 5.57,
+AddVertex,1.2, 2.58, 5.66, 0,1,0
+AddVertex,1.195, 2.612, 5.66, 0,1,0
+AddVertex,1.17, 2.612, 5.57, 0,1,0
+AddVertex,1.2, 2.58, 5.57, 0,1,0
 AddFace,0, 1, 2, 3
 SetEmissiveColor,255,255,255
 LoadTexture,doorsideL.png
@@ -171,10 +171,10 @@ SetDecalTransparentColor,0,0,255
 translate,-0.02,0,-1.95
 
 CreateMeshBuilder,
-AddVertex,1.2, 2.58, 5.57,
-AddVertex,1.17, 2.612, 5.57,
-AddVertex,1.195, 2.612, 5.475,
-AddVertex,1.2, 2.58, 5.475,
+AddVertex,1.2, 2.58, 5.57, 0,1,0
+AddVertex,1.17, 2.612, 5.57, 0,1,0
+AddVertex,1.195, 2.612, 5.475, 0,1,0
+AddVertex,1.2, 2.58, 5.475, 0,1,0
 AddFace,0, 1, 2, 3
 SetEmissiveColor,255,255,255
 LoadTexture,doorsideL.png
@@ -186,10 +186,10 @@ SetDecalTransparentColor,0,0,255
 translate,-0.02,0,-1.95
 
 CreateMeshBuilder,
-AddVertex,1.2, 2.25, 5.66,
-AddVertex,1.2, 2.59, 5.66,
-AddVertex,1.2, 2.59, 5.48,
-AddVertex,1.2, 2.25, 5.48,
+AddVertex,1.2, 2.25, 5.66, 0,1,0
+AddVertex,1.2, 2.59, 5.66, 0,1,0
+AddVertex,1.2, 2.59, 5.48, 0,1,0
+AddVertex,1.2, 2.25, 5.48, 0,1,0
 AddFace,0, 1, 2, 3
 SetEmissiveColor,255,255,255
 LoadTexture,doorsideL.png
@@ -202,10 +202,10 @@ translate,-0.02,0,-1.95
 
 ;; HD EMG call button ;;
 CreateMeshBuilder,
-AddVertex,1.198, 2.292, 5.63,
-AddVertex,1.198, 2.553, 5.63,
-AddVertex,1.198, 2.553, 5.515,
-AddVertex,1.198, 2.292, 5.515,
+AddVertex,1.198, 2.292, 5.63, 0,1,0
+AddVertex,1.198, 2.553, 5.63, 0,1,0
+AddVertex,1.198, 2.553, 5.515, 0,1,0
+AddVertex,1.198, 2.292, 5.515, 0,1,0
 AddFace,0, 1, 2, 3
 SetEmissiveColor,255,255,255
 LoadTexture,../sticker.png
@@ -218,10 +218,10 @@ translate,-0.02,0,-1.95
 
 
 CreateMeshBuilder,
-AddVertex,1.195, 2.225, 5.66,
-AddVertex,1.2, 2.251, 5.66,
-AddVertex,1.2, 2.251, 5.57,
-AddVertex,1.17, 2.225, 5.57,
+AddVertex,1.195, 2.225, 5.66, 0,1,0
+AddVertex,1.2, 2.251, 5.66, 0,1,0
+AddVertex,1.2, 2.251, 5.57, 0,1,0
+AddVertex,1.17, 2.225, 5.57, 0,1,0
 AddFace,0, 1, 2, 3
 SetEmissiveColor,255,255,255
 LoadTexture,doorsideL.png
@@ -233,10 +233,10 @@ SetDecalTransparentColor,0,0,255
 translate,-0.02,0,-1.95
 
 CreateMeshBuilder,
-AddVertex,1.17, 2.225, 5.57,
-AddVertex,1.2, 2.251, 5.57,
-AddVertex,1.2, 2.251, 5.475,
-AddVertex,1.195, 2.225, 5.475,
+AddVertex,1.17, 2.225, 5.57, 0,1,0
+AddVertex,1.2, 2.251, 5.57, 0,1,0
+AddVertex,1.2, 2.251, 5.475, 0,1,0
+AddVertex,1.195, 2.225, 5.475, 0,1,0
 AddFace,0, 1, 2, 3
 SetEmissiveColor,255,255,255
 LoadTexture,doorsideL.png
