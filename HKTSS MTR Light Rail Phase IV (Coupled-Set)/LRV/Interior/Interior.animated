@@ -41,7 +41,6 @@ States = handrail.csv, Dark/handrail.csv
 Position = -0.1,0,4.55
 Statefunction = pluginState[99]
 
-
 [Object]
 States = handrail.csv, Dark/handrail.csv
 Position = -0.1,0,1
