@@ -27,7 +27,7 @@ RefreshRate = 0.1
 
 ;; Back Destination Sign ;;
 [Object]
-States = 610/Back.csv, 610/Back.csv, 705/Back.csv, 705/Back.csv, 706/Back.csv, 706/Back.csv, 505/Back.csv, 505/Back.csv, 507/Back.csv, 507/Back.csv, 507P/Back.csv, 614/Back.csv, 614/Back.csv, 614P/Back.csv, 614P/Back.csv, 615/Back.csv, 615/Back.csv, 615P/Back.csv, 615P/Back.csv, 751/Back.csv, 751/Back.csv, 751/Back.csv, 751P/Back.csv, 751P/Back.csv, 761P/Back.csv, 761P/Back.csv, ../null.csv, ../null.csv, 701/Back.csv, 506/Back.csv, 506/Back.csv
+States = 610/Back.csv, 610/Back.csv, 705/Back.csv, 705/Back.csv, 706/Back.csv, 706/Back.csv, 505/Back.csv, 505/Back.csv, 507/Back.csv, 507/Back.csv, 507P/Back.csv, 614/Back.csv, 614/Back.csv, 614P/Back.csv, 614P/Back.csv, 615/Back.csv, 615/Back.csv, 615P/Back.csv, 615P/Back.csv, 751/Back.csv, 751/Back.csv, 751/Back.csv, 751P/Back.csv, 751P/Back.csv, 761P/Back.csv, 761P/Back.csv, Empty/Back.csv, Empty/Back.csv, 701/Back.csv, 506/Back.csv, 506/Back.csv
 Position = -0.265,3.085,-10.329
 
 ;; Tilt the plate slightly ;;
