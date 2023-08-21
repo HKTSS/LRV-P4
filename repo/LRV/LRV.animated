@@ -1,4 +1,0 @@
-[Object]
-States = red_box.csv, empty.csv
-Position = 0,0,0
-Statefunction = Sanders == 0
