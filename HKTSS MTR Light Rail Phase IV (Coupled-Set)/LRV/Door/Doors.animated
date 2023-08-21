@@ -4,16 +4,31 @@ States = doorsideL.csv, Dark\doorsideL.csv
 Position = 0,0,-2.01
 Statefunction = pluginState[99]
 
+[Object]
+States = doorsideR.csv, Dark\doorsideR.csv
+Position = 0,0,-0.04
+Statefunction = pluginState[99]
+
 ;2;
 [Object]
 States = doorsideL.csv, Dark\doorsideL.csv
 Position = 0,0,-7.47
 Statefunction = pluginState[99]
 
+[Object]
+States = doorsideR.csv, Dark\doorsideR.csv
+Position = 0,0,-5.49
+Statefunction = pluginState[99]
+
 ;3;
 [Object]
 States = doorsideL.csv, Dark\doorsideL.csv
 Position = 0,0,-12.87
+Statefunction = pluginState[99]
+
+[Object]
+States = doorsideR.csv, Dark\doorsideR.csv
+Position = 0,0,-10.9
 Statefunction = pluginState[99]
 
 [Object]

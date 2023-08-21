@@ -1,46 +1,46 @@
 ;; Bottom Triangle ;;
 
 CreateMeshBuilder,
-AddVertex,1.34, 0.97, 5.8, 0,1,0
-AddVertex,1.34, 0.9, 5.75, 0,1,0
-AddVertex,1.25, 0.9, 5.75, 0,1,0
-AddVertex,1.25, 0.97, 5.8, 0,1,0
+AddVertex,1.25, 0.97, 5.75, 0,1,0
+AddVertex,1.25, 0.9, 5.8, 0,1,0
+AddVertex,1.34, 0.9, 5.8, 0,1,0
+AddVertex,1.34, 0.97, 5.75, 0,1,0
 AddFace,0, 1, 2, 3
-SetColor, 60,60,60
-LoadTexture, ../doorsideL.png
+SetEmissiveColor,255,255,255
+LoadTexture,doorsideR.png
 SetTextureCoordinates,0,1,0.84
 SetTextureCoordinates,1,1,0.91
 SetTextureCoordinates,2,0.78,0.91
 SetTextureCoordinates,3,0.78,0.84
-translate,-0.02,0,-2.27
+translate,-0.02,0,-2.04
 
 CreateMeshBuilder,
 AddVertex,1.34, 0.9, 5.8, 0,1,0
 AddVertex,1.34, 0.9, 5.75, 0,1,0
-AddVertex,1.34, 0.9, 5.75, 0,1,0
-AddVertex,1.34, 0.97, 5.8, 0,1,0
+AddVertex,1.34, 0.97, 5.75, 0,1,0
+AddVertex,1.34, 0.9, 5.8, 0,1,0
 AddFace,0, 1, 2, 3
-SetColor, 60,60,60
-LoadTexture, ../doorsideL.png
+SetEmissiveColor,255,255,255
+LoadTexture,doorsideR.png
 SetTextureCoordinates,0,1,0.92
 SetTextureCoordinates,1,1,1
 SetTextureCoordinates,2,0.78,1
 SetTextureCoordinates,3,0.78,0.92
-translate,-0.02,0,-2.27
+translate,-0.02,0,-2.04
 
 CreateMeshBuilder,
-AddVertex,1.25, 0.9, 5.75, 0,1,0
-AddVertex,1.25, 0.9, 5.75, 0,1,0
 AddVertex,1.25, 0.9, 5.8, 0,1,0
-AddVertex,1.25, 0.97, 5.8, 0,1,0
+AddVertex,1.25, 0.9, 5.8, 0,1,0
+AddVertex,1.25, 0.97, 5.75, 0,1,0
+AddVertex,1.25, 0.9, 5.75, 0,1,0
 AddFace,0, 1, 2, 3
-SetColor, 60,60,60
-LoadTexture, ../doorsideL.png
+SetEmissiveColor,255,255,255
+LoadTexture,doorsideR.png
 SetTextureCoordinates,0,1,0.92
 SetTextureCoordinates,1,1,1
 SetTextureCoordinates,2,0.78,1
 SetTextureCoordinates,3,0.78,0.92
-translate,-0.02,0,-2.27
+translate,-0.02,0,-2.04
 
 CreateMeshBuilder,
 AddVertex,1.35, 0.9, 5.66, 0,1,0
@@ -54,16 +54,16 @@ AddVertex,1.35, 2.90, 5.48, 0,1,0
 AddVertex,1.35, 0.9, 5.48, 0,1,0
 AddFace,0, 1, 2, 3
 AddFace,4, 5, 6, 7
-SetColor, 60,60,60
-LoadTexture, ../doorsideL.png
-SetTextureCoordinates,0,0.20,1
-SetTextureCoordinates,1,0.20,0
+SetEmissiveColor,255,255,255
+LoadTexture,doorsideR.png
+SetTextureCoordinates,0,0,1
+SetTextureCoordinates,1,0,0
 SetTextureCoordinates,2,0.245,0
 SetTextureCoordinates,3,0.245,1
 SetTextureCoordinates,4,0.245,1
 SetTextureCoordinates,5,0.245,0
-SetTextureCoordinates,6,0,0
-SetTextureCoordinates,7,0,1
+SetTextureCoordinates,6,0.20,0
+SetTextureCoordinates,7,0.20,1
 translate,-0.02,0,-1.95
 
 CreateMeshBuilder,
@@ -72,8 +72,8 @@ AddVertex,1.2, 2.9, 5.66, 0,1,0
 AddVertex,1.18, 2.9, 5.61, 0,1,0
 AddVertex,1.18, 0.9, 5.61, 0,1,0
 AddFace,0, 1, 2, 3
-SetColor, 60,60,60
-LoadTexture, ../doorsideL.png
+SetEmissiveColor,255,255,255
+LoadTexture,doorsideR.png
 SetTextureCoordinates,0,0.25,1,
 SetTextureCoordinates,1,0.25,0,
 SetTextureCoordinates,2,0.32,0
@@ -87,8 +87,8 @@ AddVertex,1.18, 2.9, 5.61, 0,1,0
 AddVertex,1.17, 2.9, 5.57, 0,1,0
 AddVertex,1.17, 0.9, 5.57, 0,1,0
 AddFace,0, 1, 2, 3
-SetColor, 60,60,60
-LoadTexture, ../doorsideL.png
+SetEmissiveColor,255,255,255
+LoadTexture,doorsideR.png
 SetTextureCoordinates,0,0.32,1,
 SetTextureCoordinates,1,0.32,0,
 SetTextureCoordinates,2,0.36,0
@@ -102,8 +102,8 @@ AddVertex,1.17, 2.9, 5.57, 0,1,0
 AddVertex,1.18, 2.9, 5.53, 0,1,0
 AddVertex,1.18, 0.9, 5.53, 0,1,0
 AddFace,0, 1, 2, 3
-SetColor, 60,60,60
-LoadTexture, ../doorsideL.png
+SetEmissiveColor,255,255,255
+LoadTexture,doorsideR.png
 SetTextureCoordinates,0,0.36,1,
 SetTextureCoordinates,1,0.36,0,
 SetTextureCoordinates,2,0.41,0
@@ -117,8 +117,8 @@ AddVertex,1.18, 2.9, 5.53, 0,1,0
 AddVertex,1.2, 2.9, 5.48, 0,1,0
 AddVertex,1.2, 0.9, 5.48, 0,1,0
 AddFace,0, 1, 2, 3
-SetColor, 60,60,60
-LoadTexture, ../doorsideL.png
+SetEmissiveColor,255,255,255
+LoadTexture,doorsideR.png
 SetTextureCoordinates,0,0.41,1,
 SetTextureCoordinates,1,0.41,0,
 SetTextureCoordinates,2,0.48,0
@@ -138,8 +138,8 @@ AddVertex,1.17, 2.12, 5.57, 0,1,0
 AddVertex,1.2, 2.09, 5.57, 0,1,0
 AddFace,0, 1, 2, 3
 AddFace,4, 5, 6, 7
-SetColor, 60,60,60
-LoadTexture, ../doorsideL.png
+SetEmissiveColor,255,255,255
+LoadTexture,doorsideR.png
 SetTextureCoordinates,0,0.85,0.082,
 SetTextureCoordinates,1,0.85,0.054,
 SetTextureCoordinates,2,1,0.054,
@@ -158,8 +158,8 @@ AddVertex,1.2, 2.11, 5.66, 0,1,0
 AddVertex,1.2, 2.11, 5.48, 0,1,0
 AddVertex,1.2, 1.41, 5.48, 0,1,0
 AddFace,0, 1, 2, 3
-SetColor, 60,60,60
-LoadTexture, ../doorsideL.png
+SetEmissiveColor,255,255,255
+LoadTexture,doorsideR.png
 SetTextureCoordinates,0,0.78,0.7,
 SetTextureCoordinates,1,0.78,0.423,
 SetTextureCoordinates,2,1,0.423,
@@ -173,8 +173,8 @@ AddVertex,1.17, 1.38, 5.57, 0,1,0
 AddVertex,1.2, 1.38, 5.66, 0,1,0
 AddVertex,1.2, 1.41, 5.66, 0,1,0
 AddFace,0, 1, 2, 3
-SetColor, 60,60,60
-LoadTexture, ../doorsideL.png
+SetEmissiveColor,255,255,255
+LoadTexture,doorsideR.png
 SetTextureCoordinates,0,0.78,0.082,
 SetTextureCoordinates,1,0.78,0.054,
 SetTextureCoordinates,2,1,0.054,
@@ -188,8 +188,8 @@ AddVertex,1.2, 1.38, 5.48, 0,1,0
 AddVertex,1.17, 1.38, 5.57, 0,1,0
 AddVertex,1.2, 1.41, 5.57, 0,1,0
 AddFace,0, 1, 2, 3
-SetColor, 60,60,60
-LoadTexture, ../doorsideL.png
+SetEmissiveColor,255,255,255
+LoadTexture,doorsideR.png
 SetTextureCoordinates,0,0.71,0.082,
 SetTextureCoordinates,1,0.71,0.054,
 SetTextureCoordinates,2,0.85,0.054,
@@ -197,105 +197,11 @@ SetTextureCoordinates,3,0.85,0.082,
 SetDecalTransparentColor,0,0,255
 translate,-0.02,0,-1.95
 
-;;Yellow;;
-
-CreateMeshBuilder,
-AddVertex,1.2, 2.58, 5.66, 0,1,0
-AddVertex,1.195, 2.612, 5.66, 0,1,0
-AddVertex,1.17, 2.612, 5.57, 0,1,0
-AddVertex,1.2, 2.58, 5.57, 0,1,0
-AddFace,0, 1, 2, 3
-SetColor, 60,60,60
-LoadTexture, ../doorsideL.png
-SetTextureCoordinates,0,0.71,0.042,
-SetTextureCoordinates,1,0.71,0,
-SetTextureCoordinates,2,0.86,0,
-SetTextureCoordinates,3,0.86,0.042,
-SetDecalTransparentColor,0,0,255
-translate,-0.02,0,-1.95
-
-CreateMeshBuilder,
-AddVertex,1.2, 2.58, 5.57, 0,1,0
-AddVertex,1.17, 2.612, 5.57, 0,1,0
-AddVertex,1.195, 2.612, 5.475, 0,1,0
-AddVertex,1.2, 2.58, 5.475, 0,1,0
-AddFace,0, 1, 2, 3
-SetColor, 60,60,60
-LoadTexture, ../doorsideL.png
-SetTextureCoordinates,0,0.86,0.042,
-SetTextureCoordinates,1,0.86,0,
-SetTextureCoordinates,2,1,0,
-SetTextureCoordinates,3,1,0.042,
-SetDecalTransparentColor,0,0,255
-translate,-0.02,0,-1.95
-
-CreateMeshBuilder,
-AddVertex,1.2, 2.25, 5.66, 0,1,0
-AddVertex,1.2, 2.59, 5.66, 0,1,0
-AddVertex,1.2, 2.59, 5.48, 0,1,0
-AddVertex,1.2, 2.25, 5.48, 0,1,0
-AddFace,0, 1, 2, 3
-SetColor, 60,60,60
-LoadTexture, ../doorsideL.png
-SetTextureCoordinates,0,0.78,0.32,
-SetTextureCoordinates,1,0.78,0.16,
-SetTextureCoordinates,2,1,0.16,
-SetTextureCoordinates,3,1,0.32,
-SetDecalTransparentColor,0,0,255
-translate,-0.02,0,-1.95
-
-;; HD EMG call button ;;
-CreateMeshBuilder,
-AddVertex,1.198, 2.292, 5.63, 0,1,0
-AddVertex,1.198, 2.553, 5.63, 0,1,0
-AddVertex,1.198, 2.553, 5.515, 0,1,0
-AddVertex,1.198, 2.292, 5.515, 0,1,0
-AddFace,0, 1, 2, 3
-SetColor, 60,60,60
-LoadTexture, ../../sticker.png
-SetTextureCoordinates,0,0.791,0.509,
-SetTextureCoordinates,1,0.791,0.36,
-SetTextureCoordinates,2,0.855,0.36,
-SetTextureCoordinates,3,0.855,0.509,
-SetDecalTransparentColor,0,0,255
-translate,-0.02,0,-1.95
-
-
-CreateMeshBuilder,
-AddVertex,1.195, 2.225, 5.66, 0,1,0
-AddVertex,1.2, 2.251, 5.66, 0,1,0
-AddVertex,1.2, 2.251, 5.57, 0,1,0
-AddVertex,1.17, 2.225, 5.57, 0,1,0
-AddFace,0, 1, 2, 3
-SetColor, 60,60,60
-LoadTexture, ../doorsideL.png
-SetTextureCoordinates,0,0.71,0.085,
-SetTextureCoordinates,1,0.71,0.11,
-SetTextureCoordinates,2,0.86,0.11,
-SetTextureCoordinates,3,0.86,0.085,
-SetDecalTransparentColor,0,0,255
-translate,-0.02,0,-1.95
-
-CreateMeshBuilder,
-AddVertex,1.17, 2.225, 5.57, 0,1,0
-AddVertex,1.2, 2.251, 5.57, 0,1,0
-AddVertex,1.2, 2.251, 5.475, 0,1,0
-AddVertex,1.195, 2.225, 5.475, 0,1,0
-AddFace,0, 1, 2, 3
-SetColor, 60,60,60
-LoadTexture, ../doorsideL.png
-SetTextureCoordinates,0,0.86,0.085,
-SetTextureCoordinates,1,0.86,0.11,
-SetTextureCoordinates,2,1,0.11,
-SetTextureCoordinates,3,1,0.085,
-SetDecalTransparentColor,0,0,255
-translate,-0.02,0,-1.95
-
 ;;HANDLE;;
 CreateMeshBuilder,
 Cylinder,6,0.018,0.018,0.09
-SetColor,90,90,90
-LoadTexture, ../../Interior/yl_handrail.png
+SetEmissiveColor,255,255,255
+LoadTexture, ../Interior/yl_handrail.png
 SetTextureCoordinates, 0,0.2,0
 SetTextureCoordinates, 1,0.2,0.6
 SetTextureCoordinates, 2,0,0
@@ -313,8 +219,8 @@ Translate,1.175,1.46,3.62
 
 CreateMeshBuilder,
 Cylinder,6,0.018,0.018,0.09
-SetColor,90,90,90
-LoadTexture, ../../Interior/yl_handrail.png
+SetEmissiveColor,255,255,255
+LoadTexture, ../Interior/yl_handrail.png
 SetTextureCoordinates, 0,0.2,0
 SetTextureCoordinates, 1,0.2,0.6
 SetTextureCoordinates, 2,0,0
@@ -332,8 +238,8 @@ Translate,1.14,1.54,3.62
 
 CreateMeshBuilder,
 Cylinder,6,0.018,0.018,0.05
-SetColor,90,90,90
-LoadTexture, ../../Interior/yl_handrail.png
+SetEmissiveColor,255,255,255
+LoadTexture, ../Interior/yl_handrail.png
 SetTextureCoordinates, 0,0.2,0
 SetTextureCoordinates, 1,0.2,0.25
 SetTextureCoordinates, 2,0,0
@@ -351,8 +257,8 @@ Translate,1.1158,1.602,3.62
 
 CreateMeshBuilder,
 Cylinder,6,0.018,0.018,0.05
-SetColor,90,90,90
-LoadTexture, ../../Interior/yl_handrail.png
+SetEmissiveColor,255,255,255
+LoadTexture, ../Interior/yl_handrail.png
 SetTextureCoordinates, 0,0.2,0
 SetTextureCoordinates, 1,0.2,0.25
 SetTextureCoordinates, 2,0,0
@@ -370,8 +276,8 @@ Translate,1.1035,1.648,3.62
 
 CreateMeshBuilder,
 Cylinder,6,0.018,0.018,0.05
-SetColor,90,90,90
-LoadTexture, ../../Interior/yl_handrail.png
+SetEmissiveColor,255,255,255
+LoadTexture, ../Interior/yl_handrail.png
 SetTextureCoordinates, 0,0.2,0
 SetTextureCoordinates, 1,0.2,0.25
 SetTextureCoordinates, 2,0,0
@@ -389,8 +295,8 @@ Translate,1.0953,1.6947,3.62
 
 CreateMeshBuilder,
 Cylinder,6,0.018,0.018,0.05
-SetColor,90,90,90
-LoadTexture, ../../Interior/yl_handrail.png
+SetEmissiveColor,255,255,255
+LoadTexture, ../Interior/yl_handrail.png
 SetTextureCoordinates, 0,0.2,0
 SetTextureCoordinates, 1,0.2,0.25
 SetTextureCoordinates, 2,0,0
@@ -408,8 +314,8 @@ Translate,1.0913,1.7425,3.62
 
 CreateMeshBuilder,
 Cylinder,6,0.018,0.018,0.06
-SetColor,90,90,90
-LoadTexture, ../../Interior/yl_handrail.png
+SetEmissiveColor,255,255,255
+LoadTexture, ../Interior/yl_handrail.png
 SetTextureCoordinates, 0,0.2,0
 SetTextureCoordinates, 1,0.2,0.25
 SetTextureCoordinates, 2,0,0
@@ -427,8 +333,8 @@ Translate,1.0919,1.796,3.62
 
 CreateMeshBuilder,
 Cylinder,6,0.018,0.018,0.05
-SetColor,90,90,90
-LoadTexture, ../../Interior/yl_handrail.png
+SetEmissiveColor,255,255,255
+LoadTexture, ../Interior/yl_handrail.png
 SetTextureCoordinates, 0,0.2,0
 SetTextureCoordinates, 1,0.2,0.25
 SetTextureCoordinates, 2,0,0
@@ -446,8 +352,8 @@ Translate,1.097,1.849,3.62
 
 CreateMeshBuilder,
 Cylinder,6,0.018,0.018,0.05
-SetColor,90,90,90
-LoadTexture, ../../Interior/yl_handrail.png
+SetEmissiveColor,255,255,255
+LoadTexture, ../Interior/yl_handrail.png
 SetTextureCoordinates, 0,0.2,0
 SetTextureCoordinates, 1,0.2,0.25
 SetTextureCoordinates, 2,0,0
@@ -465,8 +371,8 @@ Translate,1.1067,1.897,3.62
 
 CreateMeshBuilder,
 Cylinder,6,0.018,0.018,0.05
-SetColor,90,90,90
-LoadTexture, ../../Interior/yl_handrail.png
+SetEmissiveColor,255,255,255
+LoadTexture, ../Interior/yl_handrail.png
 SetTextureCoordinates, 0,0.2,0
 SetTextureCoordinates, 1,0.2,0.25
 SetTextureCoordinates, 2,0,0
@@ -484,8 +390,8 @@ Translate,1.1215,1.942,3.62
 
 CreateMeshBuilder,
 Cylinder,6,0.018,0.018,0.05
-SetColor,90,90,90
-LoadTexture, ../../Interior/yl_handrail.png
+SetEmissiveColor,255,255,255
+LoadTexture, ../Interior/yl_handrail.png
 SetTextureCoordinates, 0,0.2,0
 SetTextureCoordinates, 1,0.2,0.25
 SetTextureCoordinates, 2,0,0
@@ -503,8 +409,8 @@ Translate,1.140,1.985,3.62
 
 CreateMeshBuilder,
 Cylinder,6,0.018,0.018,0.05
-SetColor,90,90,90
-LoadTexture, ../../Interior/yl_handrail.png
+SetEmissiveColor,255,255,255
+LoadTexture, ../Interior/yl_handrail.png
 SetTextureCoordinates, 0,0.2,0
 SetTextureCoordinates, 1,0.2,0.25
 SetTextureCoordinates, 2,0,0
@@ -522,8 +428,8 @@ Translate,1.161,2.0265,3.62
 
 CreateMeshBuilder,
 Cylinder,6,0.018,0.018,0.05
-SetColor,90,90,90
-LoadTexture, ../../Interior/yl_handrail.png
+SetEmissiveColor,255,255,255
+LoadTexture, ../Interior/yl_handrail.png
 SetTextureCoordinates, 0,0.2,0
 SetTextureCoordinates, 1,0.2,0.25
 SetTextureCoordinates, 2,0,0

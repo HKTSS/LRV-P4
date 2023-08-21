@@ -730,6 +730,7 @@ TranslateAll,0,-0.11,0
 CreateMeshBuilder,
 Cylinder, 15, 0.03, 0.03, 0.3
 LoadTexture, ../pole_color.png
+SetColor, 90,90,90
 SetTextureCoordinates,0, 1, 0
 SetTextureCoordinates,1, 0.9, 1
 SetTextureCoordinates,2, 0.8, 0
