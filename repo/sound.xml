@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openBVE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CarSounds>
+		<Sanders>
+			<Loop>Sound/sander_loop.wav</Loop>
+			<DeActivate>Sound/sander_deactivate.wav</DeActivate>
+		</Sanders>
+	</CarSounds>
+</openBVE>

@@ -17,3 +17,8 @@ Interior/Interior.animated
 States = null.csv, LED/Empty/E.csv
 Position = 0,0,0
 Statefunction = pluginstate[213]
+
+[Object]
+States = t.csv, null.csv
+Position = 0,0,0
+Statefunction = Sanders == 0
