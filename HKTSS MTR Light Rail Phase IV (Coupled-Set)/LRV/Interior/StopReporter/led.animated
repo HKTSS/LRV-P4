@@ -1,4 +1,6 @@
 [Include]
+HKDUAT/KTL/led.animated
+HKLRT/610/led.animated
 HKLRT/705706/led.animated
 
 [Object]

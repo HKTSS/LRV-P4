@@ -1,9 +1,9 @@
 ;;  ;;
-[Object]
-States = ../../null.csv, 0.csv, 1TIT_EN.csv, ../../null.csv
-Position = 0,0,0
-TextureShiftXFunction = (pluginState[127] / 1000) * 0.5
-StateFunction = pluginState[126]
+;[Object]
+;States = ../../null.csv, 0LRD_ZH.csv, 0LRD_EN.csv, ../../null.csv
+;Position = 0,0,0
+;TextureShiftXFunction = (pluginState[127] / 1000) * 0.5
+;StateFunction = pluginState[126]
 
 ;; Tin Tsz ;;
 ;[Object]

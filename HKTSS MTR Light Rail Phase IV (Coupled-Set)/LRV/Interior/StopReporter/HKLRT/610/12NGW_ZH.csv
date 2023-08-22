@@ -7,7 +7,7 @@ AddVertex, -0.355, 3.237, 1.891,
 AddVertex, -0.355, 3.170, 1.891,
 AddFace,0,1,2,3
 SetEmissiveColor,255,255,255
-LoadTexture,Tex\mld3.png
+LoadTexture,tex\NGW.png
 SetTextureCoordinates,0,0,0.5,
 SetTextureCoordinates,1,0,0,
 SetTextureCoordinates,2,0.5,0,
