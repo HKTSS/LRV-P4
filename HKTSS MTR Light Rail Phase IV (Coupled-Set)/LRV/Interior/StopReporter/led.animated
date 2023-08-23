@@ -1,5 +1,7 @@
 [Include]
-HKDUAT/KTL/led.animated
+HKHR/KTL/led.animated
+HKHR/TWL/led.animated
+HKHR/Interchange/led.animated
 HKLRT/610/led.animated
 HKLRT/705706/led.animated
 

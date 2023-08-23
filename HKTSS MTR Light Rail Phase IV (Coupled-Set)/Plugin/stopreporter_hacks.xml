@@ -159,6 +159,61 @@
         <Keyword>黃埔 Whampoa</Keyword>
         <Destination>11016</Destination>
     </Station>
+    
+    <Station>
+        <Keyword>尖沙咀</Keyword>
+        <Keyword>Tsim Sha Tsui</Keyword>
+        <Keyword>尖沙咀 Tsim Sha Tsui</Keyword>
+        <Destination>12002</Destination>
+    </Station>
+    <Station>
+        <Keyword>佐敦</Keyword>
+        <Keyword>Jordan</Keyword>
+        <Keyword>佐敦 Jordan</Keyword>
+        <Destination>12003</Destination>
+    </Station>
+    <Station>
+        <Keyword>深水埗</Keyword>
+        <Keyword>Sham Shui Po</Keyword>
+        <Keyword>深水埗 Sham Shui Po</Keyword>
+        <Destination>12007</Destination>
+    </Station>
+    <Station>
+        <Keyword>長沙灣</Keyword>
+        <Keyword>Cheung Sha Wan</Keyword>
+        <Keyword>長沙灣 Cheung Sha Wan</Keyword>
+        <Destination>12008</Destination>
+    </Station>
+    <Station>
+        <Keyword>荔枝角</Keyword>
+        <Keyword>Lai Chi Kok</Keyword>
+        <Keyword>荔枝角 Lai Chi Kok</Keyword>
+        <Destination>12009</Destination>
+    </Station>
+    <Station>
+        <Keyword>葵芳</Keyword>
+        <Keyword>Kwai Fong</Keyword>
+        <Keyword>葵芳 Kwai Fong</Keyword>
+        <Destination>12012</Destination>
+    </Station>
+    <Station>
+        <Keyword>葵興</Keyword>
+        <Keyword>Kwai Hing</Keyword>
+        <Keyword>葵興 Kwai Hing</Keyword>
+        <Destination>12013</Destination>
+    </Station>
+    <Station>
+        <Keyword>大窩口</Keyword>
+        <Keyword>Tai Wo Hau</Keyword>
+        <Keyword>大窩口 Tai Wo Hau</Keyword>
+        <Destination>12014</Destination>
+    </Station>
+    <Station>
+        <Keyword>荃灣</Keyword>
+        <Keyword>Tsuen Wan</Keyword>
+        <Keyword>荃灣 Tsuen Wan</Keyword>
+        <Destination>12015</Destination>
+    </Station>
 
     
     
@@ -213,5 +268,29 @@
         <Keyword>Ho Man Tin</Keyword>
         <Keyword>何文田 Ho Man Tin</Keyword>
         <Destination>19007</Destination>
+    </Station>
+    <Station>
+        <Keyword>金鐘</Keyword>
+        <Keyword>Admiralty</Keyword>
+        <Keyword>金鐘 Admiralty</Keyword>
+        <Destination>19008</Destination>
+    </Station>
+    <Station>
+        <Keyword>中環</Keyword>
+        <Keyword>Central</Keyword>
+        <Keyword>中環 Central</Keyword>
+        <Destination>19009</Destination>
+    </Station>
+    <Station>
+        <Keyword>美孚</Keyword>
+        <Keyword>Mei Foo</Keyword>
+        <Keyword>美孚 Mei Foo</Keyword>
+        <Destination>19010</Destination>
+    </Station>
+    <Station>
+        <Keyword>荔景</Keyword>
+        <Keyword>Lai King</Keyword>
+        <Keyword>荔景 Lai King</Keyword>
+        <Destination>19011</Destination>
     </Station>
 </Data>
