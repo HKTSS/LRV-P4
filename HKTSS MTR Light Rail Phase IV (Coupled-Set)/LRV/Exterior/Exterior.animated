@@ -2,6 +2,7 @@
 Head/Head.animated
 TurnSignal/signal.animated
 Bogie/bogie.animated
+Pantograph/pan.animated
 
 [Object]
 States = outside.csv
@@ -10,10 +11,6 @@ Position = 0,0,0
 [Object]
 States = skirt.csv
 Position = 0,0,0
-
-[Object]
-States = pantograph/pan.csv
-Position = 0,-0.15,0
 
 [Object]
 States = aircon.csv
