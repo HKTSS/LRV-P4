@@ -214,6 +214,79 @@
         <Keyword>荃灣 Tsuen Wan</Keyword>
         <Destination>12015</Destination>
     </Station>
+    
+    
+    
+    
+    
+    <Station>
+        <Keyword>將軍澳</Keyword>
+        <Keyword>Tseung Kwan O</Keyword>
+        <Keyword>將軍澳 Tseung Kwan O</Keyword>
+        <Destination>14004</Destination>
+    </Station>
+    <Station>
+        <Keyword>坑口</Keyword>
+        <Keyword>Hang Hau</Keyword>
+        <Keyword>坑口 Hang Hau</Keyword>
+        <Destination>14005</Destination>
+    </Station>
+    <Station>
+        <Keyword>寶琳</Keyword>
+        <Keyword>Po Lam</Keyword>
+        <Keyword>寶琳 Po Lam</Keyword>
+        <Destination>14006</Destination>
+    </Station>
+    <Station>
+        <Keyword>康城</Keyword>
+        <Keyword>LOHAS Park</Keyword>
+        <Keyword>康城 LOHAS Park</Keyword>
+        <Destination>14007</Destination>
+    </Station>
+    
+    
+    
+    
+    
+    
+    <Station>
+        <Keyword>海洋公園</Keyword>
+        <Keyword>Ocean Park</Keyword>
+        <Keyword>海洋公園 Ocean Park</Keyword>
+        <Destination>15001</Destination>
+    </Station>
+    <Station>
+        <Keyword>黃竹坑</Keyword>
+        <Keyword>Wong Chuk Hang</Keyword>
+        <Keyword>黃竹坑 Wong Chuk Hang</Keyword>
+        <Destination>15002</Destination>
+    </Station>
+    <Station>
+        <Keyword>利東</Keyword>
+        <Keyword>Lei Tung</Keyword>
+        <Keyword>利東 Lei Tung</Keyword>
+        <Destination>15003</Destination>
+    </Station>
+    <Station>
+        <Keyword>海怡半島</Keyword>
+        <Keyword>South Horizons</Keyword>
+        <Keyword>海怡半島 South Horizons</Keyword>
+        <Destination>15004</Destination>
+    </Station>
+    
+    
+    
+    
+    
+    
+    
+    
+    <Station>
+        <Keyword>迪士尼</Keyword>
+        <Keyword>Disneyland Resort</Keyword>
+        <Keyword>迪士尼 Disneyland Resort</Keyword>
+        <Destination>17001</Destination>
+    </Station>
 
     
     
@@ -292,5 +365,18 @@
         <Keyword>Lai King</Keyword>
         <Keyword>荔景 Lai King</Keyword>
         <Destination>19011</Destination>
+    </Station>
+    <Station>
+        <Keyword>北角</Keyword>
+        <Keyword>North Point</Keyword>
+        <Keyword>北角 North Point</Keyword>
+        <Destination>19012</Destination>
+    </Station>
+    <Station>
+        <Keyword>鰂魚涌</Keyword>
+        <Keyword>則魚涌</Keyword>
+        <Keyword>Quarry Bay</Keyword>
+        <Keyword>鰂魚涌 Quarry Bay</Keyword>
+        <Destination>19013</Destination>
     </Station>
 </Data>

@@ -13,18 +13,20 @@ CEN: 19009
 MEF: 19010
 LAK: 19011
 
-NAC: 19012
-SUN: 19013
+NOP: 19012
+QUB: 19013
 
-NOP: 19014
-QUB: 19015
-
+NAC: 19014
+SUN: 19015
 
 
 ---
-KTL: 11xxx
-TWL: 12xxx
+KTL: 11xxx +
+TWL: 12xxx +
 ISL: 13xxx
-TKL: 14xxx
-TCLAEL: 15xxx
-DRL: 16xxx
+TKL: 14xxx +
+SIL: 15xxx +
+TCLAEL: 16xxx
+DRL: 17xxx +
+EAL: 18xxx
+TML: 19xxx
