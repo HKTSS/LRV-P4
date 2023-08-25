@@ -1,7 +1,0 @@
-[Include]
-3Dcab/cab.animated
-Position = 0,0,0
-
-[Include]
-3Dcab/Wiper/wiper.animated
-Position = 0,0,0

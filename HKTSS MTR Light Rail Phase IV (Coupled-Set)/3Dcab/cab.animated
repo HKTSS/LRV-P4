@@ -17,6 +17,9 @@ Position = 0.17,-0.05,-0.19
 [Include]
 iSPS/iSPS.animated
 
+[Include]
+Wiper/wiper.animated
+
 ;; Head crashed ;;
 [Object]
 States = ../LRV/null.csv, glass_cracked.csv
