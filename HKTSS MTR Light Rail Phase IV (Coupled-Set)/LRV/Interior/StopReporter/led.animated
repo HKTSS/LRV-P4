@@ -1,6 +1,7 @@
 [Include]
 HKHR/KTL/led.animated
 HKHR/TWL/led.animated
+HKHR/ISL/led.animated
 HKHR/TKL/led.animated
 HKHR/SIL/led.animated
 HKHR/DRL/led.animated

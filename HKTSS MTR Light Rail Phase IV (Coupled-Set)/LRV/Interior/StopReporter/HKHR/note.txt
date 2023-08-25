@@ -23,7 +23,7 @@ SUN: 19015
 ---
 KTL: 11xxx +
 TWL: 12xxx +
-ISL: 13xxx
+ISL: 13xxx +
 TKL: 14xxx +
 SIL: 15xxx +
 TCLAEL: 16xxx

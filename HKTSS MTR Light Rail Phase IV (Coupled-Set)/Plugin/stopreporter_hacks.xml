@@ -220,6 +220,89 @@
     
     
     <Station>
+        <Keyword>堅尼地城</Keyword>
+        <Keyword>Kennedy Town</Keyword>
+        <Keyword>堅尼地城 Kennedy Town</Keyword>
+        <Destination>13000</Destination>
+    </Station>
+    <Station>
+        <Keyword>香港大學</Keyword>
+        <Keyword>HKU</Keyword>
+        <Keyword>香港大學 HKU</Keyword>
+        <Destination>13001</Destination>
+    </Station>
+    <Station>
+        <Keyword>西營盤</Keyword>
+        <Keyword>Sai Ying Pun</Keyword>
+        <Keyword>西營盤 Sai Ying Pun</Keyword>
+        <Destination>13002</Destination>
+    </Station>
+    <Station>
+        <Keyword>上環</Keyword>
+        <Keyword>Sheung Wan</Keyword>
+        <Keyword>上環 Sheung Wan</Keyword>
+        <Destination>13003</Destination>
+    </Station>
+    <Station>
+        <Keyword>灣仔</Keyword>
+        <Keyword>Wan Chai</Keyword>
+        <Keyword>灣仔 Wan Chai</Keyword>
+        <Destination>13006</Destination>
+    </Station>
+    <Station>
+        <Keyword>銅鑼灣</Keyword>
+        <Keyword>Causeway Bay</Keyword>
+        <Keyword>銅鑼灣 Causeway Bay</Keyword>
+        <Destination>13007</Destination>
+    </Station>
+    <Station>
+        <Keyword>天后</Keyword>
+        <Keyword>Tin Hau</Keyword>
+        <Keyword>天后 Tin Hau</Keyword>
+        <Destination>13008</Destination>
+    </Station>
+    <Station>
+        <Keyword>炮台山</Keyword>
+        <Keyword>Fortress Hill</Keyword>
+        <Keyword>炮台山 Fortress Hill</Keyword>
+        <Destination>13009</Destination>
+    </Station>
+    <Station>
+        <Keyword>太古</Keyword>
+        <Keyword>Tai Koo</Keyword>
+        <Keyword>太古 Tai Koo</Keyword>
+        <Destination>13012</Destination>
+    </Station>
+    <Station>
+        <Keyword>西灣河</Keyword>
+        <Keyword>Sai Wan Ho</Keyword>
+        <Keyword>西灣河 Sai Wan Ho</Keyword>
+        <Destination>13013</Destination>
+    </Station>
+    <Station>
+        <Keyword>筲箕灣</Keyword>
+        <Keyword>Shau Kei Wan</Keyword>
+        <Keyword>筲箕灣 Shau Kei Wan</Keyword>
+        <Destination>13014</Destination>
+    </Station>
+    <Station>
+        <Keyword>杏花邨</Keyword>
+        <Keyword>Heng Fa Chuen</Keyword>
+        <Keyword>杏花邨 Heng Fa Chuen</Keyword>
+        <Destination>13015</Destination>
+    </Station>
+    <Station>
+        <Keyword>柴灣</Keyword>
+        <Keyword>Chai Wan</Keyword>
+        <Keyword>柴灣 Chai Wan</Keyword>
+        <Destination>13016</Destination>
+    </Station>
+    
+    
+    
+    
+    
+    <Station>
         <Keyword>將軍澳</Keyword>
         <Keyword>Tseung Kwan O</Keyword>
         <Keyword>將軍澳 Tseung Kwan O</Keyword>
