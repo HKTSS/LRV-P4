@@ -5,6 +5,7 @@ LED/RunNo.animated
 CarNum/CarNum.animated
 Window/windows.animated
 ../3DCab/cab.animated
+../3DCab/Wiper/wiper.animated
 
 [Include]
 Exterior/Exterior.animated

@@ -17,9 +17,10 @@ public class OpenBVEScript {
 		isZAxis = args["isZ"] == "true";
 	}
 
-	public double ExecuteScript(AbstractTrain Train, int CarIndex, Vector3 Position, double TrackPosition, 
-		int SectionIndex, bool IsPartOfTrain, double TimeElapsed, int CurrentState) {
-		ElapsedTime += TimeElapsed;
+	public double ExecuteScript(AbstractTrain Train, int CarIndex, Vector3 Position, double TrackPosition, int SectionIndex, bool IsPartOfTrain, double TimeElapsed, int CurrentState) {
+		if(CarIndex <= 0) {
+			ElapsedTime += TimeElapsed;
+		}
 		
 		double wiperProgress = GetWiperProgress();
 		
@@ -28,7 +29,7 @@ public class OpenBVEScript {
 			ElapsedTime = TimeElapsed;
 		}
 		
-		return GetWiperValue(wiperProgress);
+		return CarIndex > 0 ? GetWiperValue(0) : GetWiperValue(wiperProgress);
 	}
 	
 	private double GetWiperProgress() {
