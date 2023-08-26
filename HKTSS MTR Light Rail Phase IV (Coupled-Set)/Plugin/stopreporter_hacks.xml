@@ -363,6 +363,56 @@
     
     
     
+    <Station>
+        <Keyword>香港</Keyword>
+        <Keyword>Hong Kong</Keyword>
+        <Keyword>香港 Hong Kong</Keyword>
+        <Destination>16000</Destination>
+    </Station>
+    <Station>
+        <Keyword>九龍</Keyword>
+        <Keyword>Kowloon</Keyword>
+        <Keyword>九龍 Kowloon</Keyword>
+        <Destination>16001</Destination>
+    </Station>
+    <Station>
+        <Keyword>奧運</Keyword>
+        <Keyword>Olympic</Keyword>
+        <Keyword>奧運 Olympic</Keyword>
+        <Destination>16002</Destination>
+    </Station>
+    <Station>
+        <Keyword>青衣</Keyword>
+        <Keyword>Tsing Yi</Keyword>
+        <Keyword>青衣 Tsing Yi</Keyword>
+        <Destination>16005</Destination>
+    </Station>
+    <Station>
+        <Keyword>東涌</Keyword>
+        <Keyword>Tung Chung</Keyword>
+        <Keyword>東涌 Tung Chung</Keyword>
+        <Destination>16007</Destination>
+    </Station>
+    <Station>
+        <Keyword>機場</Keyword>
+        <Keyword>Airport</Keyword>
+        <Keyword>機場 Airport</Keyword>
+        <Destination>16008</Destination>
+    </Station>
+    <Station>
+        <Keyword>博覽館</Keyword>
+        <Keyword>AsiaWorld-Expo</Keyword>
+        <Keyword>Asia-World Expo</Keyword>
+        <Keyword>博覽館 AsiaWorld-Expo</Keyword>
+        <Destination>16009</Destination>
+    </Station>
+    
+    
+    
+    
+    
+    
+    
     
     <Station>
         <Keyword>迪士尼</Keyword>
@@ -461,5 +511,17 @@
         <Keyword>Quarry Bay</Keyword>
         <Keyword>鰂魚涌 Quarry Bay</Keyword>
         <Destination>19013</Destination>
+    </Station>
+    <Station>
+        <Keyword>南昌</Keyword>
+        <Keyword>Nam Cheong</Keyword>
+        <Keyword>南昌 Nam Cheong</Keyword>
+        <Destination>19014</Destination>
+    </Station>
+    <Station>
+        <Keyword>欣澳</Keyword>
+        <Keyword>Sunny Bay</Keyword>
+        <Keyword>欣澳 Sunny Bay</Keyword>
+        <Destination>19015</Destination>
     </Station>
 </Data>
