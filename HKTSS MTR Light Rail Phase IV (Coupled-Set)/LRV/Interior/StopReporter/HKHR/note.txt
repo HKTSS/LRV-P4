@@ -19,6 +19,9 @@ QUB: 19013
 NAC: 19014
 SUN: 19015
 
+TAW: 19016
+HUH: 19017
+
 
 ---
 KTL: 11xxx +
@@ -28,5 +31,5 @@ TKL: 14xxx +
 SIL: 15xxx +
 LAR: 16xxx +
 DRL: 17xxx +
-EAL: 18xxx
+EAL: 18xxx +
 TML: 19xxx

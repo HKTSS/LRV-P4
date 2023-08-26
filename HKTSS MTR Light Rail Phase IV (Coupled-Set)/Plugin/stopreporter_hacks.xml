@@ -407,6 +407,79 @@
         <Destination>16009</Destination>
     </Station>
     
+    <Station>
+        <Keyword>羅湖</Keyword>
+        <Keyword>Lo Wu</Keyword>
+        <Keyword>羅湖 Lo Wu</Keyword>
+        <Destination>18000</Destination>
+    </Station>
+    <Station>
+        <Keyword>落馬洲</Keyword>
+        <Keyword>Lok Ma Chau</Keyword>
+        <Keyword>落馬洲 Lok Ma Chau</Keyword>
+        <Destination>18001</Destination>
+    </Station>
+    <Station>
+        <Keyword>上水</Keyword>
+        <Keyword>Sheung Shui</Keyword>
+        <Keyword>上水 Sheung Shui</Keyword>
+        <Destination>18002</Destination>
+    </Station>
+    <Station>
+        <Keyword>粉嶺</Keyword>
+        <Keyword>Fanling</Keyword>
+        <Keyword>粉嶺 Fanling</Keyword>
+        <Destination>18003</Destination>
+    </Station>
+    <Station>
+        <Keyword>太和</Keyword>
+        <Keyword>Tai Wo</Keyword>
+        <Keyword>太和 Tai Wo</Keyword>
+        <Destination>18004</Destination>
+    </Station>
+    <Station>
+        <Keyword>大埔墟</Keyword>
+        <Keyword>Tai Po Market</Keyword>
+        <Keyword>大埔墟 Tai Po Market</Keyword>
+        <Destination>18005</Destination>
+    </Station>
+    <Station>
+        <Keyword>大學</Keyword>
+        <Keyword>University</Keyword>
+        <Keyword>大學 University</Keyword>
+        <Destination>18006</Destination>
+    </Station>
+    <Station>
+        <Keyword>馬場</Keyword>
+        <Keyword>Racecourse</Keyword>
+        <Keyword>馬場 Racecourse</Keyword>
+        <Destination>18097</Destination>
+    </Station>
+    <Station>
+        <Keyword>火炭</Keyword>
+        <Keyword>Fo Tan</Keyword>
+        <Keyword>火炭 Fo Tan</Keyword>
+        <Destination>18007</Destination>
+    </Station>
+    <Station>
+        <Keyword>沙田</Keyword>
+        <Keyword>Sha Tin</Keyword>
+        <Keyword>沙田 Sha Tin</Keyword>
+        <Destination>18008</Destination>
+    </Station>
+    <Station>
+        <Keyword>旺角東</Keyword>
+        <Keyword>Mong Kok East</Keyword>
+        <Keyword>旺角東 Mong Kok East</Keyword>
+        <Destination>18011</Destination>
+    </Station>
+    <Station>
+        <Keyword>會展</Keyword>
+        <Keyword>Exhibition Centre</Keyword>
+        <Keyword>會展 Exhibition Centre</Keyword>
+        <Destination>18013</Destination>
+    </Station>
+    
     
     
     
@@ -523,5 +596,17 @@
         <Keyword>Sunny Bay</Keyword>
         <Keyword>欣澳 Sunny Bay</Keyword>
         <Destination>19015</Destination>
+    </Station>
+    <Station>
+        <Keyword>大圍</Keyword>
+        <Keyword>Tai Wai</Keyword>
+        <Keyword>大圍 Tai Wai</Keyword>
+        <Destination>19016</Destination>
+    </Station>
+    <Station>
+        <Keyword>紅磡</Keyword>
+        <Keyword>Hung Hom</Keyword>
+        <Keyword>紅磡 Hung Hom</Keyword>
+        <Destination>19017</Destination>
     </Station>
 </Data>

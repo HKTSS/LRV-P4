@@ -97,3 +97,15 @@ States = ../../null.csv, SUN_ZH.csv, SUN_EN.csv, ../../null.csv
 Position = 0,0,0
 TextureShiftXFunction = (pluginState[127] / 1000) * 0.5
 StateFunction = if[pluginState[129] == 19015, pluginState[126], 0]
+
+[Object]
+States = ../../null.csv, TAW_ZH.csv, TAW_EN.csv, ../../null.csv
+Position = 0,0,0
+TextureShiftXFunction = (pluginState[127] / 1000) * 0.5
+StateFunction = if[pluginState[129] == 19016, pluginState[126], 0]
+
+[Object]
+States = ../../null.csv, HUH_ZH.csv, HUH_EN.csv, ../../null.csv
+Position = 0,0,0
+TextureShiftXFunction = (pluginState[127] / 1000) * 0.5
+StateFunction = if[pluginState[129] == 19017, pluginState[126], 0]
