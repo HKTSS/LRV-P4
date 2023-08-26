@@ -6,12 +6,12 @@ Position = -0.02,0,5.5
 
 [Object]
 States = wheel.csv
-Position = -0.05,0.35,6.9
+Position = -0.05,0.35,6.6
 RotateXFunction = value + delta * speedometer / 0.40
 
 [Object]
 States = wheel.csv
-Position = -0.05,0.35,4.2
+Position = -0.05,0.35,4.5
 RotateXFunction = value + delta * speedometer / 0.40
 
 ;; back ;;
@@ -21,10 +21,10 @@ Position = -0.02,0,-5.5
 
 [Object]
 States = wheel.csv
-Position = -0.05,0.35,-4.1
+Position = -0.05,0.35,-4.3
 RotateXFunction = value + delta * speedometer / 0.40
 
 [Object]
 States = wheel.csv
-Position = -0.05,0.35,-6.8
+Position = -0.05,0.35,-6.6
 RotateXFunction = value + delta * speedometer / 0.40

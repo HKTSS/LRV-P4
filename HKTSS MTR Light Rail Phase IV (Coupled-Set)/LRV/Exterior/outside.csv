@@ -1,66 +1,66 @@
 CreateMeshBuilder
-AddVertex,-1.330,0.605,5.930
-AddVertex,-1.300,0.605,5.930
-AddVertex,-1.300,0.605,5.630
-AddVertex,-1.330,0.605,5.630
+AddVertex,-1.330,0.605,5.930, 0,1,0
+AddVertex,-1.300,0.605,5.930, 0,1,0
+AddVertex,-1.300,0.605,5.630, 0,1,0
+AddVertex,-1.330,0.605,5.630, 0,1,0
 AddFace2,0,1,2,3
-SetColor,108,91,0
+SetColor,126,140,0
 
 CreateMeshBuilder
-AddVertex,-1.330,0.574,5.930
-AddVertex,-1.300,0.574,5.930
-AddVertex,-1.300,0.574,5.630
-AddVertex,-1.330,0.574,5.630
+AddVertex,-1.330,0.574,5.930, 0,1,0
+AddVertex,-1.300,0.574,5.930, 0,1,0
+AddVertex,-1.300,0.574,5.630, 0,1,0
+AddVertex,-1.330,0.574,5.630, 0,1,0
 AddFace2,0,1,2,3
-SetColor,108,91,0
+SetColor,126,140,0
 
 CreateMeshBuilder
-AddVertex,-1.330,0.270,5.930
-AddVertex,-1.300,0.270,5.930
-AddVertex,-1.300,0.270,5.630
-AddVertex,-1.330,0.270,5.630
+AddVertex,-1.330,0.270,5.930, 0,1,0
+AddVertex,-1.300,0.270,5.930, 0,1,0
+AddVertex,-1.300,0.270,5.630, 0,1,0
+AddVertex,-1.330,0.270,5.630, 0,1,0
 AddFace,0,1,2,3
-SetColor,108,91,0
+SetColor,126,140,0
 
 CreateMeshBuilder
-AddVertex,-1.330,0.240,5.930
-AddVertex,-1.300,0.240,5.930
-AddVertex,-1.300,0.240,5.630
-AddVertex,-1.330,0.240,5.630
+AddVertex,-1.330,0.240,5.930, 0,1,0
+AddVertex,-1.300,0.240,5.930, 0,1,0
+AddVertex,-1.300,0.240,5.630, 0,1,0
+AddVertex,-1.330,0.240,5.630, 0,1,0
 AddFace2,0,1,2,3
-SetColor,108,91,0
+SetColor,126,140,0
 
 CreateMeshBuilder
-AddVertex,-1.330,0.730,5.618
-AddVertex,-1.300,0.730,5.618
-AddVertex,-1.300,0.240,5.618
-AddVertex,-1.330,0.240,5.618
+AddVertex,-1.330,0.730,5.618, 0,1,0
+AddVertex,-1.300,0.730,5.618, 0,1,0
+AddVertex,-1.300,0.240,5.618, 0,1,0
+AddVertex,-1.330,0.240,5.618, 0,1,0
 AddFace2,0,1,2,3
-SetColor,108,91,0
+SetColor,126,140,0
 
 CreateMeshBuilder
-AddVertex,-1.330,0.730,5.630
-AddVertex,-1.300,0.730,5.630
-AddVertex,-1.300,0.240,5.630
-AddVertex,-1.330,0.240,5.630
+AddVertex,-1.330,0.730,5.630, 0,1,0
+AddVertex,-1.300,0.730,5.630, 0,1,0
+AddVertex,-1.300,0.240,5.630, 0,1,0
+AddVertex,-1.330,0.240,5.630, 0,1,0
 AddFace2,0,1,2,3
-SetColor,108,91,0
+SetColor,126,140,0
 
 CreateMeshBuilder
-AddVertex,-1.330,0.730,5.945
-AddVertex,-1.300,0.730,5.945
-AddVertex,-1.300,0.240,5.945
-AddVertex,-1.330,0.240,5.945
+AddVertex,-1.330,0.730,5.945, 0,1,0
+AddVertex,-1.300,0.730,5.945, 0,1,0
+AddVertex,-1.300,0.240,5.945, 0,1,0
+AddVertex,-1.330,0.240,5.945, 0,1,0
 AddFace2,0,1,2,3
-SetColor,108,91,0
+SetColor,126,140,0
 
 CreateMeshBuilder
-AddVertex,-1.330,0.730,5.930
-AddVertex,-1.300,0.730,5.930
-AddVertex,-1.300,0.240,5.930
-AddVertex,-1.330,0.240,5.930
+AddVertex,-1.330,0.730,5.930, 0,1,0
+AddVertex,-1.300,0.730,5.930, 0,1,0
+AddVertex,-1.300,0.240,5.930, 0,1,0
+AddVertex,-1.330,0.240,5.930, 0,1,0
 AddFace2,0,1,2,3
-SetColor,108,91,0
+SetColor,126,140,0
 
 CreateMeshBuilder
 AddVertex,-1.330,3.10,8.130, 0,1,0

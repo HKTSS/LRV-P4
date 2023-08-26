@@ -61,15 +61,6 @@
 					<Radius>30.0</Radius>
 				</End>
 			</Secondary>
-
-			<Music>
-				<Loop>
-					<FileName>Sound\System\MTR_Standback.wav</FileName>
-					<Position>0, 0, 10</Position>
-					<Radius>30.0</Radius>
-				</Loop>
-				<Toggle>true</Toggle>
-			</Music>
 		</Horn>
 		<Switch>
 			<Sound>
@@ -141,6 +132,18 @@
 				<FileName>Sound\System\relay_on.wav</FileName>
 				<Position>0,0,0</Position>
 				<Radius>10.0</Radius>
+			</Sound>
+			<Sound>
+				<Index>227</Index>
+				<FileName>Sound\System\MTR_Standback.wav</FileName>
+				<Position>0, 0, 10</Position>
+				<Radius>30.0</Radius>
+			</Sound>
+			<Sound>
+				<Index>228</Index>
+				<FileName>Sound\System\PA_HoldTheHandrail.wav</FileName>
+				<Position>0, 0, 10</Position>
+				<Radius>30.0</Radius>
 			</Sound>
 		</ATS>
 		<Door>
