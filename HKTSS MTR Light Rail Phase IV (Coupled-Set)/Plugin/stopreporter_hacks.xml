@@ -493,6 +493,140 @@
         <Keyword>迪士尼 Disneyland Resort</Keyword>
         <Destination>17001</Destination>
     </Station>
+    
+    
+    
+    
+    
+    
+    <Station>
+        <Keyword>屯門</Keyword>
+        <Keyword>Tuen Mun</Keyword>
+        <Keyword>屯門 Tuen Mun</Keyword>
+        <Destination>19000</Destination>
+    </Station>
+    <Station>
+        <Keyword>兆康</Keyword>
+        <Keyword>Siu Hong</Keyword>
+        <Keyword>兆康 Siu Hong</Keyword>
+        <Destination>19001</Destination>
+    </Station>
+    <Station>
+        <Keyword>天水圍</Keyword>
+        <Keyword>Tin Shui Wai</Keyword>
+        <Keyword>天水圍 Tin Shui Wai</Keyword>
+        <Destination>19002</Destination>
+    </Station>
+    <Station>
+        <Keyword>朗屏</Keyword>
+        <Keyword>Long Ping</Keyword>
+        <Keyword>朗屏 Long Ping</Keyword>
+        <Destination>19003</Destination>
+    </Station>
+    <Station>
+        <Keyword>元朗</Keyword>
+        <Keyword>Yuen Long</Keyword>
+        <Keyword>元朗 Yuen Long</Keyword>
+        <Destination>19004</Destination>
+    </Station>
+    <Station>
+        <Keyword>錦上路</Keyword>
+        <Keyword>Kam Sheung Road</Keyword>
+        <Keyword>錦上路 Kam Sheung Road</Keyword>
+        <Destination>19005</Destination>
+    </Station>
+    <Station>
+        <Keyword>荃灣西</Keyword>
+        <Keyword>Tsuen Wan West</Keyword>
+        <Keyword>荃灣西 Tsuen Wan West</Keyword>
+        <Destination>19006</Destination>
+    </Station>
+    <Station>
+        <Keyword>柯士甸</Keyword>
+        <Keyword>Austin</Keyword>
+        <Keyword>柯士甸 Austin</Keyword>
+        <Destination>19009</Destination>
+    </Station>
+    <Station>
+        <Keyword>尖東</Keyword>
+        <Keyword>East Tsim Sha Tsui</Keyword>
+        <Keyword>尖東 East Tsim Sha Tsui</Keyword>
+        <Destination>19010</Destination>
+    </Station>
+    <Station>
+        <Keyword>土瓜灣</Keyword>
+        <Keyword>To Kwa Wan</Keyword>
+        <Keyword>土瓜灣 To Kwa Wan</Keyword>
+        <Destination>19013</Destination>
+    </Station>
+    <Station>
+        <Keyword>宋皇臺</Keyword>
+        <Keyword>Sung Wong Toi</Keyword>
+        <Keyword>宋皇臺 Sung Wong Toi</Keyword>
+        <Destination>19014</Destination>
+    </Station>
+    <Station>
+        <Keyword>啟德</Keyword>
+        <Keyword>Kai Tak</Keyword>
+        <Keyword>啟德 Kai Tak</Keyword>
+        <Destination>19015</Destination>
+    </Station>
+    <Station>
+        <Keyword>顯徑</Keyword>
+        <Keyword>Hin Keng</Keyword>
+        <Keyword>顯徑 Hin Keng</Keyword>
+        <Destination>19017</Destination>
+    </Station>
+    <Station>
+        <Keyword>車公廟</Keyword>
+        <Keyword>Che Kung Temple</Keyword>
+        <Keyword>車公廟 Che Kung Temple</Keyword>
+        <Destination>19019</Destination>
+    </Station>
+    <Station>
+        <Keyword>沙田圍</Keyword>
+        <Keyword>Sha Tin Wai</Keyword>
+        <Keyword>沙田圍 Sha Tin Wai</Keyword>
+        <Destination>19020</Destination>
+    </Station>
+    <Station>
+        <Keyword>第一城</Keyword>
+        <Keyword>City One</Keyword>
+        <Keyword>第一城 City One</Keyword>
+        <Destination>19021</Destination>
+    </Station>
+    <Station>
+        <Keyword>石門</Keyword>
+        <Keyword>Shek Mun</Keyword>
+        <Keyword>石門 Shek Mun</Keyword>
+        <Destination>19022</Destination>
+    </Station>
+    <Station>
+        <Keyword>大水坑</Keyword>
+        <Keyword>Tai Shui Hang</Keyword>
+        <Keyword>大水坑 Tai Shui Hang</Keyword>
+        <Destination>19023</Destination>
+    </Station>
+    <Station>
+        <Keyword>恆安</Keyword>
+        <Keyword>Heng On</Keyword>
+        <Keyword>恆安 Heng On</Keyword>
+        <Destination>19024</Destination>
+    </Station>
+    <Station>
+        <Keyword>馬鞍山</Keyword>
+        <Keyword>Ma On Shan</Keyword>
+        <Keyword>馬鞍山 Ma On Shan</Keyword>
+        <Destination>19025</Destination>
+    </Station>
+    <Station>
+        <Keyword>烏溪沙</Keyword>
+        <Keyword>Wu Kai Sha</Keyword>
+        <Keyword>烏溪沙 Wu Kai Sha</Keyword>
+        <Keyword>烏溪沙 Wu Kai Sha (1)</Keyword>
+        <Keyword>烏溪沙 Wu Kai Sha (2)</Keyword>
+        <Destination>19026</Destination>
+    </Station>
 
     
     
@@ -504,109 +638,109 @@
         <Keyword>調景嶺</Keyword>
         <Keyword>Tiu Keng Leng</Keyword>
         <Keyword>調景嶺 Tiu Keng Leng</Keyword>
-        <Destination>19000</Destination>
+        <Destination>20000</Destination>
     </Station>
     <Station>
         <Keyword>油塘</Keyword>
         <Keyword>Yau Tong</Keyword>
         <Keyword>油塘 Yau Tong</Keyword>
-        <Destination>19001</Destination>
+        <Destination>20001</Destination>
     </Station>
     <Station>
         <Keyword>鑽石山</Keyword>
         <Keyword>Diamond Hill</Keyword>
         <Keyword>鑽石山 Diamond Hill</Keyword>
-        <Destination>19002</Destination>
+        <Destination>20002</Destination>
     </Station>
     <Station>
         <Keyword>九龍塘</Keyword>
         <Keyword>Kowloon Tong</Keyword>
         <Keyword>九龍塘 Kowloon Tong</Keyword>
-        <Destination>19003</Destination>
+        <Destination>20003</Destination>
     </Station>
     <Station>
         <Keyword>太子</Keyword>
         <Keyword>Prince Edward</Keyword>
         <Keyword>太子 Prince Edward</Keyword>
-        <Destination>19004</Destination>
+        <Destination>20004</Destination>
     </Station>
     <Station>
         <Keyword>旺角</Keyword>
         <Keyword>Mong Kok</Keyword>
         <Keyword>旺角 Mong Kok</Keyword>
-        <Destination>19005</Destination>
+        <Destination>20005</Destination>
     </Station>
     <Station>
         <Keyword>油麻地</Keyword>
         <Keyword>Yau Ma Tei</Keyword>
         <Keyword>油麻地 Yau Ma Tei</Keyword>
-        <Destination>19006</Destination>
+        <Destination>20006</Destination>
     </Station>
     <Station>
         <Keyword>何文田</Keyword>
         <Keyword>Ho Man Tin</Keyword>
         <Keyword>何文田 Ho Man Tin</Keyword>
-        <Destination>19007</Destination>
+        <Destination>20007</Destination>
     </Station>
     <Station>
         <Keyword>金鐘</Keyword>
         <Keyword>Admiralty</Keyword>
         <Keyword>金鐘 Admiralty</Keyword>
-        <Destination>19008</Destination>
+        <Destination>20008</Destination>
     </Station>
     <Station>
         <Keyword>中環</Keyword>
         <Keyword>Central</Keyword>
         <Keyword>中環 Central</Keyword>
-        <Destination>19009</Destination>
+        <Destination>20009</Destination>
     </Station>
     <Station>
         <Keyword>美孚</Keyword>
         <Keyword>Mei Foo</Keyword>
         <Keyword>美孚 Mei Foo</Keyword>
-        <Destination>19010</Destination>
+        <Destination>20010</Destination>
     </Station>
     <Station>
         <Keyword>荔景</Keyword>
         <Keyword>Lai King</Keyword>
         <Keyword>荔景 Lai King</Keyword>
-        <Destination>19011</Destination>
+        <Destination>20011</Destination>
     </Station>
     <Station>
         <Keyword>北角</Keyword>
         <Keyword>North Point</Keyword>
         <Keyword>北角 North Point</Keyword>
-        <Destination>19012</Destination>
+        <Destination>20012</Destination>
     </Station>
     <Station>
         <Keyword>鰂魚涌</Keyword>
         <Keyword>則魚涌</Keyword>
         <Keyword>Quarry Bay</Keyword>
         <Keyword>鰂魚涌 Quarry Bay</Keyword>
-        <Destination>19013</Destination>
+        <Destination>20013</Destination>
     </Station>
     <Station>
         <Keyword>南昌</Keyword>
         <Keyword>Nam Cheong</Keyword>
         <Keyword>南昌 Nam Cheong</Keyword>
-        <Destination>19014</Destination>
+        <Destination>20014</Destination>
     </Station>
     <Station>
         <Keyword>欣澳</Keyword>
         <Keyword>Sunny Bay</Keyword>
         <Keyword>欣澳 Sunny Bay</Keyword>
-        <Destination>19015</Destination>
+        <Destination>20015</Destination>
     </Station>
     <Station>
         <Keyword>大圍</Keyword>
         <Keyword>Tai Wai</Keyword>
         <Keyword>大圍 Tai Wai</Keyword>
-        <Destination>19016</Destination>
+        <Destination>20016</Destination>
     </Station>
     <Station>
         <Keyword>紅磡</Keyword>
         <Keyword>Hung Hom</Keyword>
         <Keyword>紅磡 Hung Hom</Keyword>
-        <Destination>19017</Destination>
+        <Destination>20017</Destination>
     </Station>
 </Data>
