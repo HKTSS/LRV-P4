@@ -12,4 +12,4 @@ mtrbeep = false
 revatstation = false
 trainstatus = 0
 dsd = false
-tutorial = false
+LRVGeneration = 4
