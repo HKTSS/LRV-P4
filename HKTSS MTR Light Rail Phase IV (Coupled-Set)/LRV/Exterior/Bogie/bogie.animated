@@ -1,30 +1,41 @@
 ;; front ;;
 
 [Object]
-States = wheel2.csv
-Position = -0.02,0,5.5
+States = base.csv
+Position = 0,0,5.5
 
 [Object]
 States = wheel.csv
-Position = -0.05,0.35,6.6
+Position = -0.03,0.32,6.6
 RotateXFunction = value + delta * speedometer / 0.40
 
 [Object]
 States = wheel.csv
-Position = -0.05,0.35,4.5
+Position = -0.03,0.32,4.5
 RotateXFunction = value + delta * speedometer / 0.40
 
 ;; back ;;
 [Object]
-States = wheel2.csv
-Position = -0.02,0,-5.5
+States = base.csv
+Position = 0,0,-5.5
 
 [Object]
 States = wheel.csv
-Position = -0.05,0.35,-4.3
+Position = -0.03,0.32,-4.3
 RotateXFunction = value + delta * speedometer / 0.40
 
 [Object]
 States = wheel.csv
-Position = -0.05,0.35,-6.6
+Position = -0.03,0.32,-6.6
 RotateXFunction = value + delta * speedometer / 0.40
+
+;; sanders ;;
+[Object]
+States = Sanders/pipe.csv
+Position = 0.05,0,6.6
+
+[Object]
+States = ../../null.csv, Sanders/sand1.csv, Sanders/sand2.csv, Sanders/sand3.csv, Sanders/sand4.csv
+Position = 0.05,0,6.6
+StateFunction = if[Sanders, min[4, value + (delta * 14)], max[value - (delta * 14), 0]]
+TextureShiftYFunction = value - delta * 12

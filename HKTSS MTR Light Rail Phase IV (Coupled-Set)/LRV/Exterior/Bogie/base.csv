@@ -1,13 +1,13 @@
 ﻿CreateMeshBuilder
-AddVertex,0.78, 0.8, 1.15
-AddVertex,0.78, 0.8, -1.15
-AddVertex,0.78, -0.1, -1.15
-AddVertex,0.78, -0.1, 1.15
+AddVertex,0.72, 0.8, 1.15
+AddVertex,0.72, 0.8, -1.15
+AddVertex,0.72, -0.1, -1.15
+AddVertex,0.72, -0.1, 1.15
 
-AddVertex,-0.78, 0.8, 1.15
-AddVertex,-0.78, 0.8, -1.15
-AddVertex,-0.78, -0.1, -1.15
-AddVertex,-0.78, -0.1, 1.15
+AddVertex,-0.72, 0.8, 1.15
+AddVertex,-0.72, 0.8, -1.15
+AddVertex,-0.72, -0.1, -1.15
+AddVertex,-0.72, -0.1, 1.15
 AddFace2,0,1,2,3
 AddFace2,7,6,5,4
 LoadTexture,wheel_002.bmp
@@ -22,10 +22,10 @@ SetTextureCoordinates,7,0,1
 SetDecalTransparentColor,255,255,255
 
 CreateMeshBuilder
-AddVertex,0.78,0.800,-1.15
-AddVertex,-0.78,0.800,-1.15
-AddVertex,-0.78,0.15,-1.15
-AddVertex,0.78,0.15,-1.15
+AddVertex,0.72,0.800,-1.15
+AddVertex,-0.72,0.800,-1.15
+AddVertex,-0.72,0.15,-1.15
+AddVertex,0.72,0.15,-1.15
 AddFace2,0,1,2,3
 LoadTexture,wheel_003.bmp
 SetTextureCoordinates,0,0,0
@@ -35,10 +35,10 @@ SetTextureCoordinates,3,0,1
 SetDecalTransparentColor,0,0,255
 
 CreateMeshBuilder
-AddVertex,0.78,0.800,1.15
-AddVertex,-0.78,0.800,1.15
-AddVertex,-0.78,0.15,1.15
-AddVertex,0.78,0.15,1.15
+AddVertex,0.72,0.800,1.15
+AddVertex,-0.72,0.800,1.15
+AddVertex,-0.72,0.15,1.15
+AddVertex,0.72,0.15,1.15
 AddFace2,0,1,2,3
 LoadTexture,wheel_003.bmp
 SetTextureCoordinates,0,0,0

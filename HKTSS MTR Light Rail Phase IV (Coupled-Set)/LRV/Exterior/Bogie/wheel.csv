@@ -50,13 +50,13 @@ AddFace, 0, 1, 31, 30
 AddFace, 30, 28, 26, 24, 22, 20, 18, 16, 14, 12, 10, 8, 6, 4, 2, 0
 AddFace, 1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31
 SetColor, 40, 40, 50
-Translate,0.03,0,0
+Translate,0.085,0,0
 
 CreateMeshBuilder
-AddVertex, 0.990, -0.400, -0.400
-AddVertex, 0.990, 0.400, -0.400
-AddVertex, 0.990, 0.400, 0.400
-AddVertex, 0.990, -0.400, 0.400
+AddVertex, 0.95, -0.400, -0.400
+AddVertex, 0.95, 0.400, -0.400
+AddVertex, 0.95, 0.400, 0.400
+AddVertex, 0.95, -0.400, 0.400
 AddFace2, 0, 1, 2, 3
 LoadTexture, wheel1.bmp
 SetTextureCoordinates, 0, 0.000, 0.000
@@ -66,10 +66,10 @@ SetTextureCoordinates, 3, 0.000, 1.000
 SetDecalTransparentColor, 255, 255, 255
 
 CreateMeshBuilder
-AddVertex, -0.641, -0.400, -0.400
-AddVertex, -0.641, 0.400, -0.400
-AddVertex, -0.641, 0.400, 0.400
-AddVertex, -0.641, -0.400, 0.400
+AddVertex, -0.59, -0.400, -0.400
+AddVertex, -0.59, 0.400, -0.400
+AddVertex, -0.59, 0.400, 0.400
+AddVertex, -0.59, -0.400, 0.400
 AddFace2, 0, 1, 2, 3
 LoadTexture, wheel1.bmp
 SetTextureCoordinates, 0, 0.000, 0.000
@@ -130,6 +130,7 @@ AddFace, 0, 1, 31, 30
 AddFace, 30, 28, 26, 24, 22, 20, 18, 16, 14, 12, 10, 8, 6, 4, 2, 0
 AddFace, 1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31
 SetColor, 40, 40, 50
+Translate,-0.035,0,0
 
 TranslateAll,-0.15,0,0
 ScaleAll,1,0.8,0.8

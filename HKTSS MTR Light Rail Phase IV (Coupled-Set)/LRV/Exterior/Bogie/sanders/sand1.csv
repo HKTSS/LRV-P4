@@ -1,0 +1,36 @@
+CreateMeshBuilder,
+Cylinder,15,0.01,0.015,0.24
+LoadTexture,sand.png
+SetColor,255,255,255,20
+SetTextureCoordinates,0, 1, 0
+SetTextureCoordinates,1, 0.9, 2
+SetTextureCoordinates,2, 0.8, 0
+SetTextureCoordinates,3, 0.7, 2
+SetTextureCoordinates,4, 0.6, 0
+SetTextureCoordinates,5, 0.5, 2
+SetTextureCoordinates,6, 0.4, 0
+SetTextureCoordinates,7, 0.3, 2
+SetTextureCoordinates,8, 0.2, 0
+SetTextureCoordinates,9, 0.1, 2
+SetTextureCoordinates,10, 0.0, 0
+SetTextureCoordinates,11, 0.1, 2
+SetTextureCoordinates,12, 0.2, 0
+SetTextureCoordinates,13, 0.3, 2
+SetTextureCoordinates,14, 0.4, 0
+SetTextureCoordinates,15, 0.5, 2
+SetTextureCoordinates,16, 0.4, 0
+SetTextureCoordinates,17, 0.3, 2
+SetTextureCoordinates,18, 0.2, 0
+SetTextureCoordinates,19, 0.1, 2
+SetTextureCoordinates,20, 0, 0
+SetTextureCoordinates,21, 0.1, 2
+SetTextureCoordinates,22, 0.2, 0
+SetTextureCoordinates,23, 0.3, 2
+SetTextureCoordinates,24, 0.4, 0
+SetTextureCoordinates,25, 0.5, 2
+SetTextureCoordinates,26, 0.6, 0
+SetTextureCoordinates,27, 0.7, 2
+SetTextureCoordinates,28, 0.8, 0
+SetTextureCoordinates,29, 0.9, 2
+Rotate,1,0,0,55
+Translate,-0.8,0.11,0.258

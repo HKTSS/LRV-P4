@@ -166,13 +166,13 @@
 		<Sanders>
 			<Loop>
 				<FileName>Sound/sander_loop.wav</FileName>
-				<Position>0,0,0</Position>
-				<Radius>10.0</Radius>
+				<Position>0,0,9</Position>
+				<Radius>3.0</Radius>
 			</Loop>
 			<DeActivate>
 				<FileName>Sound/sander_deactivate.wav</FileName>
-				<Position>0,0,0</Position>
-				<Radius>10.0</Radius>
+				<Position>0,0,9</Position>
+				<Radius>3.0</Radius>
 			</DeActivate>
 		</Sanders>
 	</CarSounds>
