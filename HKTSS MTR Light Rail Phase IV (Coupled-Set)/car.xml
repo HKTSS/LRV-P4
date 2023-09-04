@@ -13,6 +13,7 @@
 		<MotorCar>True</MotorCar>
 		<Mass>37000</Mass>
 		<ReadhesionDevice>TypeA</ReadhesionDevice>
+		<UncouplingBehavior>Emergency</UncouplingBehavior>
 		<Power>
 			<Notches>8</Notches>
 			<SpringType>None</SpringType>
