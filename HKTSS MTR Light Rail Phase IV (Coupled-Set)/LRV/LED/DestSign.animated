@@ -1,16 +1,16 @@
 ;; Front Destination Sign ;;
 
 [Object]
-States = 610/610_YL.csv, 610/610_FP.csv, 705/705.csv, 705/705_TSW.csv, 706/706.csv, 706/706_TSW.csv, 505/505_SH.csv, 505/505_SS.csv, 507/507_FP.csv, 507/507_TK.csv, 507P/507P_FP.csv, 614/614_FP.csv, 614/614_YL.csv, 614P/614P_FP.csv, 614P/614P_SH.csv, 615/615_FP.csv, 615/615_YL.csv, 615P/615P_FP.csv, 615P/615P_SH.csv, 751/751_TY.csv, 751/751_YO.csv, 751/751_SP.csv, 751P/751P_TSW.csv, 751P/751P_TY.csv, 761P/761P_TY.csv, 761P/761P_YL.csv, NIS/NIS.csv, Empty/E.csv, 701/701.csv, 506/506_FP.csv, 506/506_YO.csv
+States = 610/610_YL.csv, 610/610_FP.csv, 705/705.csv, 705/705_TSW.csv, 706/706.csv, 706/706_TSW.csv, 505/505_SH.csv, 505/505_SS.csv, 506P/506P_SH.csv, 507/507_FP.csv, 507/507_TK.csv, 507P/507P_FP.csv, 614/614_FP.csv, 614/614_YL.csv, 614P/614P_FP.csv, 614P/614P_SH.csv, 615/615_FP.csv, 615/615_YL.csv, 615P/615P_FP.csv, 615P/615P_SH.csv, 751/751_TY.csv, 751/751_YO.csv, 751/751_SP.csv, 751P/751P_TSW.csv, 751P/751P_TY.csv, 761P/761P_TY.csv, 761P/761P_YL.csv, NIS/NIS.csv, Empty/E.csv, 701/701.csv, 506/506_FP.csv, 506/506_YO.csv
 Position = 0,0,0
-Statefunction = Mod[pluginstate[104], 31]
+Statefunction = Mod[pluginstate[104], 32]
 RefreshRate = 0.1
 
 ;; Side Destination Sign ;;
 [Object]
-States = 610/Side_YL.csv, 610/Side_FP.csv, 705/Side.csv, 705/Side_TSW.csv, 706/Side.csv, 706/Side_TSW.csv, 505/Side_SH.csv, 505/Side_SS.csv, 507/Side_FP.csv, 507/Side_TK.csv, 507P/Side_FP.csv,  614/Side_FP.csv, 614/Side_YL.csv, 614P/Side_FP.csv, 614P/Side_SH.csv, 615/Side_FP.csv, 615/Side_YL.csv, 615P/Side_FP.csv, 615P/Side_SH.csv, 751/Side_TY.csv, 751/Side_YO.csv, 751/Side_SP.csv, 751P/Side_TSW.csv, 751P/Side_TY.csv, 761P/Side_TY.csv, 761P/Side_YL.csv, NIS/Side.csv, Empty/Side.csv, 701/Side.csv, 506/Side_FP.csv, 506/Side_YO.csv
+States = 610/Side_YL.csv, 610/Side_FP.csv, 705/Side.csv, 705/Side_TSW.csv, 706/Side.csv, 706/Side_TSW.csv, 505/Side_SH.csv, 505/Side_SS.csv, 506P/Side_SH.csv, 507/Side_FP.csv, 507/Side_TK.csv, 507P/Side_FP.csv,  614/Side_FP.csv, 614/Side_YL.csv, 614P/Side_FP.csv, 614P/Side_SH.csv, 615/Side_FP.csv, 615/Side_YL.csv, 615P/Side_FP.csv, 615P/Side_SH.csv, 751/Side_TY.csv, 751/Side_YO.csv, 751/Side_SP.csv, 751P/Side_TSW.csv, 751P/Side_TY.csv, 761P/Side_TY.csv, 761P/Side_YL.csv, NIS/Side.csv, Empty/Side.csv, 701/Side.csv, 506/Side_FP.csv, 506/Side_YO.csv
 Position = -1.335,2.51,-8.3
-Statefunction = Mod[pluginstate[104], 31]
+Statefunction = Mod[pluginstate[104], 32]
 RefreshRate = 0.1
 
 [Object]
@@ -20,17 +20,17 @@ Position = -1.335,2.51,-8.3
 ;; Interior Destination Sign ;;
 
 [Object]
-States = 610/Interior_YL.csv, 610/Interior_FP.csv, 705/Interior.csv, 705/Interior_TSW.csv, 706/Interior.csv, 706/Interior_TSW.csv, 505/Interior_SH.csv, 505/Interior_SS.csv, 507/Interior_FP.csv, 507/Interior_TK.csv, 507P/Interior_FP.csv,  614/Interior_FP.csv, 614/Interior_YL.csv, 614P/Interior_FP.csv, 614P/Interior_SH.csv, 615/Interior_FP.csv, 615/Interior_YL.csv, 615P/Interior_FP.csv, 615P/Interior_SH.csv, 751/Interior_TY.csv, 751/Interior_YO.csv, 751/Interior_SP.csv, 751P/Interior_TSW.csv, 751P/Interior_TY.csv, 761P/Interior_TY.csv, 761P/Interior_YL.csv, NIS/Interior.csv, Empty/Interior.csv, 701/Interior.csv, 506/Interior_FP.csv, 506/Interior_YO.csv
+States = 610/Interior_YL.csv, 610/Interior_FP.csv, 705/Interior.csv, 705/Interior_TSW.csv, 706/Interior.csv, 706/Interior_TSW.csv, 505/Interior_SH.csv, 505/Interior_SS.csv, 506P/Interior_SH.csv, 507/Interior_FP.csv, 507/Interior_TK.csv, 507P/Interior_FP.csv,  614/Interior_FP.csv, 614/Interior_YL.csv, 614P/Interior_FP.csv, 614P/Interior_SH.csv, 615/Interior_FP.csv, 615/Interior_YL.csv, 615P/Interior_FP.csv, 615P/Interior_SH.csv, 751/Interior_TY.csv, 751/Interior_YO.csv, 751/Interior_SP.csv, 751P/Interior_TSW.csv, 751P/Interior_TY.csv, 761P/Interior_TY.csv, 761P/Interior_YL.csv, NIS/Interior.csv, Empty/Interior.csv, 701/Interior.csv, 506/Interior_FP.csv, 506/Interior_YO.csv
 Position = -1.232,2.73,-8.1
-Statefunction = Mod[pluginstate[104], 31]
+Statefunction = Mod[pluginstate[104], 32]
 RefreshRate = 0.1
 
 ;; Back Destination Sign ;;
 [Object]
-States = 610/Back.csv, 610/Back.csv, 705/Back.csv, 705/Back.csv, 706/Back.csv, 706/Back.csv, 505/Back.csv, 505/Back.csv, 507/Back.csv, 507/Back.csv, 507P/Back.csv, 614/Back.csv, 614/Back.csv, 614P/Back.csv, 614P/Back.csv, 615/Back.csv, 615/Back.csv, 615P/Back.csv, 615P/Back.csv, 751/Back.csv, 751/Back.csv, 751/Back.csv, 751P/Back.csv, 751P/Back.csv, 761P/Back.csv, 761P/Back.csv, Empty/Back.csv, Empty/Back.csv, 701/Back.csv, 506/Back.csv, 506/Back.csv
+States = 610/Back.csv, 610/Back.csv, 705/Back.csv, 705/Back.csv, 706/Back.csv, 706/Back.csv, 505/Back.csv, 505/Back.csv, 506P/Back.csv, 507/Back.csv, 507/Back.csv, 507P/Back.csv, 614/Back.csv, 614/Back.csv, 614P/Back.csv, 614P/Back.csv, 615/Back.csv, 615/Back.csv, 615P/Back.csv, 615P/Back.csv, 751/Back.csv, 751/Back.csv, 751/Back.csv, 751P/Back.csv, 751P/Back.csv, 761P/Back.csv, 761P/Back.csv, Empty/Back.csv, Empty/Back.csv, 701/Back.csv, 506/Back.csv, 506/Back.csv
 Position = -0.265,3.085,-10.329
 
 ;; Tilt the plate slightly ;;
 RotateXFunction = 0.03
-Statefunction = Mod[pluginstate[104], 31]
+Statefunction = Mod[pluginstate[104], 32]
 RefreshRate = 0.1
