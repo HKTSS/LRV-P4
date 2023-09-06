@@ -31,6 +31,12 @@
 				<Command>HORN_PRIMARY</Command>
 			</Touch>
 			<Touch>
+				<Cursor>3DCab/Cursor/tooltip/sanders.png</Cursor>
+				<Position>0.190, 1.755, 9.48</Position>
+				<Size>0.019, 0.020, 0.015</Size>
+				<Command>SANDERS</Command>
+			</Touch>
+			<Touch>
 				<Cursor>3DCab/Cursor/tooltip/horn.png</Cursor>
 				<Position>0.050, 1.755, 9.48</Position>
 				<Size>0.019, 0.020, 0.015</Size>

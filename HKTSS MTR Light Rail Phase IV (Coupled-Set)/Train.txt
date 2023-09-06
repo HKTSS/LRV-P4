@@ -1,16 +1,16 @@
 --------------------------
 注意:
 你的OpenBVE版本過低，或未能正常遊玩。
-請更新到v1.9.1.2或以上。
+請更新到v1.9.2.0或以上。
 --------------------------
 Note:
 Your OpenBVE Version is too old and may result in issues when playing.
-Please update to OpenBVE v1.9.1.2 or above.
+Please update to OpenBVE v1.9.2.0 or above.
 --------------------------
 香港輕鐵第四期車輛 (拖卡)
 --------------------------
 目前版本: v3
-建議OpenBVE版本: v1.9.1.2
+建議OpenBVE版本: v1.9.2.0
 --------------------------
 
 2023 HKTSS 香港交通模擬工作室
