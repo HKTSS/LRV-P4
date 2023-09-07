@@ -165,16 +165,29 @@ SetColor,150,150,150
 ;; Head front curve end ;;
 
 CreateMeshBuilder
-AddVertex,-0.780,0.200,10.100, 0,1,0
-AddVertex,-0.660,3.300,9.900, 0,1,0
-AddVertex,-1.330,3.300,8.130, 0,1,0
-AddVertex,-1.330,0.200,8.130, 0,1,0
+AddVertex,-0.78,0.2,10.09, 0,1,0
+AddVertex,-0.78,0.5,10.09, 0,1,0
+AddVertex,-1.33,0.5,8.130, 0,1,0
+AddVertex,-1.28,0.2,8.130, 0,1,0
 AddFace,0,1,2,3
 LoadTexture,SideLeft.png
-SetTextureCoordinates,0,0.001,1.000
-SetTextureCoordinates,1,0.001,0.050
-SetTextureCoordinates,2,0.999,0.050
-SetTextureCoordinates,3,0.999,1.000
+SetTextureCoordinates,0,0.001,1.0
+SetTextureCoordinates,1,0.001,0.909
+SetTextureCoordinates,2,0.999,0.909
+SetTextureCoordinates,3,0.999,1.0
+SetDecalTransparentColor,0,0,255
+
+CreateMeshBuilder
+AddVertex,-0.780,0.5,10.09, 0,1,0
+AddVertex,-0.660,3.300,9.900, 0,1,0
+AddVertex,-1.330,3.300,8.130, 0,1,0
+AddVertex,-1.330,0.5,8.130, 0,1,0
+AddFace,0,1,2,3
+LoadTexture,SideLeft.png
+SetTextureCoordinates,0,0.001,0.909
+SetTextureCoordinates,1,0.001,0.05
+SetTextureCoordinates,2,0.999,0.05
+SetTextureCoordinates,3,0.999,0.909
 SetDecalTransparentColor,0,0,255
 
 CreateMeshBuilder
@@ -206,15 +219,28 @@ SetDecalTransparentColor,0,0,255
 
 
 CreateMeshBuilder
-AddVertex,0.785,0.200,10.090, 0,1,0
-AddVertex,0.770,1.630,9.980, 0,1,0
-AddVertex,1.330,1.630,8.130, 0,1,0
-AddVertex,1.330,0.200,8.130, 0,1,0
+AddVertex,0.785,0.50,10.070, 0,1,0
+AddVertex,0.770,1.63,9.980, 0,1,0
+AddVertex,1.330,1.63,8.130, 0,1,0
+AddVertex,1.330,0.50,8.130, 0,1,0
+AddFace,3,2,1,0
+LoadTexture,SideRight.png
+SetTextureCoordinates,0,0.001,0.908
+SetTextureCoordinates,1,0.001,0.550
+SetTextureCoordinates,2,0.999,0.550
+SetTextureCoordinates,3,0.999,0.908
+SetDecalTransparentColor,0,0,255
+
+CreateMeshBuilder
+AddVertex,0.785,0.2,10.070, 0,1,0
+AddVertex,0.785,0.5,10.070, 0,1,0
+AddVertex,1.330,0.5,8.130, 0,1,0
+AddVertex,1.280,0.2,8.130, 0,1,0
 AddFace,3,2,1,0
 LoadTexture,SideRight.png
 SetTextureCoordinates,0,0.001,1.000
-SetTextureCoordinates,1,0.001,0.550
-SetTextureCoordinates,2,0.999,0.550
+SetTextureCoordinates,1,0.001,0.908
+SetTextureCoordinates,2,0.999,0.908
 SetTextureCoordinates,3,0.999,1.000
 SetDecalTransparentColor,0,0,255
 
