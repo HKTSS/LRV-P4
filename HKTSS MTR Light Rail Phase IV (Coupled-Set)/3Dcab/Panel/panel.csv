@@ -92,10 +92,10 @@ AddVertex, 0.86,  1.76, 8.7, 0,1,0
 AddVertex, 0.55,  1.76, 9.44, 0,1,0
 AddFace2, 0, 1, 2, 3
 LoadTexture,Panel2.png,
-SetTextureCoordinates,0, -0.08, 0
+SetTextureCoordinates,0, 0, 0
 SetTextureCoordinates,1, 1, 0
 SetTextureCoordinates,2, 1, 1
-SetTextureCoordinates,3, 0.09, 1
+SetTextureCoordinates,3, 0.16, 1
 SetDecalTransparentColor,0,0,255
 
 CreateMeshBuilder,
@@ -365,3 +365,20 @@ AddVertex,-0.46,  1.87, 9.81, 0,1,0
 AddVertex,-0.46,  1.86, 9.77, 0,1,0
 AddFace, 3, 2, 1, 0
 SetColor,31,30,30
+
+;; Right mon ;;
+CreateMeshBuilder,
+Cube,0.015,0.12,0.17
+SetColor,26,26,26
+Rotate,0,0,1,-32.5
+Rotate,0,1,0,-22
+Rotate,1,0,0,-0.5
+Translate,0.836,1.867,8.96
+
+CreateMeshBuilder,
+Cube,0.015,0.09,0.135
+SetColor,50,50,50
+Rotate,0,0,1,-32.5
+Rotate,0,1,0,-22
+Rotate,1,0,0,-0.5
+Translate,0.835,1.867,8.96
