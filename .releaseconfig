@@ -1,7 +1,5 @@
-[base]
-HKTSS MTR Light Rail Phase IV (Coupled-Set)
-
 [variants]
+HKTSS MTR Light Rail Phase IV (Coupled-Set)
 HKTSS MTR Light Rail Phase IV
 
 [ignore]
@@ -11,3 +9,4 @@ old*
 note*.txt
 Sound/Backup*
 *.kra
+*.py

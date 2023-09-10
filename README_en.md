@@ -1,3 +1,4 @@
+[按此查看中文版](README.md)   
 # Hong Kong Light Rail Vehicle Phase IV for OpenBVE
 ## Project Detail:  
 **Project Type**: OpenBVE / Hmmsim 2 Train  
@@ -9,7 +10,7 @@
 ![LRV P4 Keyboard Control List](https://github.com/HKTSS/LRV-P4/assets/28094366/02af44e1-f270-43f8-8caa-cceb74a9fd68)
 
 ## Release workflow
-A release process is created that will strips unnecessary files not used in game, and also allow easy patching without having different train variants getting desynced as changes went on.  
+A release process is created that will strips unnecessary files not used in game.  
 To make a release, install python 3, and run `python3 release.py`. A `Release` folder should be generated.
 
 ## License

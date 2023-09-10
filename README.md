@@ -11,4 +11,5 @@
 
 **開始游戲前，請閱讀以上事項。  
 
+## 授權
 本作品以 CC BY-NC 4.0 授權條款發佈，詳情請[按此](https://creativecommons.org/licenses/by-nc/4.0)

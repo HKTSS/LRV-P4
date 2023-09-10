@@ -3,7 +3,6 @@ import os
 
 def get_config():
     dict = {
-        "base_train": None,
         "variant_list": [],
         "ignored_files": []
     }
@@ -16,8 +15,6 @@ def get_config():
         if line.startswith("["):
             category = line[1:-1]
         else:
-            if category == "base":
-                dict["base_train"] = line
             if category == "variants":
                 dict["variant_list"].append(line)
             if category == "ignore":
@@ -35,12 +32,5 @@ if os.path.exists(release_path):
 
 os.mkdir(release_path);
 
-# Copy base train
-copytree(config["base_train"], os.path.join(release_path, config["base_train"]), ignore=ignore_patterns(*config["ignored_files"]))
-
 for variant in config["variant_list"]:
-    # Copy base first
-    copytree(config["base_train"], os.path.join(release_path, variant), ignore=ignore_patterns(*config["ignored_files"]))
-    
-    # Apply patch
     copytree(variant, os.path.join(release_path, variant), ignore=ignore_patterns(*config["ignored_files"]), dirs_exist_ok=True)
