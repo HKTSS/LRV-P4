@@ -136,21 +136,21 @@ SetColor,0,0,0
 ;;Exterior Glass;;
 
 CreateMeshBuilder,
-AddVertex,1.321, 0.80, 2.3
-AddVertex,1.321, 2.913, 2.3
-AddVertex,1.321, 2.913, 3
-AddVertex,1.321, 0.80, 3
+AddVertex,1.322, 1.62, 2.3, 0,1,0
+AddVertex,1.322, 2.913, 2.3, 0,1,0
+AddVertex,1.322, 2.913, 3, 0,1,0
+AddVertex,1.322, 1.62, 3, 0,1,0
 AddFace,3,2,1,0
-SetColor,40,20,0,125
+SetColor,35,20,0,125
 SetBlendMode, Normal, 2, DivideExponent4
 translate,-2.68,0,-3
 
 ;;Interior Glass;;
 CreateMeshBuilder,
-AddVertex,1.349, 1.64, 3
-AddVertex,1.349, 2.913, 3
-AddVertex,1.349, 2.913, 2.3
-AddVertex,1.349, 1.64, 2.3
+AddVertex,1.349, 1.64, 3, 0,1,0
+AddVertex,1.349, 2.913, 3, 0,1,0
+AddVertex,1.349, 2.913, 2.3, 0,1,0
+AddVertex,1.349, 1.64, 2.3, 0,1,0
 AddFace,3,2,1,0
-SetColor, 75,48,40,50
+SetColor, 70,48,40,50
 translate,-2.68,0,-3
