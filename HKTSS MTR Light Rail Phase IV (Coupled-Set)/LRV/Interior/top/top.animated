@@ -9,8 +9,39 @@ Position = 0.05,0,-3.8
 Statefunction = pluginState[99]
 
 [Object]
-States = stickers/exit_back.csv, stickers/Dark/exit_back_right.csv
+States = stickers/exit_back.csv, stickers/Dark/exit_back.csv
 Position = 0.0,0,-7.5
+Statefunction = pluginState[99]
+
+[Object]
+States = stickers/cctv.csv, stickers/Dark/cctv.csv
+Position = 0.055,0,-6.8
+Statefunction = pluginState[99]
+
+[Object]
+States = stickers/unwell.csv, stickers/Dark/unwell.csv
+Position = 0.055,0,-6.6
+Statefunction = pluginState[99]
+
+[Object]
+States = stickers/cctv.csv, stickers/Dark/cctv.csv
+Position = 0.055,0,-1.4
+Statefunction = pluginState[99]
+
+[Object]
+States = stickers/unwell.csv, stickers/Dark/unwell.csv
+Position = 0.055,0,-1.2
+Statefunction = pluginState[99]
+
+
+[Object]
+States = stickers/cctv.csv, stickers/Dark/cctv.csv
+Position = 0.055,0,4.1
+Statefunction = pluginState[99]
+
+[Object]
+States = stickers/unwell.csv, stickers/Dark/unwell.csv
+Position = 0.055,0,4.3
 Statefunction = pluginState[99]
 
 [Object]
