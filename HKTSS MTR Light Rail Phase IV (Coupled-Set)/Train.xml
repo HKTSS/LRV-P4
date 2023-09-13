@@ -12,7 +12,7 @@
 		</Coupler>
 		<Car>car.xml</Car>
 		<Plugin>Plugin\LRVSystem.dll</Plugin>
-		<HeadlightStates>3</HeadlightStates>
+		<HeadlightStates>2</HeadlightStates>
 		<Description>香港輕鐵第四期車輛 (拖卡)
 --------------------------
 目前版本: v3
