@@ -81,33 +81,33 @@
 				<Notches>7</Notches>
 			</Handle>
 			<MainReservoir>
-				<MinimumPressure>686000</MinimumPressure>
-				<MaximumPressure>834000</MaximumPressure>
+				<MinimumPressure>150000</MinimumPressure>
+				<MaximumPressure>350000</MaximumPressure>
 			</MainReservoir>
 			<AuxiliaryReservoir>
-				<ChargeRate>200000.0</ChargeRate>
+				<ChargeRate>150000.0</ChargeRate>
 			</AuxiliaryReservoir>
 			<EqualizingReservoir>
-				<ServiceRate>50000.0</ServiceRate>
-				<EmergencyRate>250000.0</EmergencyRate>
-				<ChargeRate>200000.0</ChargeRate>
+				<ServiceRate>80000.0</ServiceRate>
+				<EmergencyRate>150000.0</EmergencyRate>
+				<ChargeRate>100000.0</ChargeRate>
 			</EqualizingReservoir>
 			<BrakePipe>
-				<NormalPressure>630750</NormalPressure>
-				<ServiceRate>1500000.0</ServiceRate>
-				<EmergencyRate>5000000.0</EmergencyRate>
-				<ChargeRate>10000000.0</ChargeRate>
+				<NormalPressure>500000</NormalPressure>
+				<ServiceRate>150000.0</ServiceRate>
+				<EmergencyRate>600000.0</EmergencyRate>
+				<ChargeRate>300000.0</ChargeRate>
 			</BrakePipe>
 			<StraightAirPipe>
-				<ServiceRate>300000.0</ServiceRate>
-				<EmergencyRate>400000.0</EmergencyRate>
-				<ReleaseRate>200000.0</ReleaseRate>
+				<ServiceRate>180000.0</ServiceRate>
+				<EmergencyRate>570000.0</EmergencyRate>
+				<ReleaseRate>160000.0</ReleaseRate>
 			</StraightAirPipe>
 			<BrakeCylinder>
-				<ServiceMaximumPressure>400000</ServiceMaximumPressure>
-				<EmergencyMaximumPressure>465000</EmergencyMaximumPressure>
-				<EmergencyRate>203000</EmergencyRate>
-				<ReleaseRate>209000</ReleaseRate>
+				<ServiceMaximumPressure>250000</ServiceMaximumPressure>
+				<EmergencyMaximumPressure>600000</EmergencyMaximumPressure>
+				<EmergencyRate>300000</EmergencyRate>
+				<ReleaseRate>200000</ReleaseRate>
 			</BrakeCylinder>
 		</Brake>
 		<Doors>
