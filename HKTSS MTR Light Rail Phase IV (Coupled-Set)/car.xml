@@ -19,60 +19,60 @@
 			<SpringType>None</SpringType>
 			<AccelerationCurves>
 				<OpenBVE>
-					<StageZeroAcceleration>1</StageZeroAcceleration>
-					<StageOneAcceleration>1.2</StageOneAcceleration>
-					<StageOneSpeed>5</StageOneSpeed>
+					<StageZeroAcceleration>0.8</StageZeroAcceleration>
+					<StageOneAcceleration>1.0</StageOneAcceleration>
+					<StageOneSpeed>2</StageOneSpeed>
 					<StageTwoSpeed>5</StageTwoSpeed>
-					<StageTwoExponent>6.809861</StageTwoExponent>
+					<StageTwoExponent>6.8</StageTwoExponent>
 				</OpenBVE>
 				<OpenBVE>
-					<StageZeroAcceleration>2</StageZeroAcceleration>
-					<StageOneAcceleration>2.3</StageOneAcceleration>
-					<StageOneSpeed>13</StageOneSpeed>
+					<StageZeroAcceleration>1.8</StageZeroAcceleration>
+					<StageOneAcceleration>2.1</StageOneAcceleration>
+					<StageOneSpeed>7</StageOneSpeed>
 					<StageTwoSpeed>13</StageTwoSpeed>
-					<StageTwoExponent>4.809861</StageTwoExponent>
+					<StageTwoExponent>4.8</StageTwoExponent>
 				</OpenBVE>
 				<OpenBVE>
-					<StageZeroAcceleration>2.5</StageZeroAcceleration>
-					<StageOneAcceleration>2.8</StageOneAcceleration>
-					<StageOneSpeed>20</StageOneSpeed>
+					<StageZeroAcceleration>2.3</StageZeroAcceleration>
+					<StageOneAcceleration>2.6</StageOneAcceleration>
+					<StageOneSpeed>12</StageOneSpeed>
 					<StageTwoSpeed>20</StageTwoSpeed>
-					<StageTwoExponent>6.809861</StageTwoExponent>
+					<StageTwoExponent>6.8</StageTwoExponent>
 				</OpenBVE>
 				<OpenBVE>
-					<StageZeroAcceleration>3</StageZeroAcceleration>
-					<StageOneAcceleration>3.3</StageOneAcceleration>
-					<StageOneSpeed>28</StageOneSpeed>
+					<StageZeroAcceleration>2.8</StageZeroAcceleration>
+					<StageOneAcceleration>3.1</StageOneAcceleration>
+					<StageOneSpeed>20</StageOneSpeed>
 					<StageTwoSpeed>28</StageTwoSpeed>
-					<StageTwoExponent>6.809861</StageTwoExponent>
+					<StageTwoExponent>6.8</StageTwoExponent>
 				</OpenBVE>
 				<OpenBVE>
-					<StageZeroAcceleration>4</StageZeroAcceleration>
-					<StageOneAcceleration>4.3</StageOneAcceleration>
-					<StageOneSpeed>35</StageOneSpeed>
+					<StageZeroAcceleration>3.8</StageZeroAcceleration>
+					<StageOneAcceleration>4.1</StageOneAcceleration>
+					<StageOneSpeed>30</StageOneSpeed>
 					<StageTwoSpeed>35</StageTwoSpeed>
-					<StageTwoExponent>8.809861</StageTwoExponent>
+					<StageTwoExponent>8.8</StageTwoExponent>
 				</OpenBVE>
 				<OpenBVE>
-					<StageZeroAcceleration>4.5</StageZeroAcceleration>
-					<StageOneAcceleration>4.8</StageOneAcceleration>
-					<StageOneSpeed>45</StageOneSpeed>
+					<StageZeroAcceleration>4.3</StageZeroAcceleration>
+					<StageOneAcceleration>4.6</StageOneAcceleration>
+					<StageOneSpeed>36</StageOneSpeed>
 					<StageTwoSpeed>45</StageTwoSpeed>
-					<StageTwoExponent>9.809861</StageTwoExponent>
+					<StageTwoExponent>9.8</StageTwoExponent>
 				</OpenBVE>
 				<OpenBVE>
-					<StageZeroAcceleration>5</StageZeroAcceleration>
-					<StageOneAcceleration>5.3</StageOneAcceleration>
-					<StageOneSpeed>62</StageOneSpeed>
+					<StageZeroAcceleration>4.8</StageZeroAcceleration>
+					<StageOneAcceleration>5.1</StageOneAcceleration>
+					<StageOneSpeed>52</StageOneSpeed>
 					<StageTwoSpeed>62</StageTwoSpeed>
-					<StageTwoExponent>14.209861</StageTwoExponent>
+					<StageTwoExponent>14.2</StageTwoExponent>
 				</OpenBVE>
 				<OpenBVE>
 					<StageZeroAcceleration>5.8</StageZeroAcceleration>
 					<StageOneAcceleration>6.2</StageOneAcceleration>
-					<StageOneSpeed>80</StageOneSpeed>
+					<StageOneSpeed>70</StageOneSpeed>
 					<StageTwoSpeed>80</StageTwoSpeed>
-					<StageTwoExponent>17.809861</StageTwoExponent>
+					<StageTwoExponent>17.8</StageTwoExponent>
 				</OpenBVE>
 			</AccelerationCurves>
 		</Power>
@@ -81,32 +81,32 @@
 				<Notches>7</Notches>
 			</Handle>
 			<MainReservoir>
-				<MinimumPressure>150000</MinimumPressure>
-				<MaximumPressure>350000</MaximumPressure>
+				<MinimumPressure>100000</MinimumPressure>
+				<MaximumPressure>250000</MaximumPressure>
 			</MainReservoir>
 			<AuxiliaryReservoir>
-				<ChargeRate>150000.0</ChargeRate>
+				<ChargeRate>100000.0</ChargeRate>
 			</AuxiliaryReservoir>
 			<EqualizingReservoir>
 				<ServiceRate>80000.0</ServiceRate>
-				<EmergencyRate>150000.0</EmergencyRate>
+				<EmergencyRate>100000.0</EmergencyRate>
 				<ChargeRate>100000.0</ChargeRate>
 			</EqualizingReservoir>
 			<BrakePipe>
 				<NormalPressure>500000</NormalPressure>
-				<ServiceRate>150000.0</ServiceRate>
-				<EmergencyRate>600000.0</EmergencyRate>
-				<ChargeRate>300000.0</ChargeRate>
+				<ServiceRate>100000.0</ServiceRate>
+				<EmergencyRate>400000.0</EmergencyRate>
+				<ChargeRate>50000.0</ChargeRate>
 			</BrakePipe>
 			<StraightAirPipe>
 				<ServiceRate>180000.0</ServiceRate>
-				<EmergencyRate>570000.0</EmergencyRate>
-				<ReleaseRate>160000.0</ReleaseRate>
+				<EmergencyRate>220000.0</EmergencyRate>
+				<ReleaseRate>180000.0</ReleaseRate>
 			</StraightAirPipe>
 			<BrakeCylinder>
 				<ServiceMaximumPressure>250000</ServiceMaximumPressure>
-				<EmergencyMaximumPressure>600000</EmergencyMaximumPressure>
-				<EmergencyRate>300000</EmergencyRate>
+				<EmergencyMaximumPressure>900000</EmergencyMaximumPressure>
+				<EmergencyRate>900000</EmergencyRate>
 				<ReleaseRate>200000</ReleaseRate>
 			</BrakeCylinder>
 		</Brake>
