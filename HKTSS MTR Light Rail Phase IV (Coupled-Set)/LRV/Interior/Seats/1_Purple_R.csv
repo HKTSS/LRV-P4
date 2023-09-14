@@ -498,7 +498,7 @@ SetTextureCoordinates,0,0.9,1,
 SetTextureCoordinates,1,0.9,0,
 SetTextureCoordinates,2,1,0
 SetTextureCoordinates,3,1,1,
-SetDecalTransparentColor,0,0,255,
+SetDecalTransparentColor,0,0,255
 translate,0.005,0,0.011
 
 CreateMeshBuilder,
@@ -509,11 +509,11 @@ AddVertex, -0.07, 0.25, 0.50,
 AddFace2,3,2,1,0,
 SetEmissiveColor,255,255,255
 LoadTexture,chair_side.png
-SetTextureCoordinates,0,1,1,
-SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,0,1,1
+SetTextureCoordinates,1,1,0
 SetTextureCoordinates,2,0.95,0
-SetTextureCoordinates,3,0.95,1,
-SetDecalTransparentColor,0,0,255,
+SetTextureCoordinates,3,0.95,1
+SetDecalTransparentColor,0,0,255
 translate,0.005,0,0.011
 
 CreateMeshBuilder,
