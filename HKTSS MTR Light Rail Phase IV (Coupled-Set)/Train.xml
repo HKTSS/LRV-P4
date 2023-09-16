@@ -9,6 +9,7 @@
 		<Coupler>
 			<Minimum>0.6</Minimum>
 			<Maximum>0.95</Maximum>
+			<CanUncouple>true</CanUncouple>
 		</Coupler>
 		<Car>car.xml</Car>
 		<Plugin>Plugin\LRVSystem.dll</Plugin>

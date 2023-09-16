@@ -12,7 +12,6 @@
 		<DriverPosition>0,2.15.7,-1.75</DriverPosition>
 		<MotorCar>True</MotorCar>
 		<Mass>37000</Mass>
-		<ReadhesionDevice>TypeA</ReadhesionDevice>
 		<UncouplingBehavior>Emergency</UncouplingBehavior>
 		<Power>
 			<Notches>8</Notches>
@@ -80,34 +79,35 @@
 			<Handle>
 				<Notches>7</Notches>
 			</Handle>
+			<!-- Pressures are in kPa -->
 			<MainReservoir>
-				<MinimumPressure>100000</MinimumPressure>
-				<MaximumPressure>250000</MaximumPressure>
+				<MinimumPressure>550000</MinimumPressure>
+				<MaximumPressure>800000</MaximumPressure>
 			</MainReservoir>
 			<AuxiliaryReservoir>
-				<ChargeRate>100000.0</ChargeRate>
+				<ChargeRate>200000.0</ChargeRate>
 			</AuxiliaryReservoir>
 			<EqualizingReservoir>
-				<ServiceRate>80000.0</ServiceRate>
-				<EmergencyRate>100000.0</EmergencyRate>
-				<ChargeRate>100000.0</ChargeRate>
+				<ServiceRate>50000.0</ServiceRate>
+				<EmergencyRate>250000.0</EmergencyRate>
+				<ChargeRate>200000.0</ChargeRate>
 			</EqualizingReservoir>
 			<BrakePipe>
-				<NormalPressure>500000</NormalPressure>
-				<ServiceRate>100000.0</ServiceRate>
-				<EmergencyRate>400000.0</EmergencyRate>
-				<ChargeRate>50000.0</ChargeRate>
+				<NormalPressure>430000</NormalPressure>
+				<ServiceRate>1500000.0</ServiceRate>
+				<EmergencyRate>5000000.0</EmergencyRate>
+				<ChargeRate>10000000.0</ChargeRate>
 			</BrakePipe>
 			<StraightAirPipe>
-				<ServiceRate>180000.0</ServiceRate>
-				<EmergencyRate>220000.0</EmergencyRate>
-				<ReleaseRate>180000.0</ReleaseRate>
+				<ServiceRate>200000.0</ServiceRate>
+				<EmergencyRate>400000.0</EmergencyRate>
+				<ReleaseRate>200000.0</ReleaseRate>
 			</StraightAirPipe>
 			<BrakeCylinder>
-				<ServiceMaximumPressure>250000</ServiceMaximumPressure>
-				<EmergencyMaximumPressure>900000</EmergencyMaximumPressure>
-				<EmergencyRate>900000</EmergencyRate>
-				<ReleaseRate>200000</ReleaseRate>
+				<ServiceMaximumPressure>70000</ServiceMaximumPressure>
+				<EmergencyMaximumPressure>200000</EmergencyMaximumPressure>
+				<EmergencyRate>100000</EmergencyRate>
+				<ReleaseRate>40000</ReleaseRate>
 			</BrakeCylinder>
 		</Brake>
 		<Doors>
@@ -117,7 +117,7 @@
 		<Sanders>
 			<Type>PressAndHold</Type>
 			<Rate>1</Rate>
-			<SandLevel>100</SandLevel>
+			<SandLevel>200</SandLevel>
 			<ApplicationTime>4</ApplicationTime>
 			<ActivationTime>2</ActivationTime>
 		</Sanders>
