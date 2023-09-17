@@ -1,0 +1,34 @@
+;;  ;;
+;[Object]
+;States = ../../null.csv, 0LRD_ZH.csv, 0LRD_EN.csv, ../../null.csv
+;Position = 0,0,0
+;TextureShiftXFunction = (pluginState[127] / 1000) * 0.5
+;StateFunction = pluginState[126]
+
+;; Tin Tsz ;;
+;[Object]
+;States = ../../null.csv, 1TIT_ZH.csv, 1TIT_EN.csv, ../../null.csv
+;Position = 0,0,0
+;TextureShiftXFunction = (pluginState[127] / 1000) * 0.5
+;StateFunction = if[destination == 2435, pluginState[126], 3]
+
+;; Tin Wu ;;
+;[Object]
+;States = ../../null.csv, 2TWU_ZH.csv, 2TWU_EN.csv, ../../null.csv
+;Position = 0,0,0
+;TextureShiftXFunction = (pluginState[127] / 1000) * 0.5
+;StateFunction = if[destination == 2450, pluginState[126], 3]
+
+;; Ginza ;;
+;[Object]
+;States = ../../null.csv, 3GIN_ZH.csv, 3GIN_EN.csv, ../../null.csv
+;Position = 0,0,0
+;TextureShiftXFunction = (pluginState[127] / 1000) * 0.5
+;StateFunction = if[destination == 2455, pluginState[126], 3]
+
+;; Tin Wing ;;
+;[Object]
+;States = ../../null.csv, 4TWI_ZH.csv, 4TWI_EN.csv, ../../null.csv
+;Position = 0,0,0
+;TextureShiftXFunction = (pluginState[127] / 1000) * 0.5
+;StateFunction = if[destination == 2500, pluginState[126], 3]

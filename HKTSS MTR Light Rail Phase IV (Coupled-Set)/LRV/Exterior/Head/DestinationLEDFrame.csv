@@ -1,0 +1,54 @@
+;; Destination LED Frame ;;
+CreateMeshBuilder
+AddVertex,0.650,2.893,9.721, 0,1,0
+AddVertex,0.650,2.893,9.496, 0,1,0
+AddVertex,-0.650,2.893,9.496, 0,1,0
+AddVertex,-0.650,2.893,9.721, 0,1,0
+AddFace2,0,1,2,3
+SetColor,31,31,31
+
+CreateMeshBuilder
+AddVertex,0.650,3.303,9.588, 0,1,0
+AddVertex,0.650,3.303,9.496, 0,1,0
+AddVertex,-0.650,3.303,9.496, 0,1,0
+AddVertex,-0.650,3.303,9.588, 0,1,0
+AddFace2,0,1,2,3
+SetColor,35,35,35
+
+CreateMeshBuilder
+AddVertex,0.650,2.893,9.721, 0,1,0
+AddVertex,0.650,3.303,9.585, 0,1,0
+AddVertex,0.640,3.303,9.500, 0,1,0
+AddVertex,0.640,2.893,9.500, 0,1,0
+AddFace,0,1,2,3
+SetColor,25,25,25
+
+CreateMeshBuilder
+AddVertex,-0.640,2.893,9.721, 0,1,0
+AddVertex,-0.640,3.303,9.585, 0,1,0
+AddVertex,-0.630,3.303,9.496, 0,1,0
+AddVertex,-0.630,2.893,9.496, 0,1,0
+AddFace,3,2,1,0
+SetColor,25,25,25
+
+CreateMeshBuilder
+AddVertex,-0.630,2.890,9.525, 0,1,0
+AddVertex,-0.630,3.305,9.525, 0,1,0
+AddVertex,0.640,3.305,9.525, 0,1,0
+AddVertex,0.640,2.890,9.525, 0,1,0
+AddFace,3,2,1,0
+LoadTexture,..\..\LED\empty\FE.png
+SetTextureCoordinates,0,1,1.38
+SetTextureCoordinates,1,1,0
+SetTextureCoordinates,2,0,0
+SetTextureCoordinates,3,0,1.38
+
+CreateMeshBuilder,
+AddVertex, 0.64, 2.895, 9.72,0,1,0
+AddVertex, 0.64, 3.30, 9.58,0,1,0
+AddVertex,-0.64, 3.30, 9.58,0,1,0
+AddVertex,-0.64, 2.895, 9.72,0,1,0
+AddFace2,3,2,1,0,
+SetColor,193,238,255,35
+SetBlendMode, Additive
+;; Destination LED Frame End ;;

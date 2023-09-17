@@ -1,0 +1,11 @@
+[Object]
+States = pan_base.csv
+Position = 0,-0.15,0
+
+[Object]
+States = pan.csv
+Position = 0,-0.15,0
+
+[Object]
+States = top_top.csv
+Position = 0,5.415,5.225

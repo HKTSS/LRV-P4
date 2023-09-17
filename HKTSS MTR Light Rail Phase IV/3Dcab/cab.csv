@@ -1,0 +1,231 @@
+;;head left;;
+CreateMeshBuilder,
+AddVertex,0.78, 0.5, -0.1,0,1,0
+AddVertex,0.66, 3.3, 0.07,0,1,0
+AddVertex,1.33, 3.3, 1.84,0,1,0
+AddVertex,1.33, 0.5, 1.84,0,1,0
+AddFace2, 0, 1, 2, 3
+LoadTexture,head-left.png
+SetTextureCoordinates,0,0,1
+SetTextureCoordinates,1,0,0.05
+SetTextureCoordinates,2,1,0.05
+SetTextureCoordinates,3,1,1
+SetDecalTransparentColor,0,0,255
+Translate,-0.02,0.06,-10.01
+
+CreateMeshBuilder,
+AddVertex,-0.975, 0.95, 1.87, 0,1,0
+AddVertex,-0.29, 0.95, 0.3, 0,1,0
+AddVertex, 0.43, 0.95, 0.3, 0,1,0
+AddVertex, 0.43, 0.95, 1.87, 0,1,0
+AddFace,3, 2, 1, 0
+SetColor,120,120,120
+LoadTexture,..\LRV\Interior\ground2.png
+SetTextureCoordinates,0, 0.1, 7,
+SetTextureCoordinates,1, 0.5, 0,
+SetTextureCoordinates,2, 1.0, 0
+SetTextureCoordinates,3, 1.0, 7,
+Translate,-0.027,-0.1,-10.1
+
+;;head right;;
+
+CreateMeshBuilder,
+AddVertex,-0.77,1.63, 0.02,0,1,0
+AddVertex,-0.70, 3.31, 0.1,0,1,0
+AddVertex,-1.33, 3.31, 1.84,0,1,0
+AddVertex,-1.33, 1.63, 1.84,0,1,0
+AddFace2,3,2,1,0
+LoadTexture,Head-right.png,
+SetTextureCoordinates,0,0,0.6,
+SetTextureCoordinates,1,0,0.05,
+SetTextureCoordinates,2,1,0.05,
+SetTextureCoordinates,3,1,0.6,
+SetDecalTransparentColor,0,0,255
+Translate,0.03,0.06,-10.02
+
+CreateMeshBuilder,
+AddVertex, 0.865,  2.9, -9.45, 0,1,0
+AddVertex, 0.835,  3.225, -9.45, 0,1,0
+AddVertex,-0.845,  3.225, -9.45, 0,1,0
+AddVertex,-0.847,  2.9, -9.45, 0,1,0
+AddFace2, 3,2,1,0
+LoadTexture,top_panel.png
+SetTextureCoordinates,0,0,0.9,
+SetTextureCoordinates,1,0.01,0,
+SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,3,1,0.9,
+SetDecalTransparentColor, 255,255,255
+
+CreateMeshBuilder,
+AddVertex, 0.74,  2.9, -9.763, 0,1,0
+AddVertex, 0.865,  2.9, -9.45, 0,1,0
+AddVertex,-0.847,  2.9, -9.45, 0,1,0
+AddVertex,-0.78,  2.9, -9.763, 0,1,0
+AddFace2, 3,2,1,0
+LoadTexture,top_panel.png,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0.9,
+SetTextureCoordinates,2,1,0.9,
+SetTextureCoordinates,3,1,1,
+SetDecalTransparentColor, 255,255,255
+
+CreateMeshBuilder,
+AddVertex, 0.742,  2.9, -9.763, 0,1,0
+AddVertex, 0.759,  2.727, -9.763, 0,1,0
+AddVertex,-0.759,  2.727, -9.763, 0,1,0
+AddVertex,-0.742,  2.9, -9.763, 0,1,0
+AddFace2, 3,2,1,0
+LoadTexture,top_panel.png,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0.91,
+SetTextureCoordinates,2,1,0.91,
+SetTextureCoordinates,3,1,1,
+SetDecalTransparentColor, 255,255,255
+
+CreateMeshBuilder,
+AddVertex, 0.742,  2.727, -9.763, 0,1,0
+AddVertex, 0.759,  2.727, -9.816, 0,1,0
+AddVertex,-0.759,  2.727, -9.816, 0,1,0
+AddVertex,-0.742,  2.727, -9.763, 0,1,0
+AddFace2, 3,2,1,0
+LoadTexture,top_panel.png,
+SetTextureCoordinates,0,0,0.91,
+SetTextureCoordinates,1,0,0.91,
+SetTextureCoordinates,2,1,0.91,
+SetTextureCoordinates,3,1,0.91,
+SetDecalTransparentColor, 255,255,255
+
+CreateMeshBuilder,
+AddVertex, 1.315,  3.225, -8.230, 0,1,0
+AddVertex, 0.835,  3.225, -9.45, 0,1,0
+AddVertex,-0.846,  3.225, -9.45, 0,1,0
+AddVertex,-1.305,  3.225, -8.230, 0,1,0
+AddFace2, 3,2,1,0
+LoadTexture,ceiling.png,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,10,0,
+SetTextureCoordinates,3,10,1,
+SetDecalTransparentColor, 255,255,255
+
+CreateMeshBuilder,
+AddVertex, 0.4, 1.12, -9.7, 0,1,0
+AddVertex, 0.4, 2.00, -9.7, 0,1,0
+AddVertex, 0.4, 2.00, -8.13, 0,1,0
+AddVertex, 0.4, 1.12, -8.13, 0,1,0
+AddVertex,-0.3, 1.12,-9.7, 0,1,0
+AddVertex,-0.3, 2.0, -9.7, 0,1,0
+AddVertex,-1.000, 2.0, -8.13, 0,1,0
+AddVertex,-1.000, 1.12,-8.13, 0,1,0
+AddFace,3, 2, 1, 0
+AddFace,4, 5, 6, 7,
+LoadTexture,bottom.png,
+SetTextureCoordinates,0,0.5,1
+SetTextureCoordinates,1,0.5,0
+SetTextureCoordinates,2,0,0
+SetTextureCoordinates,3,0,1
+SetTextureCoordinates,4,0.5,1
+SetTextureCoordinates,5,0.5,0
+SetTextureCoordinates,6,0,0
+SetTextureCoordinates,7,0,1
+Translate,0,-0.27,-0.1
+
+CreateMeshBuilder,
+AddVertex, 0.4,  1.8, -9.45, 0,1,0
+AddVertex, 0.4,  2, -9.45, 0,1,0
+AddVertex,-0.39,  2, -9.45, 0,1,0
+AddVertex,-0.39,  1.8, -9.45, 0,1,0
+AddVertex, 0.4,  1.12, -9.7, 0,1,0
+AddVertex, 0.4,  1.8, -9.7, 0,1,0
+AddVertex,-0.30,  1.8, -9.7, 0,1,0
+AddVertex,-0.30,  1.12, -9.7, 0,1,0
+AddFace, 0, 1, 2, 3
+AddFace, 6, 5, 0, 3
+AddFace, 4, 5, 6, 7
+LoadTexture,bottom.png
+SetTextureCoordinates,0, 0.5, 0.12
+SetTextureCoordinates,1, 0.5, 0
+SetTextureCoordinates,2, 1, 0
+SetTextureCoordinates,3, 1, 0.12
+SetTextureCoordinates,4, 0.5, 1
+SetTextureCoordinates,5, 0.5, 0.12
+SetTextureCoordinates,6, 1, 0.12
+SetTextureCoordinates,7, 1, 1
+Translate,0,-0.27,-0.1
+
+CreateMeshBuilder,
+AddVertex, 0.9,  1.73, -9.6, 0,1,0
+AddVertex, 0.4,  1.73, -9.6, 0,1,0
+AddVertex, 0.4,  1.73, -8.23, 0,1,0
+AddVertex, 1.299,  1.73, -8.23, 0,1,0
+AddFace, 0, 1, 2, 3
+LoadTexture, desk.png
+SetTextureCoordinates, 0, 1, 0,
+SetTextureCoordinates, 1, 1, 1,
+SetTextureCoordinates, 2, 0, 1,
+SetTextureCoordinates, 3, 0, 0,
+
+CreateMeshBuilder,
+AddVertex, 0.73,  1.73, -10.0, 0,1,0
+AddVertex, 0.4,  1.73, -10.0, 0,1,0
+AddVertex, 0.4,  1.73, -9.6, 0,1,0
+AddVertex, 0.9,  1.73, -9.6, 0,1,0
+AddFace, 0, 1, 2, 3
+LoadTexture, desk.png
+SetTextureCoordinates, 0, 1, 0,
+SetTextureCoordinates, 1, 1, 1,
+SetTextureCoordinates, 2, 0, 1,
+SetTextureCoordinates, 3, 0, 0,
+
+CreateMeshBuilder,
+AddVertex, 0.4,  1.73, -10.0, 0,1,0
+AddVertex, -0.74,  1.73, -10.0, 0,1,0
+AddVertex, -0.83,  1.73, -9.55, 0,1,0
+AddVertex, 0.4,  1.73, -9.55, 0,1,0
+AddFace, 0, 1, 2, 3
+LoadTexture, desk.png
+SetTextureCoordinates, 0, 0, 0,
+SetTextureCoordinates, 1, 1, 0,
+SetTextureCoordinates, 2, 1, 1,
+SetTextureCoordinates, 3, 0, 1,
+
+
+CreateMeshBuilder,
+AddVertex, -0.34,  1.73, -9.7, 0,1,0
+AddVertex, -0.83,  1.73, -9.7, 0,1,0
+AddVertex, -1.23,  1.73, -8.25, 0,1,0
+AddVertex, -0.99,  1.73, -8.25, 0,1,0
+AddFace, 0, 1, 2, 3
+LoadTexture, desk.png
+SetTextureCoordinates, 0, 0, 0,
+SetTextureCoordinates, 1, 1, 0,
+SetTextureCoordinates, 2, 1, 1,
+SetTextureCoordinates, 3, 0, 1,
+
+CreateMeshBuilder,
+AddVertex, 0.74, 1.732, -10.0, 0,1,0
+AddVertex, 0.4, 1.7305, -10.0, 0,1,0
+AddVertex, 0.4, 1.7305, -8.7, 0,1,0
+AddVertex, 1.21, 1.732, -8.7, 0,1,0
+AddFace,0, 1, 2, 3,
+LoadTexture, shadow1.png, ..\LRV\empty.png,
+SetTextureCoordinates, 0, 0, 1
+SetTextureCoordinates, 1, 0, 0
+SetTextureCoordinates, 2, 1, 0
+SetTextureCoordinates, 3, 1, 1
+EnableCrossfading, true
+
+CreateMeshBuilder,
+AddVertex, 0.40, 1.7305, -10.0, 0,1,0
+AddVertex, -0.74, 1.7305, -10.0, 0,1,0
+AddVertex, -0.83, 1.7305, -9.55, 0,1,0
+AddVertex, 0.40, 1.7305, -9.55, 0,1,0
+AddFace,0, 1, 2, 3,
+LoadTexture, shadow1.png, ..\LRV\empty.png,
+SetTextureCoordinates, 0, 0, 0
+SetTextureCoordinates, 1, 0, 1
+SetTextureCoordinates, 2, 0.2, 1
+SetTextureCoordinates, 3, 0.2, 0
+EnableCrossfading, true
+
+RotateAll,0,1,0,180

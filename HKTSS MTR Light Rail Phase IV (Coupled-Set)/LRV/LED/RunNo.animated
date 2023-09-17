@@ -1,0 +1,17 @@
+[Object]
+States = ../null.csv, RunNo/0.csv, RunNo/1.csv, RunNo/2.csv, RunNo/3.csv, RunNo/4.csv, RunNo/5.csv, RunNo/6.csv, RunNo/7.csv, RunNo/8.csv, RunNo/9.csv
+Position = 0,0,0
+Statefunction = if[pluginstate[213] == 1, 0, Mod[pluginstate[105], 10] + 1]
+RefreshRate = 0.1
+
+[Object]
+States = ../null.csv, RunNo/0.csv, RunNo/1.csv, RunNo/2.csv, RunNo/3.csv, RunNo/4.csv, RunNo/5.csv, RunNo/6.csv, RunNo/7.csv, RunNo/8.csv, RunNo/9.csv
+Position = -0.10,0,0
+Statefunction = if[pluginstate[213] == 1, 0, Mod[pluginstate[106], 10] + 1]
+RefreshRate = 0.1
+
+[Object]
+States = ../null.csv, RunNo/0.csv, RunNo/1.csv, RunNo/2.csv, RunNo/3.csv, RunNo/4.csv, RunNo/5.csv, RunNo/6.csv, RunNo/7.csv, RunNo/8.csv, RunNo/9.csv
+Position = -0.20,0,0
+Statefunction = if[pluginstate[213] == 1, 0, Mod[pluginstate[107], 10] + 1]
+RefreshRate = 0.1

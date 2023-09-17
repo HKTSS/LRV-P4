@@ -1,0 +1,17 @@
+CreateMeshBuilder,
+AddVertex,0.03, -0.02, 1.65, 0,1,0
+AddVertex,0.03, 0.27, 1.65, 0,1,0
+AddVertex,0.03, 0.27, 0, 0,1,0
+AddVertex,0.03, -0.02, 0, 0,1,0
+AddFace,0, 1, 2, 3
+SetColor,15,15,15
+
+CreateMeshBuilder,
+Cube, 0.01,0.12,0.228
+SetColor,60,60,60
+Translate,0.022,0.10,0.362
+
+CreateMeshBuilder,
+Cube, 0.01,0.135,0.375
+SetColor,60,60,60
+Translate,0.022,0.124,1.203

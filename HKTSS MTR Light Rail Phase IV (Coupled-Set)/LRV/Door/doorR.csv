@@ -1,0 +1,156 @@
+CreateMeshBuilder,
+AddVertex,-1.36, 2.91, -0.045, 0,1,0
+AddVertex,-1.36, 2.91, -0.625, 0,1,0
+AddVertex, -1.33, 2.91, -0.625, 0,1,0
+AddVertex, -1.33, 2.91, -0.045, 0,1,0
+AddFace2,0, 1, 2, 3,
+SetColor,155,155,155
+translate,0,-0.03,0
+
+CreateMeshBuilder,
+AddVertex,-1.36, 1.8, -0.60, 0,1,0
+AddVertex,-1.36, 2.91, -0.61, 0,1,0
+AddVertex, -1.33, 2.91, -0.61, 0,1,0
+AddVertex, -1.33, 1.8, -0.60, 0,1,0
+AddFace2,0, 1, 2, 3,
+SetColor,155,155,155
+
+CreateMeshBuilder,
+AddVertex,-1.36, 1.66, -0.025, 0,1,0
+AddVertex,-1.36, 1.66, -0.14, 0,1,0
+AddVertex, -1.33, 1.66, -0.14, 0,1,0
+AddVertex, -1.33, 1.66, -0.025, 0,1,0
+AddFace2,0, 1, 2, 3,
+SetColor,155,155,155
+translate,0,-0.03,0
+
+CreateMeshBuilder,
+AddVertex,-1.36, 1.66, -0.14, 0,1,0
+AddVertex,-1.36, 1.835, -0.60, 0,1,0
+AddVertex, -1.33, 1.835, -0.60, 0,1,0
+AddVertex, -1.33, 1.66, -0.14, 0,1,0
+AddFace2,0, 1, 2, 3,
+SetColor,155,155,155
+translate,0,-0.03,0
+
+CreateMeshBuilder,
+AddVertex,-1.36, 1.62, -0.037, 0,1,0
+AddVertex,-1.36, 2.9, -0.037, 0,1,0
+AddVertex, -1.33, 2.9, -0.037, 0,1,0
+AddVertex, -1.33, 1.62, -0.037, 0,1,0
+AddFace2,0, 1, 2, 3,
+SetColor,155,155,155
+
+CreateMeshBuilder,
+AddVertex,-1.36, 0.75, 0.15,0,1,0
+AddVertex,-1.36, 2.91, 0.15,0,1,0
+AddVertex,-1.36, 2.91, -0.75,0,1,0
+AddVertex,-1.36, 0.75, -0.75,0,1,0
+AddFace,0,1,2,3
+LoadTexture,doorR_out.png,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0
+SetTextureCoordinates,3,1,1,
+SetDecalTransparentColor,0,0,255,
+
+CreateMeshBuilder,
+AddVertex,-1.330, 0.85, -0.75,
+AddVertex,-1.330, 2.93, -0.75,
+AddVertex,-1.330, 2.93, 0.15
+AddVertex,-1.330, 0.85, 0.15
+AddFace,0,1,2,3
+SetEmissiveColor, 255, 255, 255
+LoadTexture,doorL.png
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0
+SetTextureCoordinates,3,1,1,
+SetDecalTransparentColor,0,144,181,
+
+;;Door sticker;;
+CreateMeshBuilder,
+AddVertex,-1.347, 2.75, -0.063,0,1,0
+AddVertex,-1.347, 2.83, -0.063 ,0,1,0
+AddVertex,-1.347, 2.83, -0.523,0,1,0
+AddVertex,-1.347, 2.75, -0.523,0,1,0
+AddFace,0, 1, 2, 3,
+LoadTexture,sticker.png,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0.549,
+SetTextureCoordinates,2,0.8,0.549,
+SetTextureCoordinates,3,0.8,1,
+
+CreateMeshBuilder,
+AddVertex,-1.347, 2.60, -0.063,0,1,0
+AddVertex,-1.347, 2.72, -0.063,0,1,0
+AddVertex,-1.347, 2.72, -0.155,0,1,0
+AddVertex,-1.347, 2.60, -0.155,0,1,0
+AddFace,0, 1, 2, 3,
+LoadTexture,sticker.png,
+SetTextureCoordinates,0,1,1,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,0.8,0,
+SetTextureCoordinates,3,0.8,1,
+
+CreateMeshBuilder,
+AddVertex,-1.332, 2.78, -0.55,0,1,0
+AddVertex,-1.332, 2.86, -0.55,0,1,0
+AddVertex,-1.332, 2.86, -0.10,0,1,0
+AddVertex,-1.332, 2.78, -0.10,0,1,0
+AddFace,0, 1, 2, 3
+SetEmissiveColor,255,255,255
+LoadTexture,sticker.png,
+SetTextureCoordinates,0,0,0.545
+SetTextureCoordinates,1,0,0.0
+SetTextureCoordinates,2,0.8,0.0
+SetTextureCoordinates,3,0.8,0.545
+SetDecalTransparentColor,0,0,255
+
+;;Door sticker end;;
+
+CreateMeshBuilder,
+AddVertex,-1.323, 0.85, -0.75,
+AddVertex,-1.323, 0.9, -0.75,
+AddVertex,-1.323, 0.9, 0.15
+AddVertex,-1.323, 0.85, 0.15
+AddFace,0,1,2,3
+SetColor,0,0,0
+
+CreateMeshBuilder,
+AddVertex,-1.33, 0.75, -0.75,
+AddVertex,-1.33, 2.91, -0.75,
+AddVertex,-1.36, 2.91, -0.75
+AddVertex,-1.36, 0.75, -0.75
+AddFace2,0,1,2,3
+SetColor,0,0,0
+
+CreateMeshBuilder,
+AddVertex,-1.33, 0.75, 0.15,
+AddVertex,-1.33, 2.915, 0.15,
+AddVertex,-1.36, 2.915, 0.15
+AddVertex,-1.36, 0.75, 0.15
+AddFace2,0,1,2,3
+SetColor,0,0,0
+
+;;Exterior Glass;;
+
+CreateMeshBuilder,
+AddVertex,1.322, 1.62, 2.3, 0,1,0
+AddVertex,1.322, 2.913, 2.3, 0,1,0
+AddVertex,1.322, 2.913, 3, 0,1,0
+AddVertex,1.322, 1.62, 3, 0,1,0
+AddFace,3,2,1,0
+SetColor,35,20,0,125
+SetBlendMode, Normal, 2, DivideExponent4
+translate,-2.68,0,-3
+
+;;Interior Glass;;
+CreateMeshBuilder,
+AddVertex,1.349, 1.64, 3, 0,1,0
+AddVertex,1.349, 2.913, 3, 0,1,0
+AddVertex,1.349, 2.913, 2.3, 0,1,0
+AddVertex,1.349, 1.64, 2.3, 0,1,0
+AddFace,3,2,1,0
+SetColor, 70,48,40,50
+translate,-2.68,0,-3

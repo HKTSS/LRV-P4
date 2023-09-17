@@ -1,0 +1,12 @@
+[Object]
+States = speedo_on.csv, speedo_off.csv
+Position = 0.05,-0.05,-0.1
+Statefunction = pluginstate[110]
+RefreshRate = 0.2
+
+[Object]
+States = speedo.csv
+Position = -0.098,1.815,9.604
+RotateXFunction = -0.3 + sin[abs[speedometer] * 0.13]
+RotateYFunction = -0.6 + sin[abs[speedometer] * 0.06]
+RotateZFunction = 2.1 - power[(abs[speedometer] * 0.15), 1.09]

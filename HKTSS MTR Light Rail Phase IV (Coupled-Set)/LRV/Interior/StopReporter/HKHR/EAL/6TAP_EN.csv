@@ -1,0 +1,19 @@
+;; Assume 160x16 ;;
+
+CreateMeshBuilder,
+AddVertex, 0.305, 3.170, 1.891,
+AddVertex, 0.305, 3.237, 1.891,
+AddVertex, -0.355, 3.237, 1.891,
+AddVertex, -0.355, 3.170, 1.891,
+AddFace,0,1,2,3
+SetEmissiveColor,255,255,255
+LoadTexture,tex\TAP.png
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0.5,
+SetTextureCoordinates,2,0.5,0.5,
+SetTextureCoordinates,3,0.5,1,
+SetDecalTransparentColor,0,0,0
+SetWrapMode, ClampClamp
+
+RotateAll,0,1,0,180
+TranslateAll,0,0,10

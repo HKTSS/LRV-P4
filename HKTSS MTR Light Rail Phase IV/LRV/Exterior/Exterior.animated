@@ -1,0 +1,39 @@
+[Include]
+Head/Head.animated
+TurnSignal/signal.animated
+Bogie/bogie.animated
+Pantograph/pan.animated
+
+[Object]
+States = outside.csv
+Position = 0,0,0
+
+[Object]
+States = skirt.csv
+Position = 0,0,0
+
+[Object]
+States = aircon.csv
+Position = 0,0,0
+
+;;Reflection @ top red line on the side of the LRV;;
+[Object]
+States = redline_refl.csv
+Position = 0,0,0
+TextureShiftXFunction = value - speed * 0.0005
+
+;;Train Status, controlled via plugin;;
+[Object]
+States = null.csv, TrainStatus/NotToGoKCR.csv, TrainStatus/NotToGoMTR.csv, TrainStatus/ScotchBlock.csv
+Position = 0,0,0
+StateFunction = PluginState[131]
+
+[Object]
+States = BrakingLight.csv, null.csv
+Position = 0,0,0
+Statefunction = if[brakeNotchLinear > 0,0,1]
+
+[Object]
+States = ReverseLight.csv, null.csv
+Position = 0,0,0.01
+Statefunction = if[reverserNotch == -1,0,1]

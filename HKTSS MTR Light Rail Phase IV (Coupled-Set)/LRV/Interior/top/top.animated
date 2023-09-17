@@ -1,0 +1,226 @@
+[Object]
+States = stickers/fire_ex_sticker_down.csv, stickers/Dark/fire_ex_sticker_down.csv
+Position = 0.05,0,1.7
+Statefunction = pluginState[99]
+
+[Object]
+States = stickers/fire_ex_sticker_down.csv, stickers/Dark/fire_ex_sticker_down.csv
+Position = 0.05,0,-3.8
+Statefunction = pluginState[99]
+
+[Object]
+States = stickers/exit_back.csv, stickers/Dark/exit_back.csv
+Position = 0.0,0,-7.5
+Statefunction = pluginState[99]
+
+[Object]
+States = stickers/cctv.csv, stickers/Dark/cctv.csv
+Position = 0.055,0,-6.8
+Statefunction = pluginState[99]
+
+[Object]
+States = stickers/unwell.csv, stickers/Dark/unwell.csv
+Position = 0.055,0,-6.6
+Statefunction = pluginState[99]
+
+[Object]
+States = stickers/cctv.csv, stickers/Dark/cctv.csv
+Position = 0.055,0,-1.4
+Statefunction = pluginState[99]
+
+[Object]
+States = stickers/unwell.csv, stickers/Dark/unwell.csv
+Position = 0.055,0,-1.2
+Statefunction = pluginState[99]
+
+
+[Object]
+States = stickers/cctv.csv, stickers/Dark/cctv.csv
+Position = 0.055,0,4.1
+Statefunction = pluginState[99]
+
+[Object]
+States = stickers/unwell.csv, stickers/Dark/unwell.csv
+Position = 0.055,0,4.3
+Statefunction = pluginState[99]
+
+[Object]
+States = stickers/exit_back_right.csv, stickers/Dark/exit_back_right.csv
+Position = 0.03,-0.02,3.7
+Statefunction = pluginState[99]
+RotateYFunction=pi
+
+[Object]
+States = stickers/exit_back_right.csv, stickers/Dark/exit_back_right.csv
+Position = 0.03,-0.02,13.4
+Statefunction = pluginState[99]
+RotateYFunction=pi
+
+[Object]
+States = stickers/passen_rules.csv, stickers/Dark/passen_rules.csv
+Position = 0.05,0,-4
+Statefunction = pluginState[99]
+
+[Object]
+States = stickers/passen_rules.csv, stickers/Dark/passen_rules.csv
+Position = -0.03,0,3.55
+Statefunction = pluginState[99]
+RotateYFunction=pi
+
+[Object]
+States = stickers/ticket_info.csv, stickers/Dark/ticket_info.csv
+Position = 0,0,2.18
+Statefunction = pluginState[99]
+
+;; Side Panel ;;
+[Object]
+States = side_panel/doors.csv, side_panel/Dark/doors.csv
+Position = 0,0,-3.7
+Statefunction = pluginState[99]
+
+[Object]
+States = side_panel/doors.csv, side_panel/Dark/doors.csv
+Position = 0,0,-9.2
+Statefunction = pluginState[99]
+
+[Object]
+States = side_panel/doors.csv, side_panel/Dark/doors.csv
+Position = -0.001,0,-14.6
+Statefunction = pluginState[99]
+
+;; Side Panel Window ;;
+
+[Object]
+States = side_panel/window.csv, side_panel/Dark/window.csv
+Position = 0,0,-1.85
+Statefunction = pluginState[99]
+
+[Object]
+States = side_panel/window.csv, side_panel/Dark/window.csv
+Position = 0,0,-5.5
+Statefunction = pluginState[99]
+
+[Object]
+States = side_panel/window.csv, side_panel/Dark/window.csv
+Position = 0,0,-7.35
+Statefunction = pluginState[99]
+
+[Object]
+States = side_panel/window.csv, side_panel/Dark/window.csv
+Position = 0,0,-11
+Statefunction = pluginState[99]
+
+[Object]
+States = side_panel/window.csv, side_panel/Dark/window.csv
+Position = 0,0,-12.85
+Statefunction = pluginState[99]
+
+[Object]
+States = side_panel/window.csv, side_panel/Dark/window.csv
+Position = 0,0,-16.4
+Statefunction = pluginState[99]
+
+[Object]
+States = side_panel/window.csv, side_panel/Dark/window.csv
+Position = 0.001,0,-16.6
+Statefunction = pluginState[99]
+
+[Object]
+States = side_panel/window_right.csv, side_panel/Dark/window_right.csv
+Position = 0.02,0,-3.65
+Statefunction = pluginState[99]
+
+[Object]
+States = side_panel/window_right.csv, side_panel/Dark/window_right.csv
+Position = 0.02,0,-5.5
+Statefunction = pluginState[99]
+
+[Object]
+States = side_panel/window_right.csv, side_panel/Dark/window_right.csv
+Position = 0.02,0,-7.35
+Statefunction = pluginState[99]
+
+[Object]
+States = side_panel/window_right.csv, side_panel/Dark/window_right.csv
+Position = 0.02,0,-9.2
+Statefunction = pluginState[99]
+
+[Object]
+States = side_panel/window_right.csv, side_panel/Dark/window_right.csv
+Position = 0.02,0,-11.05
+Statefunction = pluginState[99]
+
+[Object]
+States = side_panel/window_right.csv, side_panel/Dark/window_right.csv
+Position = 0.02,0,-12.9
+Statefunction = pluginState[99]
+
+[Object]
+States = side_panel/window_right.csv, side_panel/Dark/window_right.csv
+Position = 0.02,0,-14.75
+Statefunction = pluginState[99]
+
+[Object]
+States = side_panel/window_right.csv, side_panel/Dark/window_right.csv
+Position = 0.02,0,-16.6
+Statefunction = pluginState[99]
+
+[Object]
+States = side_panel/window_right.csv, side_panel/Dark/window_right.csv
+Position = 0.02,0,-18.45
+Statefunction = pluginState[99]
+
+;;Interior Routemap;;
+;;Door 1;;
+[Object]
+States = stickers/routemap.csv, stickers/Dark/routemap.csv
+Position = 0,0,0
+Statefunction = pluginState[99]
+
+;;Door 2;;
+[Object]
+States = stickers/routemap.csv, stickers/Dark/routemap.csv
+Position = 0,0,-5.5
+Statefunction = pluginState[99]
+
+;;Door 3;;
+[Object]
+States = stickers/routemap.csv, stickers/Dark/routemap.csv
+Position = 0,0,-10.9
+Statefunction = pluginState[99]
+
+;; Ceiling ;;
+[Object]
+States = ceiling/ceiling.csv, ceiling/ceiling_dark.csv
+Position = 0,0,0
+Statefunction = pluginState[99]
+
+;;CCTV;;
+;;Door 1;;
+[Object]
+States = side_panel/CCTV.csv, side_panel/Dark/CCTV.csv
+Position = 0,0,-0.1
+Statefunction = pluginstate[99]
+
+;;Door 2;;
+[Object]
+States = side_panel/CCTV.csv, side_panel/Dark/CCTV.csv
+Position = 0,0,-5.55
+Statefunction = pluginState[99]
+
+;;Door 3;;
+[Object]
+States = side_panel/CCTV.csv, side_panel/Dark/CCTV.csv
+Position = 0,0,-10.95
+Statefunction = pluginState[99]
+
+;; Curved Handrail ;;
+[Object]
+States = side_panel/handrail.csv, side_panel/Dark/handrail.csv
+Position = -0.85,0.04,-2.85
+Statefunction = pluginState[99]
+
+[Object]
+States = side_panel/handrail.csv, side_panel/Dark/handrail.csv
+Position = -0.85,0.04,2.65
+Statefunction = pluginState[99]

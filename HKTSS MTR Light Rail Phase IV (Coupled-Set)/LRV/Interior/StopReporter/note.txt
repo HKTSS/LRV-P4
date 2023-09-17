@@ -1,0 +1,13 @@
+Chinese: PMingLiU 12pt
+English: Unknown 10pt, closest is Microsoft San Serif (PDN Bold), second closest is Arial Bold, manual adjustment might be made if glyph shape is known.
+
+========== To convert to usable texture ==============
+
+Station Name:
+Extend canvas 2x horizontally, to the right (Not Resize!)
+*Resize* the texture by 2x
+
+Special Message:
+Expand canvas to 144px, towards bottom
+Expand canvas to 160px, towards top
+Resize texture by 2x

@@ -1,0 +1,19 @@
+[Object]
+States = pressuremeter.csv
+Position = 0.05,-0.05,-0.1
+
+[Object]
+States = brakeneedleY.csv
+Position = -0.207, 1.817, 9.60
+RotateXDirection = -1, 0, 0
+RotateXFunction = -3.3 + abs[mainReservoir] * 0.0000040
+RotateYFunction = -0.8
+RotateZFunction = -0.62
+
+[Object]
+States = brakeneedleR.csv
+Position = -0.207, 1.817, 9.60
+RotateXDirection = -1, 0, 0
+RotateXFunction = -3.75 + abs[brakeCylinder] * 0.0000017
+RotateYFunction = -1.1 + abs[brakeCylinder] * 0.0000006
+RotateZFunction = -1.3

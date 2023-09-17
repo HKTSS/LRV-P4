@@ -1,0 +1,19 @@
+;;===== Info Panel 3D =====;;
+CreateMeshBuilder,
+Cube, 0.081,0.0035,0.03
+SetColor,20,20,20
+Rotate,1,0,0,-42.5
+Translate,-0.281,1.942,9.722
+
+CreateMeshBuilder,
+AddVertex,-0.362,  1.965, 9.740, 0,1,0
+AddVertex,-0.2,  1.965, 9.740, 0,1,0
+AddVertex,-0.2,  1.923, 9.695, 0,1,0
+AddVertex,-0.362,  1.923, 9.695, 0,1,0
+AddFace2, 0, 1, 2, 3
+LoadTexture,../../Panel1.png,
+SetTextureCoordinates,0, 0.133, 0.15
+SetTextureCoordinates,1, 0.243, 0.15
+SetTextureCoordinates,2, 0.243, 0.33
+SetTextureCoordinates,3, 0.133, 0.33
+SetDecalTransparentColor,0,0,255

@@ -1,0 +1,56 @@
+CreateMeshBuilder,
+AddVertex,1.325, 2.91, 1.8, 0,1,0
+AddVertex,1.325, 2.91, 0, 0,1,0
+AddVertex,1.14, 2.9, 0, 0,1,0
+AddVertex,1.14, 2.9, 1.8, 0,1,0
+AddFace2,0, 1, 2, 3,
+SetColor,60,60,60
+LoadTexture,../corner1.png
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,1,1,
+SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,3,0,0,
+
+CreateMeshBuilder,
+AddVertex,1.14, 2.9, 1.8, 0,1,0
+AddVertex,1.11, 3.05, 1.8, 0,1,0
+AddVertex,1.11, 3.05, 0, 0,1,0
+AddVertex,1.14, 2.9, 0, 0,1,0
+AddFace,0, 1, 2, 3,
+SetColor,60,60,60
+LoadTexture,../top_doors.png
+SetTextureCoordinates,0,0,1
+SetTextureCoordinates,1,0,0.62
+SetTextureCoordinates,2,1,0.62
+SetTextureCoordinates,3,1,1
+SetDecalTransparentColor,0,0,255
+
+CreateMeshBuilder,
+AddVertex,1.11, 3.05, 1.8, 0,1,0
+AddVertex,1.061, 3.16, 1.8, 0,1,0
+AddVertex,1.061, 3.16, 0, 0,1,0
+AddVertex,1.11, 3.05, 0, 0,1,0
+AddFace,0, 1, 2, 3,
+SetColor,60,60,60
+LoadTexture,../top_doors.png
+SetTextureCoordinates,0,0,0.62
+SetTextureCoordinates,1,0,0.32
+SetTextureCoordinates,2,1,0.32
+SetTextureCoordinates,3,1,0.62
+SetDecalTransparentColor,0,0,255
+
+CreateMeshBuilder,
+AddVertex,1.061, 3.16, 1.8, 0,1,0
+AddVertex,0.98, 3.265, 1.8, 0,1,0
+AddVertex,0.98, 3.265, 0, 0,1,0
+AddVertex,1.061, 3.16, 0, 0,1,0
+AddFace,0, 1, 2, 3,
+SetColor,60,60,60
+LoadTexture,../top_doors.png
+SetTextureCoordinates,0,0,0.32
+SetTextureCoordinates,1,0,0
+SetTextureCoordinates,2,1,0
+SetTextureCoordinates,3,1,0.32
+SetDecalTransparentColor,0,0,255
+RotateAll,0,1,0,180
+TranslateAll,0,0,10

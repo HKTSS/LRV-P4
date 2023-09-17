@@ -1,0 +1,23 @@
+[Object]
+States = head.csv
+Position = 0,0,0
+
+[Object]
+States = bumper.csv
+Position = 0,0.03,0
+
+[Object]
+States = RunNoFrame.csv
+Position = 0,0,0
+
+[Object]
+States = DestinationLEDFrame.csv
+Position = 0,0,0
+
+[Object]
+States = mirrorarm.csv
+Position = 0,-0.1,0
+
+[Object]
+States = mirror.csv
+Position = 0,-0.1,0

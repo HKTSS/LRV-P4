@@ -1,0 +1,12 @@
+[variants]
+HKTSS MTR Light Rail Phase IV (Coupled-Set)
+HKTSS MTR Light Rail Phase IV
+
+[ignore]
+Temp_ReplicaSticker*
+src*
+old*
+note*.txt
+Sound/Backup*
+*.kra
+*.py

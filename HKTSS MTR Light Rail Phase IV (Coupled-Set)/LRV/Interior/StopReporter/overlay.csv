@@ -1,0 +1,15 @@
+CreateMeshBuilder,
+AddVertex, 0.305, 3.170, 1.8912,
+AddVertex, 0.305, 3.237, 1.8912,
+AddVertex, -0.355, 3.237, 1.8912,
+AddVertex, -0.355, 3.170, 1.8912,
+AddFace,0,1,2,3
+SetEmissiveColor,255,255,255
+LoadTexture,square.png,
+SetTextureCoordinates,0,0,16,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,160,0,
+SetTextureCoordinates,3,160,16,
+
+RotateAll,0,1,0,180
+TranslateAll,0,0,10

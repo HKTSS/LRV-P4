@@ -1,0 +1,29 @@
+[Object]
+States = ../../null.csv, TSS.csv
+Position = 0,0,0
+TextureShiftYFunction = (pluginState[128] / 1000)
+StateFunction = if[pluginState[125] == 1, 1, 0]
+
+[Object]
+States = ../../null.csv, LEAN_POLE.csv
+Position = 0,0,0
+TextureShiftYFunction = (pluginState[128] / 1000)
+StateFunction = if[pluginState[125] == 2, 1, 0]
+
+[Object]
+States = ../../null.csv, SUITABLE_TICKET.csv
+Position = 0,0,0
+TextureShiftYFunction = (pluginState[128] / 1000)
+StateFunction = if[pluginState[125] == 3, 1, 0]
+
+[Object]
+States = ../../null.csv, MTR_HOTLINE.csv
+Position = 0,0,0
+TextureShiftYFunction = (pluginState[128] / 1000)
+StateFunction = if[pluginState[125] == 4, 1, 0]
+
+[Object]
+States = ../../null.csv, APPLY_OCTOPUS.csv
+Position = 0,0,0
+TextureShiftYFunction = (pluginState[128] / 1000)
+StateFunction = if[pluginState[125] == 5, 1, 0]

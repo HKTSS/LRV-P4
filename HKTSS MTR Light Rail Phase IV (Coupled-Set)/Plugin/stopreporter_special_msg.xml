@@ -1,0 +1,24 @@
+<!--Refer to LRV/Interior/StopReporter/Special/led.animated for states-->
+
+<Data>
+<!--    <Entry>
+        <Duration>14</Duration>
+        <State>1</State>
+    </Entry>-->
+    <Entry>
+        <Duration>23</Duration>
+        <State>2</State>
+    </Entry>
+    <Entry>
+        <Duration>23</Duration>
+        <State>3</State>
+    </Entry>
+    <Entry>
+        <Duration>6</Duration>
+        <State>4</State>
+    </Entry>
+    <Entry>
+        <Duration>27</Duration>
+        <State>5</State>
+    </Entry>
+</Data>

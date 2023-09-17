@@ -1,0 +1,256 @@
+CreateMeshBuilder,
+AddVertex,0.90, 2.92, 5.95, 0,1,0
+AddVertex,0.97, 3.28, 5.95, 0,1,0
+AddVertex,1.18, 3.28, 5.89, 0,1,0
+AddVertex,1.11, 2.92, 5.89, 0,1,0
+AddFace,0, 1, 2, 3,
+SetColor,60,60,60
+LoadTexture, ../CCTV.png
+SetTextureCoordinates,0,1,1,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,0.5,0,
+SetTextureCoordinates,3,0.5,1,
+SetDecalTransparentColor,0,0,255
+
+;;3D;;
+CreateMeshBuilder,
+AddVertex,0.980, 3.15, 6.00, 0,1,0
+AddVertex,0.992, 3.28, 6.00, 0,1,0
+AddVertex,0.982, 3.28, 5.946, 0,1,0
+AddVertex,0.966, 3.15, 5.943, 0,1,0
+AddFace2,0, 1, 2, 3,
+SetColor,60,60,60
+LoadTexture, ../CCTV.png
+SetTextureCoordinates,0,0.49,0.5,
+SetTextureCoordinates,1,0.49,0,
+SetTextureCoordinates,2,0.20,0,
+SetTextureCoordinates,3,0.20,0.5,
+SetDecalTransparentColor,0,0,255
+
+CreateMeshBuilder,
+AddVertex,0.985, 3.08, 6.00, 0,1,0
+AddVertex,0.980, 3.15, 6.00, 0,1,0
+AddVertex,0.966, 3.15, 5.943, 0,1,0
+AddVertex,0.965, 3.08, 5.940, 0,1,0
+AddFace2,0, 1, 2, 3,
+SetColor,60,60,60
+LoadTexture, ../CCTV.png
+SetTextureCoordinates,0,0.49,0.5,
+SetTextureCoordinates,1,0.49,0.6,
+SetTextureCoordinates,2,0.20,0.6,
+SetTextureCoordinates,3,0.20,0.5,
+SetDecalTransparentColor,0,0,255
+
+CreateMeshBuilder,
+AddVertex,1.007, 3.02, 6.00, 0,1,0
+AddVertex,0.985, 3.08, 6.00, 0,1,0
+AddVertex,0.965, 3.08, 5.940, 0,1,0
+AddVertex,0.977, 3.02, 5.935, 0,1,0
+AddFace2,0, 1, 2, 3,
+SetColor,60,60,60
+LoadTexture, ../CCTV.png
+SetTextureCoordinates,0,0.49,0.6,
+SetTextureCoordinates,1,0.49,0.7,
+SetTextureCoordinates,2,0.20,0.7,
+SetTextureCoordinates,3,0.20,0.6,
+SetDecalTransparentColor,0,0,255
+
+CreateMeshBuilder,
+AddVertex,1.036, 2.97, 6.00, 0,1,0
+AddVertex,1.007, 3.02, 6.00, 0,1,0
+AddVertex,0.977, 3.02, 5.935, 0,1,0
+AddVertex,0.996, 2.97, 5.926, 0,1,0
+AddFace2,0, 1, 2, 3,
+SetColor,60,60,60
+LoadTexture, ../CCTV.png
+SetTextureCoordinates,0,0.49,0.85,
+SetTextureCoordinates,1,0.49,0.7,
+SetTextureCoordinates,2,0.20,0.7,
+SetTextureCoordinates,3,0.20,0.85,
+SetDecalTransparentColor,0,0,255
+
+CreateMeshBuilder,
+AddVertex,1.090, 2.948, 6.00, 0,1,0
+AddVertex,1.036, 2.97, 6.00, 0,1,0
+AddVertex,0.996, 2.97, 5.926, 0,1,0
+AddVertex,1.005, 2.945, 5.920, 0,1,0
+AddFace2,0, 1, 2, 3,
+SetColor,60,60,60
+LoadTexture, ../CCTV.png
+SetTextureCoordinates,0,0.40,0.93,
+SetTextureCoordinates,1,0.40,0.85,
+SetTextureCoordinates,2,0.25,0.85,
+SetTextureCoordinates,3,0.25,0.90,
+SetDecalTransparentColor,0,0,255
+
+CreateMeshBuilder,
+AddVertex,1.085, 2.948, 6.00, 0,1,0
+AddVertex,1.077, 2.948, 6.01, 0,1,0
+AddVertex,1.005, 2.945, 5.920, 0,1,0
+AddVertex,1.040, 2.932, 5.910, 0,1,0
+AddFace2,0, 1, 2, 3,
+SetColor,60,60,60
+LoadTexture, ../CCTV.png
+SetTextureCoordinates,0,0.49,0.95,
+SetTextureCoordinates,1,0.49,0.90,
+SetTextureCoordinates,2,0.20,0.90,
+SetTextureCoordinates,3,0.20,0.95,
+SetDecalTransparentColor,0,0,255
+
+CreateMeshBuilder,
+AddVertex,1.100, 2.948, 6.000, 0,1,0
+AddVertex,1.085, 2.948, 6.000, 0,1,0
+AddVertex,1.040, 2.9320, 5.910, 0,1,0
+AddVertex,1.070, 2.9375, 5.9022, 0,1,0
+AddFace2,0, 1, 2, 3,
+SetColor,60,60,60
+LoadTexture, ../CCTV.png
+SetTextureCoordinates,0,0.49,0.97,
+SetTextureCoordinates,1,0.49,0.95,
+SetTextureCoordinates,2,0.20,0.95,
+SetTextureCoordinates,3,0.20,0.97,
+SetDecalTransparentColor,0,0,255
+
+CreateMeshBuilder,
+AddVertex,1.115, 2.955, 6.000, 0,1,0
+AddVertex,1.100, 2.948, 6.000, 0,1,0
+AddVertex,1.070, 2.9375, 5.9022, 0,1,0
+AddVertex,1.100, 2.960, 5.896, 0,1,0
+AddFace2,0, 1, 2, 3,
+SetColor,60,60,60
+LoadTexture, ../CCTV.png
+SetTextureCoordinates,0,0.49,0.98,
+SetTextureCoordinates,1,0.49,0.97,
+SetTextureCoordinates,2,0.20,0.97,
+SetTextureCoordinates,3,0.20,0.98,
+SetDecalTransparentColor,0,0,255
+
+CreateMeshBuilder,
+AddVertex,1.135, 3.005, 6.000, 0,1,0
+AddVertex,1.115, 2.955, 6.000, 0,1,0
+AddVertex,1.100, 2.960, 5.896, 0,1,0
+AddVertex,1.125, 2.990, 5.892, 0,1,0
+AddFace2,0, 1, 2, 3,
+SetColor,60,60,60
+LoadTexture, ../CCTV.png
+SetTextureCoordinates,0,0.49,0.98,
+SetTextureCoordinates,1,0.49,0.97,
+SetTextureCoordinates,2,0.20,0.97,
+SetTextureCoordinates,3,0.20,0.98,
+SetDecalTransparentColor,0,0,255
+
+;;3D - 2;;
+CreateMeshBuilder,
+AddVertex,1.070, 3.15, 6.11, 0,1,0
+AddVertex,1.008, 3.28, 6.11, 0,1,0
+AddVertex,0.991, 3.28, 5.995, 0,1,0
+AddVertex,0.978, 3.15, 5.995, 0,1,0
+AddFace2,0, 1, 2, 3,
+SetColor,60,60,60
+LoadTexture, ../CCTV.png
+SetTextureCoordinates,0,0.2,0.5,
+SetTextureCoordinates,1,0.2,0,
+SetTextureCoordinates,2,0.0,0,
+SetTextureCoordinates,3,0.0,0.5,
+SetDecalTransparentColor,0,0,255
+
+CreateMeshBuilder,
+AddVertex,1.10, 3.090, 6.115, 0,1,0
+AddVertex,1.070, 3.15, 6.11, 0,1,0
+AddVertex,0.978, 3.15, 5.995, 0,1,0
+AddVertex,0.982, 3.08, 5.995, 0,1,0
+AddFace2,0, 1, 2, 3,
+SetColor,60,60,60
+LoadTexture, ../CCTV.png
+SetTextureCoordinates,0,0.2,0.5,
+SetTextureCoordinates,1,0.2,0.6,
+SetTextureCoordinates,2,0.0,0.6,
+SetTextureCoordinates,3,0.0,0.5,
+SetDecalTransparentColor,0,0,255
+
+CreateMeshBuilder,
+AddVertex,1.13, 3.03, 6.115, 0,1,0
+AddVertex,1.10, 3.09, 6.115, 0,1,0
+AddVertex,0.982, 3.08, 5.995, 0,1,0
+AddVertex,1.005, 3.02, 5.995, 0,1,0
+AddFace2,0, 1, 2, 3,
+SetColor,60,60,60
+LoadTexture, ../CCTV.png
+SetTextureCoordinates,0,0.2,0.6,
+SetTextureCoordinates,1,0.2,0.7,
+SetTextureCoordinates,2,0.0,0.7,
+SetTextureCoordinates,3,0.0,0.6,
+SetDecalTransparentColor,0,0,255
+
+CreateMeshBuilder,
+AddVertex,1.144, 3.005, 6.115, 0,1,0
+AddVertex,1.13, 3.03, 6.115, 0,1,0
+AddVertex,1.005, 3.02, 5.995, 0,1,0
+AddVertex,1.033, 2.97, 5.995, 0,1,0
+AddFace2,0, 1, 2, 3,
+SetColor,60,60,60
+LoadTexture, ../CCTV.png
+SetTextureCoordinates,0,0.2,0.85,
+SetTextureCoordinates,1,0.2,0.7,
+SetTextureCoordinates,2,0.0,0.7,
+SetTextureCoordinates,3,0.0,0.85,
+SetDecalTransparentColor,0,0,255
+
+CreateMeshBuilder,
+AddVertex,1.128, 2.990, 6.08, 0,1,0
+AddVertex,1.144, 3.005, 6.115, 0,1,0
+AddVertex,1.033, 2.971, 5.995, 0,1,0
+AddVertex,1.085, 2.9465, 5.9932, 0,1,0
+AddFace2,0, 1, 2, 3,
+SetColor,60,60,60
+LoadTexture, ../CCTV.png
+SetTextureCoordinates,0,0.2,0.90,
+SetTextureCoordinates,1,0.2,0.82,
+SetTextureCoordinates,2,0.0,0.82,
+SetTextureCoordinates,3,0.0,0.94,
+SetDecalTransparentColor,0,0,255
+
+CreateMeshBuilder,
+AddVertex,1.143, 2.990, 6.08, 0,1,0
+AddVertex,1.128, 2.990, 6.08, 0,1,0
+AddVertex,1.085, 2.9465, 5.9932, 0,1,0
+AddVertex,1.097, 2.9465, 5.9932, 0,1,0
+AddFace2,0, 1, 2, 3,
+SetColor,60,60,60
+LoadTexture, ../CCTV.png
+SetTextureCoordinates,0,0.15,0.92,
+SetTextureCoordinates,1,0.15,0.92,
+SetTextureCoordinates,2,0.0,0.94,
+SetTextureCoordinates,3,0.0,0.94,
+SetDecalTransparentColor,0,0,255
+
+CreateMeshBuilder,
+AddVertex,1.170, 2.990, 6.08, 0,1,0
+AddVertex,1.143, 2.990, 6.08, 0,1,0
+AddVertex,1.097, 2.9465, 5.9932, 0,1,0
+AddVertex,1.114, 2.955, 5.9932, 0,1,0
+AddFace2,0, 1, 2, 3,
+SetColor,60,60,60
+LoadTexture, ../CCTV.png
+SetTextureCoordinates,0,0.2,0.97,
+SetTextureCoordinates,1,0.2,0.95,
+SetTextureCoordinates,2,0.0,0.95,
+SetTextureCoordinates,3,0.0,0.97,
+SetDecalTransparentColor,0,0,255
+
+CreateMeshBuilder,
+AddVertex,1.168, 2.990, 6.08, 0,1,0
+AddVertex,1.152, 2.990, 6.08, 0,1,0
+AddVertex,1.114, 2.955, 5.9932, 0,1,0
+AddVertex,1.130, 3.00, 5.9932, 0,1,0
+AddFace2,0, 1, 2, 3,
+SetColor,60,60,60
+LoadTexture, ../CCTV.png
+SetTextureCoordinates,0,0.0,1.00,
+SetTextureCoordinates,1,0.0,0.97,
+SetTextureCoordinates,2,0.2,0.97,
+SetTextureCoordinates,3,0.2,1.00,
+SetDecalTransparentColor,0,0,255
+
+RotateAll,0,1,0,180
+TranslateAll,0,0,10

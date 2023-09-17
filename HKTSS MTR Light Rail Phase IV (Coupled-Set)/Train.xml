@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openBVE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Train>
+		<NotchDescriptions>
+			<Power>0°;10°;15°;20°;25°;30°;35°;40°;40°</Power>
+			<Brake>45°;0°;10°;15°;20°;25°;30°;35°;40°</Brake>
+		</NotchDescriptions>
+		<Car>car.xml</Car>
+		<Coupler>
+			<Minimum>0.6</Minimum>
+			<Maximum>0.95</Maximum>
+			<CanUncouple>true</CanUncouple>
+		</Coupler>
+		<Car>car.xml</Car>
+		<Plugin>Plugin\LRVSystem.dll</Plugin>
+		<HeadlightStates>2</HeadlightStates>
+		<Description>香港輕鐵第四期車輛 (拖卡)
+--------------------------
+目前版本: v3
+建議OpenBVE版本: v1.9.2.2
+--------------------------
+作品功能:
+2/3鍵: 左/右指揮燈
+4鍵: 轉電牌
+5/6/7鍵: 車序(第一/二/三個數字)
+8鍵: 開/關車內燈
+9鍵: 開啟駕駛室車門
+0鍵: 開/關車速計背燈
+B鍵: 開/關危險警示燈
+H鍵: 開/關車頭燈
+S鍵: 啟動撒砂裝置 (按住)
+Y鍵: 加快水撥速度
+Ctrl+Y: 減慢水撥速度
+Ctrl+G: 開啟列車設定視窗
+Del鍵: 慢速/加大動力掣 (龜象掣)
+Insert鍵: 重置安全系統
+Enter: 鳴鐘 (叮)
+Shift+Enter 或 Numpad + 鍵: 響號
+Numpad - 鍵: 港鐵請勿靠近車門/緊握扶手廣播
+
+2023 HKTSS 香港交通模擬工作室
+
+https://hktss.github.io</Description>
+	</Train>
+</openBVE>

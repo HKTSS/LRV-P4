@@ -1,0 +1,20 @@
+[Object]
+States = handle.csv
+Position = -0.58, 1.66, 9.25
+ScaleXFunction=0.75
+ScaleYFunction=0.75
+ScaleZFunction=0.75
+;; Ignore non first car ;;
+RotateXFunction = if[carNumber >= 1, 0, if[powerNotch >= 1, -0.11 * powerNotch, 0.08 * brakeNotchLinear]]
+RotateXDirection = -1, 0, 0
+RotateXDamping = 20, 0.8
+
+;; DSD Held ;;
+TranslateYFunction = if[pluginstate[211] == 1, max[value-0.001, -0.005], min[value+0.001, 0]]
+
+[Object]
+States = handle_base.csv
+ScaleXFunction=0.75
+ScaleYFunction=0.75
+ScaleZFunction=0.75
+Position = -0.58, 1.66, 9.25

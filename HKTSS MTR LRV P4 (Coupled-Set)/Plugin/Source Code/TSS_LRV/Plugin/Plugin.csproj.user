@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
-    <StartArguments>
-    </StartArguments>
-    <StartAction>Project</StartAction>
-    <StartProgram>xcopy "G:\OpenBVE\Train Plugin\TSS_LRV\Plugin\bin\Release\LRVSystem.dll" "G:\OpenBVE_Content\Train\HKTSS\Plugin Testing - LRV4" /Y</StartProgram>
-  </PropertyGroup>
-</Project>

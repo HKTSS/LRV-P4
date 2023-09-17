@@ -1,0 +1,111 @@
+;;Left;;
+[Object]
+States = 2_L.csv, Dark/1_Purple_R.csv
+Position = -1.15,1.1,7.3
+Statefunction = pluginState[99]
+
+[Object]
+States = 1_Purple_R.csv, Dark/1_Purple_R.csv
+Position = -1.15,1.1,3
+Statefunction = pluginState[99]
+
+[Object]
+States = 2_R.csv, Dark/2_R.csv
+Position = -1.15,1.1,6.5
+Statefunction = pluginState[99]
+
+[Object]
+States = 1_Green_L.csv, Dark/1_Green_L.csv
+Position = -1.15,1.1,2
+Statefunction = pluginState[99]
+
+[Object]
+States = 1_Purple_R.csv, Dark/1_Purple_R.csv
+Position = -1.15,1.1,-2.5
+Statefunction = pluginState[99]
+
+[Object]
+States = 1_Green_L.csv, Dark/1_Green_L.csv
+Position = -1.15,1.1,-3.5
+Statefunction = pluginState[99]
+
+[Object]
+States = 1_Purple_R.csv, Dark/1_Purple_R.csv
+Position = -1.15,1.1,-7.7
+Statefunction = pluginState[99]
+
+[Object]
+States = 1_Green_L.csv, Dark/1_Green_L.csv
+Position = -1.15,1.1,-8.4
+Statefunction = pluginState[99]
+
+;;Right;;
+[Object]
+States = 1_Purple_R.csv, Dark/1_Purple_R.csv
+Position = 0.98,1.1,7.3
+Statefunction = pluginState[99]
+
+[Object]
+States = 2_R.csv, Dark/2_R.csv
+Position = 0.58,1.1,6.5
+Statefunction = pluginState[99]
+
+[Object]
+States = 2_Priority_L.csv, Dark/2_Priority_L.csv
+Position = 0.58,1.1,3.3
+Statefunction = pluginState[99]
+
+[Object]
+States = 2_R.csv, Dark/2_R.csv
+Position = 0.58,1.1,2.6
+Statefunction = pluginState[99]
+
+[Object]
+States = 2_R.csv, Dark/2_R.csv
+Position = 0.58,1.1,1.9
+Statefunction = pluginState[99]
+
+[Object]
+States = 2_R.csv, Dark/2_R.csv
+Position = 0.58,1.1,1.2
+Statefunction = pluginState[99]
+
+[Object]
+States = 2_R.csv, Dark/2_R.csv
+Position = 0.58,1.1,0.5
+Statefunction = pluginState[99]
+
+[Object]
+States = 2_Priority_L.csv, Dark/2_Priority_L.csv
+Position = 0.58,1.1,-7.7
+Statefunction = pluginState[99]
+
+[Object]
+States = 2_R.csv, Dark/2_R.csv
+Position = 0.58,1.1,-8.4
+Statefunction = pluginState[99]
+
+[Object]
+States = 2_Priority_L.csv, Dark/2_Priority_L.csv
+Position = 0.58,1.1,-2.2
+Statefunction = pluginState[99]
+
+[Object]
+States = 2_R.csv, Dark/2_R.csv
+Position = 0.58,1.1,-2.84
+Statefunction = pluginState[99]
+
+[Object]
+States = 2_R.csv, Dark/2_R.csv
+Position = 0.58,1.1,-3.53
+Statefunction = pluginState[99]
+
+[Object]
+States = 2_R.csv, Dark/2_R.csv
+Position = 0.58,1.1,-4.23
+Statefunction = pluginState[99]
+
+[Object]
+States = 2_R.csv, Dark/2_R.csv
+Position = 0.58,1.1,-4.9
+Statefunction = pluginState[99]

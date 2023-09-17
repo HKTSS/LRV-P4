@@ -1,0 +1,5 @@
+[Object]
+States = ../../null.csv, 2DIS_ZH.csv, 2DIS_EN.csv, ../../null.csv
+Position = 0,0,0
+TextureShiftXFunction = (pluginState[127] / 1000) * 0.5
+StateFunction = if[pluginState[129] == 17001, pluginState[126], 0]

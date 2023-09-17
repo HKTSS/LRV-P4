@@ -1,0 +1,5 @@
+;; Switchable car number, controlled via plugin ;;
+[Object]
+States = ../null.csv, 1111.csv, 1112.csv, 1113.csv, 1114.csv, 1115.csv, 1116.csv, 1117.csv, 1118.csv, 1119.csv, 1120.csv, 1121.csv, 1122.csv, 1123.csv, 1124.csv, 1125.csv, 1126.csv, 1127.csv, 1128.csv, 1129.csv, 1130.csv, 1131.csv, 1132.csv
+Position = 0,0,0
+StateFunction = if[carNumber == 0, Pluginstate[205], Pluginstate[206]]
