@@ -1,0 +1,118 @@
+;; A is right side (Side without door), B is left side (Side with door) ;;
+;; A is 1A - 10A ;;
+;; B is 1B - 7B ;;
+
+;; Window 1A;;
+[Object]
+States = 1a.csv, Dark/1a.csv
+Position = 0,0,8.15
+StateFunction = pluginState[99]
+
+[Object]
+States = 1b.csv, Dark/1b.csv
+Position = 0,0,6.25
+StateFunction = pluginState[99]
+
+;; Window 2A;;
+[Object]
+States = 2a.csv, Dark/2a.csv
+Position = 0,0,6.3
+StateFunction = pluginState[99]
+
+;; Window 2B;;
+[Object]
+States = 2b.csv, Dark/2b.csv
+Position = 0,0,2.625
+StateFunction = pluginState[99]
+
+;; Window 3A;;
+[Object]
+States = 3a.csv, Dark/3a.csv
+Position = 0,0,4.45
+StateFunction = pluginState[99]
+
+;; Window 3B;;
+[Object]
+States = 3b.csv, Dark/3b.csv
+Position = 0,0,0.8
+StateFunction = pluginState[99]
+
+;; Window 4A;;
+[Object]
+States = 4a.csv, Dark/4a.csv
+Position = 0,0,2.6
+StateFunction = pluginState[99]
+
+;; Window 4B;;
+[Object]
+States = 4b.csv, Dark/4b.csv
+Position = 0,0,-2.88
+StateFunction = pluginState[99]
+
+;; Window 5A;;
+[Object]
+States = 5a.csv, Dark/5a.csv
+Position = 0,0,0.75
+StateFunction = pluginState[99]
+
+;; Window 5B;;
+[Object]
+States = 5b.csv, Dark/5b.csv
+Position = 0,0,-4.66
+StateFunction = pluginState[99]
+
+;; Window 6A;;
+[Object]
+States = 6a.csv, Dark/6a.csv
+Position = 0,0,-1.1
+StateFunction = pluginState[99]
+
+;; Window 6B;;
+[Object]
+States = 6b.csv, Dark/6b.csv
+Position = 0,0,-8.45
+StateFunction = pluginState[99]
+
+;; Window 7A;;
+[Object]
+States = 7a.csv, Dark/7a.csv
+Position = 0,0,-2.95
+StateFunction = pluginState[99]
+
+;; Window 7B;;
+[Object]
+States = 7b.csv, Dark/7b.csv
+Position = 0.5,0,-10.07
+StateFunction = pluginState[99]
+RotateYFunction=-0.27
+
+;; Window 8A;;
+[Object]
+States = 8a.csv, Dark/8a.csv
+Position = 0,0,-4.8
+StateFunction = pluginState[99]
+
+;; Window 9A;;
+[Object]
+States = 9a.csv, Dark/9a.csv
+Position = 0,0,-6.65
+StateFunction = pluginState[99]
+
+;; Window 10A;;
+[Object]
+States = 10a.csv, Dark/10a.csv
+Position = -0.04,0,-8.28
+StateFunction = pluginState[99]
+RotateYFunction=0.27
+
+;; Back emergency exit ;;
+[Object]
+States = back.csv, Dark/back.csv
+Position = 0,0,-10
+StateFunction = pluginState[99]
+
+;; Back bumper C pai ;;
+[Object]
+States = ../null.csv, BackBumperC.csv
+StateFunction = carNumber > 0
+Position = 0,0,-10

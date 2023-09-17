@@ -1,0 +1,30 @@
+[Include]
+HKHR/KTL/led.animated
+HKHR/TWL/led.animated
+HKHR/ISL/led.animated
+HKHR/TKL/led.animated
+HKHR/LAR/led.animated
+HKHR/DRL/led.animated
+HKHR/SIL/led.animated
+HKHR/EAL/led.animated
+HKHR/TML/led.animated
+HKHR/Interchange/led.animated
+Special/led.animated
+HKLRT/610/led.animated
+HKLRT/705706/led.animated
+
+[Object]
+States = overlay.csv
+Position = 0,0,0
+
+[Object]
+States = reporter.csv, reporter_dark.csv
+Position = 0,0,0
+Statefunction = pluginState[99]
+
+;; Special Message ;;
+;[Object]
+;States = ../../null.csv, Special/Octopus.csv, Special/MTRHotline.csv, Special/LastTrain.csv
+;Position = 0,0,0
+;StateFunction = pluginState[125]
+;TextureShiftYFunction = pluginState[128]/1000

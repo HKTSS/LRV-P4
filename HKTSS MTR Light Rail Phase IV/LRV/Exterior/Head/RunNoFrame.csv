@@ -1,0 +1,46 @@
+;; Car Num LED ;;
+CreateMeshBuilder
+AddVertex,0.348,2.690,9.739, 0,1,0
+AddVertex,0.348,2.815,9.739, 0,1,0
+AddVertex,0.647,2.815,9.739, 0,1,0
+AddVertex,0.647,2.690,9.739, 0,1,0
+AddFace,3,2,1,0
+LoadTexture,..\..\LED\empty\FE.png
+SetTextureCoordinates,0,0.35,0.55
+SetTextureCoordinates,1,0.35,0
+SetTextureCoordinates,2,0,0
+SetTextureCoordinates,3,0,0.55
+
+CreateMeshBuilder
+AddVertex,0.348,2.690,9.739, 0,1,0
+AddVertex,0.348,2.690,9.781, 0,1,0
+AddVertex,0.647,2.690,9.781, 0,1,0
+AddVertex,0.647,2.690,9.739, 0,1,0
+AddFace,0,1,2,3
+SetColor,30,30,30
+
+CreateMeshBuilder
+AddVertex,0.647,2.700,9.739, 0,1,0
+AddVertex,0.647,2.815,9.739, 0,1,0
+AddVertex,0.647,2.815,9.743, 0,1,0
+AddVertex,0.647,2.700,9.781, 0,1,0
+AddVertex,0.647,2.690,9.739, 0,1,0
+AddVertex,0.647,2.700,9.739, 0,1,0
+AddVertex,0.647,2.700,9.781, 0,1,0
+AddVertex,0.647,2.690,9.781, 0,1,0
+AddFace,3,2,1,0
+AddFace,7,6,5,4
+SetColor,30,30,30
+
+CreateMeshBuilder
+AddVertex,0.348,2.700,9.739, 0,1,0
+AddVertex,0.348,2.815,9.739, 0,1,0
+AddVertex,0.348,2.815,9.743, 0,1,0
+AddVertex,0.348,2.700,9.781, 0,1,0
+AddVertex,0.348,2.690,9.739, 0,1,0
+AddVertex,0.348,2.700,9.739, 0,1,0
+AddVertex,0.348,2.700,9.781, 0,1,0
+AddVertex,0.348,2.690,9.781, 0,1,0
+AddFace,0,1,2,3
+AddFace,4,5,6,7
+SetColor,30,30,30

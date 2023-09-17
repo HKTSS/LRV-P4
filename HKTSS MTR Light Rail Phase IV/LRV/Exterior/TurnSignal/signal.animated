@@ -1,0 +1,39 @@
+;;Front Left;;
+[Object]
+States = side_off.csv, side_on.csv
+Position = -2.75,-0.15,0.05
+Statefunction = if[pluginstate[102] == 1 | pluginstate[102] == 3, value == 0, 0]
+RefreshRate = 0.55
+
+;;Front Right;;
+[Object]
+States = side_off.csv, side_on.csv
+Position = -0.02,-0.15,0
+Statefunction = if[pluginstate[102] == 2 | pluginstate[102] == 3, value == 0, 0]
+RefreshRate = 0.55
+
+;;Back Left;;
+[Object]
+States = side_off.csv, side_on.csv
+Position = -2.75,-0.15,-16.37
+Statefunction = if[pluginstate[102] == 1 | pluginstate[102] == 3, value == 0, 0]
+RefreshRate = 0.55
+
+;;Back Right;;
+[Object]
+States = side_off.csv, side_on.csv
+Position = -0.02,-0.15,-16.35
+Statefunction = if[pluginstate[102] == 2 | pluginstate[102] == 3, value == 0, 0]
+RefreshRate = 0.55
+
+[Object]
+States = ../../null.csv, frontback_left.csv
+Position = 0,0,0
+Statefunction = if[pluginstate[102] == 1 | pluginstate[102] == 3, Mod[value + 1, 2] ,0]
+RefreshRate = 0.55
+
+[Object]
+States = ../../null.csv, frontback_right.csv
+Position = 0,0,0
+Statefunction = if[pluginstate[102] == 2 | pluginstate[102] == 3, value == 0 ,0]
+RefreshRate = 0.55

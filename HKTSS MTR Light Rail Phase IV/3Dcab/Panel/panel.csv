@@ -1,0 +1,384 @@
+;;===== Frame (Left Side) =====;;
+CreateMeshBuilder,
+AddVertex, -0.46,  2.00, 9.79, 0,1,0
+AddVertex, -0.46,  1.76, 9.53, 0,1,0
+AddVertex, -0.46,  1.73, 9.53, 0,1,0
+AddVertex, -0.46,  1.73, 9.79, 0,1,0
+AddFace, 0, 1, 2, 3
+SetColor,25,25,25
+
+CreateMeshBuilder,
+AddVertex, -0.46,  1.92, 9.88, 0,1,0
+AddVertex, -0.46,  2.00, 9.79, 0,1,0
+AddVertex, -0.46,  1.73, 9.79, 0,1,0
+AddVertex, -0.46,  1.73, 9.88, 0,1,0
+AddFace, 0, 1, 2, 3
+SetColor,25,25,25
+
+CreateMeshBuilder,
+AddVertex, -0.46,  1.88, 9.91, 0,1,0
+AddVertex, -0.46,  1.92, 9.88, 0,1,0
+AddVertex, -0.46,  1.73, 9.88, 0,1,0
+AddVertex, -0.46,  1.73, 9.91, 0,1,0
+AddFace, 0, 1, 2, 3
+SetColor,25,25,25
+
+CreateMeshBuilder,
+AddVertex, -0.46,  1.84, 9.93, 0,1,0
+AddVertex, -0.46,  1.88, 9.91, 0,1,0
+AddVertex, -0.46,  1.73, 9.91, 0,1,0
+AddVertex, -0.46,  1.73, 9.93, 0,1,0
+AddFace, 0, 1, 2, 3
+SetColor,25,25,25
+
+CreateMeshBuilder,
+AddVertex, -0.46,  1.80, 9.94, 0,1,0
+AddVertex, -0.46,  1.84, 9.93, 0,1,0
+AddVertex, -0.46,  1.73, 9.93, 0,1,0
+AddVertex, -0.46,  1.73, 9.94, 0,1,0
+AddFace, 0, 1, 2, 3
+SetColor,25,25,25
+
+
+;;===== Main Panel START =====;;
+CreateMeshBuilder,
+AddVertex,-0.55,  2.00, 9.79, 0,1,0
+AddVertex, 0.30,  2.00, 9.79, 0,1,0
+AddVertex, 0.30,  1.76, 9.53, 0,1,0
+AddVertex,-0.55,  1.76, 9.53, 0,1,0
+AddFace2, 0, 1, 2, 3
+LoadTexture,Panel1.png,
+SetTextureCoordinates,0, 0.0, 0
+SetTextureCoordinates,1, 0.6, 0
+SetTextureCoordinates,2, 0.6, 1
+SetTextureCoordinates,3, 0.0, 1
+SetDecalTransparentColor,0,0,255
+
+CreateMeshBuilder,
+AddVertex,-0.46,  1.76, 9.53, 0,1,0
+AddVertex, 0.30,  1.76, 9.53, 0,1,0
+AddVertex, 0.30,  1.73, 9.53, 0,1,0
+AddVertex,-0.46,  1.73, 9.53, 0,1,0
+AddFace, 0, 1, 2, 3
+SetColor,05,05,05
+
+;;===== Second Panel START =====;;
+CreateMeshBuilder,
+AddVertex, 0.30,  2.00, 9.79, 0,1,0
+AddVertex, 0.66,  2.00, 9.65, 0,1,0
+AddVertex, 0.55,  1.76, 9.44, 0,1,0
+AddVertex, 0.30,  1.76, 9.53, 0,1,0
+AddFace2, 0, 1, 2, 3
+LoadTexture,Panel1.png,
+SetTextureCoordinates,0, 0.6, 0
+SetTextureCoordinates,1, 0.87, 0
+SetTextureCoordinates,2, 0.8, 1
+SetTextureCoordinates,3, 0.6, 1
+SetDecalTransparentColor,0,0,255
+
+CreateMeshBuilder,
+AddVertex, 0.30,  1.76, 9.53, 0,1,0
+AddVertex, 0.55,  1.76, 9.44, 0,1,0
+AddVertex, 0.55,  1.73, 9.44, 0,1,0
+AddVertex, 0.30,  1.73, 9.53, 0,1,0
+AddFace, 0, 1, 2, 3
+SetColor,05,05,05
+
+;;===== Third Panel START =====;;
+CreateMeshBuilder,
+AddVertex, 0.66,  2.00, 9.65, 0,1,0
+AddVertex, 1.00,  2.00, 8.75, 0,1,0
+AddVertex, 0.86,  1.76, 8.7, 0,1,0
+AddVertex, 0.55,  1.76, 9.44, 0,1,0
+AddFace2, 0, 1, 2, 3
+LoadTexture,Panel2.png,
+SetTextureCoordinates,0, 0, 0
+SetTextureCoordinates,1, 1, 0
+SetTextureCoordinates,2, 1, 1
+SetTextureCoordinates,3, 0.16, 1
+SetDecalTransparentColor,0,0,255
+
+CreateMeshBuilder,
+AddVertex, 0.55,  1.76, 9.44, 0,1,0
+AddVertex, 0.86,  1.76, 8.7, 0,1,0
+AddVertex, 0.86,  1.73, 8.7, 0,1,0
+AddVertex, 0.55,  1.73, 9.44, 0,1,0
+AddFace, 0, 1, 2, 3
+SetColor,5, 5, 5
+
+;;===== Panel Cover START =====;;
+CreateMeshBuilder,
+AddVertex,-0.38,  2.02, 9.75, 0,1,0
+AddVertex, 0.30,  2.02, 9.75, 0,1,0
+AddVertex, 0.30,  1.99, 9.78, 0,1,0
+AddVertex,-0.38,  1.99, 9.78, 0,1,0
+
+AddVertex, 0.30,  2.02, 9.75, 0,1,0
+AddVertex, 0.63,  2.02, 9.62, 0,1,0
+AddVertex, 0.68,  1.97, 9.65, 0,1,0
+AddVertex, 0.30,  1.99, 9.78, 0,1,0
+
+AddVertex, 0.63,  2.02, 9.62, 0,1,0
+AddVertex, 0.95,  2.02, 8.75, 0,1,0
+AddVertex, 1.00,  1.97, 8.75, 0,1,0
+AddVertex, 0.68,  1.97, 9.65, 0,1,0
+AddFace, 0, 1, 2, 3
+AddFace, 4, 5, 6, 7
+AddFace, 8, 9, 10, 11
+SetColor,20,18,18
+
+CreateMeshBuilder,
+AddVertex,0.30,  2.026, 9.75, 0,1,0
+AddVertex,-0.38,  2.026, 9.75, 0,1,0
+AddVertex,-0.38,  2.00, 9.79, 0,1,0
+AddVertex,0.30,  2.00, 9.79, 0,1,0
+
+AddVertex,0.63,  2.026, 9.62, 0,1,0
+AddVertex,0.30,  2.026, 9.75, 0,1,0
+AddVertex,0.30,  2.00, 9.79, 0,1,0
+AddVertex,0.66,  2.00, 9.65, 0,1,0
+
+AddVertex,0.95,  2.026, 8.75
+AddVertex,0.63,  2.026, 9.62
+AddVertex,0.66,  2.00, 9.65
+AddVertex,1.00,  2.00, 8.75
+AddFace, 0, 1, 2, 3
+AddFace, 4, 5, 6, 7
+AddFace, 8, 9, 10, 11
+SetColor,35,33,33
+
+;; Panel Cover Edge ;;
+;; Panel 1 ;;
+CreateMeshBuilder,
+AddVertex,-0.38,  2.026, 9.75, 0,1,0
+AddVertex,0.30,  2.026, 9.75, 0,1,0
+AddVertex,0.30,  2.02, 9.75, 0,1,0
+AddVertex,-0.38,  2.02, 9.75, 0,1,0
+
+AddVertex,-0.38,  2.000, 9.79, 0,1,0
+AddVertex,-0.38,  2.026, 9.75, 0,1,0
+AddVertex,-0.38,  2.02, 9.75, 0,1,0
+AddVertex,-0.38,  1.99, 9.78, 0,1,0
+AddFace, 0, 1, 2, 3
+AddFace, 4, 5, 6, 7
+LoadTexture,panel_edge.png,
+SetTextureCoordinates,0, 0.6, 0
+SetTextureCoordinates,1, 0.87, 0
+SetTextureCoordinates,2, 0.8, 1
+SetTextureCoordinates,3, 0.6, 1
+SetTextureCoordinates,4, 0.6, 0
+SetTextureCoordinates,5, 0.87, 0
+SetTextureCoordinates,6, 0.8, 1
+SetTextureCoordinates,7, 0.6, 1
+
+;; Panel 2 ;;
+CreateMeshBuilder,
+AddVertex,0.30,  2.026, 9.75, 0,1,0
+AddVertex,0.63,  2.026, 9.62, 0,1,0
+AddVertex,0.63,  2.02, 9.62, 0,1,0
+AddVertex,0.30,  2.02, 9.75, 0,1,0
+AddFace, 0, 1, 2, 3
+LoadTexture,panel_edge.png,
+SetTextureCoordinates,0, 0.6, 0
+SetTextureCoordinates,1, 0.87, 0
+SetTextureCoordinates,2, 0.8, 1
+SetTextureCoordinates,3, 0.6, 1
+
+;; Panel 3 ;;
+CreateMeshBuilder,
+AddVertex,0.63,  2.026, 9.62, 0,1,0
+AddVertex,0.95,  2.026, 8.75, 0,1,0
+AddVertex,0.95,  2.02, 8.75, 0,1,0
+AddVertex,0.63,  2.02, 9.62, 0,1,0
+AddFace, 0, 1, 2, 3
+LoadTexture,panel_edge.png,
+SetTextureCoordinates,0, 0.6, 0
+SetTextureCoordinates,1, 0.87, 0
+SetTextureCoordinates,2, 0.8, 1
+SetTextureCoordinates,3, 0.6, 1
+
+;; Back cover ;;
+;; Panel 1 ;;
+CreateMeshBuilder,
+AddVertex,-0.46,  2.00, 9.79, 0,1,0
+AddVertex, 0.30,  2.00, 9.79, 0,1,0
+AddVertex, 0.30,  1.92, 9.88, 0,1,0
+AddVertex,-0.46,  1.92, 9.88, 0,1,0
+AddFace, 3, 2, 1, 0
+SetColor,31,30,30
+CreateMeshBuilder,
+AddVertex,-0.46,  1.92, 9.88, 0,1,0
+AddVertex, 0.30,  1.92, 9.88, 0,1,0
+AddVertex, 0.30,  1.88, 9.91, 1,1,0
+AddVertex,-0.46,  1.88, 9.91, 1,1,0
+AddFace, 3, 2, 1, 0
+SetColor,31,30,30
+CreateMeshBuilder,
+AddVertex,-0.46,  1.88, 9.91, 1,1,0
+AddVertex, 0.30,  1.88, 9.91, 1,1,0
+AddVertex, 0.30,  1.84, 9.93, 1,1,1
+AddVertex,-0.46,  1.84, 9.93, 1,1,1
+AddFace, 3, 2, 1, 0
+SetColor,31,30,30
+CreateMeshBuilder,
+AddVertex,-0.46,  1.84, 9.93, 1,1,1
+AddVertex, 0.30,  1.84, 9.93, 1,1,1
+AddVertex, 0.30,  1.80, 9.94, 0,0,0
+AddVertex,-0.46,  1.80, 9.94, 0,0,0
+AddFace, 3, 2, 1, 0
+SetColor,31,30,30
+CreateMeshBuilder,
+AddVertex,-0.46,  1.80, 9.94, 0,0,0
+AddVertex, 0.30,  1.80, 9.94, 0,0,0
+AddVertex, 0.30,  1.73, 9.94, 0,0,0
+AddVertex,-0.46,  1.73, 9.94, 0,0,0
+AddFace, 3, 2, 1, 0
+SetColor,31,30,30
+
+;; Panel 2 ;;
+CreateMeshBuilder,
+AddVertex, 0.30,  2.00, 9.79, 0,1,0
+AddVertex, 0.66,  2.00, 9.65, 0,1,0
+AddVertex, 0.66,  1.92, 9.74, 0,1,0
+AddVertex, 0.30,  1.92, 9.88, 0,1,0
+AddFace, 3, 2, 1, 0
+SetColor,31,30,30
+CreateMeshBuilder,
+AddVertex, 0.30,  1.92, 9.88, 0,1,0
+AddVertex, 0.66,  1.92, 9.74, 0,1,0
+AddVertex, 0.66,  1.88, 9.77, 1,1,0
+AddVertex, 0.30,  1.88, 9.91, 1,1,0
+AddFace, 3, 2, 1, 0
+SetColor,31,30,30
+CreateMeshBuilder,
+AddVertex, 0.30,  1.88, 9.91, 1,1,0
+AddVertex, 0.66,  1.88, 9.77, 1,1,0
+AddVertex, 0.66,  1.84, 9.79, 1,1,1
+AddVertex, 0.30,  1.84, 9.93, 1,1,1
+AddFace, 3, 2, 1, 0
+SetColor,31,30,30
+CreateMeshBuilder,
+AddVertex, 0.30,  1.84, 9.93, 1,1,1
+AddVertex, 0.66,  1.84, 9.79, 1,1,1
+AddVertex, 0.66,  1.80, 9.80, 0,0,0
+AddVertex, 0.30,  1.80, 9.94, 0,0,0
+AddFace, 3, 2, 1, 0
+SetColor,31,30,30
+CreateMeshBuilder,
+AddVertex, 0.30,  1.80, 9.94, 0,0,0
+AddVertex, 0.66,  1.80, 9.80, 0,0,0
+AddVertex, 0.66,  1.73, 9.80, 0,0,0
+AddVertex, 0.30,  1.73, 9.94, 0,0,0
+AddFace, 3, 2, 1, 0
+SetColor,31,30,30
+
+;; Panel 3 ;;
+CreateMeshBuilder,
+AddVertex, 0.66,  2.00, 9.65, 0,1,0
+AddVertex, 1.0,  2.00, 8.75, 0,1,0
+AddVertex, 1.0,  1.92, 8.75, 0,1,0
+AddVertex, 0.66,  1.92, 9.74, 0,1,0
+AddFace, 3, 2, 1, 0
+SetColor,31,30,30
+CreateMeshBuilder,
+AddVertex, 0.66,  1.92, 9.74, 0,1,0
+AddVertex, 1.0, 1.92, 8.75, 0,1,0
+AddVertex, 1.0,  1.88, 8.75, 1,1,0
+AddVertex, 0.66,  1.88, 9.77, 1,1,0
+AddFace, 3, 2, 1, 0
+SetColor,31,30,30
+CreateMeshBuilder,
+AddVertex, 0.66,  1.88, 9.77, 1,1,0
+AddVertex, 1.0, 1.88, 8.75, 1,1,0
+AddVertex, 1.0,  1.84, 8.75, 1,1,1
+AddVertex, 0.66,  1.84, 9.79, 1,1,1
+AddFace, 3, 2, 1, 0
+SetColor,31,30,30
+CreateMeshBuilder,
+AddVertex, 0.66,  1.84, 9.79, 1,1,1
+AddVertex, 1.0, 1.84, 8.75, 1,1,1
+AddVertex, 1.0,  1.80, 8.75, 0,0,0
+AddVertex, 0.66,  1.80, 9.80, 0,0,0
+AddFace, 3, 2, 1, 0
+SetColor,31,30,30
+CreateMeshBuilder,
+AddVertex, 0.66,  1.80, 9.80, 0,0,0
+AddVertex, 1.0, 1.80, 8.75, 0,0,0
+AddVertex, 1.0,  1.73, 8.75, 0,0,0
+AddVertex, 0.66,  1.73, 9.80, 0,0,0
+AddFace, 3, 2, 1, 0
+SetColor,31,30,30
+
+;; Left Curve ;;
+CreateMeshBuilder,
+AddVertex,-0.49,  2.00, 9.79, 0,1,1
+AddVertex,-0.46,  2.00, 9.79, 0,1,0
+AddVertex,-0.46,  1.92, 9.88, 0,1,0
+AddVertex,-0.46,  1.92, 9.88, 0,1,0
+AddFace, 3, 2, 1, 0
+SetColor,31,30,30
+
+CreateMeshBuilder,
+AddVertex,-0.51,  1.995, 9.784, 0,1,1
+AddVertex,-0.49,  2.00, 9.79, 0,1,1
+AddVertex,-0.46,  1.92, 9.88, 0,1,0
+AddVertex,-0.46,  1.91, 9.87, 0,1,0
+AddFace, 3, 2, 1, 0
+SetColor,31,30,30
+
+CreateMeshBuilder,
+AddVertex,-0.54,  1.97, 9.758, 0,1,1
+AddVertex,-0.51,  1.995, 9.784, 0,1,1
+AddVertex,-0.46,  1.91, 9.87, 0,1,0
+AddVertex,-0.46,  1.90, 9.86, 0,1,0
+AddFace, 3, 2, 1, 0
+SetColor,31,30,30
+
+CreateMeshBuilder,
+AddVertex,-0.547,  1.95, 9.735, 0,1,1
+AddVertex,-0.54,  1.97, 9.758, 0,1,1
+AddVertex,-0.46,  1.90, 9.86, 0,1,0
+AddVertex,-0.46,  1.89, 9.85, 0,1,0
+AddFace, 3, 2, 1, 0
+SetColor,31,30,30
+
+CreateMeshBuilder,
+AddVertex,-0.538,  1.91, 9.695, 0,1,1
+AddVertex,-0.547,  1.95, 9.735, 0,1,1
+AddVertex,-0.46,  1.89, 9.85, 0,1,0
+AddVertex,-0.46,  1.88, 9.83, 0,1,0
+AddFace, 3, 2, 1, 0
+SetColor,31,30,30
+
+CreateMeshBuilder,
+AddVertex,-0.514,  1.89, 9.670, 0,1,1
+AddVertex,-0.538,  1.91, 9.695, 0,1,1
+AddVertex,-0.46,  1.88, 9.83, 0,1,0
+AddVertex,-0.46,  1.87, 9.81, 0,1,0
+AddFace, 3, 2, 1, 0
+SetColor,31,30,30
+
+CreateMeshBuilder,
+AddVertex,-0.460,  1.873, 9.652, 0,1,1
+AddVertex,-0.514,  1.89, 9.670, 0,1,1
+AddVertex,-0.46,  1.87, 9.81, 0,1,0
+AddVertex,-0.46,  1.86, 9.77, 0,1,0
+AddFace, 3, 2, 1, 0
+SetColor,31,30,30
+
+;; Right mon ;;
+CreateMeshBuilder,
+Cube,0.015,0.12,0.17
+SetColor,26,26,26
+Rotate,0,0,1,-32.5
+Rotate,0,1,0,-22
+Rotate,1,0,0,-0.5
+Translate,0.836,1.867,8.96
+
+CreateMeshBuilder,
+Cube,0.015,0.09,0.135
+SetColor,50,50,50
+Rotate,0,0,1,-32.5
+Rotate,0,1,0,-22
+Rotate,1,0,0,-0.5
+Translate,0.835,1.867,8.96

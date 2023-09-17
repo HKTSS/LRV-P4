@@ -1,0 +1,78 @@
+[Include]
+Handles.animated
+WC/WC.animated
+StopReporter/led.animated
+
+[Include]
+Seats/Seats.animated
+
+[Include]
+top/top.animated
+
+[Object]
+States = inside.csv, Dark/inside.csv
+Position = 0,0,0
+Statefunction = pluginState[99]
+
+[Object]
+States = LEDDisplay.csv, Dark/LEDDisplay.csv
+Position = 0,0,-0.07
+Statefunction = pluginState[99]
+
+[Object]
+States = LEDDisplay_refl.csv, null.csv
+Position = -0.003,0,-0.07
+TextureShiftYFunction = -0.65 + (cameraYDistance * 0.3)
+Statefunction = pluginState[99]
+RefreshRate = 0.04
+
+[Object]
+States = fire_ex/fire_ex.csv, fire_ex/fire_ex_dark.csv
+Position = 0,0,5.5
+Statefunction = pluginState[99]
+
+[Object]
+States = fire_ex/fire_ex.csv, fire_ex/fire_ex_dark.csv
+Position = 0,0,0
+Statefunction = pluginState[99]
+
+[Object]
+States = handrail.csv, Dark/handrail.csv
+Position = -0.1,0,4.55
+Statefunction = pluginState[99]
+
+[Object]
+States = handrail.csv, Dark/handrail.csv
+Position = -0.1,0,1
+Statefunction = pluginState[99]
+
+[Object]
+States = handrail.csv, Dark/handrail.csv
+Position = -0.1,0,-1
+Statefunction = pluginState[99]
+
+[Object]
+States = handrail.csv, Dark/handrail.csv
+Position = -0.1,0,-4.4
+Statefunction = pluginState[99]
+
+[Object]
+States = handrail.csv, Dark/handrail.csv
+Position = -0.1,0,-6.4
+Statefunction = pluginState[99]
+
+[Object]
+States = cabdoor.csv, Dark/cabdoor.csv
+Position = 0,0.047,0
+TranslateXFunction = if[pluginstate[111] == 1, Min[value + 0.6 * delta, 0.6], Max[value - 0.6 * delta, 0]]
+Statefunction = pluginState[99]
+
+[Object]
+States = light.csv, Dark/light.csv
+Position = -0.97,3.26,7.3
+Statefunction = pluginState[99]
+
+[Object]
+States = light.csv, Dark/light.csv
+Position = 0.77,3.26,7.3
+Statefunction = pluginState[99]

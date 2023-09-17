@@ -1,0 +1,47 @@
+[Object]
+States = ../../null.csv, 1HOK_ZH.csv, 1HOK_EN.csv, ../../null.csv
+Position = 0,0,0
+TextureShiftXFunction = (pluginState[127] / 1000) * 0.5
+StateFunction = if[pluginState[129] == 16000, pluginState[126], 0]
+
+
+[Object]
+States = ../../null.csv, 2KOW_ZH.csv, 2KOW_EN.csv, ../../null.csv
+Position = 0,0,0
+TextureShiftXFunction = (pluginState[127] / 1000) * 0.5
+StateFunction = if[pluginState[129] == 16001, pluginState[126], 0]
+
+
+[Object]
+States = ../../null.csv, 3OLY_ZH.csv, 3OLY_EN.csv, ../../null.csv
+Position = 0,0,0
+TextureShiftXFunction = (pluginState[127] / 1000) * 0.5
+StateFunction = if[pluginState[129] == 16002, pluginState[126], 0]
+
+
+[Object]
+States = ../../null.csv, 6TSY_ZH.csv, 6TSY_EN.csv, ../../null.csv
+Position = 0,0,0
+TextureShiftXFunction = (pluginState[127] / 1000) * 0.5
+StateFunction = if[pluginState[129] == 16005, pluginState[126], 0]
+
+
+[Object]
+States = ../../null.csv, 8TUC_ZH.csv, 8TUC_EN.csv, ../../null.csv
+Position = 0,0,0
+TextureShiftXFunction = (pluginState[127] / 1000) * 0.5
+StateFunction = if[pluginState[129] == 16007, pluginState[126], 0]
+
+
+[Object]
+States = ../../null.csv, 9AIR_ZH.csv, 9AIR_EN.csv, ../../null.csv
+Position = 0,0,0
+TextureShiftXFunction = (pluginState[127] / 1000) * 0.5
+StateFunction = if[pluginState[129] == 16008, pluginState[126], 0]
+
+
+[Object]
+States = ../../null.csv, 10AWE_ZH.csv, 10AWE_EN.csv, ../../null.csv
+Position = 0,0,0
+TextureShiftXFunction = (pluginState[127] / 1000) * 0.5
+StateFunction = if[pluginState[129] == 16009, pluginState[126], 0]

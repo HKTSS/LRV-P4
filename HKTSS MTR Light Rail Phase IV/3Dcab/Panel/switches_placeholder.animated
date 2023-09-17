@@ -1,0 +1,26 @@
+;; These are switches that does not have any function implemented, as such they are static and purely used for decoration
+;; Most are due to unknown behavior of what the button actually do ;;
+
+;; Top left switch (Fan icon) ;;
+[Object]
+States = Component\switch.csv
+Position = -0.15,1.875,9.658
+RotateXFunction = 0.85
+
+;; Top left switch (2nd switch, with arrow pointing both side) ;;
+[Object]
+States = Component\switch.csv
+Position = -0.094,1.875,9.658
+RotateXFunction = 0.85
+
+;; Top left switch (3rd switch, with arrow pointing right side) ;;
+[Object]
+States = Component\switch.csv
+Position = -0.043,1.875,9.658
+RotateXFunction = 0.85
+
+;; Breaking Switch next to First Door button ;;
+[Object]
+States = Component\switch.csv
+Position = -0.062,1.748,9.52
+RotateXFunction = 0.85

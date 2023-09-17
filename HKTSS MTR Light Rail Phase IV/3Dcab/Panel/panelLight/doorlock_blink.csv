@@ -1,0 +1,13 @@
+CreateMeshBuilder,
+AddVertex,-0.190,  1.849, 9.626
+AddVertex,-0.179,  1.849, 9.626
+AddVertex,-0.179,  1.841, 9.617
+AddVertex,-0.190,  1.841, 9.617
+AddFace,0, 1, 2, 3,
+SetEmissiveColor,255,255,255
+LoadTexture,DoorLock.png
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,0,1,
+SetTextureCoordinates,2,1,1
+SetTextureCoordinates,3,1,0,
+SetDecalTransparentColor,255,255,255

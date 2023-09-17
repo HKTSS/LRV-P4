@@ -1,0 +1,13 @@
+CreateMeshBuilder
+AddVertex,-0.630,2.92,9.53, 0,1,0
+AddVertex,-0.630,3.26,9.53, 0,1,0
+AddVertex,0.640,3.26,9.53, 0,1,0
+AddVertex,0.640,2.92,9.53, 0,1,0
+AddFace,3,2,1,0
+SetEmissiveColor,255,255,255
+LoadTexture,F761P_TY.png,
+SetTextureCoordinates,0,1.000,1.000
+SetTextureCoordinates,1,1.000,0.000
+SetTextureCoordinates,2,0.000,0.000
+SetTextureCoordinates,3,0.000,1.000
+SetDecalTransparentColor,0,0,255

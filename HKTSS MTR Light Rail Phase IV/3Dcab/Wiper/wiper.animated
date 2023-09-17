@@ -1,0 +1,13 @@
+[Object]
+States = wiper1.csv, wiper1.csv, wiper1.csv, wiper1.csv, wiper1.csv
+Position = 0.55,1.6,9.98
+StateFunction = pluginState[113]
+RotateZScript = wiper.cs?vertical=true&isZ=true
+RotateXScript = wiper.cs?vertical=true&isZ=false
+
+[Object]
+States = wiper2.csv, wiper2.csv, wiper2.csv, wiper2.csv, wiper2.csv
+Position = -0.55,1.63,9.98
+StateFunction = pluginState[113]
+RotateZScript = wiper.cs?vertical=false&isZ=true
+RotateXScript = wiper.cs?vertical=false&isZ=false

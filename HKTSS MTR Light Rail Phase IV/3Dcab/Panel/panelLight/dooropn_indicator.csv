@@ -1,0 +1,12 @@
+CreateMeshBuilder,
+AddVertex,-0.217,  1.8118, 9.5858, 0,1,0
+AddVertex,-0.1895,  1.8118, 9.5858, 0,1,0
+AddVertex,-0.1895,  1.791, 9.563, 0,1,0
+AddVertex,-0.217,  1.791, 9.563, 0,1,0
+AddFace2, 0, 1, 2, 3
+LoadTexture,dooropn_indicator.png
+SetTextureCoordinates,0, 0.0, 0
+SetTextureCoordinates,1, 1, 0
+SetTextureCoordinates,2, 1, 1
+SetTextureCoordinates,3, 0.0, 1
+Translate,0.0425,0,0

@@ -1,0 +1,746 @@
+<Data>
+    <Station>
+        <Keyword>美樂</Keyword>
+        <Destination>9010</Destination>
+    </Station>
+    <Station>
+        <Keyword>蝴蝶</Keyword>
+        <Destination>9015</Destination>
+    </Station>
+    <Station>
+        <Keyword>輕鐵車廠</Keyword>
+        <Destination>9020</Destination>
+    </Station>
+    <Station>
+        <Keyword>龍門</Keyword>
+        <Destination>9030</Destination>
+    </Station>
+    <Station>
+        <Keyword>青山村</Keyword>
+        <Destination>9040</Destination>
+    </Station>
+    <Station>
+        <Keyword>青雲</Keyword>
+        <Destination>9050</Destination>
+    </Station>
+    <Station>
+        <Keyword>鳴琴</Keyword>
+        <Destination>9200</Destination>
+    </Station>
+    <Station>
+        <Keyword>石排</Keyword>
+        <Destination>9170</Destination>
+    </Station>
+    <Station>
+        <Keyword>大興(北)</Keyword>
+        <Destination>9212</Destination>
+    </Station>
+    <Station>
+        <Keyword>大興(南)</Keyword>
+        <Destination>9220</Destination>
+    </Station>
+    <Station>
+        <Keyword>銀圍</Keyword>
+        <Destination>9230</Destination>
+    </Station>
+    <Station>
+        <Keyword>澤豐</Keyword>
+        <Destination>9080</Destination>
+    </Station>
+    <Station>
+        <Keyword>屯門醫院</Keyword>
+        <Destination>9090</Destination>
+    </Station>
+    <Station>
+        <Keyword>兆康</Keyword>
+        <Destination>9100</Destination>
+    </Station>
+    <Station>
+        <Keyword>藍地</Keyword>
+        <Destination>9350</Destination>
+    </Station>
+    <Station>
+        <Keyword>泥圍</Keyword>
+        <Destination>9360</Destination>
+    </Station>
+    <Station>
+        <Keyword>鍾屋村</Keyword>
+        <Destination>9370</Destination>
+    </Station>
+    <Station>
+        <Keyword>洪水橋</Keyword>
+        <Destination>9380</Destination>
+    </Station>
+    <Station>
+        <Keyword>塘坊村</Keyword>
+        <Destination>9390</Destination>
+    </Station>
+    <Station>
+        <Keyword>屏山</Keyword>
+        <Destination>9400</Destination>
+    </Station>
+    <Station>
+        <Keyword>水邊圍</Keyword>
+        <Destination>9560</Destination>
+    </Station>
+    <Station>
+        <Keyword>豐年路</Keyword>
+        <Destination>9570</Destination>
+    </Station>
+    <Station>
+        <Keyword>康樂路</Keyword>
+        <Destination>9580</Destination>
+    </Station>
+    <Station>
+        <Keyword>大棠路</Keyword>
+        <Destination>9590</Destination>
+    </Station>
+    <Station>
+        <Keyword>元朗總站</Keyword>
+        <Destination>9600</Destination>
+    </Station>
+    
+    
+    
+    
+    
+    
+    <Station>
+        <Keyword>藍田</Keyword>
+        <Keyword>Lam Tin</Keyword>
+        <Keyword>藍田 Lam Tin</Keyword>
+        <Destination>11002</Destination>
+    </Station>
+    <Station>
+        <Keyword>觀塘</Keyword>
+        <Keyword>Kwun Tong</Keyword>
+        <Keyword>觀塘 Kwun Tong</Keyword>
+        <Destination>11003</Destination>
+    </Station>
+    <Station>
+        <Keyword>牛頭角</Keyword>
+        <Keyword>Ngau Tau Kok</Keyword>
+        <Keyword>牛頭角 Ngau Tau Kok</Keyword>
+        <Destination>11004</Destination>
+    </Station>
+    <Station>
+        <Keyword>九龍灣</Keyword>
+        <Keyword>Kowloon Bay</Keyword>
+        <Keyword>九龍灣 Kowloon Bay</Keyword>
+        <Destination>11005</Destination>
+    </Station>
+    <Station>
+        <Keyword>彩虹</Keyword>
+        <Keyword>Choi Hung</Keyword>
+        <Keyword>彩虹 Choi Hung</Keyword>
+        <Destination>11006</Destination>
+    </Station>
+    <Station>
+        <Keyword>黃大仙</Keyword>
+        <Keyword>Wong Tai Sin</Keyword>
+        <Keyword>黃大仙 Wong Tai Sin</Keyword>
+        <Destination>11008</Destination>
+    </Station>
+    <Station>
+        <Keyword>樂富</Keyword>
+        <Keyword>Lok Fu</Keyword>
+        <Keyword>樂富 Lok Fu</Keyword>
+        <Destination>11009</Destination>
+    </Station>
+    <Station>
+        <Keyword>石硤尾</Keyword>
+        <Keyword>Shek Kip Mei</Keyword>
+        <Keyword>石硤尾 Shek Kip Mei</Keyword>
+        <Destination>11011</Destination>
+    </Station>
+    <Station>
+        <Keyword>黃埔</Keyword>
+        <Keyword>Whampoa</Keyword>
+        <Keyword>黃埔 Whampoa</Keyword>
+        <Destination>11016</Destination>
+    </Station>
+    
+    <Station>
+        <Keyword>尖沙咀</Keyword>
+        <Keyword>Tsim Sha Tsui</Keyword>
+        <Keyword>尖沙咀 Tsim Sha Tsui</Keyword>
+        <Destination>12002</Destination>
+    </Station>
+    <Station>
+        <Keyword>佐敦</Keyword>
+        <Keyword>Jordan</Keyword>
+        <Keyword>佐敦 Jordan</Keyword>
+        <Destination>12003</Destination>
+    </Station>
+    <Station>
+        <Keyword>深水埗</Keyword>
+        <Keyword>Sham Shui Po</Keyword>
+        <Keyword>深水埗 Sham Shui Po</Keyword>
+        <Destination>12007</Destination>
+    </Station>
+    <Station>
+        <Keyword>長沙灣</Keyword>
+        <Keyword>Cheung Sha Wan</Keyword>
+        <Keyword>長沙灣 Cheung Sha Wan</Keyword>
+        <Destination>12008</Destination>
+    </Station>
+    <Station>
+        <Keyword>荔枝角</Keyword>
+        <Keyword>Lai Chi Kok</Keyword>
+        <Keyword>荔枝角 Lai Chi Kok</Keyword>
+        <Destination>12009</Destination>
+    </Station>
+    <Station>
+        <Keyword>葵芳</Keyword>
+        <Keyword>Kwai Fong</Keyword>
+        <Keyword>葵芳 Kwai Fong</Keyword>
+        <Destination>12012</Destination>
+    </Station>
+    <Station>
+        <Keyword>葵興</Keyword>
+        <Keyword>Kwai Hing</Keyword>
+        <Keyword>葵興 Kwai Hing</Keyword>
+        <Destination>12013</Destination>
+    </Station>
+    <Station>
+        <Keyword>大窩口</Keyword>
+        <Keyword>Tai Wo Hau</Keyword>
+        <Keyword>大窩口 Tai Wo Hau</Keyword>
+        <Destination>12014</Destination>
+    </Station>
+    <Station>
+        <Keyword>荃灣</Keyword>
+        <Keyword>Tsuen Wan</Keyword>
+        <Keyword>荃灣 Tsuen Wan</Keyword>
+        <Destination>12015</Destination>
+    </Station>
+    
+    
+    
+    
+    
+    <Station>
+        <Keyword>堅尼地城</Keyword>
+        <Keyword>Kennedy Town</Keyword>
+        <Keyword>堅尼地城 Kennedy Town</Keyword>
+        <Destination>13000</Destination>
+    </Station>
+    <Station>
+        <Keyword>香港大學</Keyword>
+        <Keyword>HKU</Keyword>
+        <Keyword>香港大學 HKU</Keyword>
+        <Destination>13001</Destination>
+    </Station>
+    <Station>
+        <Keyword>西營盤</Keyword>
+        <Keyword>Sai Ying Pun</Keyword>
+        <Keyword>西營盤 Sai Ying Pun</Keyword>
+        <Destination>13002</Destination>
+    </Station>
+    <Station>
+        <Keyword>上環</Keyword>
+        <Keyword>Sheung Wan</Keyword>
+        <Keyword>上環 Sheung Wan</Keyword>
+        <Destination>13003</Destination>
+    </Station>
+    <Station>
+        <Keyword>灣仔</Keyword>
+        <Keyword>Wan Chai</Keyword>
+        <Keyword>灣仔 Wan Chai</Keyword>
+        <Destination>13006</Destination>
+    </Station>
+    <Station>
+        <Keyword>銅鑼灣</Keyword>
+        <Keyword>Causeway Bay</Keyword>
+        <Keyword>銅鑼灣 Causeway Bay</Keyword>
+        <Destination>13007</Destination>
+    </Station>
+    <Station>
+        <Keyword>天后</Keyword>
+        <Keyword>Tin Hau</Keyword>
+        <Keyword>天后 Tin Hau</Keyword>
+        <Destination>13008</Destination>
+    </Station>
+    <Station>
+        <Keyword>炮台山</Keyword>
+        <Keyword>Fortress Hill</Keyword>
+        <Keyword>炮台山 Fortress Hill</Keyword>
+        <Destination>13009</Destination>
+    </Station>
+    <Station>
+        <Keyword>太古</Keyword>
+        <Keyword>Tai Koo</Keyword>
+        <Keyword>太古 Tai Koo</Keyword>
+        <Destination>13012</Destination>
+    </Station>
+    <Station>
+        <Keyword>西灣河</Keyword>
+        <Keyword>Sai Wan Ho</Keyword>
+        <Keyword>西灣河 Sai Wan Ho</Keyword>
+        <Destination>13013</Destination>
+    </Station>
+    <Station>
+        <Keyword>筲箕灣</Keyword>
+        <Keyword>Shau Kei Wan</Keyword>
+        <Keyword>筲箕灣 Shau Kei Wan</Keyword>
+        <Destination>13014</Destination>
+    </Station>
+    <Station>
+        <Keyword>杏花邨</Keyword>
+        <Keyword>Heng Fa Chuen</Keyword>
+        <Keyword>杏花邨 Heng Fa Chuen</Keyword>
+        <Destination>13015</Destination>
+    </Station>
+    <Station>
+        <Keyword>柴灣</Keyword>
+        <Keyword>Chai Wan</Keyword>
+        <Keyword>柴灣 Chai Wan</Keyword>
+        <Destination>13016</Destination>
+    </Station>
+    
+    
+    
+    
+    
+    <Station>
+        <Keyword>將軍澳</Keyword>
+        <Keyword>Tseung Kwan O</Keyword>
+        <Keyword>將軍澳 Tseung Kwan O</Keyword>
+        <Destination>14004</Destination>
+    </Station>
+    <Station>
+        <Keyword>坑口</Keyword>
+        <Keyword>Hang Hau</Keyword>
+        <Keyword>坑口 Hang Hau</Keyword>
+        <Destination>14005</Destination>
+    </Station>
+    <Station>
+        <Keyword>寶琳</Keyword>
+        <Keyword>Po Lam</Keyword>
+        <Keyword>寶琳 Po Lam</Keyword>
+        <Destination>14006</Destination>
+    </Station>
+    <Station>
+        <Keyword>康城</Keyword>
+        <Keyword>LOHAS Park</Keyword>
+        <Keyword>康城 LOHAS Park</Keyword>
+        <Destination>14007</Destination>
+    </Station>
+    
+    
+    
+    
+    
+    
+    <Station>
+        <Keyword>海洋公園</Keyword>
+        <Keyword>Ocean Park</Keyword>
+        <Keyword>海洋公園 Ocean Park</Keyword>
+        <Destination>15001</Destination>
+    </Station>
+    <Station>
+        <Keyword>黃竹坑</Keyword>
+        <Keyword>Wong Chuk Hang</Keyword>
+        <Keyword>黃竹坑 Wong Chuk Hang</Keyword>
+        <Destination>15002</Destination>
+    </Station>
+    <Station>
+        <Keyword>利東</Keyword>
+        <Keyword>Lei Tung</Keyword>
+        <Keyword>利東 Lei Tung</Keyword>
+        <Destination>15003</Destination>
+    </Station>
+    <Station>
+        <Keyword>海怡半島</Keyword>
+        <Keyword>South Horizons</Keyword>
+        <Keyword>海怡半島 South Horizons</Keyword>
+        <Destination>15004</Destination>
+    </Station>
+    
+    
+    
+    
+    
+    
+    
+    <Station>
+        <Keyword>香港</Keyword>
+        <Keyword>Hong Kong</Keyword>
+        <Keyword>香港 Hong Kong</Keyword>
+        <Destination>16000</Destination>
+    </Station>
+    <Station>
+        <Keyword>九龍</Keyword>
+        <Keyword>Kowloon</Keyword>
+        <Keyword>九龍 Kowloon</Keyword>
+        <Destination>16001</Destination>
+    </Station>
+    <Station>
+        <Keyword>奧運</Keyword>
+        <Keyword>Olympic</Keyword>
+        <Keyword>奧運 Olympic</Keyword>
+        <Destination>16002</Destination>
+    </Station>
+    <Station>
+        <Keyword>青衣</Keyword>
+        <Keyword>Tsing Yi</Keyword>
+        <Keyword>青衣 Tsing Yi</Keyword>
+        <Destination>16005</Destination>
+    </Station>
+    <Station>
+        <Keyword>東涌</Keyword>
+        <Keyword>Tung Chung</Keyword>
+        <Keyword>東涌 Tung Chung</Keyword>
+        <Destination>16007</Destination>
+    </Station>
+    <Station>
+        <Keyword>機場</Keyword>
+        <Keyword>Airport</Keyword>
+        <Keyword>機場 Airport</Keyword>
+        <Destination>16008</Destination>
+    </Station>
+    <Station>
+        <Keyword>博覽館</Keyword>
+        <Keyword>AsiaWorld-Expo</Keyword>
+        <Keyword>Asia-World Expo</Keyword>
+        <Keyword>博覽館 AsiaWorld-Expo</Keyword>
+        <Destination>16009</Destination>
+    </Station>
+    
+    <Station>
+        <Keyword>羅湖</Keyword>
+        <Keyword>Lo Wu</Keyword>
+        <Keyword>羅湖 Lo Wu</Keyword>
+        <Destination>18000</Destination>
+    </Station>
+    <Station>
+        <Keyword>落馬洲</Keyword>
+        <Keyword>Lok Ma Chau</Keyword>
+        <Keyword>落馬洲 Lok Ma Chau</Keyword>
+        <Destination>18001</Destination>
+    </Station>
+    <Station>
+        <Keyword>上水</Keyword>
+        <Keyword>Sheung Shui</Keyword>
+        <Keyword>上水 Sheung Shui</Keyword>
+        <Destination>18002</Destination>
+    </Station>
+    <Station>
+        <Keyword>粉嶺</Keyword>
+        <Keyword>Fanling</Keyword>
+        <Keyword>粉嶺 Fanling</Keyword>
+        <Destination>18003</Destination>
+    </Station>
+    <Station>
+        <Keyword>太和</Keyword>
+        <Keyword>Tai Wo</Keyword>
+        <Keyword>太和 Tai Wo</Keyword>
+        <Destination>18004</Destination>
+    </Station>
+    <Station>
+        <Keyword>大埔墟</Keyword>
+        <Keyword>Tai Po Market</Keyword>
+        <Keyword>大埔墟 Tai Po Market</Keyword>
+        <Destination>18005</Destination>
+    </Station>
+    <Station>
+        <Keyword>大學</Keyword>
+        <Keyword>University</Keyword>
+        <Keyword>大學 University</Keyword>
+        <Destination>18006</Destination>
+    </Station>
+    <Station>
+        <Keyword>馬場</Keyword>
+        <Keyword>Racecourse</Keyword>
+        <Keyword>馬場 Racecourse</Keyword>
+        <Destination>18097</Destination>
+    </Station>
+    <Station>
+        <Keyword>火炭</Keyword>
+        <Keyword>Fo Tan</Keyword>
+        <Keyword>火炭 Fo Tan</Keyword>
+        <Destination>18007</Destination>
+    </Station>
+    <Station>
+        <Keyword>沙田</Keyword>
+        <Keyword>Sha Tin</Keyword>
+        <Keyword>沙田 Sha Tin</Keyword>
+        <Destination>18008</Destination>
+    </Station>
+    <Station>
+        <Keyword>旺角東</Keyword>
+        <Keyword>Mong Kok East</Keyword>
+        <Keyword>旺角東 Mong Kok East</Keyword>
+        <Destination>18011</Destination>
+    </Station>
+    <Station>
+        <Keyword>會展</Keyword>
+        <Keyword>Exhibition Centre</Keyword>
+        <Keyword>會展 Exhibition Centre</Keyword>
+        <Destination>18013</Destination>
+    </Station>
+    
+    
+    
+    
+    
+    
+    
+    
+    <Station>
+        <Keyword>迪士尼</Keyword>
+        <Keyword>Disneyland Resort</Keyword>
+        <Keyword>迪士尼 Disneyland Resort</Keyword>
+        <Destination>17001</Destination>
+    </Station>
+    
+    
+    
+    
+    
+    
+    <Station>
+        <Keyword>屯門</Keyword>
+        <Keyword>Tuen Mun</Keyword>
+        <Keyword>屯門 Tuen Mun</Keyword>
+        <Destination>19000</Destination>
+    </Station>
+    <Station>
+        <Keyword>兆康</Keyword>
+        <Keyword>Siu Hong</Keyword>
+        <Keyword>兆康 Siu Hong</Keyword>
+        <Destination>19001</Destination>
+    </Station>
+    <Station>
+        <Keyword>天水圍</Keyword>
+        <Keyword>Tin Shui Wai</Keyword>
+        <Keyword>天水圍 Tin Shui Wai</Keyword>
+        <Destination>19002</Destination>
+    </Station>
+    <Station>
+        <Keyword>朗屏</Keyword>
+        <Keyword>Long Ping</Keyword>
+        <Keyword>朗屏 Long Ping</Keyword>
+        <Destination>19003</Destination>
+    </Station>
+    <Station>
+        <Keyword>元朗</Keyword>
+        <Keyword>Yuen Long</Keyword>
+        <Keyword>元朗 Yuen Long</Keyword>
+        <Destination>19004</Destination>
+    </Station>
+    <Station>
+        <Keyword>錦上路</Keyword>
+        <Keyword>Kam Sheung Road</Keyword>
+        <Keyword>錦上路 Kam Sheung Road</Keyword>
+        <Destination>19005</Destination>
+    </Station>
+    <Station>
+        <Keyword>荃灣西</Keyword>
+        <Keyword>Tsuen Wan West</Keyword>
+        <Keyword>荃灣西 Tsuen Wan West</Keyword>
+        <Destination>19006</Destination>
+    </Station>
+    <Station>
+        <Keyword>柯士甸</Keyword>
+        <Keyword>Austin</Keyword>
+        <Keyword>柯士甸 Austin</Keyword>
+        <Destination>19009</Destination>
+    </Station>
+    <Station>
+        <Keyword>尖東</Keyword>
+        <Keyword>East Tsim Sha Tsui</Keyword>
+        <Keyword>尖東 East Tsim Sha Tsui</Keyword>
+        <Destination>19010</Destination>
+    </Station>
+    <Station>
+        <Keyword>土瓜灣</Keyword>
+        <Keyword>To Kwa Wan</Keyword>
+        <Keyword>土瓜灣 To Kwa Wan</Keyword>
+        <Destination>19013</Destination>
+    </Station>
+    <Station>
+        <Keyword>宋皇臺</Keyword>
+        <Keyword>Sung Wong Toi</Keyword>
+        <Keyword>宋皇臺 Sung Wong Toi</Keyword>
+        <Destination>19014</Destination>
+    </Station>
+    <Station>
+        <Keyword>啟德</Keyword>
+        <Keyword>Kai Tak</Keyword>
+        <Keyword>啟德 Kai Tak</Keyword>
+        <Destination>19015</Destination>
+    </Station>
+    <Station>
+        <Keyword>顯徑</Keyword>
+        <Keyword>Hin Keng</Keyword>
+        <Keyword>顯徑 Hin Keng</Keyword>
+        <Destination>19017</Destination>
+    </Station>
+    <Station>
+        <Keyword>車公廟</Keyword>
+        <Keyword>Che Kung Temple</Keyword>
+        <Keyword>車公廟 Che Kung Temple</Keyword>
+        <Destination>19019</Destination>
+    </Station>
+    <Station>
+        <Keyword>沙田圍</Keyword>
+        <Keyword>Sha Tin Wai</Keyword>
+        <Keyword>沙田圍 Sha Tin Wai</Keyword>
+        <Destination>19020</Destination>
+    </Station>
+    <Station>
+        <Keyword>第一城</Keyword>
+        <Keyword>City One</Keyword>
+        <Keyword>第一城 City One</Keyword>
+        <Destination>19021</Destination>
+    </Station>
+    <Station>
+        <Keyword>石門</Keyword>
+        <Keyword>Shek Mun</Keyword>
+        <Keyword>石門 Shek Mun</Keyword>
+        <Destination>19022</Destination>
+    </Station>
+    <Station>
+        <Keyword>大水坑</Keyword>
+        <Keyword>Tai Shui Hang</Keyword>
+        <Keyword>大水坑 Tai Shui Hang</Keyword>
+        <Destination>19023</Destination>
+    </Station>
+    <Station>
+        <Keyword>恆安</Keyword>
+        <Keyword>Heng On</Keyword>
+        <Keyword>恆安 Heng On</Keyword>
+        <Destination>19024</Destination>
+    </Station>
+    <Station>
+        <Keyword>馬鞍山</Keyword>
+        <Keyword>Ma On Shan</Keyword>
+        <Keyword>馬鞍山 Ma On Shan</Keyword>
+        <Destination>19025</Destination>
+    </Station>
+    <Station>
+        <Keyword>烏溪沙</Keyword>
+        <Keyword>Wu Kai Sha</Keyword>
+        <Keyword>烏溪沙 Wu Kai Sha</Keyword>
+        <Keyword>烏溪沙 Wu Kai Sha (1)</Keyword>
+        <Keyword>烏溪沙 Wu Kai Sha (2)</Keyword>
+        <Destination>19026</Destination>
+    </Station>
+
+    
+    
+    
+    
+    
+    
+    <Station>
+        <Keyword>調景嶺</Keyword>
+        <Keyword>Tiu Keng Leng</Keyword>
+        <Keyword>調景嶺 Tiu Keng Leng</Keyword>
+        <Destination>20000</Destination>
+    </Station>
+    <Station>
+        <Keyword>油塘</Keyword>
+        <Keyword>Yau Tong</Keyword>
+        <Keyword>油塘 Yau Tong</Keyword>
+        <Destination>20001</Destination>
+    </Station>
+    <Station>
+        <Keyword>鑽石山</Keyword>
+        <Keyword>Diamond Hill</Keyword>
+        <Keyword>鑽石山 Diamond Hill</Keyword>
+        <Destination>20002</Destination>
+    </Station>
+    <Station>
+        <Keyword>九龍塘</Keyword>
+        <Keyword>Kowloon Tong</Keyword>
+        <Keyword>九龍塘 Kowloon Tong</Keyword>
+        <Destination>20003</Destination>
+    </Station>
+    <Station>
+        <Keyword>太子</Keyword>
+        <Keyword>Prince Edward</Keyword>
+        <Keyword>太子 Prince Edward</Keyword>
+        <Destination>20004</Destination>
+    </Station>
+    <Station>
+        <Keyword>旺角</Keyword>
+        <Keyword>Mong Kok</Keyword>
+        <Keyword>旺角 Mong Kok</Keyword>
+        <Destination>20005</Destination>
+    </Station>
+    <Station>
+        <Keyword>油麻地</Keyword>
+        <Keyword>Yau Ma Tei</Keyword>
+        <Keyword>油麻地 Yau Ma Tei</Keyword>
+        <Destination>20006</Destination>
+    </Station>
+    <Station>
+        <Keyword>何文田</Keyword>
+        <Keyword>Ho Man Tin</Keyword>
+        <Keyword>何文田 Ho Man Tin</Keyword>
+        <Destination>20007</Destination>
+    </Station>
+    <Station>
+        <Keyword>金鐘</Keyword>
+        <Keyword>Admiralty</Keyword>
+        <Keyword>金鐘 Admiralty</Keyword>
+        <Destination>20008</Destination>
+    </Station>
+    <Station>
+        <Keyword>中環</Keyword>
+        <Keyword>Central</Keyword>
+        <Keyword>中環 Central</Keyword>
+        <Destination>20009</Destination>
+    </Station>
+    <Station>
+        <Keyword>美孚</Keyword>
+        <Keyword>Mei Foo</Keyword>
+        <Keyword>美孚 Mei Foo</Keyword>
+        <Destination>20010</Destination>
+    </Station>
+    <Station>
+        <Keyword>荔景</Keyword>
+        <Keyword>Lai King</Keyword>
+        <Keyword>荔景 Lai King</Keyword>
+        <Destination>20011</Destination>
+    </Station>
+    <Station>
+        <Keyword>北角</Keyword>
+        <Keyword>North Point</Keyword>
+        <Keyword>北角 North Point</Keyword>
+        <Destination>20012</Destination>
+    </Station>
+    <Station>
+        <Keyword>鰂魚涌</Keyword>
+        <Keyword>則魚涌</Keyword>
+        <Keyword>Quarry Bay</Keyword>
+        <Keyword>鰂魚涌 Quarry Bay</Keyword>
+        <Destination>20013</Destination>
+    </Station>
+    <Station>
+        <Keyword>南昌</Keyword>
+        <Keyword>Nam Cheong</Keyword>
+        <Keyword>南昌 Nam Cheong</Keyword>
+        <Destination>20014</Destination>
+    </Station>
+    <Station>
+        <Keyword>欣澳</Keyword>
+        <Keyword>Sunny Bay</Keyword>
+        <Keyword>欣澳 Sunny Bay</Keyword>
+        <Destination>20015</Destination>
+    </Station>
+    <Station>
+        <Keyword>大圍</Keyword>
+        <Keyword>Tai Wai</Keyword>
+        <Keyword>大圍 Tai Wai</Keyword>
+        <Destination>20016</Destination>
+    </Station>
+    <Station>
+        <Keyword>紅磡</Keyword>
+        <Keyword>Hung Hom</Keyword>
+        <Keyword>紅磡 Hung Hom</Keyword>
+        <Destination>20017</Destination>
+    </Station>
+</Data>

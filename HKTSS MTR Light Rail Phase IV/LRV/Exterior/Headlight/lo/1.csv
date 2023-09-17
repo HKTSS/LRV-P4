@@ -1,0 +1,76 @@
+CreateMeshBuilder,
+AddVertex, 0.698, 1.281, 20.388,
+AddVertex, 0.698, 1.40, 20.384,
+AddVertex, 0.59, 1.40, 20.384,
+AddVertex, 0.59, 1.281, 20.388,
+AddFace,0, 1, 2, 3,
+SetEmissiveColor, 255,255,255
+LoadTexture, ../RL.png,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0
+SetTextureCoordinates,3,1,1,
+SetDecalTransparentColor,0,0,255,
+translate,0,-0.118,-0.007
+
+CreateMeshBuilder,
+AddVertex, 0.705, 1.275, 20.386,
+AddVertex, 0.705, 1.386, 20.385,
+AddVertex, 0.594, 1.386, 20.385,
+AddVertex, 0.594, 1.275, 20.386,
+AddFace,0, 1, 2, 3,
+SetEmissiveColor, 255,255,255
+LoadTexture, ../RL.png,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0
+SetTextureCoordinates,3,1,1,
+SetDecalTransparentColor,0,0,255,
+translate,-1.25,-0.11,-0.007
+
+CreateMeshBuilder,
+AddVertex, 0.8, 0.5, 0,0,1,0
+AddVertex, 0.8, 1.7, 0.05,0,1,0
+AddVertex,-0.8, 1.7, 0.05,0,1,0
+AddVertex,-0.8, 0.5, 0,0,1,0
+AddFace2,3,2,1,0,
+SetColor, 255, 255, 255, 51
+SetEmissiveColor, 255,255,255
+LoadTexture, ../head_light.png
+SetTextureCoordinates,0,1,1,
+SetTextureCoordinates,1,1,0.6,
+SetTextureCoordinates,2,0,0.6,
+SetTextureCoordinates,3,0,1,
+SetDecalTransparentColor,0,0,255
+translate,0,0,-0.003
+
+CreateMeshBuilder,
+AddVertex, 0.7, 0.791, 0.02, 0,1,0
+AddVertex, 0.7, 0.761, -0.025, 0,1,0
+AddVertex,-0.7, 0.761, -0.025, 0,1,0
+AddVertex,-0.7, 0.791, 0.02, 0,1,0
+AddFace, 0, 1, 2, 3
+SetColor,255,255,255,51
+SetEmissiveColor, 255,255,255
+LoadTexture, ../../empty.png, ../head_light_refl.png
+SetTextureCoordinates,0,0,1
+SetTextureCoordinates,1,0,0
+SetTextureCoordinates,2,1,0
+SetTextureCoordinates,3,1,1
+
+CreateMeshBuilder,
+AddVertex,-0.7, 0.751, -0.07, 0,1,0
+AddVertex,-0.7, 0.761, -0.025, 0,1,0
+AddVertex,0.7, 0.761, -0.025, 0,1,0
+AddVertex,0.7, 0.751, -0.07, 0,1,0
+AddFace, 0,1,2,3
+SetColor,255,255,255,51
+SetEmissiveColor, 255,255,255
+LoadTexture, ../../empty.png, ../head_light_refl.png
+SetTextureCoordinates,0,1,1
+SetTextureCoordinates,1,1,0
+SetTextureCoordinates,2,0,0
+SetTextureCoordinates,3,0,1
+
+RotateAll,0,1,0,180
+TranslateAll,0,0,10
