@@ -6,7 +6,7 @@ AddVertex, 0.52, 0.305, 0.185,
 AddVertex, 0.52, 0.295, 0.201,
 AddFace2,3,2,1,0,
 SetEmissiveColor,255,255,255
-LoadTexture,chairdouble.png
+LoadTexture, chairdouble.png
 SetTextureCoordinates,0,0,1,
 SetTextureCoordinates,1,0,0.95,
 SetTextureCoordinates,2,1,0.95
@@ -20,7 +20,7 @@ AddVertex, 0.52, 0.311, 0.180,
 AddVertex, 0.52, 0.305, 0.185,
 AddFace2,3,2,1,0,
 SetEmissiveColor,255,255,255
-LoadTexture,chairdouble.png
+LoadTexture, chairdouble.png
 SetTextureCoordinates,0,0,0.95,
 SetTextureCoordinates,1,0,0.9,
 SetTextureCoordinates,2,1,0.9,
@@ -34,7 +34,7 @@ AddVertex, 0.52, 0.320, 0.178,
 AddVertex, 0.52, 0.311, 0.180,
 AddFace2,3,2,1,0,
 SetEmissiveColor,255,255,255
-LoadTexture,chairdouble.png
+LoadTexture, chairdouble.png
 SetTextureCoordinates,0,0,0.9,
 SetTextureCoordinates,1,0,0.85,
 SetTextureCoordinates,2,1,0.85,
@@ -48,7 +48,7 @@ AddVertex, 0.52, 0.380, 0.180,
 AddVertex, 0.52, 0.320, 0.178,
 AddFace2,3,2,1,0,
 SetEmissiveColor,255,255,255
-LoadTexture,chairdouble.png
+LoadTexture, chairdouble.png
 SetTextureCoordinates,0,0,0.85,
 SetTextureCoordinates,1,0,0.75,
 SetTextureCoordinates,2,1,0.75,
@@ -62,7 +62,7 @@ AddVertex, 0.52, 0.400, 0.174,
 AddVertex, 0.52, 0.380, 0.180,
 AddFace2,3,2,1,0,
 SetEmissiveColor,255,255,255
-LoadTexture,chairdouble.png
+LoadTexture, chairdouble.png
 SetTextureCoordinates,0,0,0.75,
 SetTextureCoordinates,1,0,0.7,
 SetTextureCoordinates,2,1,0.7,
@@ -76,7 +76,7 @@ AddVertex, 0.52, 0.420, 0.165,
 AddVertex, 0.52, 0.400, 0.174,
 AddFace2,3,2,1,0,
 SetEmissiveColor,255,255,255
-LoadTexture,chairdouble.png
+LoadTexture, chairdouble.png
 SetTextureCoordinates,0,0,0.7,
 SetTextureCoordinates,1,0,0.67,
 SetTextureCoordinates,2,1,0.67,
@@ -90,7 +90,7 @@ AddVertex, 0.52, 0.460, 0.140,
 AddVertex, 0.52, 0.420, 0.165,
 AddFace2,3,2,1,0,
 SetEmissiveColor,255,255,255
-LoadTexture,chairdouble.png
+LoadTexture, chairdouble.png
 SetTextureCoordinates,0,0,0.67,
 SetTextureCoordinates,1,0,0.55,
 SetTextureCoordinates,2,1,0.55,
@@ -104,7 +104,7 @@ AddVertex, 0.52, 0.500, 0.115,
 AddVertex, 0.52, 0.460, 0.140,
 AddFace2,3,2,1,0,
 SetEmissiveColor,255,255,255
-LoadTexture,chairdouble.png
+LoadTexture, chairdouble.png
 SetTextureCoordinates,0,0,0.55,
 SetTextureCoordinates,1,0,0.45,
 SetTextureCoordinates,2,1,0.45,
@@ -118,7 +118,7 @@ AddVertex, 0.52, 0.550, 0.100,
 AddVertex, 0.52, 0.500, 0.115,
 AddFace2,3,2,1,0,
 SetEmissiveColor,255,255,255
-LoadTexture,chairdouble.png
+LoadTexture, chairdouble.png
 SetTextureCoordinates,0,0,0.45,
 SetTextureCoordinates,1,0,0.35,
 SetTextureCoordinates,2,1,0.35,
@@ -132,7 +132,7 @@ AddVertex, 0.52, 0.600, 0.090,
 AddVertex, 0.52, 0.550, 0.100,
 AddFace2,3,2,1,0,
 SetEmissiveColor,255,255,255
-LoadTexture,chairdouble.png
+LoadTexture, chairdouble.png
 SetTextureCoordinates,0,0,0.35,
 SetTextureCoordinates,1,0,0.25,
 SetTextureCoordinates,2,1,0.25,
@@ -146,7 +146,7 @@ AddVertex, 0.52, 0.620, 0.087,
 AddVertex, 0.52, 0.600, 0.090,
 AddFace2,3,2,1,0,
 SetEmissiveColor,255,255,255
-LoadTexture,chairdouble.png
+LoadTexture, chairdouble.png
 SetTextureCoordinates,0,0,0.25,
 SetTextureCoordinates,1,0,0.2,
 SetTextureCoordinates,2,1,0.2,
@@ -160,7 +160,7 @@ AddVertex, 0.52, 0.670, 0.088,
 AddVertex, 0.52, 0.620, 0.087,
 AddFace2,3,2,1,0,
 SetEmissiveColor,255,255,255
-LoadTexture,chairdouble.png
+LoadTexture, chairdouble.png
 SetTextureCoordinates,0,0,0.2,
 SetTextureCoordinates,1,0,0.15,
 SetTextureCoordinates,2,1,0.15,
@@ -174,7 +174,7 @@ AddVertex, 0.52, 0.736, 0.086,
 AddVertex, 0.52, 0.670, 0.088,
 AddFace2,3,2,1,0,
 SetEmissiveColor,255,255,255
-LoadTexture,chairdouble.png
+LoadTexture, chairdouble.png
 SetTextureCoordinates,0,0,0.15,
 SetTextureCoordinates,1,0,0,
 SetTextureCoordinates,2,1,0,
@@ -192,7 +192,7 @@ AddVertex, 0.505, 0.264, 0.500,
 AddVertex, 0.460, 0.265, 0.541,
 AddFace2,3,2,1,0,
 SetEmissiveColor,255,255,255
-LoadTexture,chairdoubleback.png
+LoadTexture, chairdoubleback.png
 SetTextureCoordinates,0,0.50,1,
 SetTextureCoordinates,1,0.50,0.99,
 SetTextureCoordinates,2,0.51,0.99,
@@ -207,7 +207,7 @@ AddVertex, 0.505, 0.252, 0.300,
 AddVertex, 0.505, 0.264, 0.510,
 AddFace2,3,2,1,0,
 SetEmissiveColor,255,255,255
-LoadTexture,chairdoubleback.png
+LoadTexture, chairdoubleback.png
 SetTextureCoordinates,0,0.50,1,
 SetTextureCoordinates,1,0.50,0.99,
 SetTextureCoordinates,2,0.51,0.99,
@@ -222,7 +222,7 @@ AddVertex, 0.505, 0.250, 0.245,
 AddVertex, 0.505, 0.252, 0.300,
 AddFace2,3,2,1,0,
 SetEmissiveColor,255,255,255
-LoadTexture,chairdoubleback.png
+LoadTexture, chairdoubleback.png
 SetTextureCoordinates,0,0.50,1,
 SetTextureCoordinates,1,0.50,0.99,
 SetTextureCoordinates,2,0.51,0.99,
@@ -237,7 +237,7 @@ AddVertex, 0.525, 0.262, 0.198,
 AddVertex, 0.525, 0.250, 0.250,
 AddFace2,3,2,1,0,
 SetEmissiveColor,255,255,255
-LoadTexture,chairdoubleback.png
+LoadTexture, chairdoubleback.png
 SetTextureCoordinates,0,0,1,
 SetTextureCoordinates,1,0,0.99,
 SetTextureCoordinates,2,1,0.99,
@@ -252,7 +252,7 @@ AddVertex, 0.525, 0.271, 0.189,
 AddVertex, 0.525, 0.260, 0.200,
 AddFace2,3,2,1,0,
 SetEmissiveColor,255,255,255
-LoadTexture,chairdoubleback.png
+LoadTexture, chairdoubleback.png
 SetTextureCoordinates,0,0,1,
 SetTextureCoordinates,1,0,0.99,
 SetTextureCoordinates,2,1,0.99,
@@ -267,7 +267,7 @@ AddVertex, 0.525, 0.285, 0.181,
 AddVertex, 0.525, 0.270, 0.190,
 AddFace2,3,2,1,0,
 SetEmissiveColor,255,255,255
-LoadTexture,chairdoubleback.png
+LoadTexture, chairdoubleback.png
 SetTextureCoordinates,0,0,1,
 SetTextureCoordinates,1,0,0.99,
 SetTextureCoordinates,2,1,0.99,
@@ -282,7 +282,7 @@ AddVertex, 0.525, 0.305, 0.180,
 AddVertex, 0.525, 0.285, 0.181,
 AddFace2,3,2,1,0,
 SetEmissiveColor,255,255,255
-LoadTexture,chairdoubleback.png
+LoadTexture, chairdoubleback.png
 SetTextureCoordinates,0,0,1,
 SetTextureCoordinates,1,0,0.95,
 SetTextureCoordinates,2,1,0.95
@@ -297,7 +297,7 @@ AddVertex, 0.525, 0.311, 0.180,
 AddVertex, 0.525, 0.305, 0.180,
 AddFace2,3,2,1,0,
 SetEmissiveColor,255,255,255
-LoadTexture,chairdoubleback.png
+LoadTexture, chairdoubleback.png
 SetTextureCoordinates,0,0,0.95,
 SetTextureCoordinates,1,0,0.9,
 SetTextureCoordinates,2,1,0.9,
@@ -312,7 +312,7 @@ AddVertex, 0.525, 0.320, 0.178,
 AddVertex, 0.525, 0.311, 0.180,
 AddFace2,3,2,1,0,
 SetEmissiveColor,255,255,255
-LoadTexture,chairdoubleback.png
+LoadTexture, chairdoubleback.png
 SetTextureCoordinates,0,0,0.9,
 SetTextureCoordinates,1,0,0.85,
 SetTextureCoordinates,2,1,0.85,
@@ -327,7 +327,7 @@ AddVertex, 0.525, 0.380, 0.180,
 AddVertex, 0.525, 0.320, 0.178,
 AddFace2,3,2,1,0,
 SetEmissiveColor,255,255,255
-LoadTexture,chairdoubleback.png
+LoadTexture, chairdoubleback.png
 SetTextureCoordinates,0,0,0.85,
 SetTextureCoordinates,1,0,0.75,
 SetTextureCoordinates,2,1,0.75,
@@ -342,7 +342,7 @@ AddVertex, 0.525, 0.400, 0.174,
 AddVertex, 0.525, 0.380, 0.180,
 AddFace2,3,2,1,0,
 SetEmissiveColor,255,255,255
-LoadTexture,chairdoubleback.png
+LoadTexture, chairdoubleback.png
 SetTextureCoordinates,0,0,0.75,
 SetTextureCoordinates,1,0,0.7,
 SetTextureCoordinates,2,1,0.7,
@@ -357,7 +357,7 @@ AddVertex, 0.525, 0.420, 0.165,
 AddVertex, 0.525, 0.400, 0.174,
 AddFace2,3,2,1,0,
 SetEmissiveColor,255,255,255
-LoadTexture,chairdoubleback.png
+LoadTexture, chairdoubleback.png
 SetTextureCoordinates,0,0,0.7,
 SetTextureCoordinates,1,0,0.67,
 SetTextureCoordinates,2,1,0.67,
@@ -372,7 +372,7 @@ AddVertex, 0.525, 0.460, 0.140,
 AddVertex, 0.525, 0.420, 0.165,
 AddFace2,3,2,1,0,
 SetEmissiveColor,255,255,255
-LoadTexture,chairdoubleback.png
+LoadTexture, chairdoubleback.png
 SetTextureCoordinates,0,0,0.67,
 SetTextureCoordinates,1,0,0.55,
 SetTextureCoordinates,2,1,0.55,
@@ -387,7 +387,7 @@ AddVertex, 0.525, 0.500, 0.12,
 AddVertex, 0.525, 0.460, 0.140,
 AddFace2,3,2,1,0,
 SetEmissiveColor,255,255,255
-LoadTexture,chairdoubleback.png
+LoadTexture, chairdoubleback.png
 SetTextureCoordinates,0,0,0.55,
 SetTextureCoordinates,1,0,0.45,
 SetTextureCoordinates,2,1,0.45,
@@ -402,7 +402,7 @@ AddVertex, 0.525, 0.550, 0.100,
 AddVertex, 0.525, 0.500, 0.12,
 AddFace2,3,2,1,0,
 SetEmissiveColor,255,255,255
-LoadTexture,chairdoubleback.png
+LoadTexture, chairdoubleback.png
 SetTextureCoordinates,0,0,0.45,
 SetTextureCoordinates,1,0,0.35,
 SetTextureCoordinates,2,1,0.35,
@@ -417,7 +417,7 @@ AddVertex, 0.525, 0.600, 0.093,
 AddVertex, 0.525, 0.550, 0.100,
 AddFace2,3,2,1,0,
 SetEmissiveColor,255,255,255
-LoadTexture,chairdoubleback.png
+LoadTexture, chairdoubleback.png
 SetTextureCoordinates,0,0,0.35,
 SetTextureCoordinates,1,0,0.25,
 SetTextureCoordinates,2,1,0.25,
@@ -432,7 +432,7 @@ AddVertex, 0.525, 0.620, 0.092,
 AddVertex, 0.525, 0.600, 0.093,
 AddFace2,3,2,1,0,
 SetEmissiveColor,255,255,255
-LoadTexture,chairdoubleback.png
+LoadTexture, chairdoubleback.png
 SetTextureCoordinates,0,0,0.25,
 SetTextureCoordinates,1,0,0.2,
 SetTextureCoordinates,2,1,0.2,
@@ -447,7 +447,7 @@ AddVertex, 0.525, 0.670, 0.092,
 AddVertex, 0.525, 0.620, 0.092,
 AddFace2,3,2,1,0,
 SetEmissiveColor,255,255,255
-LoadTexture,chairdoubleback.png
+LoadTexture, chairdoubleback.png
 SetTextureCoordinates,0,0,0.2,
 SetTextureCoordinates,1,0,0.15,
 SetTextureCoordinates,2,1,0.15,
@@ -462,13 +462,28 @@ AddVertex, 0.525, 0.736, 0.089,
 AddVertex, 0.522, 0.670, 0.092,
 AddFace2,3,2,1,0,
 SetEmissiveColor,255,255,255
-LoadTexture,chairdoubleback.png
+LoadTexture, chairdoubleback.png
 SetTextureCoordinates,0,0,0.15,
 SetTextureCoordinates,1,0,0,
 SetTextureCoordinates,2,1,0,
 SetTextureCoordinates,3,1,0.15,
 SetDecalTransparentColor,0,0,255,
 translate, 0,0,-0.03
+
+CreateMeshBuilder,
+AddVertex, 0.47, 0.675, 0.105,
+AddVertex, 0.47, 0.745, 0.105,
+AddVertex, 0.535, 0.745, 0.105,
+AddVertex, 0.535, 0.675, 0.105,
+AddFace2,3,2,1,0,
+SetEmissiveColor,255,255,255
+LoadTexture, handle.png
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,3,1,1,
+SetDecalTransparentColor,0,0,255,
+translate, -0.005,0,-0.03
 
 ;;;;;;
 
@@ -479,7 +494,7 @@ AddVertex, 0.2, 0.72, 0.47,
 AddVertex, 0.2, 0.25, 0.47,
 AddFace2,3,2,1,0,
 SetEmissiveColor,255,255,255
-LoadTexture,chair_side.png
+LoadTexture, chair_side.png
 SetTextureCoordinates,0,0,1,
 SetTextureCoordinates,1,0,0,
 SetTextureCoordinates,2,0.9,0
@@ -494,7 +509,7 @@ AddVertex, 0.455, 0.72, 0.50,
 AddVertex, 0.455, 0.25, 0.50,
 AddFace2,3,2,1,0,
 SetEmissiveColor,255,255,255
-LoadTexture,chair_side.png
+LoadTexture, chair_side.png
 SetTextureCoordinates,0,0.9,1,
 SetTextureCoordinates,1,0.9,0,
 SetTextureCoordinates,2,1,0
@@ -509,7 +524,7 @@ AddVertex, -0.07, 0.72, 0.50,
 AddVertex, -0.07, 0.25, 0.50,
 AddFace2,3,2,1,0,
 SetEmissiveColor,255,255,255
-LoadTexture,chair_side.png
+LoadTexture, chair_side.png
 SetTextureCoordinates,0,1,1,
 SetTextureCoordinates,1,1,0,
 SetTextureCoordinates,2,0.95,0
@@ -524,7 +539,7 @@ AddVertex, -0.11, 0.72, 0.47,
 AddVertex, -0.11, 0.25, 0.47,
 AddFace2,3,2,1,0,
 SetEmissiveColor,255,255,255
-LoadTexture,chair_side.png
+LoadTexture, chair_side.png
 SetTextureCoordinates,0,0.95,1,
 SetTextureCoordinates,1,0.95,0,
 SetTextureCoordinates,2,0.95,0
@@ -539,7 +554,7 @@ AddVertex, 0.195, 0.705, 0.47,
 AddVertex, 0.195, 0.25, 0.47,
 AddFace2,3,2,1,0,
 SetEmissiveColor,255,255,255
-LoadTexture,chair_side.png
+LoadTexture, chair_side.png
 SetTextureCoordinates,0,0,1,
 SetTextureCoordinates,1,0,0,
 SetTextureCoordinates,2,0.90,0
@@ -554,7 +569,7 @@ AddVertex, 0.2, 0.705, 0.400,
 AddVertex, 0.2, 0.705, 0.038,
 AddFace2,3,2,1,0,
 SetEmissiveColor,255,255,255
-LoadTexture,chair_side.png
+LoadTexture, chair_side.png
 SetTextureCoordinates,0,0.98,1,
 SetTextureCoordinates,1,0.98,0,
 SetTextureCoordinates,2,0.985,0
@@ -569,7 +584,7 @@ AddVertex, 0.285, 0.736, 0.400,
 AddVertex, 0.285, 0.735, 0.038,
 AddFace2,3,2,1,0,
 SetEmissiveColor,255,255,255
-LoadTexture,chair_side.png
+LoadTexture, chair_side.png
 SetTextureCoordinates,0,0.98,1,
 SetTextureCoordinates,1,0.98,0,
 SetTextureCoordinates,2,0.985,0
@@ -584,7 +599,7 @@ AddVertex, 0.405, 0.736, 0.400,
 AddVertex, 0.405, 0.735, 0.038,
 AddFace2,3,2,1,0,
 SetEmissiveColor,255,255,255
-LoadTexture,chair_side.png
+LoadTexture, chair_side.png
 SetTextureCoordinates,0,0.98,1,
 SetTextureCoordinates,1,0.98,0,
 SetTextureCoordinates,2,0.985,0
@@ -599,7 +614,7 @@ AddVertex, 0.457, 0.717, 0.400,
 AddVertex, 0.457, 0.717, 0.040,
 AddFace2,3,2,1,0,
 SetEmissiveColor,255,255,255
-LoadTexture,chair_side.png
+LoadTexture, chair_side.png
 SetTextureCoordinates,0,0.98,1,
 SetTextureCoordinates,1,0.98,0,
 SetTextureCoordinates,2,0.985,0
@@ -614,7 +629,7 @@ AddVertex, 0.475, 0.640, 0.400,
 AddVertex, 0.475, 0.640, 0.040,
 AddFace2,3,2,1,0,
 SetEmissiveColor,255,255,255
-LoadTexture,chair_side.png
+LoadTexture, chair_side.png
 SetTextureCoordinates,0,0.98,1,
 SetTextureCoordinates,1,0.98,0,
 SetTextureCoordinates,2,0.985,0
@@ -629,7 +644,7 @@ AddVertex, 0.500, 0.632, 0.400,
 AddVertex, 0.500, 0.632, 0.040,
 AddFace2,3,2,1,0,
 SetEmissiveColor,255,255,255
-LoadTexture,chair_side.png
+LoadTexture, chair_side.png
 SetTextureCoordinates,0,0.98,1,
 SetTextureCoordinates,1,0.98,0,
 SetTextureCoordinates,2,0.985,0
@@ -644,7 +659,7 @@ AddVertex, 0.525, 0.640, 0.400,
 AddVertex, 0.525, 0.640, 0.040,
 AddFace2,3,2,1,0,
 SetEmissiveColor,255,255,255
-LoadTexture,chair_side.png
+LoadTexture, chair_side.png
 SetTextureCoordinates,0,0.98,1,
 SetTextureCoordinates,1,0.98,0,
 SetTextureCoordinates,2,0.985,0
@@ -659,7 +674,7 @@ AddVertex, 0.541, 0.705, 0.400,
 AddVertex, 0.541, 0.705, 0.040,
 AddFace2,3,2,1,0,
 SetEmissiveColor,255,255,255
-LoadTexture,chair_side.png
+LoadTexture, chair_side.png
 SetTextureCoordinates,0,0.98,1,
 SetTextureCoordinates,1,0.98,0,
 SetTextureCoordinates,2,0.985,0
@@ -674,7 +689,7 @@ AddVertex, 0.550, 0.720, 0.400,
 AddVertex, 0.550, 0.720, 0.040,
 AddFace2,3,2,1,0,
 SetEmissiveColor,255,255,255
-LoadTexture,chair_side.png
+LoadTexture, chair_side.png
 SetTextureCoordinates,0,0.98,1,
 SetTextureCoordinates,1,0.98,0,
 SetTextureCoordinates,2,0.985,0
@@ -689,7 +704,7 @@ AddVertex, 0.632, 0.735, 0.400,
 AddVertex, 0.632, 0.735, 0.040,
 AddFace2,3,2,1,0,
 SetEmissiveColor,255,255,255
-LoadTexture,chair_side.png
+LoadTexture, chair_side.png
 SetTextureCoordinates,0,0.98,1,
 SetTextureCoordinates,1,0.98,0,
 SetTextureCoordinates,2,0.985,0
@@ -704,7 +719,7 @@ AddVertex, 0.727, 0.735, 0.400,
 AddVertex, 0.727, 0.735, 0.040,
 AddFace2,3,2,1,0,
 SetEmissiveColor,255,255,255
-LoadTexture,chair_side.png
+LoadTexture, chair_side.png
 SetTextureCoordinates,0,0.98,1,
 SetTextureCoordinates,1,0.98,0,
 SetTextureCoordinates,2,0.985,0
@@ -719,11 +734,11 @@ AddVertex, 0.505, 0.299, 0.51,
 AddVertex, 0.505, 0.295, 0.20,
 AddFace2,0, 1, 2, 3,
 SetEmissiveColor,255,255,255
-LoadTexture,Chairlow.png
-SetTextureCoordinates,0,0,-1,
-SetTextureCoordinates,1,0,0,
-SetTextureCoordinates,2,1,0
-SetTextureCoordinates,3,1,-1,
+LoadTexture, Chairlow.png
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,0,1,
+SetTextureCoordinates,2,1,1,
+SetTextureCoordinates,3,1,0,
 SetDecalTransparentColor,0,0,255,
 TranslateAll,0,-0.11,0
 
@@ -761,6 +776,6 @@ SetTextureCoordinates,26, 0.6, 0
 SetTextureCoordinates,27, 0.7, 1
 SetTextureCoordinates,28, 0.8, 0
 SetTextureCoordinates,29, 0.9, 1
-translate, 0,0.00,0.35
+translate, 0.4,0.00,0.35
 ScaleAll, 1.4, 1.5, 1.2
 
