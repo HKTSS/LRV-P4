@@ -2,7 +2,7 @@
 # Hong Kong Light Rail Vehicle Phase IV for OpenBVE
 ## Project Detail:  
 **Project Type**: OpenBVE / Hmmsim 2 Train  
-**Current Version**: v3 (v1 only provided for Hmmsim 2)  
+**Current Version**: v3.0.1 (v1 only provided for Hmmsim 2)  
 **Recommended OpenBVE Version**: v1.9.2.2  
 **Train Plugin Source Code**: [Click Here](https://github.com/HKTSS/TSS_LRV)
 

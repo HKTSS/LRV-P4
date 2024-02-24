@@ -16,8 +16,8 @@
 		<HeadlightStates>2</HeadlightStates>
 		<Description>香港輕鐵第四期車輛 (拖卡)
 --------------------------
-目前版本: v3
-建議OpenBVE版本: v1.9.2.2
+目前版本: v3.0.1
+建議OpenBVE版本: v1.9.2.2或以上
 --------------------------
 作品功能:
 2/3鍵: 左/右指揮燈
@@ -38,7 +38,7 @@ Enter: 鳴鐘 (叮)
 Shift + Enter 或 Numpad + 鍵: 響號
 Ctrl + Enter 或 Numpad - 鍵: 港鐵請勿靠近車門/緊握扶手廣播
 
-2023 HKTSS 香港交通模擬工作室
+HKTSS 香港交通模擬工作室
 
 https://hktss.github.io</Description>
 	</Train>
