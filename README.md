@@ -2,7 +2,7 @@
 # 香港輕鐵第四期車輛
 ## 作品詳情:  
 **作品性質**: OpenBVE / Hmmsim 列車  
-**目前版本**: v3.0.1 (Hmmsim只提供v1)  
+**目前版本**: v3.0.2 (Hmmsim只提供v1)  
 **建議OpenBVE版本**: v1.9.2.2  
 **列車插件源碼**: [請按此](https://github.com/HKTSS/TSS_LRV)
 
