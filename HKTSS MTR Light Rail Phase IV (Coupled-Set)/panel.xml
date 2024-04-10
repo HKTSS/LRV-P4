@@ -10,79 +10,79 @@
 				<Cursor>3DCab/Cursor/tooltip/headlights.png</Cursor>
 				<Position>0.169, 1.830, 9.55</Position>
 				<Size>0.019, 0.020, 0.015</Size>
-				<Command>HEADLIGHTS</Command>
+				<Command>Headlights</Command>
 			</Touch>
 			<Touch>
 				<Cursor>3DCab/Cursor/tooltip/wiper_dn.png</Cursor>
 				<Position>0.220, 1.830, 9.55</Position>
 				<Size>0.008, 0.020, 0.015</Size>
-				<Command>WIPER_SPEED_DOWN</Command>
+				<Command>WiperSpeedDown</Command>
 			</Touch>
 			<Touch>
 				<Cursor>3DCab/Cursor/tooltip/wiper_up.png</Cursor>
 				<Position>0.240, 1.830, 9.55</Position>
 				<Size>0.008, 0.020, 0.015</Size>
-				<Command>WIPER_SPEED_UP</Command>
+				<Command>WiperSpeedUp</Command>
 			</Touch>
 			<Touch>
 				<Cursor>3DCab/Cursor/tooltip/ding.png</Cursor>
 				<Position>0.137, 1.755, 9.48</Position>
 				<Size>0.019, 0.020, 0.015</Size>
-				<Command>HORN_PRIMARY</Command>
+				<Command>HornPrimary</Command>
 			</Touch>
 			<Touch>
 				<Cursor>3DCab/Cursor/tooltip/sanders.png</Cursor>
 				<Position>0.190, 1.755, 9.48</Position>
 				<Size>0.019, 0.020, 0.015</Size>
-				<Command>SANDERS</Command>
+				<Command>Sanders</Command>
 			</Touch>
 			<Touch>
 				<Cursor>3DCab/Cursor/tooltip/horn.png</Cursor>
 				<Position>0.050, 1.755, 9.48</Position>
 				<Size>0.019, 0.020, 0.015</Size>
-				<Command>HORN_SECONDARY</Command>
+				<Command>HornSecondary</Command>
 			</Touch>
 			<Touch>
 				<Cursor>3DCab/Cursor/tooltip/left.png</Cursor>
 				<Position>0.235, 1.755, 9.48</Position>
 				<Size>0.008, 0.020, 0.009</Size>
-				<Command>SECURITY_D</Command>
+				<Command>SecurityD</Command>
 			</Touch>
 			<Touch>
 				<Cursor>3DCab/Cursor/tooltip/right.png</Cursor>
 				<Position>0.254, 1.755, 9.48</Position>
 				<Size>0.008, 0.020, 0.009</Size>
-				<Command>SECURITY_E</Command>
+				<Command>SecurityE</Command>
 			</Touch>
 			<Touch>
 				<Cursor>3DCab/Cursor/tooltip/doorcls.png</Cursor>
 				<Position>-0.203, 1.755, 9.48</Position>
 				<Size>0.020, 0.020, 0.015</Size>
-				<Command>DOORS_LEFT</Command>
+				<Command>DoorsLeft</Command>
 			</Touch>
 			<Touch>
 				<Cursor>3DCab/Cursor/tooltip/dooropn.png</Cursor>
 				<Position>-0.160, 1.755, 9.48</Position>
 				<Size>0.020, 0.020, 0.015</Size>
-				<Command>DOORS_LEFT</Command>
+				<Command>DoorsLeft</Command>
 			</Touch>
 			<Touch>
 				<Cursor>3DCab/Cursor/tooltip/firstdoor.png</Cursor>
 				<Position>-0.118, 1.755, 9.48</Position>
 				<Size>0.020, 0.020, 0.015</Size>
-				<Command>DOORS_RIGHT</Command>
+				<Command>DoorsRight</Command>
 			</Touch>
 			<Touch>
 				<Cursor>3DCab/Cursor/tooltip/speedmode.png</Cursor>
 				<Position>-0.320, 1.755, 9.48</Position>
 				<Size>0.020, 0.020, 0.015</Size>
-				<Command>SECURITY_A2</Command>
+				<Command>SecurityA2</Command>
 			</Touch>
 			<Touch>
 				<Cursor>3DCab/Cursor/tooltip/warning_indicator.png</Cursor>
 				<Position>-0.374, 1.755, 9.48</Position>
 				<Size>0.019, 0.020, 0.015</Size>
-				<Command>MAIN_BREAKER</Command>
+				<Command>MainBreaker</Command>
 			</Touch>
 		</Group>
 	</PanelAnimated>
