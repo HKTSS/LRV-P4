@@ -84,6 +84,12 @@
 				<Size>0.019, 0.020, 0.015</Size>
 				<Command>MainBreaker</Command>
 			</Touch>
+			<Touch>
+			<Cursor>3DCab/Cursor/tooltip/reset_foa.png</Cursor>
+			<Position>0.352, 1.745, 9.455</Position>
+			<Size>0.019, 0.020, 0.015</Size>
+			<Command>DOES_NOT_EXIST</Command>
+		</Touch>
 		</Group>
 	</PanelAnimated>
 </openBVE>
