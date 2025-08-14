@@ -84,12 +84,23 @@
 				<Size>0.019, 0.020, 0.015</Size>
 				<Command>MainBreaker</Command>
 			</Touch>
+			
+			<!-- RND Control Panel -->
+			<!-- Control Index 123 -->
 			<Touch>
-			<Cursor>3DCab/Cursor/tooltip/reset_foa.png</Cursor>
-			<Position>0.352, 1.745, 9.455</Position>
-			<Size>0.019, 0.020, 0.015</Size>
-			<Command>DOES_NOT_EXIST</Command>
-		</Touch>
+				<Cursor>3DCab/Cursor/tooltip/reset_foa.png</Cursor>
+				<Position>0.02, 1.8, 9.55</Position>
+				<Size>0.008, 0.015, 0.008</Size>
+				<Command>LRV_RNDCP_RESET</Command>
+			</Touch>
+			
+			
+			<Touch>
+				<Cursor>3DCab/Cursor/tooltip/reset_foa.png</Cursor>
+				<Position>0.352, 1.745, 9.455</Position>
+				<Size>0.019, 0.020, 0.015</Size>
+				<Command>LRV_FOA_RESET</Command>
+			</Touch>
 		</Group>
 	</PanelAnimated>
 </openBVE>

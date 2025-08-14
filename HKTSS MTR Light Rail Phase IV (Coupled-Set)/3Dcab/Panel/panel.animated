@@ -1,6 +1,7 @@
 [Include]
 switches.animated
 switches_placeholder.animated
+rndcp/rndcp.animated
 
 [Object]
 States = panel.csv

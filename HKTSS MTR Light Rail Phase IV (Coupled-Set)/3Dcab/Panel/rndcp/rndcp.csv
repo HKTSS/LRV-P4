@@ -1,0 +1,15 @@
+CreateMeshBuilder,
+AddVertex,-0.010, 0.01, 0
+AddVertex, 0.062, 0.01, 0
+AddVertex, 0.062, -0.008, 0
+AddVertex,-0.010, -0.008, 0
+AddFace, 0, 1, 2, 3
+LoadTexture,rndcp.png
+SetEmissiveColor,255,255,255
+SetTextureCoordinates,0,0,0
+SetTextureCoordinates,1,1,0
+SetTextureCoordinates,2,1,1
+SetTextureCoordinates,3,0,1
+SetDecalTransparentColor,0,0,255
+Rotate,1,0,0,46
+Translate,0,1.837,9.567

@@ -1,0 +1,27 @@
+[Object]
+States = rndcp.csv
+Position = 0,0,0.05
+
+;; Brightness ;;
+[Object]
+States = digit.csv
+Position = 0,0,0.05
+TextureShiftYFunction=0.09*10
+
+;; 1st run no digit ;;
+[Object]
+States = digit.csv
+Position = 0.017,0,0.05
+TextureShiftYFunction=0.09*Mod[pluginstate[105], 11]
+
+;; 2nd run no digit ;;
+[Object]
+States = digit.csv
+Position = 0.026,0,0.05
+TextureShiftYFunction=0.09*Mod[pluginstate[106], 11]
+
+;; 3rd run no digit ;;
+[Object]
+States = digit.csv
+Position = 0.0342,0,0.05
+TextureShiftYFunction=0.09*Mod[pluginstate[107], 11]
