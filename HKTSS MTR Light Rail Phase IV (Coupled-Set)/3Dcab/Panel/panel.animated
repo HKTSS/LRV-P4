@@ -23,6 +23,12 @@ Position = 0.032,-0.05,-0.05
 ;; Value based blinking light, prevent touch area from resetting RefreshRate
 StateFunction = if[pluginstate[202] == 1, if[value > 1, 0, value+(delta/2)/0.6], 0]
 
+[Object]
+States = ../null.csv, panelLight/sander_light.csv
+Position = 0,-0.05,-0.0401
+StateFunction = Sanders
+RefreshRate = 0.1
+
 ;;[Object]
 ;;States = ../null.csv, panelLight/door_cnopn.csv
 ;;Position = 0,0.104,-0.096

@@ -2,26 +2,45 @@
 States = rndcp.csv
 Position = 0,0,0.05
 
+;; RunNumberControlLedStart = 140 ;;
 ;; Brightness ;;
 [Object]
 States = digit.csv
 Position = 0,0,0.05
-TextureShiftYFunction=0.09*10
+TextureShiftYFunction=0.0827*pluginstate[140]
 
 ;; 1st run no digit ;;
 [Object]
 States = digit.csv
 Position = 0.017,0,0.05
-TextureShiftYFunction=0.09*Mod[pluginstate[105], 11]
+TextureShiftYFunction=0.0827*pluginstate[141]
 
 ;; 2nd run no digit ;;
 [Object]
 States = digit.csv
 Position = 0.026,0,0.05
-TextureShiftYFunction=0.09*Mod[pluginstate[106], 11]
+TextureShiftYFunction=0.0827*pluginstate[142]
 
 ;; 3rd run no digit ;;
 [Object]
 States = digit.csv
 Position = 0.0342,0,0.05
-TextureShiftYFunction=0.09*Mod[pluginstate[107], 11]
+TextureShiftYFunction=0.0827*pluginstate[143]
+
+;; 4th run no digit ;;
+[Object]
+States = digit.csv
+Position = 0.0424,0,0.05
+TextureShiftYFunction=0.0827*pluginstate[144]
+
+;; 5th run no digit ;;
+[Object]
+States = digit.csv
+Position = 0.0506,0,0.05
+TextureShiftYFunction=0.0827*pluginstate[145]
+
+;; 6th run no digit ;;
+[Object]
+States = digit.csv
+Position = 0.0592,0,0.05
+TextureShiftYFunction=0.0827*pluginstate[146]

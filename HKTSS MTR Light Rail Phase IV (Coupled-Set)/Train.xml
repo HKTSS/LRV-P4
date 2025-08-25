@@ -4,6 +4,7 @@
 		<NotchDescriptions>
 			<Power>0°;10°;15°;20°;25°;30°;35°;40°;40°</Power>
 			<Brake>45°;0°;10°;15°;20°;25°;30°;35°;40°</Brake>
+			<Reverser>O,F,R</Reverser>
 		</NotchDescriptions>
 		<Car>car.xml</Car>
 		<Coupler>

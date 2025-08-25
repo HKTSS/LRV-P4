@@ -98,6 +98,18 @@
 				<Radius>10.0</Radius>
 			</Sound>
 			<Sound>
+				<Index>219</Index>
+				<FileName>Sound\System\btn_press.wav</FileName>
+				<Position>0,0,0</Position>
+				<Radius>10.0</Radius>
+			</Sound>
+			<Sound>
+				<Index>220</Index>
+				<FileName>Sound\System\btn_release.wav</FileName>
+				<Position>0,0,0</Position>
+				<Radius>10.0</Radius>
+			</Sound>
+			<Sound>
 				<Index>221</Index>
 				<FileName>Sound\System\Click.wav</FileName>
 				<Position>0,0,0</Position>

@@ -5,6 +5,7 @@ AddVertex,-0.1895,  1.791, 9.563, 0,1,0
 AddVertex,-0.217,  1.791, 9.563, 0,1,0
 AddFace2, 0, 1, 2, 3
 LoadTexture,dooropn_indicator.png
+SetEmissiveColor,255,255,255
 SetTextureCoordinates,0, 0.0, 0
 SetTextureCoordinates,1, 1, 0
 SetTextureCoordinates,2, 1, 1

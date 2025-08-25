@@ -1,3 +1,10 @@
+;; Air Con Temp Raise Switch ;;
+[Object]
+States = Component\switch.csv, Component\switchL.csv
+Position = -0.15,1.875,9.658
+StateFunction = if[carNumber <= 0, pluginstate[103], 0]
+RotateXFunction = 0.85
+
 ;; Hazard Warning Light ;;
 [Object]
 States = Component\switch.csv, Component\switchR.csv
@@ -39,3 +46,12 @@ States = Component\switch.csv, Component\switchL.csv, Component\switchR.csv
 Position = -0.117,1.748,9.521
 StateFunction = if[(rightDoors == 0 | rightDoors == 1) | carNumber > 0, 0, rightDoorsTarget+1]
 RotateXFunction = 0.85
+
+;; Demister ;;
+[Object]
+States = Component\switch.csv, Component\switchR.csv
+StateFunction=pluginstate[210]
+Position = 0.332,1.795,9.555
+RotateXFunction = 0.85
+RotateZFunction=0.15
+RotateYFunction=0.35

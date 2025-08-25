@@ -4,7 +4,8 @@ AddVertex, 0.35 ,  2.08 , -0.67, 0,1,0
 AddVertex, 0.35 ,  1.8 , -0.97, 0,1,0
 AddVertex,-0.55 ,  1.8 , -0.97, 0,1,0
 AddFace2,0, 1, 2, 3,
-LoadTexture,door_opened.png,
+LoadTexture,door_opened.png
+SetEmissiveColor,255,255,255
 SetTextureCoordinates,0,0,0,
 SetTextureCoordinates,1,1,0,
 SetTextureCoordinates,2,1,1

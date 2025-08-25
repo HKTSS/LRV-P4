@@ -5,7 +5,7 @@ AddVertex,-0.63, 2.81, 0.26,0,1,0
 AddVertex,-0.63, 2.694, 0.26,0,1,0
 AddFace2,3,2,1,0,
 SetEmissiveColor,255,255,255
-LoadTexture,9.png,
+LoadTexture,9.png
 SetTextureCoordinates,0,1,1,
 SetTextureCoordinates,1,1,0,
 SetTextureCoordinates,2,0,0

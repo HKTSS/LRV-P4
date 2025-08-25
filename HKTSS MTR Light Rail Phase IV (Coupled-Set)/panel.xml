@@ -55,6 +55,12 @@
 				<Command>SecurityE</Command>
 			</Touch>
 			<Touch>
+				<Cursor>3DCab/Cursor/tooltip/firstdoor_30s.png</Cursor>
+				<Position>-0.246, 1.755, 9.48</Position>
+				<Size>0.020, 0.020, 0.015</Size>
+				<Command>SecurityI</Command>
+			</Touch>
+			<Touch>
 				<Cursor>3DCab/Cursor/tooltip/doorcls.png</Cursor>
 				<Position>-0.203, 1.755, 9.48</Position>
 				<Size>0.020, 0.020, 0.015</Size>
@@ -85,13 +91,178 @@
 				<Command>MainBreaker</Command>
 			</Touch>
 			
+			<!-- Top row -->
+			<Touch>
+				<Cursor>3DCab/Cursor/tooltip/aircon_control.png</Cursor>
+				<Position>-0.15, 1.88, 9.605</Position>
+				<Size>0.019, 0.018, 0.015</Size>
+				<Command>SecurityJ</Command>
+			</Touch>
+			
 			<!-- RND Control Panel -->
 			<!-- Control Index 123 -->
 			<Touch>
-				<Cursor>3DCab/Cursor/tooltip/reset_foa.png</Cursor>
-				<Position>0.02, 1.8, 9.55</Position>
-				<Size>0.008, 0.015, 0.008</Size>
-				<Command>LRV_RNDCP_RESET</Command>
+				<Cursor>3DCab/Cursor/tooltip/rnucp_1.png</Cursor>
+				<Position>0.008, 1.821, 9.552</Position>
+				<Size>0.008, 0.004, 0.004</Size>
+				<CommandEntries>
+					<Entry>
+						<Name>SecurityB2</Name>
+					</Entry>
+					<Entry>
+						<Name>SecurityS</Name>
+					</Entry>
+				</CommandEntries>
+			</Touch>
+			<Touch>
+				<Cursor>3DCab/Cursor/tooltip/rnucp_2.png</Cursor>
+				<Position>0.028, 1.821, 9.552</Position>
+				<Size>0.008, 0.004, 0.004</Size>
+				<CommandEntries>
+					<Entry>
+						<Name>SecurityB2</Name>
+					</Entry>
+					<Entry>
+						<Name>SecurityD</Name>
+					</Entry>
+				</CommandEntries>
+			</Touch>
+			<Touch>
+				<Cursor>3DCab/Cursor/tooltip/rnucp_3.png</Cursor>
+				<Position>0.048, 1.821, 9.552</Position>
+				<Size>0.008, 0.004, 0.004</Size>
+				<CommandEntries>
+					<Entry>
+						<Name>SecurityB2</Name>
+					</Entry>
+					<Entry>
+						<Name>SecurityE</Name>
+					</Entry>
+				</CommandEntries>
+			</Touch>
+				
+				
+			<!-- RUN NO 456 -->
+			<Touch>
+				<Cursor>3DCab/Cursor/tooltip/rnucp_4.png</Cursor>
+				<Position>0.008, 1.812, 9.541</Position>
+				<Size>0.008, 0.004, 0.004</Size>
+				<CommandEntries>
+					<Entry>
+						<Name>SecurityB2</Name>
+					</Entry>
+					<Entry>
+						<Name>SecurityF</Name>
+					</Entry>
+				</CommandEntries>
+			</Touch>
+			<Touch>
+				<Cursor>3DCab/Cursor/tooltip/rnucp_5.png</Cursor>
+				<Position>0.028, 1.812, 9.541</Position>
+				<Size>0.008, 0.004, 0.004</Size>
+				<CommandEntries>
+					<Entry>
+						<Name>SecurityB2</Name>
+					</Entry>
+					<Entry>
+						<Name>SecurityG</Name>
+					</Entry>
+				</CommandEntries>
+			</Touch>
+			<Touch>
+				<Cursor>3DCab/Cursor/tooltip/rnucp_6.png</Cursor>
+				<Position>0.048, 1.812, 9.541</Position>
+				<Size>0.008, 0.004, 0.004</Size>
+				<CommandEntries>
+					<Entry>
+						<Name>SecurityB2</Name>
+					</Entry>
+					<Entry>
+						<Name>SecurityH</Name>
+					</Entry>
+				</CommandEntries>
+			</Touch>
+				
+			<!-- RUN NO 789 -->
+			<Touch>
+				<Cursor>3DCab/Cursor/tooltip/rnucp_7.png</Cursor>
+				<Position>0.008, 1.803, 9.530</Position>
+				<Size>0.008, 0.004, 0.004</Size>
+				<CommandEntries>
+					<Entry>
+						<Name>SecurityB2</Name>
+					</Entry>
+					<Entry>
+						<Name>SecurityI</Name>
+					</Entry>
+				</CommandEntries>
+			</Touch>
+			<Touch>
+				<Cursor>3DCab/Cursor/tooltip/rnucp_8.png</Cursor>
+				<Position>0.028, 1.803, 9.530</Position>
+				<Size>0.008, 0.004, 0.004</Size>
+				<CommandEntries>
+					<Entry>
+						<Name>SecurityB2</Name>
+					</Entry>
+					<Entry>
+						<Name>SecurityJ</Name>
+					</Entry>
+				</CommandEntries>
+			</Touch>
+			<Touch>
+				<Cursor>3DCab/Cursor/tooltip/rnucp_9.png</Cursor>
+				<Position>0.048, 1.803, 9.530</Position>
+				<Size>0.008, 0.004, 0.004</Size>
+				<CommandEntries>
+					<Entry>
+						<Name>SecurityB2</Name>
+					</Entry>
+					<Entry>
+						<Name>SecurityK</Name>
+					</Entry>
+				</CommandEntries>
+			</Touch>
+				
+			<!-- RUN NO *0# -->
+			<Touch>
+				<Cursor>3DCab/Cursor/tooltip/rnucp_input.png</Cursor>
+				<Position>0.008, 1.794, 9.519</Position>
+				<Size>0.008, 0.004, 0.004</Size>
+				<CommandEntries>
+					<Entry>
+						<Name>SecurityB2</Name>
+					</Entry>
+					<Entry>
+						<Name>SecurityB1</Name>
+					</Entry>
+				</CommandEntries>
+			</Touch>
+			<Touch>
+				<Cursor>3DCab/Cursor/tooltip/rnucp_0.png</Cursor>
+				<Position>0.028, 1.794, 9.519</Position>
+				<Size>0.008, 0.004, 0.004</Size>
+				<CommandEntries>
+					<Entry>
+						<Name>SecurityB2</Name>
+					</Entry>
+					<Entry>
+						<Name>SecurityL</Name>
+					</Entry>
+				</CommandEntries>
+			</Touch>
+			<Touch>
+				<Cursor>3DCab/Cursor/tooltip/rnucp_confirm.png</Cursor>
+				<Position>0.048, 1.794, 9.519</Position>
+				<Size>0.008, 0.004, 0.004</Size>
+				<CommandEntries>
+					<Entry>
+						<Name>SecurityB2</Name>
+					</Entry>
+					<Entry>
+						<Name>SecurityB2</Name>
+					</Entry>
+				</CommandEntries>
 			</Touch>
 			
 			
@@ -100,6 +271,13 @@
 				<Position>0.352, 1.745, 9.455</Position>
 				<Size>0.019, 0.020, 0.015</Size>
 				<Command>LRV_FOA_RESET</Command>
+			</Touch>
+			
+			<Touch>
+				<Cursor>3DCab/Cursor/tooltip/demister.png</Cursor>
+				<Position>0.333, 1.80, 9.51</Position>
+				<Size>0.018, 0.019, 0.015</Size>
+				<Command>SecurityH</Command>
 			</Touch>
 		</Group>
 	</PanelAnimated>
